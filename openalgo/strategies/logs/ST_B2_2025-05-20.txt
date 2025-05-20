@@ -1,0 +1,4 @@
+2025-05-20 16:00:58.935340 - Amar's Supertrend Batch-2 Strategy started in LIVE mode.
+2025-05-20 16:00:58.937340 - 🧪 Manual test log message after startup
+2025-05-20 16:00:58.939330 - Outside trading hours. Waiting...
+2025-05-20 16:01:17.516952 - Graceful shutdown invoked.

@@ -1,0 +1,4 @@
+[Supertrend Dynamic log] [2025-05-20 15:57:41] 🔄 Amar's Supertrend Dynamic Strategy Started
+[Supertrend Dynamic log] [2025-05-20 15:58:03] Amar's Supertrend Dynamic Strategy Graceful exit requested.
+[ST] [2025-05-20 15:59:56] 🔄 Amar's Supertrend Dynamic Strategy Started
+[ST] [2025-05-20 16:00:07] Amar's Supertrend Dynamic Strategy Graceful exit requested.

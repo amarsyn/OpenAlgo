@@ -1,0 +1,10 @@
+WMA 2025-05-20 16:46:37.853075 - Amar's Weighted MA Dynamic Strategy started in LIVE mode.
+WMA 2025-05-20 16:46:38.709260 - [JUBLPHARMA] LTP: 993.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 51.1 | MACD: -1.87 vs Signal: 0.39
+WMA 2025-05-20 16:46:39.031896 - [SMLISUZU] LTP: 1551.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 47.9 | MACD: 1.11 vs Signal: 0.49
+WMA 2025-05-20 16:46:49.597897 - [JUBLPHARMA] LTP: 993.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 51.1 | MACD: -1.87 vs Signal: 0.39
+WMA 2025-05-20 16:46:50.033873 - [SMLISUZU] LTP: 1551.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 47.9 | MACD: 1.11 vs Signal: 0.49
+WMA 2025-05-20 16:47:00.605540 - [JUBLPHARMA] LTP: 993.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 51.1 | MACD: -1.87 vs Signal: 0.39
+WMA 2025-05-20 16:47:01.018770 - [SMLISUZU] LTP: 1551.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 47.9 | MACD: 1.11 vs Signal: 0.49
+WMA 2025-05-20 16:47:11.482636 - [JUBLPHARMA] LTP: 993.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 51.1 | MACD: -1.87 vs Signal: 0.39
+WMA 2025-05-20 16:47:11.866636 - [SMLISUZU] LTP: 1551.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 47.9 | MACD: 1.11 vs Signal: 0.49
+WMA 2025-05-20 16:47:19.914093 - Graceful shutdown invoked.

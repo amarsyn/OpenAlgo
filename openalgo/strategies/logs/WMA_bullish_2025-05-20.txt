@@ -1,0 +1,3 @@
+2025-05-20 16:45:06.698022 - Amar's WMA Bullish Strategy started in LIVE mode.
+2025-05-20 16:45:06.698911 - Outside trading window or max trades reached.
+2025-05-20 16:45:11.487046 - Graceful shutdown invoked.
