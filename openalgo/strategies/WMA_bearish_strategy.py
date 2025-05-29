@@ -10,6 +10,11 @@ import signal
 from openalgo import api
 import requests
 import os
+import httpx
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # ================================
 # 📁 Setup and Configuration
@@ -26,19 +31,19 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Weighted MA Bearish Trend Python"
-symbols = ["INDUSTOWER"]
+symbols = ["CGCL", "SUMICHEM", "HINDALCO", "HCLTECH", "TATAMOTORS"]
 exchange = "NSE"
 product = "MIS"
-quantity = 10
-mode = "live"  # or "live"
+quantity = 5
+mode = "analyze"  # or "live"
 
 # Entry Time Filter (24-hr format)
 start_time = "09:20"
-end_time = "14:30"
+end_time = "23:30"
 
 # Stop Loss and Target (in %)
-stop_loss_pct = 0.3
-target_pct = 1.2
+stop_loss_pct = 2
+target_pct = 4
 trailing_sl_pct = 0.3
 trailing_trigger_pct = 0.35
 
@@ -64,15 +69,16 @@ def send_telegram(message):
         payload = {"chat_id": CHAT_ID, "text": message}
         requests.post(url, data=payload)
 
-def log_message(message):
-    timestamped = f"{datetime.now()} - {message}"
-    print(timestamped)
-    with open(LOG_FILE, "a") as log_file:
-        log_file.write(f"{timestamped}\n")
+def log_message(msg):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M')
+    print(f"[{timestamp}] WMA_Bearish {msg}")
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] WMA_Bearish {msg}\n")
 
 def log_trade_csv(symbol, entry_price, close_price, profit_pct, reason):
-    with open(TRADE_LOG_CSV, "a") as log_file:
-        log_file.write(f"{datetime.now()},{symbol},{entry_price},{close_price},{(close_price - entry_price)/entry_price * 100:.2f},{profit_pct:.2f},{reason},Trailing SL\n")
+    now = datetime.now().strftime('%Y-%m-%d %H:%M')
+    with open(TRADE_LOG, "a") as log_file:
+        log_file.write(f"{now},{symbol},{entry_price},{close_price},{(close_price - entry_price)/entry_price * 100:.2f},{profit_pct:.2f},{reason},Trailing SL\n")
 
 # =======================
 # Market Data Fetching
@@ -80,20 +86,40 @@ def log_trade_csv(symbol, entry_price, close_price, profit_pct, reason):
 def fetch_data(symbol):
     end_date = datetime.now()
     start_date = end_date - timedelta(days=20)
-    df = client.history(
-        symbol=symbol,
-        exchange=exchange,
-        interval="5m",
-        start_date=start_date.strftime("%Y-%m-%d"),
-        end_date=end_date.strftime("%Y-%m-%d")
-    )
+
+    try:
+        response = client.history(
+            symbol=symbol,
+            exchange=exchange,
+            interval="5m",
+            start_date=start_date.strftime("%Y-%m-%d"),
+            end_date=end_date.strftime("%Y-%m-%d")
+        )
+        log_message(f"Raw response for {symbol}: {response}")
+    except httpx.ReadTimeout:
+        log_message(f"Timeout fetching history for {symbol}, skipping.")
+        return None
+    except Exception as e:
+        log_message(f"Data fetch failed for {symbol}: {str(e)}")
+        return None
+
+    if isinstance(response, dict) and "data" in response:
+        df = pd.DataFrame(response["data"])
+    elif isinstance(response, pd.DataFrame):
+        df = response
+    else:
+        log_message(f"Unexpected data format for {symbol}")
+        return None
+
     df.index = pd.to_datetime(df.index)
     df['wma'] = ta.wma(df['close'], length=20)
     df['rsi'] = ta.rsi(df['close'], length=14)
     df['vol_ma'] = df['volume'].rolling(window=20).mean()
-    df['macd'] = ta.macd(df['close']).iloc[:, 0]
-    df['macd_signal'] = ta.macd(df['close']).iloc[:, 1]
+    macd = ta.macd(df['close'])
+    df['macd'] = macd.iloc[:, 0]
+    df['macd_signal'] = macd.iloc[:, 1]
     df['atr'] = ta.atr(df['high'], df['low'], df['close'], length=14)
+
     return df
 
 # =======================
@@ -104,35 +130,16 @@ def check_entry_conditions(df):
     previous = df.iloc[-2]
     log_message(f"Checking condition: close={latest['close']}, wma={latest['wma']}, prev_wma={previous['wma']}, rsi={latest['rsi']}, vol={latest['volume']}, vol_ma={latest['vol_ma']}, macd={latest['macd']}, macd_signal={latest['macd_signal']}, atr={df['atr'].iloc[-1]}")
 
-    if df['atr'].iloc[-1] < 1.0:
+    if df['atr'].iloc[-1] < 0.7:
         log_message("ATR too low, skipping entry.")
         return False
 
-    if latest['volume'] <= 0.5 * latest['vol_ma']:
+    if latest['volume'] <= 0.2 * latest['vol_ma']:
         log_message("Volume too low compared to average.")
         return False
 
-    if not (latest['macd'] < latest['macd_signal'] or (latest['macd'] < 0 and latest['macd_signal'] > 0)):
-        log_message("MACD conditions not met.")
-        return False
-
-    if (
-        latest['close'] < latest['wma'] and
-        latest['wma'] < previous['wma'] and
-        latest['rsi'] < 40
-    ):
-        log_message("Bearish entry condition met.")
-        return True
-
-    log_message("Price/RSI/WMA trend conditions not met.")
-    return False
-
-    if latest['volume'] <= 0.5 * latest['vol_ma']:
-        log_message("Volume too low compared to average.")
-        return False
-
-    if not (latest['macd'] < latest['macd_signal'] or (latest['macd'] < 0 and latest['macd_signal'] > 0)):
-        log_message("MACD conditions not met.")
+    if not (df['macd'].iloc[-2] > df['macd_signal'].iloc[-2] and df['macd'].iloc[-1] < df['macd_signal'].iloc[-1]):
+        log_message("MACD bearish crossover not met.")
         return False
 
     if (
@@ -155,13 +162,19 @@ def place_order(symbol):
         response = client.placeorder(
             strategy=strategy,
             symbol=symbol,
-            action="BUY",  # reversed
+            action="SELL",  # Entry for bearish short
             exchange=exchange,
             price_type="MARKET",
             product=product,
             quantity=quantity
         )
-        return response['orderid'], client.quotes(symbol=symbol, exchange=exchange)['data']['ltp']
+        if isinstance(response, dict) and 'orderid' in response:
+            ltp = client.quotes(symbol=symbol, exchange=exchange)['data']['ltp']
+            return response['orderid'], ltp
+        else:
+            log_message(f"Full order response for {symbol}: {response}")  # 🔍 Log the full response
+            log_message(f"Order placement response invalid for {symbol}: {response}")
+            return None, None
     except Exception as e:
         send_telegram(f"Order failed for {symbol}: {str(e)}")
         log_message(f"Order failed for {symbol}: {str(e)}")
@@ -173,7 +186,7 @@ def exit_position(symbol):
         response = client.placeorder(
             strategy=strategy,
             symbol=symbol,
-            action="SELL",  # reversed
+            action="BUY",  # reversed
             exchange=exchange,
             price_type="MARKET",
             product=product,
@@ -211,47 +224,86 @@ def run_strategy():
 
         log_message(f"Processing {symbol}...")
         df = fetch_data(symbol)
+        if df is None:
+            log_message(f"No data received for {symbol}, skipping.")
+            continue
+
         if check_entry_conditions(df):
             order_id, entry_price = place_order(symbol)
             if order_id and entry_price:
                 trade_count += 1
-                msg = f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}"
-                send_telegram(msg)
-                log_message(msg)
+                send_telegram(f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}")
+                log_message(f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}")
 
                 atr_sl = df['atr'].iloc[-1]
                 max_sl = entry_price * (1 + 0.6 / 100)
                 sl_price = max(entry_price - atr_sl, entry_price * (1 - 0.6 / 100))
-                log_message(f"SL for {symbol} set at {sl_price:.2f} (ATR: {atr_sl:.2f})")
                 target_price = entry_price * (1 - target_pct / 100)
+                partial_target_price = entry_price * (1 - 0.02)  # 2% drop
                 trailing_trigger = entry_price * (1 - trailing_trigger_pct / 100)
+
+                log_message(f"SL for {symbol} set at {sl_price:.2f} (ATR: {atr_sl:.2f})")
+
+                partial_booked = False
+                trend_reversed = False
 
                 while True:
                     time.sleep(60)
-                    ltp = client.quotes(symbol=symbol, exchange=exchange)['data']['ltp']
+                    try:
+                        quote = client.quotes(symbol=symbol, exchange=exchange)
+                        ltp = quote['data']['ltp']
+                        log_message(f"LTP for {symbol}: {ltp:.2f} | SL: {sl_price:.2f} | Target: {target_price:.2f}")
+                    except Exception as e:
+                        log_message(f"Quote fetch failed for {symbol}: {str(e)}")
+                        break
 
-                    if ltp <= sl_price:
+                    # Fetch fresh indicators for trend reversal check
+                    df = fetch_data(symbol)
+                    if df is not None:
+                        macd = df['macd'].iloc[-1]
+                        signal = df['macd_signal'].iloc[-1]
+                        rsi = df['rsi'].iloc[-1]
+
+                        if macd > signal and rsi > 50:
+                            trend_reversed = True
+
+                    # Stop Loss
+                    if ltp >= sl_price:
                         send_telegram(f"🔻 Stop Loss hit for {symbol} at {ltp}")
                         log_message(f"Stop Loss hit for {symbol} at {ltp}")
                         log_trade_csv(symbol, entry_price, ltp, ((ltp-entry_price)/entry_price)*100, "Stop Loss")
                         exit_position(symbol)
-                        pl_pct = ((ltp - entry_price) / entry_price) * 100
-                        log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%")
                         break
+
+                    # Target Hit
                     elif ltp <= target_price:
                         send_telegram(f"🎯 Target hit for {symbol} at {ltp}")
                         log_message(f"Target hit for {symbol} at {ltp}")
                         log_trade_csv(symbol, entry_price, ltp, ((ltp-entry_price)/entry_price)*100, "Target Hit")
                         exit_position(symbol)
-                        pl_pct = ((ltp - entry_price) / entry_price) * 100
-                        log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%")
                         break
-                    elif ltp <= trailing_trigger:
+
+                    # Partial Profit Booking
+                    elif not partial_booked and ltp <= partial_target_price:
+                        send_telegram(f"📈 Partial profit booked for {symbol} at {ltp:.2f}")
+                        log_message(f"Partial target hit for {symbol} at {ltp:.2f}")
+                        partial_booked = True
+
+                    # Trailing SL Logic
+                    elif ltp <= trailing_trigger and partial_booked:
                         new_sl = ltp * (1 - trailing_sl_pct / 100)
                         if new_sl > sl_price:
                             sl_price = new_sl
                             send_telegram(f"🔁 Trailing SL updated for {symbol} to {sl_price:.2f}")
-                            log_message(f"Trailing SL updated for {symbol} to {sl_price:.2f}")
+                            log_message(f"Trailing SL updated to {sl_price:.2f} for {symbol}")
+
+                    # Trend Reversal Exit
+                    if trend_reversed:
+                        send_telegram(f"⚠️ Trend Reversal Exit for {symbol} at {ltp:.2f}")
+                        log_message(f"Trend reversal detected for {symbol}, exiting position at {ltp:.2f}")
+                        log_trade_csv(symbol, entry_price, ltp, ((ltp-entry_price)/entry_price)*100, "Trend Reversal")
+                        exit_position(symbol)
+                        break
 
 # =======================
 # Main Execution
@@ -263,4 +315,4 @@ if __name__ == '__main__':
 
     while True:
         run_strategy()
-        time.sleep(30)  # Run every 5 minutes
+        time.sleep(300)  # Run every 5 minutes

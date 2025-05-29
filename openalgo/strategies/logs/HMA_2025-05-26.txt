@@ -1,0 +1,10 @@
+HMA 2025-05-26 22:07:20.269739 - Amar's Hull MA Strategy started in LIVE mode.
+HMA 2025-05-26 22:07:20.270738 - 🔁 OpenAlgo Python Bot is running.
+HMA 2025-05-26 22:07:30.273334 - 🔁 OpenAlgo Python Bot is running.
+HMA 2025-05-26 22:07:40.286703 - 🔁 OpenAlgo Python Bot is running.
+HMA 2025-05-26 22:07:50.296460 - 🔁 OpenAlgo Python Bot is running.
+HMA 2025-05-26 22:07:55.729519 - Graceful shutdown invoked.
+[2025-05-26 22:08] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-26 22:08] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-26 22:09] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-26 22:09] [ST B3] Graceful shutdown invoked.

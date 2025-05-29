@@ -46,6 +46,7 @@ import signal
 from openalgo import api
 import requests
 import os
+import httpx
 
 # ================================
 # 📁 Setup and Configuration
@@ -62,16 +63,17 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Trend Strategy"
-symbols = ["JUBLPHARMA","SMLISUZU"]
+symbols = ["TRENT", "ADANIPORTS", "BHARTIARTL"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
 mode = "live"
 start_time = "09:20"
-end_time = "23:30"
+end_time = "14:30"
 target_pct = 2.4
 trailing_sl_pct = 0.3
 trailing_trigger_pct = 0.35
+trailing_profit_lock_pct = 0.5  # Dynamic profit lock if price falls 0.5% from peak
 atr_multiplier = 1.2
 LOG_FILE = f"logs/WMA_{datetime.now().strftime('%Y-%m-%d')}.txt"
 TRADE_LOG = f"logs/WMA_{datetime.now().strftime('%Y-%m-%d')}.csv"
@@ -81,7 +83,7 @@ CHAT_ID = "627470225"
 
 client = api(api_key=api_key)
 trade_count = 0
-max_trades_per_day = 1
+max_trades_per_day = 2
 last_trade_time = datetime.now() - timedelta(minutes=15)
 today = date.today()
 
@@ -111,7 +113,7 @@ def log_trade_csv(symbol, entry_price, close_price, profit_pct, reason):
 # =======================
 def fetch_data(symbol, interval="5m"):
     end_date = datetime.now()
-    start_date = end_date - timedelta(days=20)
+    start_date = end_date - timedelta(days=2)
     df = client.history(
         symbol=symbol,
         exchange=exchange,
@@ -119,17 +121,38 @@ def fetch_data(symbol, interval="5m"):
         start_date=start_date.strftime("%Y-%m-%d"),
         end_date=end_date.strftime("%Y-%m-%d")
     )
+
+    log_message(f"🔍 Raw response for {symbol}: {df}")
+
+    if not isinstance(df, pd.DataFrame) or df.empty:
+        log_message(f"⚠️ No historical data found for {symbol}")
+        return None
+
     df.index = pd.to_datetime(df.index)
     df['wma'] = ta.wma(df['close'], length=20)
     df['rsi'] = ta.rsi(df['close'], length=14)
     df['vol_ma'] = df['volume'].rolling(window=20).mean()
-    df['macd'] = ta.macd(df['close']).iloc[:, 0]
-    df['macd_signal'] = ta.macd(df['close']).iloc[:, 1]
+    macd = ta.macd(df['close'])
+    df['macd'] = macd.iloc[:, 0]
+    df['macd_signal'] = macd.iloc[:, 1]
     df['atr'] = ta.atr(df['high'], df['low'], df['close'], length=14)
     df['vwap'] = (df['volume'] * (df['high'] + df['low'] + df['close']) / 3).cumsum() / df['volume'].cumsum()
-    df['rsi_upper'] = df['rsi'].rolling(window=50).quantile(0.75)
-    df['rsi_lower'] = df['rsi'].rolling(window=50).quantile(0.25)
     return df
+
+
+def exit_position(symbol, direction):
+    action = "BUY" if direction == "bearish" else "SELL"
+    response = client.placeorder(
+        strategy=strategy_name,
+        symbol=symbol,
+        action=action,
+        exchange=exchange,
+        price_type="MARKET",
+        product=product,
+        quantity=quantity
+    )
+    send_telegram(f"✅ Exit Order Placed for {symbol}, Order ID: {response['orderid']}")
+    log_message(f"Exit Order Placed for {symbol}, Order ID: {response['orderid']}")
 
 # =======================
 # Entry Condition Logic
@@ -143,36 +166,44 @@ def check_entry_conditions(df, direction):
         log_message("ATR too low, skipping entry.")
         return False
 
-    if latest['volume'] <= 0.3 * latest['vol_ma']:
+    if latest['volume'] < 0.7 * latest['vol_ma']:
         log_message("Volume too low compared to average.")
         return False
 
-    if direction == "bearish":
-        if not (latest['macd'] < latest['macd_signal'] or (latest['macd'] < 0 and latest['macd_signal'] > 0)):
-            log_message("MACD conditions not met.")
-            return False
+    if direction == "bullish":
         if (
-            latest['close'] < latest['wma'] and
-            latest['wma'] < previous['wma'] and
-            latest['rsi'] < 40
-        ):
-            log_message("Bearish entry condition met.")
-            return True
-        log_message("Bearish trend conditions not met.")
-        return False
-    else:
-        if not (latest['macd'] > latest['macd_signal'] or (latest['macd'] > 0 and latest['macd_signal'] < 0)):
-            log_message("MACD conditions not met.")
-            return False
-        if (
-            latest['close'] > latest['wma'] and
-            latest['wma'] > previous['wma'] and
-            latest['rsi'] > 60
+            latest['close'] > latest['wma'] > previous['wma'] and
+            latest['macd'] > latest['macd_signal'] and
+            latest['rsi'] > 60 and
+            latest['close'] > latest['vwap']
         ):
             log_message("Bullish entry condition met.")
             return True
-        log_message("Bullish trend conditions not met.")
-        return False
+        else:
+            log_message("Bullish trend conditions not met.")
+            return False
+
+    elif direction == "bearish":
+        if (
+            latest['close'] < latest['wma'] < previous['wma'] and
+            latest['macd'] < latest['macd_signal'] and
+            latest['rsi'] < 40 and
+            latest['close'] < latest['vwap']
+        ):
+            log_message("Bearish entry condition met.")
+            return True
+        else:
+            log_message("Bearish trend conditions not met.")
+            return False
+
+# =======================
+# Cooldown Timer Validation (to be called inside run_strategy)
+# =======================
+def is_cooldown_active(last_trade_time):
+    if (datetime.now() - last_trade_time).seconds < 30:
+        log_message("Cooldown active. Skipping.")
+        return True
+    return False
 
 # =======================
 # Order Management
@@ -240,9 +271,10 @@ def detect_market_direction(df):
 # Strategy Execution
 # =======================
 def run_strategy():
-    global trade_count, today
-    global max_trades_per_day  # Add this before modifying it
+    global trade_count, today, last_trade_time, max_trades_per_day, last_data_timestamp
+    last_data_timestamp = {}
     now = datetime.now()
+
     if date.today() != today:
         trade_count = 0
         today = date.today()
@@ -253,13 +285,24 @@ def run_strategy():
 
     for symbol in symbols:
         if trade_count >= max_trades_per_day:
+            log_message(f"Max trades reached; skipping remaining symbols.")
             break
 
-#        log_message(f"Processing {symbol}...")
+        if is_cooldown_active(last_trade_time):
+            log_message(f"Cooldown active; skipping {symbol}.")
+            continue
+
         df = fetch_data(symbol)
         if df is None or df.empty:
             log_message(f"No data received for {symbol}, skipping.")
             continue
+
+        latest_index = df.index[-1]
+        if last_data_timestamp.get(symbol) == latest_index:
+            log_message(f"Duplicate data timestamp for {symbol}, skipping iteration.")
+            continue
+
+        last_data_timestamp[symbol] = latest_index
 
         direction_detected = detect_market_direction(df)
         if not direction_detected:
@@ -278,12 +321,12 @@ def run_strategy():
         position = "OPEN" if trade_count > 0 else "NONE"
         log_message(f"Symbol: {symbol} | LTP: {close_price:.2f} | Trend: {'UP' if is_uptrend else 'DOWN'} | Pos: {position} | Was: {'UP' if was_uptrend else 'DOWN'} | VWAP: {df['vwap'].iloc[-1]:.2f}")
 
-        df_htf = fetch_data(symbol)
-        df_htf = df_htf.resample('15min').last().dropna()
+        df_htf = df.resample('15min').last().dropna()
         htf_trend = detect_market_direction(df_htf)
         if htf_trend != direction_detected:
             log_message("Higher timeframe trend mismatch.")
             continue
+
         if check_entry_conditions(df, direction_detected):
             order_id, entry_price = place_order(symbol, direction_detected)
             if order_id and entry_price:
@@ -298,49 +341,114 @@ def run_strategy():
                     continue
 
                 trade_count += 1
-
                 last_trade_time = datetime.now()
+
                 send_telegram(f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}")
                 log_message(f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}")
 
-                atr_sl = df['atr'].iloc[-1]
-                if direction_detected == "bearish":
-                    sl_price = entry_price + atr_sl * atr_multiplier
-                else:
-                    sl_price = entry_price - atr_sl * atr_multiplier
-                log_message(f"SL for {symbol} set at {sl_price:.2f} (ATR: {atr_sl:.2f})")
+                max_sl_pct = 0.6
+                sl_buffer = min(atr_value * atr_multiplier, entry_price * (max_sl_pct / 100))
+                sl_price = entry_price + sl_buffer if direction_detected == "bearish" else entry_price - sl_buffer
+                log_message(f"SL for {symbol} set at {sl_price:.2f} (Capped SL Buffer: {sl_buffer:.2f})")
 
                 dynamic_target_pct = df['atr'].iloc[-1] * 2.5 / entry_price * 100
                 target_price = entry_price * (1 - dynamic_target_pct / 100) if direction_detected == "bearish" else entry_price * (1 + dynamic_target_pct / 100)
                 trailing_trigger = entry_price * (1 - trailing_trigger_pct / 100) if direction_detected == "bearish" else entry_price * (1 + trailing_trigger_pct / 100)
 
                 trade_start = datetime.now()
+                max_price_after_entry = entry_price
+                trailing_profit_triggered = False
                 while True:
                     time.sleep(10)
-                    ltp = client.quotes(symbol=symbol, exchange=exchange)['data']['ltp']
-
-                    hit_sl = ltp >= sl_price if direction_detected == "bearish" else ltp <= sl_price
-                    hit_target = ltp <= target_price if direction_detected == "bearish" else ltp >= target_price
-                    hit_trail = ltp <= trailing_trigger if direction_detected == "bearish" else ltp >= trailing_trigger
-
-                    if hit_sl or hit_target:
-                        reason = "Stop Loss" if hit_sl else "Target Hit"
-                        send_telegram(f"{'🔻' if hit_sl else '🎯'} {reason} for {symbol} at {ltp}")
-                        log_message(f"{reason} for {symbol} at {ltp}")
-                        pl_pct = ((entry_price - ltp) / entry_price * 100) if direction_detected == "bearish" else ((ltp - entry_price) / entry_price * 100)
-                        if trade_count == 1 and pl_pct > 0:
-                            max_trades_per_day = 2
-                        log_trade_csv(symbol, entry_price, ltp, pl_pct, reason)
-                        exit_position(symbol, direction_detected)
-                        trade_duration = datetime.now() - trade_start
-                        log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%, Duration: {trade_duration}")
+                    try:
+                        quote = client.quotes(symbol=symbol, exchange=exchange)
+                        if "data" in quote and "ltp" in quote["data"]:
+                            ltp = quote["data"]["ltp"]
+                        else:
+                            raise ValueError(f"Invalid quote format: {quote}")
+                    except Exception as e:
+                        log_message(f"Quote fetch failed: {str(e)}")
                         break
-                    elif hit_trail:
-                        new_sl = ltp * (1 + trailing_sl_pct / 100) if direction_detected == "bullish" else ltp * (1 - trailing_sl_pct / 100)
-                        if (direction_detected == "bullish" and new_sl > sl_price) or (direction_detected == "bearish" and new_sl < sl_price):
-                            sl_price = new_sl
-                            send_telegram(f"🔁 Trailing SL updated for {symbol} to {sl_price:.2f}")
-                            log_message(f"Trailing SL updated for {symbol} to {sl_price:.2f}")
+
+                    # Update max price after entry
+                    if direction_detected == "bullish":
+                        max_price_after_entry = max(max_price_after_entry, ltp)
+                    else:
+                        max_price_after_entry = min(max_price_after_entry, ltp)
+
+                    # Trigger profit trailing logic if price moved ≥ trailing_trigger_pct
+                    move_pct = abs((ltp - entry_price) / entry_price * 100)
+                    if not trailing_profit_triggered and move_pct >= trailing_trigger_pct:
+                        trailing_profit_triggered = True
+                        log_message(f"📈 {symbol} Trailing Profit Activated at {ltp:.2f}")
+                        send_telegram(f"📈 {symbol}: Trailing Profit Triggered at {ltp:.2f}")
+
+                    # Exit if price retraced ≥ trailing_profit_lock_pct from peak
+                    if trailing_profit_triggered:
+                        retrace_pct = abs((max_price_after_entry - ltp) / max_price_after_entry * 100)
+                        if retrace_pct >= trailing_profit_lock_pct:
+                            pl_pct = ((ltp - entry_price) / entry_price * 100) if direction_detected == "bullish" else ((entry_price - ltp) / entry_price * 100)
+                            log_message(f"🔁 {symbol} Exited via Dynamic Profit Lock at {ltp:.2f} | Retraced {retrace_pct:.2f}% from peak {max_price_after_entry:.2f}")
+                            send_telegram(f"🔁 {symbol} Dynamic Profit Exit @ {ltp:.2f} | P/L: {pl_pct:.2f}%")
+                            log_trade_csv(symbol, entry_price, ltp, pl_pct, "Dynamic Profit Lock")
+                            exit_position(symbol, direction_detected)
+                            break
+
+                    df_live = fetch_data(symbol)
+                    if df_live is not None:
+                        latest_live = df_live.iloc[-1]
+
+                        if latest_live['volume'] < 0.05 * latest_live['vol_ma'] or latest_live['volume'] < 1000:
+                            log_message("Volume too low.")
+                            continue
+
+                        log_message(f"🔁 Reversal Check: RSI={latest_live['rsi']:.2f}, MACD={latest_live['macd']:.2f}, Signal={latest_live['macd_signal']:.2f}")
+
+                        # Candle-based early exit check
+                        if latest_live['close'] < latest_live['open'] and (latest_live['close'] - latest_live['low']) < 0.25 * (latest_live['high'] - latest_live['low']):
+                            log_message(f"⚠️ Bearish candle detected - early exit for {symbol}.")
+                            send_telegram(f"⚠️ {symbol}: Red candle signal, exiting @ {ltp}")
+                            pl_pct = ((ltp - entry_price) / entry_price * 100)
+                            log_trade_csv(symbol, entry_price, ltp, pl_pct, "Red Candle Exit")
+                            exit_position(symbol, direction_detected)
+                            break
+
+                        reversal = (
+                            (latest_live['rsi'] > 60 and latest_live['macd'] > latest_live['macd_signal']) if direction_detected == "bearish"
+                            else (latest_live['rsi'] < 40 and latest_live['macd'] < latest_live['macd_signal'])
+                        )
+
+                        if reversal:
+                            send_telegram(f"🔁 Reversal detected in {symbol} — exiting @ {ltp}")
+                            log_message(f"{symbol} reversal exit @ {ltp}")
+                            pl_pct = ((entry_price - ltp) / entry_price * 100) if direction_detected == "bearish" else ((ltp - entry_price) / entry_price * 100)
+                            log_trade_csv(symbol, entry_price, ltp, pl_pct, "Reversal Exit")
+                            exit_position(symbol, direction_detected)
+                            break
+
+                        hit_sl = ltp >= sl_price if direction_detected == "bearish" else ltp <= sl_price
+                        hit_target = ltp <= target_price if direction_detected == "bearish" else ltp >= target_price
+                        hit_trail = ltp <= trailing_trigger if direction_detected == "bearish" else ltp >= trailing_trigger
+
+                        if hit_sl or hit_target:
+                            reason = "Stop Loss" if hit_sl else "Target Hit"
+                            send_telegram(f"{'🔻' if hit_sl else '🎯'} {reason} for {symbol} at {ltp}")
+                            log_message(f"{reason} for {symbol} at {ltp}")
+                            pl_pct = ((entry_price - ltp) / entry_price * 100) if direction_detected == "bearish" else ((ltp - entry_price) / entry_price * 100)
+                            if trade_count == 1 and pl_pct > 0:
+                                max_trades_per_day = 2
+                            log_trade_csv(symbol, entry_price, ltp, pl_pct, reason)
+                            exit_position(symbol, direction_detected)
+                            trade_duration = datetime.now() - trade_start
+                            log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%, Duration: {trade_duration}")
+                            break
+
+                        elif hit_trail:
+                            new_sl = ltp * (1 + trailing_sl_pct / 100) if direction_detected == "bullish" else ltp * (1 - trailing_sl_pct / 100)
+                            if (direction_detected == "bullish" and new_sl > sl_price) or (direction_detected == "bearish" and new_sl < sl_price):
+                                sl_price = new_sl
+                                send_telegram(f"🔁 Trailing SL updated for {symbol} to {sl_price:.2f}")
+                                log_message(f"Trailing SL updated for {symbol} to {sl_price:.2f}")
 
 # =======================
 # Graceful Exit
@@ -362,6 +470,8 @@ if __name__ == '__main__':
     send_telegram(f"✅ Amar's Weighted MA Dynamic strategy started in {mode.upper()} mode.")
     log_message(f"Amar's Weighted MA Dynamic Strategy started in {mode.upper()} mode.")
     trade_start = datetime.now()
+    pass  # Initialization done inside run_strategy()
+
     while True:
         run_strategy()
-        time.sleep(10)
+        time.sleep(30)

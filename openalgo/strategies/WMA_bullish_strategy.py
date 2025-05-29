@@ -64,11 +64,11 @@ def send_telegram(message):
         payload = {"chat_id": CHAT_ID, "text": message}
         requests.post(url, data=payload)
 
-def log_message(message):
-    timestamped = f"{datetime.now()} - {message}"
-    print(timestamped)
-    with open(LOG_FILE, "a") as log_file:
-        log_file.write(f"{timestamped}\n")
+def log_message(msg):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M')
+    print(f"[{timestamp}] WMA_Bullish {msg}")
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] WMA_Bullish {msg}\n")
 
 def log_trade_csv(symbol, entry_price, close_price, profit_pct, reason):
     with open(TRADE_LOG_CSV, "a") as log_file:
@@ -211,47 +211,86 @@ def run_strategy():
 
         log_message(f"Processing {symbol}...")
         df = fetch_data(symbol)
+        if df is None:
+            log_message(f"No data received for {symbol}, skipping.")
+            continue
+
         if check_entry_conditions(df):
             order_id, entry_price = place_order(symbol)
             if order_id and entry_price:
                 trade_count += 1
-                msg = f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}"
-                send_telegram(msg)
-                log_message(msg)
+                send_telegram(f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}")
+                log_message(f"Order Placed for {symbol}, Order ID: {order_id} at {entry_price}")
 
                 atr_sl = df['atr'].iloc[-1]
                 max_sl = entry_price * (1 + 0.6 / 100)
                 sl_price = max(entry_price - atr_sl, entry_price * (1 - 0.6 / 100))
-                log_message(f"SL for {symbol} set at {sl_price:.2f} (ATR: {atr_sl:.2f})")
                 target_price = entry_price * (1 + target_pct / 100)
+                partial_target_price = entry_price * (1 + 0.008)  # 0.8% gain
                 trailing_trigger = entry_price * (1 + trailing_trigger_pct / 100)
+
+                log_message(f"SL for {symbol} set at {sl_price:.2f} (ATR: {atr_sl:.2f})")
+
+                partial_booked = False
+                trend_reversed = False
 
                 while True:
                     time.sleep(60)
-                    ltp = client.quotes(symbol=symbol, exchange=exchange)['data']['ltp']
+                    try:
+                        quote = client.quotes(symbol=symbol, exchange=exchange)
+                        ltp = quote['data']['ltp']
+                        log_message(f"LTP for {symbol}: {ltp:.2f} | SL: {sl_price:.2f} | Target: {target_price:.2f}")
+                    except Exception as e:
+                        log_message(f"Quote fetch failed for {symbol}: {str(e)}")
+                        break
 
+                    # Fetch fresh indicators for trend reversal check
+                    df = fetch_data(symbol)
+                    if df is not None:
+                        macd = df['macd'].iloc[-1]
+                        signal = df['macd_signal'].iloc[-1]
+                        rsi = df['rsi'].iloc[-1]
+
+                        if macd < signal and rsi < 55:
+                            trend_reversed = True
+
+                    # Stop Loss
                     if ltp <= sl_price:
                         send_telegram(f"🔻 Stop Loss hit for {symbol} at {ltp}")
                         log_message(f"Stop Loss hit for {symbol} at {ltp}")
                         log_trade_csv(symbol, entry_price, ltp, ((ltp-entry_price)/entry_price)*100, "Stop Loss")
                         exit_position(symbol)
-                        pl_pct = ((ltp - entry_price) / entry_price) * 100
-                        log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%")
                         break
+
+                    # Target Hit
                     elif ltp >= target_price:
                         send_telegram(f"🎯 Target hit for {symbol} at {ltp}")
                         log_message(f"Target hit for {symbol} at {ltp}")
                         log_trade_csv(symbol, entry_price, ltp, ((ltp-entry_price)/entry_price)*100, "Target Hit")
                         exit_position(symbol)
-                        pl_pct = ((ltp - entry_price) / entry_price) * 100
-                        log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%")
                         break
-                    elif ltp >= trailing_trigger:
-                        new_sl = ltp * (1 + trailing_sl_pct / 100)
+
+                    # Partial Profit Booking
+                    elif not partial_booked and ltp >= partial_target_price:
+                        send_telegram(f"📈 Partial profit booked for {symbol} at {ltp:.2f}")
+                        log_message(f"Partial target hit for {symbol} at {ltp:.2f}")
+                        partial_booked = True
+
+                    # Trailing SL Logic
+                    elif ltp >= trailing_trigger and partial_booked:
+                        new_sl = ltp * (1 - trailing_sl_pct / 100)
                         if new_sl > sl_price:
                             sl_price = new_sl
                             send_telegram(f"🔁 Trailing SL updated for {symbol} to {sl_price:.2f}")
-                            log_message(f"Trailing SL updated for {symbol} to {sl_price:.2f}")
+                            log_message(f"Trailing SL updated to {sl_price:.2f} for {symbol}")
+
+                    # Trend Reversal Exit
+                    if trend_reversed:
+                        send_telegram(f"⚠️ Trend Reversal Exit for {symbol} at {ltp:.2f}")
+                        log_message(f"Trend reversal detected for {symbol}, exiting position at {ltp:.2f}")
+                        log_trade_csv(symbol, entry_price, ltp, ((ltp-entry_price)/entry_price)*100, "Trend Reversal")
+                        exit_position(symbol)
+                        break
 
 # =======================
 # Main Execution

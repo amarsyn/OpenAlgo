@@ -22,17 +22,17 @@ with open("test_log.txt", "a") as f:
 # Configuration Section
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Supertrend Python Batch-1"
-symbols = ["SUNPHARMA", "HINDALCO", "ICICIBANK", "RELIANCE", "AXISBANK", "DRREDDY", "HINDUNILVR", "HDFCLIFE"]
+symbols = ["BSE", "JBMA", "ANGELONE"]
 exchange = "NSE"
 product = "MIS"
-quantity = 5
+quantity = 2
 atr_period = 10
 atr_multiplier = 1.2
 mode = "live"  # Set to "analyze" for Analyzer Mode - Toggle between live and analyze mode
 
 # Entry Time Filter (24-hr format)
 start_time = "09:20"
-end_time = "14:30"
+end_time = "23:20"
 
 # Stop Loss and Target (in %)
 stop_loss_pct = 0.5       # Temporarily reduced SL for testing - 1% SL
@@ -52,6 +52,11 @@ TRADE_LOG = f"logs/ST_B1_{datetime.now().strftime('%Y-%m-%d')}.csv"
 # NEW: Max favorable price tracking
 max_favorable_price = {sym: None for sym in symbols}
 partial_booked = {sym: False for sym in symbols}  
+
+# At global scope
+positions = {}
+partial_booked = {}
+trade_count = {}
 
 def send_telegram(message):
     if TELEGRAM_ENABLED:
@@ -127,8 +132,53 @@ def add_rsi_macd(df):
 def calculate_vwap(df):
     df['vwap'] = (df['close'] * df['volume']).cumsum() / df['volume'].cumsum()
     return df
+    
+def manage_position(symbol, ltp, entry_price, max_favorable_price, trailing_sls, partial_booked):
+    pnl_pct = ((ltp - entry_price) / entry_price) * 100 if positions[symbol] > 0 else ((entry_price - ltp) / entry_price) * 100
+
+    # Track peak favorable price
+    if max_favorable_price[symbol] is None:
+        max_favorable_price[symbol] = ltp
+    elif (entry_price < ltp and ltp > max_favorable_price[symbol]) or (entry_price > ltp and ltp < max_favorable_price[symbol]):
+        max_favorable_price[symbol] = ltp
+
+    peak_price = max_favorable_price[symbol]
+    peak_change = abs((peak_price - entry_price) / entry_price * 100)
+    drop_from_peak = abs((peak_price - ltp) / peak_price * 100)
+
+    # 🔻 Check for Stop Loss
+    if abs(pnl_pct) >= stop_loss_pct:
+        log_message(f"⚡️ {symbol} - Stop Loss Triggered. Exit @ {ltp} | PnL = {pnl_pct:.2f}%")
+        client.placeorder(strategy=strategy, symbol=symbol, exchange=exchange, action="SELL" if entry_price < ltp else "BUY", price_type="MARKET", product=product, quantity=quantity)
+        return "stoploss"
+
+    # ⏪ Trailing SL Logic
+    if peak_change >= trailing_trigger_pct:
+        trail_price = peak_price * (1 - trailing_sl_pct / 100) if entry_price < ltp else peak_price * (1 + trailing_sl_pct / 100)
+        if trailing_sls[symbol] is None or (entry_price < ltp and trail_price > trailing_sls[symbol]) or (entry_price > ltp and trail_price < trailing_sls[symbol]):
+            trailing_sls[symbol] = trail_price
+            log_message(f"🔹 {symbol} - Trailing SL Updated to {trailing_sls[symbol]:.2f} | Peak={peak_price:.2f}")
+
+    # ❌ Check for Trailing SL Hit
+    if trailing_sls[symbol] is not None and ((entry_price < ltp and ltp <= trailing_sls[symbol]) or (entry_price > ltp and ltp >= trailing_sls[symbol])):
+        log_message(f"🚨 {symbol} - Trailing SL Hit. Exit @ {ltp} | PnL = {pnl_pct:.2f}%")
+        client.placeorder(strategy=strategy, symbol=symbol, exchange=exchange, action="SELL" if entry_price < ltp else "BUY", price_type="MARKET", product=product, quantity=quantity)
+        return "trail_sl"
+
+    # ✅ Partial Booking
+    if not partial_booked[symbol] and peak_change >= 0.5:
+        half_qty = quantity // 2
+        log_message(f"🌐 {symbol} - Partial Booking Executed at {ltp} | Booked Qty = {half_qty}")
+        client.placeorder(strategy=strategy, symbol=symbol, exchange=exchange, action="SELL" if entry_price < ltp else "BUY", price_type="MARKET", product=product, quantity=half_qty)
+        partial_booked[symbol] = True
+
+    return None
 
 def supertrend_strategy():
+    global positions, entry_prices, trailing_sls, trade_count, partial_booked
+    entry_prices = {}
+    stop_losses = {}
+    trailing_sls = {}
     positions = {sym: 0 for sym in symbols}
     entry_prices = {sym: None for sym in symbols}
     trailing_sls = {sym: None for sym in symbols}
@@ -175,18 +225,30 @@ def supertrend_strategy():
                 # Long Entry logic
                 is_uptrend = supertrend['Supertrend']
                 longentry = (
-                    is_uptrend.iloc[-2] and not is_uptrend.iloc[-3] and 
-                    df['close'].iloc[-1] > df['vwap'].iloc[-1] 
+                    is_uptrend.iloc[-2] and not is_uptrend.iloc[-3] and
+                    df['close'].iloc[-1] > df['vwap'].iloc[-1] and
+                    df['RSI'].iloc[-1] > 50 and
+                    df['MACD'].iloc[-1] > df['Signal_Line'].iloc[-1]
                 )
 
                 # Short Entry logic                
                 shortentry = (
-                    not is_uptrend.iloc[-2] and is_uptrend.iloc[-3] and 
-                    df['close'].iloc[-1] < df['vwap'].iloc[-1]
+                    not is_uptrend.iloc[-2] and is_uptrend.iloc[-3] and
+                    df['close'].iloc[-1] < df['vwap'].iloc[-1] and
+                    df['RSI'].iloc[-1] < 50 and
+                    df['MACD'].iloc[-1] < df['Signal_Line'].iloc[-1]
                 )
                 
                 close_price = df['close'].iloc[-1]
-
+                if positions[symbol] != 0 and entry_prices[symbol] is not None:
+                    result = manage_position(symbol, close_price, entry_prices[symbol], max_favorable_price, trailing_sls, partial_booked)
+                    if result in ["stoploss", "trail_sl"]:
+                        positions[symbol] = 0
+                        entry_prices[symbol] = None
+                        trailing_sls[symbol] = None
+                        max_favorable_price[symbol] = None
+                        trade_count[symbol] += 1
+                        continue
                 position = positions[symbol]
                 entry_price = entry_prices[symbol]
                 trailing_sl = trailing_sls[symbol]
@@ -364,11 +426,25 @@ def supertrend_strategy():
                 print(f"Error in strategy: {str(e)}")
                 log_message(f"Error for {symbol}: {str(e)}")
                 continue
+    
         # Exit on Supertrend reversal
-        if (position > 0 and not is_uptrend.iloc[-1]) or (position < 0 and is_uptrend.iloc[-1]):
+        if (positions[symbol] > 0 and not is_uptrend.iloc[-1]) or (positions[symbol] < 0 and is_uptrend.iloc[-1]):
             reason = "Supertrend Reversal"
             send_telegram(f"🔁 Exit {reason}: {symbol} at {close_price}")
             log_message(f"Exit {reason}: {symbol} at {close_price}")
+            if mode == "live":
+                action = "SELL" if positions[symbol] > 0 else "BUY"
+                response = client.placesmartorder(
+                    strategy=strategy,
+                    symbol=symbol,
+                    action=action,
+                    exchange=exchange,
+                    price_type="MARKET",
+                    product=product,
+                    quantity=abs(positions[symbol]),
+                    position_size=0
+                )
+
             # Close position logic
             positions[symbol] = 0
             entry_prices[symbol] = None
@@ -382,7 +458,7 @@ def supertrend_strategy():
 
             continue
 
-        time.sleep(15)
+        time.sleep(5)
 
 if __name__ == "__main__":
     print("Starting Amar's Supertrend Batch-1 Multi-Stock Strategy...")

@@ -1,0 +1,1770 @@
+2025-05-22 13:18:55.282472 - Amar's ST B-1 Strategy started in LIVE mode.
+2025-05-22 13:18:55.284473 - 🧪 Manual test log message after startup
+2025-05-22 13:19:00.469806 - Error for SUNPHARMA: timed out
+2025-05-22 13:19:05.497485 - Error for HINDALCO: timed out
+2025-05-22 13:19:11.248754 - Graceful shutdown invoked.
+2025-05-22 13:50:32.212129 - Amar's ST B-1 Strategy started in LIVE mode.
+2025-05-22 13:50:32.212129 - 🧪 Manual test log message after startup
+2025-05-22 13:50:33.015662 - Supertrend Cycle: LTP=1716.6, Trend=True
+2025-05-22 13:50:33.015850 - Cycle: SUNPHARMA | LTP=1716.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:33.498047 - Supertrend Cycle: LTP=646.1, Trend=False
+2025-05-22 13:50:33.498047 - Cycle: HINDALCO | LTP=646.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:34.086673 - Supertrend Cycle: LTP=1433.0, Trend=True
+2025-05-22 13:50:34.087671 - Cycle: ICICIBANK | LTP=1433.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:34.642463 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 13:50:34.643464 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:35.084307 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 13:50:35.085270 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:37.079431 - Sell executed for DRREDDY at 1220.7
+2025-05-22 13:50:37.080430 - Supertrend Cycle: LTP=1220.7, Trend=False
+2025-05-22 13:50:37.080430 - Cycle: DRREDDY | LTP=1220.7, Pos=0, Buy=False, Sell=True
+2025-05-22 13:50:37.551424 - Supertrend Cycle: LTP=2320.1, Trend=False
+2025-05-22 13:50:37.551424 - Cycle: HINDUNILVR | LTP=2320.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:37.990639 - Supertrend Cycle: LTP=754.55, Trend=False
+2025-05-22 13:50:37.990639 - Cycle: HDFCLIFE | LTP=754.55, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:53.396867 - Supertrend Cycle: LTP=1716.5, Trend=True
+2025-05-22 13:50:53.396867 - Cycle: SUNPHARMA | LTP=1716.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:53.799246 - Supertrend Cycle: LTP=646.15, Trend=False
+2025-05-22 13:50:53.800247 - Cycle: HINDALCO | LTP=646.15, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:54.222904 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:50:54.222904 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:54.610109 - Supertrend Cycle: LTP=1402.7, Trend=False
+2025-05-22 13:50:54.610109 - Cycle: RELIANCE | LTP=1402.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:55.005456 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 13:50:55.006453 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:55.398154 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:50:55.399610 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:50:55.399610 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:50:55.790274 - Supertrend Cycle: LTP=2320.0, Trend=False
+2025-05-22 13:50:55.791270 - Cycle: HINDUNILVR | LTP=2320.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:50:56.210946 - Supertrend Cycle: LTP=754.3, Trend=False
+2025-05-22 13:50:56.210946 - Cycle: HDFCLIFE | LTP=754.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:11.596464 - Supertrend Cycle: LTP=1716.9, Trend=True
+2025-05-22 13:51:11.597460 - Cycle: SUNPHARMA | LTP=1716.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:12.105713 - Supertrend Cycle: LTP=645.9, Trend=False
+2025-05-22 13:51:12.105713 - Cycle: HINDALCO | LTP=645.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:12.467157 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:51:12.467157 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:12.958014 - Supertrend Cycle: LTP=1402.7, Trend=False
+2025-05-22 13:51:12.958014 - Cycle: RELIANCE | LTP=1402.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:13.410683 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 13:51:13.410683 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:13.850320 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.7, Current=1220.7, PeakChange=-0.00%, DropFromPeak=0.00%
+2025-05-22 13:51:13.851319 - Supertrend Cycle: LTP=1220.7, Trend=False
+2025-05-22 13:51:13.851909 - Cycle: DRREDDY | LTP=1220.7, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:51:14.235445 - Supertrend Cycle: LTP=2320.5, Trend=False
+2025-05-22 13:51:14.235445 - Cycle: HINDUNILVR | LTP=2320.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:14.617653 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 13:51:14.617653 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:30.124832 - Supertrend Cycle: LTP=1716.6, Trend=True
+2025-05-22 13:51:30.125298 - Cycle: SUNPHARMA | LTP=1716.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:30.629947 - Supertrend Cycle: LTP=645.95, Trend=False
+2025-05-22 13:51:30.629947 - Cycle: HINDALCO | LTP=645.95, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:31.070817 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 13:51:31.070817 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:31.536532 - Supertrend Cycle: LTP=1402.4, Trend=False
+2025-05-22 13:51:31.536532 - Cycle: RELIANCE | LTP=1402.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:31.987494 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 13:51:31.987494 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:32.487063 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.5, Current=1221.5, PeakChange=-0.07%, DropFromPeak=0.00%
+2025-05-22 13:51:32.487063 - Supertrend Cycle: LTP=1221.5, Trend=False
+2025-05-22 13:51:32.487063 - Cycle: DRREDDY | LTP=1221.5, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:51:33.092289 - Supertrend Cycle: LTP=2320.7, Trend=False
+2025-05-22 13:51:33.093290 - Cycle: HINDUNILVR | LTP=2320.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:33.630501 - Supertrend Cycle: LTP=754.1, Trend=False
+2025-05-22 13:51:33.630501 - Cycle: HDFCLIFE | LTP=754.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:49.077281 - Supertrend Cycle: LTP=1715.3, Trend=True
+2025-05-22 13:51:49.078276 - Cycle: SUNPHARMA | LTP=1715.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:49.632168 - Supertrend Cycle: LTP=645.7, Trend=False
+2025-05-22 13:51:49.632168 - Cycle: HINDALCO | LTP=645.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:50.042543 - Supertrend Cycle: LTP=1433.5, Trend=True
+2025-05-22 13:51:50.042543 - Cycle: ICICIBANK | LTP=1433.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:50.486848 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 13:51:50.487845 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:50.895157 - Supertrend Cycle: LTP=1196.5, Trend=True
+2025-05-22 13:51:50.895157 - Cycle: AXISBANK | LTP=1196.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:51.238951 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.0, Current=1221.0, PeakChange=-0.02%, DropFromPeak=0.00%
+2025-05-22 13:51:51.239917 - Supertrend Cycle: LTP=1221.0, Trend=False
+2025-05-22 13:51:51.239917 - Cycle: DRREDDY | LTP=1221.0, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:51:51.605900 - Supertrend Cycle: LTP=2320.7, Trend=False
+2025-05-22 13:51:51.605900 - Cycle: HINDUNILVR | LTP=2320.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:51:51.985135 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 13:51:51.985135 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:07.425947 - Supertrend Cycle: LTP=1716.0, Trend=True
+2025-05-22 13:52:07.425947 - Cycle: SUNPHARMA | LTP=1716.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:07.784835 - Supertrend Cycle: LTP=645.7, Trend=False
+2025-05-22 13:52:07.785800 - Cycle: HINDALCO | LTP=645.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:08.147564 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:52:08.147564 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:08.505157 - Supertrend Cycle: LTP=1402.6, Trend=False
+2025-05-22 13:52:08.506120 - Cycle: RELIANCE | LTP=1402.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:08.905570 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 13:52:08.906568 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:09.174937 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:52:09.174937 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:52:09.175971 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:52:09.626940 - Supertrend Cycle: LTP=2320.7, Trend=False
+2025-05-22 13:52:09.626940 - Cycle: HINDUNILVR | LTP=2320.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:09.978831 - Supertrend Cycle: LTP=753.5, Trend=False
+2025-05-22 13:52:09.978831 - Cycle: HDFCLIFE | LTP=753.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:25.350014 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 13:52:25.351040 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:25.760735 - Supertrend Cycle: LTP=646.0, Trend=False
+2025-05-22 13:52:25.761699 - Cycle: HINDALCO | LTP=646.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:26.107646 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:52:26.108643 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:26.592157 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 13:52:26.593155 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:26.971099 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:52:26.971099 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:27.446817 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.9, Current=1221.9, PeakChange=-0.10%, DropFromPeak=0.00%
+2025-05-22 13:52:27.447810 - Supertrend Cycle: LTP=1221.9, Trend=False
+2025-05-22 13:52:27.447810 - Cycle: DRREDDY | LTP=1221.9, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:52:27.821553 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 13:52:27.822518 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:28.393845 - Supertrend Cycle: LTP=753.6, Trend=False
+2025-05-22 13:52:28.394803 - Cycle: HDFCLIFE | LTP=753.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:43.786210 - Supertrend Cycle: LTP=1716.5, Trend=True
+2025-05-22 13:52:43.786210 - Cycle: SUNPHARMA | LTP=1716.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:44.214269 - Supertrend Cycle: LTP=646.05, Trend=False
+2025-05-22 13:52:44.215233 - Cycle: HINDALCO | LTP=646.05, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:44.623509 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:52:44.624507 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:45.037660 - Supertrend Cycle: LTP=1402.9, Trend=False
+2025-05-22 13:52:45.037660 - Cycle: RELIANCE | LTP=1402.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:45.419033 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:52:45.419995 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:45.698023 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:52:45.698985 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:52:45.698985 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:52:46.124043 - Supertrend Cycle: LTP=2318.2, Trend=False
+2025-05-22 13:52:46.124043 - Cycle: HINDUNILVR | LTP=2318.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:52:46.536601 - Supertrend Cycle: LTP=753.6, Trend=False
+2025-05-22 13:52:46.536601 - Cycle: HDFCLIFE | LTP=753.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:01.937829 - Supertrend Cycle: LTP=1716.8, Trend=True
+2025-05-22 13:53:01.938825 - Cycle: SUNPHARMA | LTP=1716.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:02.512415 - Supertrend Cycle: LTP=645.8, Trend=False
+2025-05-22 13:53:02.512415 - Cycle: HINDALCO | LTP=645.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:02.797803 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:53:02.798801 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:03.243375 - Supertrend Cycle: LTP=1403.2, Trend=False
+2025-05-22 13:53:03.243375 - Cycle: RELIANCE | LTP=1403.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:03.798557 - Supertrend Cycle: LTP=1181.4, Trend=True
+2025-05-22 13:53:03.799553 - Cycle: AXISBANK | LTP=1181.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:04.155519 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.0, Current=1221.0, PeakChange=-0.02%, DropFromPeak=0.00%
+2025-05-22 13:53:04.156514 - Supertrend Cycle: LTP=1221.0, Trend=False
+2025-05-22 13:53:04.156514 - Cycle: DRREDDY | LTP=1221.0, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:53:04.452598 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 13:53:04.452598 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:05.054107 - Supertrend Cycle: LTP=753.65, Trend=False
+2025-05-22 13:53:05.054107 - Cycle: HDFCLIFE | LTP=753.65, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:20.498746 - Supertrend Cycle: LTP=1716.7, Trend=True
+2025-05-22 13:53:20.499743 - Cycle: SUNPHARMA | LTP=1716.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:20.971555 - Supertrend Cycle: LTP=646.05, Trend=False
+2025-05-22 13:53:20.971555 - Cycle: HINDALCO | LTP=646.05, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:21.564844 - Supertrend Cycle: LTP=1433.9, Trend=True
+2025-05-22 13:53:21.565810 - Cycle: ICICIBANK | LTP=1433.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:22.011467 - Supertrend Cycle: LTP=1403.3, Trend=False
+2025-05-22 13:53:22.011467 - Cycle: RELIANCE | LTP=1403.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:22.497053 - Supertrend Cycle: LTP=1181.4, Trend=True
+2025-05-22 13:53:22.497053 - Cycle: AXISBANK | LTP=1181.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:22.937862 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.9, Current=1221.9, PeakChange=-0.10%, DropFromPeak=0.00%
+2025-05-22 13:53:22.937862 - Supertrend Cycle: LTP=1221.9, Trend=False
+2025-05-22 13:53:22.938835 - Cycle: DRREDDY | LTP=1221.9, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:53:23.372291 - Supertrend Cycle: LTP=2318.1, Trend=False
+2025-05-22 13:53:23.373286 - Cycle: HINDUNILVR | LTP=2318.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:23.929083 - Supertrend Cycle: LTP=754.0, Trend=False
+2025-05-22 13:53:23.930080 - Cycle: HDFCLIFE | LTP=754.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:39.450210 - Supertrend Cycle: LTP=1716.8, Trend=True
+2025-05-22 13:53:39.452777 - Cycle: SUNPHARMA | LTP=1716.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:39.882665 - Supertrend Cycle: LTP=645.8, Trend=False
+2025-05-22 13:53:39.882665 - Cycle: HINDALCO | LTP=645.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:40.303823 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 13:53:40.304818 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:40.665180 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 13:53:40.666178 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:41.112970 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 13:53:41.112970 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:41.603339 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.9, Current=1221.9, PeakChange=-0.10%, DropFromPeak=0.00%
+2025-05-22 13:53:41.604336 - Supertrend Cycle: LTP=1221.9, Trend=False
+2025-05-22 13:53:41.605333 - Cycle: DRREDDY | LTP=1221.9, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:53:42.046516 - Supertrend Cycle: LTP=2318.1, Trend=False
+2025-05-22 13:53:42.047514 - Cycle: HINDUNILVR | LTP=2318.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:42.483621 - Supertrend Cycle: LTP=754.0, Trend=False
+2025-05-22 13:53:42.484619 - Cycle: HDFCLIFE | LTP=754.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:57.877162 - Supertrend Cycle: LTP=1716.8, Trend=True
+2025-05-22 13:53:57.877162 - Cycle: SUNPHARMA | LTP=1716.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:58.279189 - Supertrend Cycle: LTP=645.7, Trend=False
+2025-05-22 13:53:58.279189 - Cycle: HINDALCO | LTP=645.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:58.594668 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:53:58.595670 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:59.030519 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 13:53:59.030519 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:59.438665 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 13:53:59.439664 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:53:59.780955 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:53:59.780955 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:53:59.780955 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:54:00.249316 - Supertrend Cycle: LTP=2318.2, Trend=False
+2025-05-22 13:54:00.249316 - Cycle: HINDUNILVR | LTP=2318.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:00.666263 - Supertrend Cycle: LTP=753.9, Trend=False
+2025-05-22 13:54:00.666263 - Cycle: HDFCLIFE | LTP=753.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:16.090964 - Supertrend Cycle: LTP=1716.4, Trend=True
+2025-05-22 13:54:16.091930 - Cycle: SUNPHARMA | LTP=1716.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:16.587119 - Supertrend Cycle: LTP=646.0, Trend=False
+2025-05-22 13:54:16.587119 - Cycle: HINDALCO | LTP=646.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:16.975832 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:54:16.976827 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:17.409072 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 13:54:17.410072 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:17.915707 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 13:54:17.915707 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:18.342792 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:54:18.342792 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:54:18.343791 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:54:18.670068 - Supertrend Cycle: LTP=2318.1, Trend=False
+2025-05-22 13:54:18.671029 - Cycle: HINDUNILVR | LTP=2318.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:19.192805 - Supertrend Cycle: LTP=753.6, Trend=False
+2025-05-22 13:54:19.192805 - Cycle: HDFCLIFE | LTP=753.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:34.480818 - Supertrend Cycle: LTP=1716.4, Trend=True
+2025-05-22 13:54:34.480818 - Cycle: SUNPHARMA | LTP=1716.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:34.823575 - Supertrend Cycle: LTP=645.35, Trend=False
+2025-05-22 13:54:34.823575 - Cycle: HINDALCO | LTP=645.35, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:35.085152 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:54:35.086155 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:35.325383 - Skipping RELIANCE due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-22 13:54:35.786689 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:54:35.786689 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:36.243431 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.4, Current=1221.4, PeakChange=-0.06%, DropFromPeak=0.00%
+2025-05-22 13:54:36.244454 - Supertrend Cycle: LTP=1221.4, Trend=False
+2025-05-22 13:54:36.244967 - Cycle: DRREDDY | LTP=1221.4, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:54:36.672261 - Supertrend Cycle: LTP=2318.2, Trend=False
+2025-05-22 13:54:36.673229 - Cycle: HINDUNILVR | LTP=2318.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:36.953905 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 13:54:36.953905 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:52.357193 - Supertrend Cycle: LTP=1716.8, Trend=True
+2025-05-22 13:54:52.357193 - Cycle: SUNPHARMA | LTP=1716.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:52.690228 - Supertrend Cycle: LTP=645.6, Trend=False
+2025-05-22 13:54:52.691193 - Cycle: HINDALCO | LTP=645.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:52.951697 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:54:52.951697 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:53.316328 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 13:54:53.317294 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:53.685423 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:54:53.686238 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:54.001768 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.7, Current=1221.7, PeakChange=-0.08%, DropFromPeak=0.00%
+2025-05-22 13:54:54.002064 - Supertrend Cycle: LTP=1221.7, Trend=False
+2025-05-22 13:54:54.002897 - Cycle: DRREDDY | LTP=1221.7, Pos=-5, Buy=False, Sell=True
+2025-05-22 13:54:54.318380 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 13:54:54.318820 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:54:54.618490 - Supertrend Cycle: LTP=753.9, Trend=False
+2025-05-22 13:54:54.619535 - Cycle: HDFCLIFE | LTP=753.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:10.232634 - Supertrend Cycle: LTP=1717.6, Trend=True
+2025-05-22 13:55:10.232634 - Cycle: SUNPHARMA | LTP=1717.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:10.641108 - Supertrend Cycle: LTP=645.65, Trend=False
+2025-05-22 13:55:10.641108 - Cycle: HINDALCO | LTP=645.65, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:11.225358 - Supertrend Cycle: LTP=1433.3, Trend=True
+2025-05-22 13:55:11.226358 - Cycle: ICICIBANK | LTP=1433.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:11.663012 - Supertrend Cycle: LTP=1403.1, Trend=False
+2025-05-22 13:55:11.663012 - Cycle: RELIANCE | LTP=1403.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:12.124510 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:55:12.124510 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:12.437096 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:55:12.438094 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:55:12.438094 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:55:12.857067 - Supertrend Cycle: LTP=2320.1, Trend=False
+2025-05-22 13:55:12.858067 - Cycle: HINDUNILVR | LTP=2320.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:13.302020 - Supertrend Cycle: LTP=754.0, Trend=False
+2025-05-22 13:55:13.303023 - Cycle: HDFCLIFE | LTP=754.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:28.742430 - Supertrend Cycle: LTP=1717.6, Trend=True
+2025-05-22 13:55:28.743427 - Cycle: SUNPHARMA | LTP=1717.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:29.221306 - Supertrend Cycle: LTP=645.5, Trend=False
+2025-05-22 13:55:29.222306 - Cycle: HINDALCO | LTP=645.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:29.552428 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:55:29.553479 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:29.910109 - Supertrend Cycle: LTP=1403.2, Trend=False
+2025-05-22 13:55:29.910751 - Cycle: RELIANCE | LTP=1403.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:30.415543 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:55:30.415543 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:30.816669 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.1, Current=1221.1, PeakChange=-0.03%, DropFromPeak=0.00%
+2025-05-22 13:55:30.817666 - Supertrend Cycle: LTP=1221.1, Trend=False
+2025-05-22 13:55:30.817666 - Cycle: DRREDDY | LTP=1221.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:55:31.249630 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 13:55:31.249630 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:31.720484 - Supertrend Cycle: LTP=754.3, Trend=False
+2025-05-22 13:55:31.721446 - Cycle: HDFCLIFE | LTP=754.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:47.097383 - Supertrend Cycle: LTP=1717.6, Trend=True
+2025-05-22 13:55:47.097383 - Cycle: SUNPHARMA | LTP=1717.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:47.448936 - Supertrend Cycle: LTP=646.05, Trend=False
+2025-05-22 13:55:47.448936 - Cycle: HINDALCO | LTP=646.05, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:47.776115 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:55:47.776115 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:48.158331 - Supertrend Cycle: LTP=1403.4, Trend=False
+2025-05-22 13:55:48.158331 - Cycle: RELIANCE | LTP=1403.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:48.522317 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:55:48.523281 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:48.909516 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:55:48.909516 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:55:48.910514 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:55:49.348673 - Supertrend Cycle: LTP=2320.8, Trend=False
+2025-05-22 13:55:49.350182 - Cycle: HINDUNILVR | LTP=2320.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:55:49.806637 - Supertrend Cycle: LTP=754.2, Trend=False
+2025-05-22 13:55:49.807598 - Cycle: HDFCLIFE | LTP=754.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:05.179054 - Supertrend Cycle: LTP=1717.9, Trend=True
+2025-05-22 13:56:05.180019 - Cycle: SUNPHARMA | LTP=1717.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:05.620628 - Supertrend Cycle: LTP=646.05, Trend=False
+2025-05-22 13:56:05.620628 - Cycle: HINDALCO | LTP=646.05, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:06.139849 - Supertrend Cycle: LTP=1433.4, Trend=True
+2025-05-22 13:56:06.139849 - Cycle: ICICIBANK | LTP=1433.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:06.541530 - Supertrend Cycle: LTP=1403.2, Trend=False
+2025-05-22 13:56:06.541530 - Cycle: RELIANCE | LTP=1403.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:06.954994 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 13:56:06.955960 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:07.521104 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.4, Current=1220.4, PeakChange=0.02%, DropFromPeak=0.00%
+2025-05-22 13:56:07.522103 - Supertrend Cycle: LTP=1220.4, Trend=False
+2025-05-22 13:56:07.522103 - Cycle: DRREDDY | LTP=1220.4, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:56:07.950563 - Supertrend Cycle: LTP=2320.8, Trend=False
+2025-05-22 13:56:07.950563 - Cycle: HINDUNILVR | LTP=2320.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:08.405603 - Supertrend Cycle: LTP=754.3, Trend=False
+2025-05-22 13:56:08.405603 - Cycle: HDFCLIFE | LTP=754.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:23.857543 - Supertrend Cycle: LTP=1717.4, Trend=True
+2025-05-22 13:56:23.857543 - Cycle: SUNPHARMA | LTP=1717.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:24.346675 - Supertrend Cycle: LTP=646.15, Trend=False
+2025-05-22 13:56:24.347671 - Cycle: HINDALCO | LTP=646.15, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:24.827284 - Supertrend Cycle: LTP=1433.4, Trend=True
+2025-05-22 13:56:24.827284 - Cycle: ICICIBANK | LTP=1433.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:25.213604 - Supertrend Cycle: LTP=1403.1, Trend=False
+2025-05-22 13:56:25.213604 - Cycle: RELIANCE | LTP=1403.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:25.711144 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 13:56:25.712146 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:26.055644 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:56:26.055644 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:56:26.056639 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:56:26.505835 - Supertrend Cycle: LTP=2321.3, Trend=False
+2025-05-22 13:56:26.505835 - Cycle: HINDUNILVR | LTP=2321.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:26.948267 - Supertrend Cycle: LTP=754.45, Trend=False
+2025-05-22 13:56:26.948267 - Cycle: HDFCLIFE | LTP=754.45, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:42.472186 - Supertrend Cycle: LTP=1717.8, Trend=True
+2025-05-22 13:56:42.472186 - Cycle: SUNPHARMA | LTP=1717.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:42.845156 - Supertrend Cycle: LTP=646.3, Trend=False
+2025-05-22 13:56:42.845156 - Cycle: HINDALCO | LTP=646.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:43.283763 - Supertrend Cycle: LTP=1433.4, Trend=True
+2025-05-22 13:56:43.284762 - Cycle: ICICIBANK | LTP=1433.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:43.607589 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 13:56:43.608551 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:43.935056 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 13:56:43.935056 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:44.248712 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.2, Current=1221.2, PeakChange=-0.04%, DropFromPeak=0.00%
+2025-05-22 13:56:44.249679 - Supertrend Cycle: LTP=1221.2, Trend=False
+2025-05-22 13:56:44.249679 - Cycle: DRREDDY | LTP=1221.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:56:44.685902 - Supertrend Cycle: LTP=2321.2, Trend=False
+2025-05-22 13:56:44.686865 - Cycle: HINDUNILVR | LTP=2321.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:56:45.139520 - Supertrend Cycle: LTP=754.45, Trend=False
+2025-05-22 13:56:45.139520 - Cycle: HDFCLIFE | LTP=754.45, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:00.515507 - Supertrend Cycle: LTP=1717.2, Trend=True
+2025-05-22 13:57:00.515507 - Cycle: SUNPHARMA | LTP=1717.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:00.851183 - Supertrend Cycle: LTP=646.05, Trend=False
+2025-05-22 13:57:00.851183 - Cycle: HINDALCO | LTP=646.05, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:01.167255 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:57:01.168253 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:01.441795 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 13:57:01.441795 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:01.765262 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:57:01.765262 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:02.259526 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.6, Current=1220.6, PeakChange=0.01%, DropFromPeak=0.00%
+2025-05-22 13:57:02.259526 - Supertrend Cycle: LTP=1220.6, Trend=False
+2025-05-22 13:57:02.260523 - Cycle: DRREDDY | LTP=1220.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:57:02.595602 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 13:57:02.595602 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:03.133234 - Supertrend Cycle: LTP=754.3, Trend=False
+2025-05-22 13:57:03.134196 - Cycle: HDFCLIFE | LTP=754.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:18.465935 - Supertrend Cycle: LTP=1717.8, Trend=True
+2025-05-22 13:57:18.465935 - Cycle: SUNPHARMA | LTP=1717.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:18.858515 - Supertrend Cycle: LTP=646.0, Trend=False
+2025-05-22 13:57:18.858515 - Cycle: HINDALCO | LTP=646.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:19.140091 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:57:19.140969 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:19.415656 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 13:57:19.416652 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:19.705800 - Supertrend Cycle: LTP=1196.5, Trend=True
+2025-05-22 13:57:19.706763 - Cycle: AXISBANK | LTP=1196.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:20.086344 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.0, Current=1221.0, PeakChange=-0.02%, DropFromPeak=0.00%
+2025-05-22 13:57:20.087343 - Supertrend Cycle: LTP=1221.0, Trend=False
+2025-05-22 13:57:20.087343 - Cycle: DRREDDY | LTP=1221.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:57:20.420346 - Supertrend Cycle: LTP=2321.2, Trend=False
+2025-05-22 13:57:20.420346 - Cycle: HINDUNILVR | LTP=2321.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:20.706506 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 13:57:20.706506 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:36.069560 - Supertrend Cycle: LTP=1717.7, Trend=True
+2025-05-22 13:57:36.069560 - Cycle: SUNPHARMA | LTP=1717.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:36.540181 - Supertrend Cycle: LTP=645.9, Trend=False
+2025-05-22 13:57:36.540181 - Cycle: HINDALCO | LTP=645.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:36.992618 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:57:36.993583 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:37.431107 - Supertrend Cycle: LTP=1403.7, Trend=False
+2025-05-22 13:57:37.431107 - Cycle: RELIANCE | LTP=1403.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:37.833907 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:57:37.833907 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:38.373992 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.2, Current=1221.2, PeakChange=-0.04%, DropFromPeak=0.00%
+2025-05-22 13:57:38.374991 - Supertrend Cycle: LTP=1221.2, Trend=False
+2025-05-22 13:57:38.374991 - Cycle: DRREDDY | LTP=1221.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:57:38.767055 - Supertrend Cycle: LTP=2320.5, Trend=False
+2025-05-22 13:57:38.767055 - Cycle: HINDUNILVR | LTP=2320.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:39.213584 - Supertrend Cycle: LTP=754.4, Trend=False
+2025-05-22 13:57:39.213584 - Cycle: HDFCLIFE | LTP=754.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:54.583208 - Supertrend Cycle: LTP=1717.8, Trend=True
+2025-05-22 13:57:54.583208 - Cycle: SUNPHARMA | LTP=1717.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:54.914336 - Supertrend Cycle: LTP=645.8, Trend=False
+2025-05-22 13:57:54.914336 - Cycle: HINDALCO | LTP=645.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:55.243263 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:57:55.243263 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:55.602970 - Supertrend Cycle: LTP=1403.0, Trend=False
+2025-05-22 13:57:55.603890 - Cycle: RELIANCE | LTP=1403.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:56.165836 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:57:56.165836 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:56.643405 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.1, Current=1221.1, PeakChange=-0.03%, DropFromPeak=0.00%
+2025-05-22 13:57:56.644403 - Supertrend Cycle: LTP=1221.1, Trend=False
+2025-05-22 13:57:56.644403 - Cycle: DRREDDY | LTP=1221.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:57:57.321990 - Supertrend Cycle: LTP=2320.3, Trend=False
+2025-05-22 13:57:57.321990 - Cycle: HINDUNILVR | LTP=2320.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:57:57.813505 - Supertrend Cycle: LTP=754.5, Trend=False
+2025-05-22 13:57:57.813505 - Cycle: HDFCLIFE | LTP=754.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:13.484136 - Supertrend Cycle: LTP=1717.1, Trend=True
+2025-05-22 13:58:13.485130 - Cycle: SUNPHARMA | LTP=1717.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:14.030874 - Supertrend Cycle: LTP=645.8, Trend=False
+2025-05-22 13:58:14.030874 - Cycle: HINDALCO | LTP=645.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:14.605499 - Supertrend Cycle: LTP=1433.0, Trend=True
+2025-05-22 13:58:14.605499 - Cycle: ICICIBANK | LTP=1433.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:15.133283 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 13:58:15.133283 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:15.580271 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 13:58:15.580271 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:16.019220 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.0, Current=1221.0, PeakChange=-0.02%, DropFromPeak=0.00%
+2025-05-22 13:58:16.020812 - Supertrend Cycle: LTP=1221.0, Trend=False
+2025-05-22 13:58:16.021897 - Cycle: DRREDDY | LTP=1221.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:58:16.385870 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 13:58:16.385870 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:16.840991 - Supertrend Cycle: LTP=754.45, Trend=False
+2025-05-22 13:58:16.841955 - Cycle: HDFCLIFE | LTP=754.45, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:32.382860 - Supertrend Cycle: LTP=1717.8, Trend=True
+2025-05-22 13:58:32.383827 - Cycle: SUNPHARMA | LTP=1717.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:32.748332 - Supertrend Cycle: LTP=646.15, Trend=False
+2025-05-22 13:58:32.749330 - Cycle: HINDALCO | LTP=646.15, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:33.145206 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:58:33.146373 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:33.736774 - Supertrend Cycle: LTP=1402.7, Trend=False
+2025-05-22 13:58:33.737666 - Cycle: RELIANCE | LTP=1402.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:34.151584 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:58:34.152581 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:34.652936 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.0, Current=1221.0, PeakChange=-0.02%, DropFromPeak=0.00%
+2025-05-22 13:58:34.652936 - Supertrend Cycle: LTP=1221.0, Trend=False
+2025-05-22 13:58:34.653911 - Cycle: DRREDDY | LTP=1221.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:58:35.136713 - Supertrend Cycle: LTP=2320.1, Trend=False
+2025-05-22 13:58:35.137782 - Cycle: HINDUNILVR | LTP=2320.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:35.555781 - Supertrend Cycle: LTP=754.55, Trend=False
+2025-05-22 13:58:35.555781 - Cycle: HDFCLIFE | LTP=754.55, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:50.875543 - Supertrend Cycle: LTP=1717.3, Trend=True
+2025-05-22 13:58:50.876050 - Cycle: SUNPHARMA | LTP=1717.3, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:51.215421 - Supertrend Cycle: LTP=645.9, Trend=False
+2025-05-22 13:58:51.216418 - Cycle: HINDALCO | LTP=645.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:51.705676 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 13:58:51.706675 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:52.132490 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 13:58:52.132490 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:52.632378 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:58:52.632378 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:52.982608 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.1, Current=1221.1, PeakChange=-0.03%, DropFromPeak=0.00%
+2025-05-22 13:58:52.982608 - Supertrend Cycle: LTP=1221.1, Trend=False
+2025-05-22 13:58:52.983606 - Cycle: DRREDDY | LTP=1221.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:58:53.401686 - Supertrend Cycle: LTP=2320.5, Trend=False
+2025-05-22 13:58:53.401686 - Cycle: HINDUNILVR | LTP=2320.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:58:53.955336 - Supertrend Cycle: LTP=754.35, Trend=False
+2025-05-22 13:58:53.955336 - Cycle: HDFCLIFE | LTP=754.35, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:09.410795 - Supertrend Cycle: LTP=1717.2, Trend=True
+2025-05-22 13:59:09.410795 - Cycle: SUNPHARMA | LTP=1717.2, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:10.084783 - Supertrend Cycle: LTP=645.7, Trend=False
+2025-05-22 13:59:10.084783 - Cycle: HINDALCO | LTP=645.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:10.486681 - Supertrend Cycle: LTP=1432.9, Trend=True
+2025-05-22 13:59:10.486681 - Cycle: ICICIBANK | LTP=1432.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:10.933255 - Supertrend Cycle: LTP=1402.4, Trend=False
+2025-05-22 13:59:10.933255 - Cycle: RELIANCE | LTP=1402.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:11.436297 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 13:59:11.437296 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:11.802384 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 13:59:11.802384 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 13:59:11.803386 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:59:12.361475 - Supertrend Cycle: LTP=2320.6, Trend=False
+2025-05-22 13:59:12.361475 - Cycle: HINDUNILVR | LTP=2320.6, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:12.789705 - Supertrend Cycle: LTP=754.35, Trend=False
+2025-05-22 13:59:12.789705 - Cycle: HDFCLIFE | LTP=754.35, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:28.167906 - Supertrend Cycle: LTP=1717.1, Trend=True
+2025-05-22 13:59:28.168904 - Cycle: SUNPHARMA | LTP=1717.1, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:28.714354 - Supertrend Cycle: LTP=645.8, Trend=False
+2025-05-22 13:59:28.715350 - Cycle: HINDALCO | LTP=645.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:29.181532 - Supertrend Cycle: LTP=1432.9, Trend=True
+2025-05-22 13:59:29.182530 - Cycle: ICICIBANK | LTP=1432.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:29.658333 - Supertrend Cycle: LTP=1402.4, Trend=False
+2025-05-22 13:59:29.658333 - Cycle: RELIANCE | LTP=1402.4, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:30.088902 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 13:59:30.088902 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:30.623954 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.6, Current=1220.6, PeakChange=0.01%, DropFromPeak=0.00%
+2025-05-22 13:59:30.623954 - Supertrend Cycle: LTP=1220.6, Trend=False
+2025-05-22 13:59:30.624956 - Cycle: DRREDDY | LTP=1220.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:59:31.239271 - Supertrend Cycle: LTP=2320.8, Trend=False
+2025-05-22 13:59:31.240270 - Cycle: HINDUNILVR | LTP=2320.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:31.649207 - Supertrend Cycle: LTP=754.35, Trend=False
+2025-05-22 13:59:31.650205 - Cycle: HDFCLIFE | LTP=754.35, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:47.109732 - Supertrend Cycle: LTP=1716.9, Trend=True
+2025-05-22 13:59:47.110732 - Cycle: SUNPHARMA | LTP=1716.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:47.699826 - Supertrend Cycle: LTP=645.9, Trend=False
+2025-05-22 13:59:47.700824 - Cycle: HINDALCO | LTP=645.9, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:48.117646 - Supertrend Cycle: LTP=1432.7, Trend=True
+2025-05-22 13:59:48.118642 - Cycle: ICICIBANK | LTP=1432.7, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:48.434916 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 13:59:48.435914 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:48.824800 - Supertrend Cycle: LTP=1180.8, Trend=True
+2025-05-22 13:59:48.825797 - Cycle: AXISBANK | LTP=1180.8, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:49.168476 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.6, Current=1220.6, PeakChange=0.01%, DropFromPeak=0.00%
+2025-05-22 13:59:49.169475 - Supertrend Cycle: LTP=1220.6, Trend=False
+2025-05-22 13:59:49.169475 - Cycle: DRREDDY | LTP=1220.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 13:59:49.650800 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 13:59:49.651797 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 13:59:50.127128 - Supertrend Cycle: LTP=754.6, Trend=False
+2025-05-22 13:59:50.128125 - Cycle: HDFCLIFE | LTP=754.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:05.638169 - Supertrend Cycle: LTP=1716.9, Trend=True
+2025-05-22 14:00:05.640709 - Cycle: SUNPHARMA | LTP=1716.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:06.098431 - Supertrend Cycle: LTP=646.1, Trend=False
+2025-05-22 14:00:06.099946 - Cycle: HINDALCO | LTP=646.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:06.943524 - Supertrend Cycle: LTP=1433.0, Trend=True
+2025-05-22 14:00:06.944530 - Cycle: ICICIBANK | LTP=1433.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:07.531989 - Supertrend Cycle: LTP=1402.9, Trend=False
+2025-05-22 14:00:07.532986 - Cycle: RELIANCE | LTP=1402.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:08.028753 - Supertrend Cycle: LTP=1180.8, Trend=True
+2025-05-22 14:00:08.029750 - Cycle: AXISBANK | LTP=1180.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:08.450889 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.1, Current=1221.1, PeakChange=-0.03%, DropFromPeak=0.00%
+2025-05-22 14:00:08.451892 - Supertrend Cycle: LTP=1221.1, Trend=False
+2025-05-22 14:00:08.452889 - Cycle: DRREDDY | LTP=1221.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:00:08.942855 - Supertrend Cycle: LTP=2323.4, Trend=False
+2025-05-22 14:00:08.943683 - Cycle: HINDUNILVR | LTP=2323.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:09.406385 - Supertrend Cycle: LTP=755.15, Trend=False
+2025-05-22 14:00:09.407381 - Cycle: HDFCLIFE | LTP=755.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:24.950604 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 14:00:24.951613 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:25.617346 - Supertrend Cycle: LTP=646.1, Trend=False
+2025-05-22 14:00:25.618346 - Cycle: HINDALCO | LTP=646.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:26.178501 - Supertrend Cycle: LTP=1433.0, Trend=True
+2025-05-22 14:00:26.179499 - Cycle: ICICIBANK | LTP=1433.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:26.658893 - Supertrend Cycle: LTP=1402.9, Trend=False
+2025-05-22 14:00:26.659890 - Cycle: RELIANCE | LTP=1402.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:27.168004 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:00:27.168004 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:27.860514 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.2, Current=1220.2, PeakChange=0.04%, DropFromPeak=0.00%
+2025-05-22 14:00:27.861808 - Supertrend Cycle: LTP=1220.2, Trend=False
+2025-05-22 14:00:27.861808 - Cycle: DRREDDY | LTP=1220.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:00:28.407583 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 14:00:28.408580 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:28.803755 - Supertrend Cycle: LTP=755.1, Trend=False
+2025-05-22 14:00:28.804715 - Cycle: HDFCLIFE | LTP=755.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:44.504231 - Supertrend Cycle: LTP=1716.1, Trend=True
+2025-05-22 14:00:44.504231 - Cycle: SUNPHARMA | LTP=1716.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:45.004987 - Supertrend Cycle: LTP=646.2, Trend=False
+2025-05-22 14:00:45.004987 - Cycle: HINDALCO | LTP=646.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:45.492906 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 14:00:45.492906 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:45.995921 - Supertrend Cycle: LTP=1402.5, Trend=False
+2025-05-22 14:00:45.996885 - Cycle: RELIANCE | LTP=1402.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:46.479746 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:00:46.479746 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:46.968116 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1219.4, PeakChange=0.11%, DropFromPeak=0.00%
+2025-05-22 14:00:46.968116 - Supertrend Cycle: LTP=1219.4, Trend=False
+2025-05-22 14:00:46.968116 - Cycle: DRREDDY | LTP=1219.4, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:00:47.495887 - Supertrend Cycle: LTP=2323.2, Trend=False
+2025-05-22 14:00:47.495887 - Cycle: HINDUNILVR | LTP=2323.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:00:47.927382 - Supertrend Cycle: LTP=755.45, Trend=False
+2025-05-22 14:00:47.927382 - Cycle: HDFCLIFE | LTP=755.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:03.475487 - Supertrend Cycle: LTP=1715.5, Trend=True
+2025-05-22 14:01:03.476484 - Cycle: SUNPHARMA | LTP=1715.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:04.045761 - Supertrend Cycle: LTP=645.95, Trend=False
+2025-05-22 14:01:04.046954 - Cycle: HINDALCO | LTP=645.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:04.442737 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 14:01:04.443734 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:04.985642 - Supertrend Cycle: LTP=1402.7, Trend=False
+2025-05-22 14:01:04.985642 - Cycle: RELIANCE | LTP=1402.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:05.461212 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 14:01:05.461212 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:05.970862 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.4, Current=1218.4, PeakChange=0.19%, DropFromPeak=0.00%
+2025-05-22 14:01:05.971859 - Supertrend Cycle: LTP=1218.4, Trend=False
+2025-05-22 14:01:05.973860 - Cycle: DRREDDY | LTP=1218.4, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:01:06.408652 - Supertrend Cycle: LTP=2320.6, Trend=False
+2025-05-22 14:01:06.409651 - Cycle: HINDUNILVR | LTP=2320.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:06.811867 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 14:01:06.812864 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:22.267633 - Supertrend Cycle: LTP=1715.4, Trend=True
+2025-05-22 14:01:22.268628 - Cycle: SUNPHARMA | LTP=1715.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:22.758589 - Supertrend Cycle: LTP=666.0, Trend=True
+2025-05-22 14:01:22.759583 - Cycle: HINDALCO | LTP=666.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:23.225633 - Supertrend Cycle: LTP=1433.9, Trend=True
+2025-05-22 14:01:23.226628 - Cycle: ICICIBANK | LTP=1433.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:23.714175 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 14:01:23.716172 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:24.192445 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:01:24.193441 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:24.712143 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.4, Current=1219.0, PeakChange=0.19%, DropFromPeak=0.05%
+2025-05-22 14:01:24.713140 - Supertrend Cycle: LTP=1219.0, Trend=False
+2025-05-22 14:01:24.713140 - Cycle: DRREDDY | LTP=1219.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:01:25.176864 - Supertrend Cycle: LTP=2320.0, Trend=False
+2025-05-22 14:01:25.177857 - Cycle: HINDUNILVR | LTP=2320.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:25.611801 - Supertrend Cycle: LTP=755.6, Trend=False
+2025-05-22 14:01:25.611801 - Cycle: HDFCLIFE | LTP=755.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:41.103907 - Supertrend Cycle: LTP=1716.5, Trend=True
+2025-05-22 14:01:41.104902 - Cycle: SUNPHARMA | LTP=1716.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:41.535639 - Supertrend Cycle: LTP=646.05, Trend=False
+2025-05-22 14:01:41.536603 - Cycle: HINDALCO | LTP=646.05, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:41.980567 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 14:01:41.980567 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:42.532114 - Supertrend Cycle: LTP=1402.7, Trend=False
+2025-05-22 14:01:42.532114 - Cycle: RELIANCE | LTP=1402.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:42.903047 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 14:01:42.903047 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:43.417703 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.4, Current=1219.1, PeakChange=0.19%, DropFromPeak=0.06%
+2025-05-22 14:01:43.418701 - Supertrend Cycle: LTP=1219.1, Trend=False
+2025-05-22 14:01:43.419697 - Cycle: DRREDDY | LTP=1219.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:01:43.697559 - Skipping HINDUNILVR due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-22 14:01:44.211458 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 14:01:44.211458 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:01:59.576001 - Supertrend Cycle: LTP=1716.1, Trend=True
+2025-05-22 14:01:59.576001 - Cycle: SUNPHARMA | LTP=1716.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:00.018881 - Supertrend Cycle: LTP=646.25, Trend=False
+2025-05-22 14:02:00.018881 - Cycle: HINDALCO | LTP=646.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:00.532522 - Supertrend Cycle: LTP=1433.9, Trend=True
+2025-05-22 14:02:00.533519 - Cycle: ICICIBANK | LTP=1433.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:01.159367 - Supertrend Cycle: LTP=1402.5, Trend=False
+2025-05-22 14:02:01.160375 - Cycle: RELIANCE | LTP=1402.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:01.641524 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 14:02:01.642489 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:02.015346 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.4, Current=1219.2, PeakChange=0.19%, DropFromPeak=0.07%
+2025-05-22 14:02:02.016341 - Supertrend Cycle: LTP=1219.2, Trend=False
+2025-05-22 14:02:02.016341 - Cycle: DRREDDY | LTP=1219.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:02:02.519299 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 14:02:02.521294 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:03.104851 - Supertrend Cycle: LTP=755.55, Trend=False
+2025-05-22 14:02:03.105850 - Cycle: HDFCLIFE | LTP=755.55, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:18.623524 - Supertrend Cycle: LTP=1716.7, Trend=True
+2025-05-22 14:02:18.624524 - Cycle: SUNPHARMA | LTP=1716.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:18.974576 - Supertrend Cycle: LTP=646.2, Trend=False
+2025-05-22 14:02:18.976078 - Cycle: HINDALCO | LTP=646.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:19.333077 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:02:19.334072 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:19.938784 - Supertrend Cycle: LTP=1402.8, Trend=False
+2025-05-22 14:02:19.939782 - Cycle: RELIANCE | LTP=1402.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:20.537364 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 14:02:20.537364 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:21.294228 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.4, Current=1219.6, PeakChange=0.19%, DropFromPeak=0.10%
+2025-05-22 14:02:21.295736 - Supertrend Cycle: LTP=1219.6, Trend=False
+2025-05-22 14:02:21.295736 - Cycle: DRREDDY | LTP=1219.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:02:21.897473 - Supertrend Cycle: LTP=2320.3, Trend=False
+2025-05-22 14:02:21.898472 - Cycle: HINDUNILVR | LTP=2320.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:22.490414 - Supertrend Cycle: LTP=755.75, Trend=False
+2025-05-22 14:02:22.491385 - Cycle: HDFCLIFE | LTP=755.75, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:38.095489 - Supertrend Cycle: LTP=1716.4, Trend=True
+2025-05-22 14:02:38.096641 - Cycle: SUNPHARMA | LTP=1716.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:38.507757 - Supertrend Cycle: LTP=666.0, Trend=True
+2025-05-22 14:02:38.508753 - Cycle: HINDALCO | LTP=666.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:38.902632 - Supertrend Cycle: LTP=1433.5, Trend=True
+2025-05-22 14:02:38.903629 - Cycle: ICICIBANK | LTP=1433.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:39.346472 - Supertrend Cycle: LTP=1402.9, Trend=False
+2025-05-22 14:02:39.346472 - Cycle: RELIANCE | LTP=1402.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:39.829557 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 14:02:39.829557 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:40.196609 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 14:02:40.196609 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 14:02:40.196609 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:02:40.730548 - Supertrend Cycle: LTP=2320.9, Trend=False
+2025-05-22 14:02:40.731546 - Cycle: HINDUNILVR | LTP=2320.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:41.168830 - Supertrend Cycle: LTP=755.7, Trend=False
+2025-05-22 14:02:41.169828 - Cycle: HDFCLIFE | LTP=755.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:56.744567 - Supertrend Cycle: LTP=1716.4, Trend=True
+2025-05-22 14:02:56.745566 - Cycle: SUNPHARMA | LTP=1716.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:57.238451 - Supertrend Cycle: LTP=646.4, Trend=False
+2025-05-22 14:02:57.239450 - Cycle: HINDALCO | LTP=646.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:57.890551 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:02:57.892045 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:58.450135 - Supertrend Cycle: LTP=1403.4, Trend=False
+2025-05-22 14:02:58.451138 - Cycle: RELIANCE | LTP=1403.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:59.023289 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 14:02:59.023289 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:02:59.878926 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.7, Current=1220.7, PeakChange=-0.00%, DropFromPeak=0.00%
+2025-05-22 14:02:59.879924 - Supertrend Cycle: LTP=1220.7, Trend=False
+2025-05-22 14:02:59.880920 - Cycle: DRREDDY | LTP=1220.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:03:00.598168 - Supertrend Cycle: LTP=2321.1, Trend=False
+2025-05-22 14:03:00.598168 - Cycle: HINDUNILVR | LTP=2321.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:01.189459 - Supertrend Cycle: LTP=755.95, Trend=False
+2025-05-22 14:03:01.189459 - Cycle: HDFCLIFE | LTP=755.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:16.756364 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 14:03:16.759366 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:17.310505 - Supertrend Cycle: LTP=646.25, Trend=False
+2025-05-22 14:03:17.310505 - Cycle: HINDALCO | LTP=646.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:17.814061 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:03:17.814061 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:18.338801 - Supertrend Cycle: LTP=1403.6, Trend=False
+2025-05-22 14:03:18.339799 - Cycle: RELIANCE | LTP=1403.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:18.859123 - Supertrend Cycle: LTP=1181.4, Trend=True
+2025-05-22 14:03:18.860124 - Cycle: AXISBANK | LTP=1181.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:19.264511 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.7, Current=1220.7, PeakChange=-0.00%, DropFromPeak=0.00%
+2025-05-22 14:03:19.265510 - Supertrend Cycle: LTP=1220.7, Trend=False
+2025-05-22 14:03:19.266528 - Cycle: DRREDDY | LTP=1220.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:03:19.726968 - Supertrend Cycle: LTP=2322.4, Trend=False
+2025-05-22 14:03:19.727970 - Cycle: HINDUNILVR | LTP=2322.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:20.143904 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 14:03:20.145472 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:35.838408 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 14:03:35.838408 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:36.379818 - Supertrend Cycle: LTP=646.05, Trend=False
+2025-05-22 14:03:36.379818 - Cycle: HINDALCO | LTP=646.05, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:36.893679 - Supertrend Cycle: LTP=1433.8, Trend=True
+2025-05-22 14:03:36.893679 - Cycle: ICICIBANK | LTP=1433.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:37.348255 - Supertrend Cycle: LTP=1403.1, Trend=False
+2025-05-22 14:03:37.348800 - Cycle: RELIANCE | LTP=1403.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:37.870425 - Supertrend Cycle: LTP=1181.6, Trend=True
+2025-05-22 14:03:37.879102 - Cycle: AXISBANK | LTP=1181.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:38.398491 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.7, Current=1220.7, PeakChange=-0.00%, DropFromPeak=0.00%
+2025-05-22 14:03:38.398491 - Supertrend Cycle: LTP=1220.7, Trend=False
+2025-05-22 14:03:38.409230 - Cycle: DRREDDY | LTP=1220.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:03:38.905534 - Supertrend Cycle: LTP=2322.7, Trend=False
+2025-05-22 14:03:38.905534 - Cycle: HINDUNILVR | LTP=2322.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:39.463833 - Supertrend Cycle: LTP=756.1, Trend=False
+2025-05-22 14:03:39.463833 - Cycle: HDFCLIFE | LTP=756.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:54.999961 - Supertrend Cycle: LTP=1717.8, Trend=True
+2025-05-22 14:03:55.000956 - Cycle: SUNPHARMA | LTP=1717.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:55.537638 - Supertrend Cycle: LTP=645.95, Trend=False
+2025-05-22 14:03:55.538638 - Cycle: HINDALCO | LTP=645.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:55.977783 - Supertrend Cycle: LTP=1433.8, Trend=True
+2025-05-22 14:03:55.977783 - Cycle: ICICIBANK | LTP=1433.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:56.430150 - Supertrend Cycle: LTP=1403.1, Trend=False
+2025-05-22 14:03:56.430150 - Cycle: RELIANCE | LTP=1403.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:56.804821 - Supertrend Cycle: LTP=1196.5, Trend=True
+2025-05-22 14:03:56.804821 - Cycle: AXISBANK | LTP=1196.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:57.310004 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.5, Current=1220.5, PeakChange=0.02%, DropFromPeak=0.00%
+2025-05-22 14:03:57.310004 - Supertrend Cycle: LTP=1220.5, Trend=False
+2025-05-22 14:03:57.311001 - Cycle: DRREDDY | LTP=1220.5, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:03:57.694962 - Supertrend Cycle: LTP=2323.4, Trend=False
+2025-05-22 14:03:57.694962 - Cycle: HINDUNILVR | LTP=2323.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:03:58.072653 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 14:03:58.073650 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:13.620517 - Supertrend Cycle: LTP=1717.4, Trend=True
+2025-05-22 14:04:13.621516 - Cycle: SUNPHARMA | LTP=1717.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:14.087909 - Supertrend Cycle: LTP=646.15, Trend=False
+2025-05-22 14:04:14.087909 - Cycle: HINDALCO | LTP=646.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:14.576417 - Supertrend Cycle: LTP=1433.8, Trend=True
+2025-05-22 14:04:14.577413 - Cycle: ICICIBANK | LTP=1433.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:15.068651 - Supertrend Cycle: LTP=1402.7, Trend=False
+2025-05-22 14:04:15.069649 - Cycle: RELIANCE | LTP=1402.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:15.440186 - Supertrend Cycle: LTP=1196.5, Trend=True
+2025-05-22 14:04:15.440186 - Cycle: AXISBANK | LTP=1196.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:15.871004 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.5, Current=1220.6, PeakChange=0.02%, DropFromPeak=0.01%
+2025-05-22 14:04:15.871965 - Supertrend Cycle: LTP=1220.6, Trend=False
+2025-05-22 14:04:15.871965 - Cycle: DRREDDY | LTP=1220.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:04:16.280908 - Supertrend Cycle: LTP=2323.7, Trend=False
+2025-05-22 14:04:16.280908 - Cycle: HINDUNILVR | LTP=2323.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:16.662612 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 14:04:16.663575 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:32.192924 - Supertrend Cycle: LTP=1717.2, Trend=True
+2025-05-22 14:04:32.193228 - Cycle: SUNPHARMA | LTP=1717.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:32.625878 - Supertrend Cycle: LTP=646.0, Trend=False
+2025-05-22 14:04:32.626876 - Cycle: HINDALCO | LTP=646.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:33.003968 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 14:04:33.004966 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:33.391620 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 14:04:33.391620 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:33.854114 - Supertrend Cycle: LTP=1182.0, Trend=True
+2025-05-22 14:04:33.854114 - Cycle: AXISBANK | LTP=1182.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:34.348082 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.2, Current=1220.2, PeakChange=0.04%, DropFromPeak=0.00%
+2025-05-22 14:04:34.349046 - Supertrend Cycle: LTP=1220.2, Trend=False
+2025-05-22 14:04:34.349046 - Cycle: DRREDDY | LTP=1220.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:04:34.697145 - Supertrend Cycle: LTP=2323.8, Trend=False
+2025-05-22 14:04:34.697145 - Cycle: HINDUNILVR | LTP=2323.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:35.187780 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 14:04:35.188778 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:50.671917 - Supertrend Cycle: LTP=1717.2, Trend=True
+2025-05-22 14:04:50.671917 - Cycle: SUNPHARMA | LTP=1717.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:51.292245 - Supertrend Cycle: LTP=646.2, Trend=False
+2025-05-22 14:04:51.292245 - Cycle: HINDALCO | LTP=646.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:51.818310 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:04:51.818310 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:52.197255 - Supertrend Cycle: LTP=1402.3, Trend=False
+2025-05-22 14:04:52.198253 - Cycle: RELIANCE | LTP=1402.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:52.697379 - Supertrend Cycle: LTP=1182.0, Trend=True
+2025-05-22 14:04:52.697379 - Cycle: AXISBANK | LTP=1182.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:53.225256 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.2, Current=1220.6, PeakChange=0.04%, DropFromPeak=0.03%
+2025-05-22 14:04:53.226317 - Supertrend Cycle: LTP=1220.6, Trend=False
+2025-05-22 14:04:53.226317 - Cycle: DRREDDY | LTP=1220.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:04:53.779861 - Supertrend Cycle: LTP=2323.8, Trend=False
+2025-05-22 14:04:53.780860 - Cycle: HINDUNILVR | LTP=2323.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:04:54.218913 - Supertrend Cycle: LTP=756.45, Trend=False
+2025-05-22 14:04:54.219907 - Cycle: HDFCLIFE | LTP=756.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:09.800719 - Supertrend Cycle: LTP=1717.6, Trend=True
+2025-05-22 14:05:09.801722 - Cycle: SUNPHARMA | LTP=1717.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:10.364697 - Supertrend Cycle: LTP=645.75, Trend=False
+2025-05-22 14:05:10.365694 - Cycle: HINDALCO | LTP=645.75, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:10.989573 - Supertrend Cycle: LTP=1433.4, Trend=True
+2025-05-22 14:05:10.990567 - Cycle: ICICIBANK | LTP=1433.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:11.427843 - Supertrend Cycle: LTP=1402.1, Trend=False
+2025-05-22 14:05:11.428934 - Cycle: RELIANCE | LTP=1402.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:12.020810 - Supertrend Cycle: LTP=1181.8, Trend=True
+2025-05-22 14:05:12.020810 - Cycle: AXISBANK | LTP=1181.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:12.584166 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.2, Current=1220.5, PeakChange=0.04%, DropFromPeak=0.02%
+2025-05-22 14:05:12.585168 - Supertrend Cycle: LTP=1220.5, Trend=False
+2025-05-22 14:05:12.586165 - Cycle: DRREDDY | LTP=1220.5, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:05:13.081553 - Supertrend Cycle: LTP=2323.8, Trend=True
+2025-05-22 14:05:13.082552 - Cycle: HINDUNILVR | LTP=2323.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:15.252284 - Buy executed for HDFCLIFE at 756.35
+2025-05-22 14:05:15.252284 - Supertrend Cycle: LTP=756.35, Trend=True
+2025-05-22 14:05:15.253291 - Cycle: HDFCLIFE | LTP=756.35, Pos=0, Buy=True, Sell=False
+2025-05-22 14:05:30.618693 - Supertrend Cycle: LTP=1717.2, Trend=True
+2025-05-22 14:05:30.618693 - Cycle: SUNPHARMA | LTP=1717.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:31.010703 - Supertrend Cycle: LTP=645.9, Trend=False
+2025-05-22 14:05:31.010703 - Cycle: HINDALCO | LTP=645.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:31.447119 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:05:31.448082 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:31.874943 - Supertrend Cycle: LTP=1401.9, Trend=False
+2025-05-22 14:05:31.875909 - Cycle: RELIANCE | LTP=1401.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:32.405297 - Supertrend Cycle: LTP=1181.5, Trend=True
+2025-05-22 14:05:32.406297 - Cycle: AXISBANK | LTP=1181.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:32.760837 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.9, Current=1218.9, PeakChange=0.15%, DropFromPeak=0.00%
+2025-05-22 14:05:32.761832 - Supertrend Cycle: LTP=1218.9, Trend=False
+2025-05-22 14:05:32.762830 - Cycle: DRREDDY | LTP=1218.9, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:05:33.124408 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 14:05:33.124408 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:33.632024 - 🔍 HDFCLIFE - Entry=756.35, Peak=756.35, Current=756.35, PeakChange=0.00%, DropFromPeak=0.00%
+2025-05-22 14:05:33.632024 - Supertrend Cycle: LTP=756.35, Trend=True
+2025-05-22 14:05:33.633020 - Cycle: HDFCLIFE | LTP=756.35, Pos=5, Buy=True, Sell=False
+2025-05-22 14:05:49.168936 - Supertrend Cycle: LTP=1716.9, Trend=True
+2025-05-22 14:05:49.169939 - Cycle: SUNPHARMA | LTP=1716.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:49.847364 - Supertrend Cycle: LTP=645.75, Trend=False
+2025-05-22 14:05:49.848360 - Cycle: HINDALCO | LTP=645.75, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:50.402118 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 14:05:50.407105 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:50.948611 - Supertrend Cycle: LTP=1401.8, Trend=False
+2025-05-22 14:05:50.949607 - Cycle: RELIANCE | LTP=1401.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:51.580513 - Supertrend Cycle: LTP=1181.5, Trend=True
+2025-05-22 14:05:51.581511 - Cycle: AXISBANK | LTP=1181.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:52.213407 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.9, Current=1219.5, PeakChange=0.15%, DropFromPeak=0.05%
+2025-05-22 14:05:52.213407 - Supertrend Cycle: LTP=1219.5, Trend=False
+2025-05-22 14:05:52.214403 - Cycle: DRREDDY | LTP=1219.5, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:05:52.703193 - Supertrend Cycle: LTP=2324.0, Trend=True
+2025-05-22 14:05:52.704191 - Cycle: HINDUNILVR | LTP=2324.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:05:53.205981 - 🚨 HDFCLIFE - Trailing SL Hit. Exit @ 756.25 | PnL = -0.01%
+2025-05-22 14:06:08.977086 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 14:06:08.978082 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:09.495078 - Supertrend Cycle: LTP=645.55, Trend=False
+2025-05-22 14:06:09.496076 - Cycle: HINDALCO | LTP=645.55, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:10.124381 - Supertrend Cycle: LTP=1433.2, Trend=True
+2025-05-22 14:06:10.124381 - Cycle: ICICIBANK | LTP=1433.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:10.471221 - Supertrend Cycle: LTP=1401.9, Trend=False
+2025-05-22 14:06:10.472218 - Cycle: RELIANCE | LTP=1401.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:10.821242 - Supertrend Cycle: LTP=1196.5, Trend=True
+2025-05-22 14:06:10.821242 - Cycle: AXISBANK | LTP=1196.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:11.346882 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.9, Current=1219.6, PeakChange=0.15%, DropFromPeak=0.06%
+2025-05-22 14:06:11.347878 - Supertrend Cycle: LTP=1219.6, Trend=False
+2025-05-22 14:06:11.347878 - Cycle: DRREDDY | LTP=1219.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:06:11.824788 - Supertrend Cycle: LTP=2323.9, Trend=True
+2025-05-22 14:06:11.824788 - Cycle: HINDUNILVR | LTP=2323.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:12.346575 - Supertrend Cycle: LTP=756.0, Trend=True
+2025-05-22 14:06:12.347572 - Cycle: HDFCLIFE | LTP=756.0, Pos=0, Buy=True, Sell=False
+2025-05-22 14:06:27.749362 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 14:06:27.750323 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:28.123465 - Supertrend Cycle: LTP=645.35, Trend=False
+2025-05-22 14:06:28.124423 - Cycle: HINDALCO | LTP=645.35, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:28.444562 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:06:28.444562 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:28.897250 - Supertrend Cycle: LTP=1401.9, Trend=False
+2025-05-22 14:06:28.897250 - Cycle: RELIANCE | LTP=1401.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:29.338540 - Supertrend Cycle: LTP=1181.5, Trend=True
+2025-05-22 14:06:29.338540 - Cycle: AXISBANK | LTP=1181.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:29.813163 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.9, Current=1219.9, PeakChange=0.15%, DropFromPeak=0.08%
+2025-05-22 14:06:29.813163 - Supertrend Cycle: LTP=1219.9, Trend=False
+2025-05-22 14:06:29.814162 - Cycle: DRREDDY | LTP=1219.9, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:06:30.125304 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 14:06:30.126374 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:30.651644 - Supertrend Cycle: LTP=755.65, Trend=True
+2025-05-22 14:06:30.652500 - Cycle: HDFCLIFE | LTP=755.65, Pos=0, Buy=True, Sell=False
+2025-05-22 14:06:46.114676 - Supertrend Cycle: LTP=1716.6, Trend=True
+2025-05-22 14:06:46.115674 - Cycle: SUNPHARMA | LTP=1716.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:46.561678 - Supertrend Cycle: LTP=645.3, Trend=False
+2025-05-22 14:06:46.562674 - Cycle: HINDALCO | LTP=645.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:46.922213 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:06:46.923213 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:47.488160 - Supertrend Cycle: LTP=1402.0, Trend=False
+2025-05-22 14:06:47.488160 - Cycle: RELIANCE | LTP=1402.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:47.897921 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 14:06:47.897921 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:48.522327 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.9, Current=1219.9, PeakChange=0.15%, DropFromPeak=0.08%
+2025-05-22 14:06:48.522327 - Supertrend Cycle: LTP=1219.9, Trend=False
+2025-05-22 14:06:48.523323 - Cycle: DRREDDY | LTP=1219.9, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:06:48.940888 - Supertrend Cycle: LTP=2323.4, Trend=True
+2025-05-22 14:06:48.940888 - Cycle: HINDUNILVR | LTP=2323.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:06:49.451280 - Supertrend Cycle: LTP=755.75, Trend=True
+2025-05-22 14:06:49.453179 - Cycle: HDFCLIFE | LTP=755.75, Pos=0, Buy=True, Sell=False
+2025-05-22 14:07:04.950098 - Supertrend Cycle: LTP=1716.6, Trend=True
+2025-05-22 14:07:04.950098 - Cycle: SUNPHARMA | LTP=1716.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:05.460157 - Supertrend Cycle: LTP=645.15, Trend=False
+2025-05-22 14:07:05.461002 - Cycle: HINDALCO | LTP=645.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:06.006194 - Supertrend Cycle: LTP=1433.2, Trend=True
+2025-05-22 14:07:06.006194 - Cycle: ICICIBANK | LTP=1433.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:06.502896 - Supertrend Cycle: LTP=1401.8, Trend=False
+2025-05-22 14:07:06.503897 - Cycle: RELIANCE | LTP=1401.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:06.893133 - Supertrend Cycle: LTP=1181.4, Trend=True
+2025-05-22 14:07:06.894131 - Cycle: AXISBANK | LTP=1181.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:07.230784 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 14:07:07.231782 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 14:07:07.231782 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:07:07.628772 - Supertrend Cycle: LTP=2323.9, Trend=True
+2025-05-22 14:07:07.629770 - Cycle: HINDUNILVR | LTP=2323.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:08.065251 - Supertrend Cycle: LTP=755.5, Trend=True
+2025-05-22 14:07:08.066248 - Cycle: HDFCLIFE | LTP=755.5, Pos=0, Buy=True, Sell=False
+2025-05-22 14:07:23.504041 - Supertrend Cycle: LTP=1716.6, Trend=True
+2025-05-22 14:07:23.504041 - Cycle: SUNPHARMA | LTP=1716.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:23.926425 - Supertrend Cycle: LTP=645.1, Trend=False
+2025-05-22 14:07:23.928153 - Cycle: HINDALCO | LTP=645.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:24.313558 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:07:24.314556 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:24.705020 - Supertrend Cycle: LTP=1401.4, Trend=False
+2025-05-22 14:07:24.705020 - Cycle: RELIANCE | LTP=1401.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:25.215467 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:07:25.216434 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:25.708085 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.7, Current=1219.7, PeakChange=0.08%, DropFromPeak=0.00%
+2025-05-22 14:07:25.708085 - Supertrend Cycle: LTP=1219.7, Trend=False
+2025-05-22 14:07:25.708085 - Cycle: DRREDDY | LTP=1219.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:07:26.291758 - Supertrend Cycle: LTP=2322.5, Trend=True
+2025-05-22 14:07:26.291758 - Cycle: HINDUNILVR | LTP=2322.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:26.816146 - Supertrend Cycle: LTP=755.3, Trend=True
+2025-05-22 14:07:26.817144 - Cycle: HDFCLIFE | LTP=755.3, Pos=0, Buy=True, Sell=False
+2025-05-22 14:07:42.162870 - Supertrend Cycle: LTP=1716.7, Trend=True
+2025-05-22 14:07:42.162870 - Cycle: SUNPHARMA | LTP=1716.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:42.572775 - Supertrend Cycle: LTP=645.1, Trend=False
+2025-05-22 14:07:42.572775 - Cycle: HINDALCO | LTP=645.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:42.871325 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:07:42.871325 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:43.488938 - Supertrend Cycle: LTP=1401.4, Trend=False
+2025-05-22 14:07:43.489936 - Cycle: RELIANCE | LTP=1401.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:44.039418 - Supertrend Cycle: LTP=1180.8, Trend=True
+2025-05-22 14:07:44.039629 - Cycle: AXISBANK | LTP=1180.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:44.492178 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.7, Current=1220.1, PeakChange=0.08%, DropFromPeak=0.03%
+2025-05-22 14:07:44.493804 - Supertrend Cycle: LTP=1220.1, Trend=False
+2025-05-22 14:07:44.494848 - Cycle: DRREDDY | LTP=1220.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:07:44.869098 - Supertrend Cycle: LTP=2323.1, Trend=True
+2025-05-22 14:07:44.869928 - Cycle: HINDUNILVR | LTP=2323.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:07:45.214761 - Supertrend Cycle: LTP=747.25, Trend=False
+2025-05-22 14:07:45.215727 - Cycle: HDFCLIFE | LTP=747.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:00.804456 - Supertrend Cycle: LTP=1716.8, Trend=True
+2025-05-22 14:08:00.805423 - Cycle: SUNPHARMA | LTP=1716.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:01.462221 - Supertrend Cycle: LTP=645.35, Trend=False
+2025-05-22 14:08:01.463219 - Cycle: HINDALCO | LTP=645.35, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:02.087137 - Supertrend Cycle: LTP=1432.9, Trend=True
+2025-05-22 14:08:02.087137 - Cycle: ICICIBANK | LTP=1432.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:02.568164 - Supertrend Cycle: LTP=1401.9, Trend=False
+2025-05-22 14:08:02.568164 - Cycle: RELIANCE | LTP=1401.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:03.076890 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 14:08:03.076890 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:03.602015 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.7, Current=1220.1, PeakChange=0.08%, DropFromPeak=0.03%
+2025-05-22 14:08:03.602982 - Supertrend Cycle: LTP=1220.1, Trend=False
+2025-05-22 14:08:03.603980 - Cycle: DRREDDY | LTP=1220.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:08:04.237841 - Supertrend Cycle: LTP=2323.0, Trend=True
+2025-05-22 14:08:04.237841 - Cycle: HINDUNILVR | LTP=2323.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:04.696230 - Supertrend Cycle: LTP=755.15, Trend=True
+2025-05-22 14:08:04.697227 - Cycle: HDFCLIFE | LTP=755.15, Pos=0, Buy=True, Sell=False
+2025-05-22 14:08:20.169891 - Supertrend Cycle: LTP=1716.6, Trend=True
+2025-05-22 14:08:20.169891 - Cycle: SUNPHARMA | LTP=1716.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:20.775004 - Supertrend Cycle: LTP=645.25, Trend=False
+2025-05-22 14:08:20.775967 - Cycle: HINDALCO | LTP=645.25, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:21.245162 - Supertrend Cycle: LTP=1432.6, Trend=True
+2025-05-22 14:08:21.246160 - Cycle: ICICIBANK | LTP=1432.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:21.671379 - Supertrend Cycle: LTP=1401.7, Trend=False
+2025-05-22 14:08:21.672374 - Cycle: RELIANCE | LTP=1401.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:22.248211 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:08:22.248211 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:22.812920 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.7, Current=1220.3, PeakChange=0.08%, DropFromPeak=0.05%
+2025-05-22 14:08:22.813916 - Supertrend Cycle: LTP=1220.3, Trend=False
+2025-05-22 14:08:22.813916 - Cycle: DRREDDY | LTP=1220.3, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:08:23.324414 - Supertrend Cycle: LTP=2322.4, Trend=True
+2025-05-22 14:08:23.324414 - Cycle: HINDUNILVR | LTP=2322.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:23.815460 - Supertrend Cycle: LTP=755.45, Trend=True
+2025-05-22 14:08:23.815460 - Cycle: HDFCLIFE | LTP=755.45, Pos=0, Buy=True, Sell=False
+2025-05-22 14:08:39.398850 - Supertrend Cycle: LTP=1716.5, Trend=True
+2025-05-22 14:08:39.398850 - Cycle: SUNPHARMA | LTP=1716.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:40.037093 - Supertrend Cycle: LTP=645.4, Trend=False
+2025-05-22 14:08:40.038092 - Cycle: HINDALCO | LTP=645.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:40.587391 - Supertrend Cycle: LTP=1432.6, Trend=True
+2025-05-22 14:08:40.588898 - Cycle: ICICIBANK | LTP=1432.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:41.118802 - Supertrend Cycle: LTP=1401.4, Trend=False
+2025-05-22 14:08:41.120799 - Cycle: RELIANCE | LTP=1401.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:41.847958 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 14:08:41.848921 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:42.369971 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.7, Current=1219.7, PeakChange=0.08%, DropFromPeak=0.00%
+2025-05-22 14:08:42.370977 - Supertrend Cycle: LTP=1219.7, Trend=False
+2025-05-22 14:08:42.371972 - Cycle: DRREDDY | LTP=1219.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:08:43.205510 - Supertrend Cycle: LTP=2322.7, Trend=True
+2025-05-22 14:08:43.205510 - Cycle: HINDUNILVR | LTP=2322.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:43.626118 - Supertrend Cycle: LTP=755.55, Trend=True
+2025-05-22 14:08:43.627116 - Cycle: HDFCLIFE | LTP=755.55, Pos=0, Buy=True, Sell=False
+2025-05-22 14:08:59.105929 - Supertrend Cycle: LTP=1716.4, Trend=True
+2025-05-22 14:08:59.105929 - Cycle: SUNPHARMA | LTP=1716.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:59.433476 - Supertrend Cycle: LTP=645.15, Trend=False
+2025-05-22 14:08:59.433476 - Cycle: HINDALCO | LTP=645.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:08:59.721143 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:08:59.722140 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:00.215279 - Supertrend Cycle: LTP=1401.3, Trend=False
+2025-05-22 14:09:00.216278 - Cycle: RELIANCE | LTP=1401.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:00.714845 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:09:00.714845 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:01.232852 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1219.4, PeakChange=0.11%, DropFromPeak=0.00%
+2025-05-22 14:09:01.233852 - Supertrend Cycle: LTP=1219.4, Trend=False
+2025-05-22 14:09:01.233852 - Cycle: DRREDDY | LTP=1219.4, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:09:01.839003 - Supertrend Cycle: LTP=2322.6, Trend=True
+2025-05-22 14:09:01.839003 - Cycle: HINDUNILVR | LTP=2322.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:02.293426 - Supertrend Cycle: LTP=755.2, Trend=True
+2025-05-22 14:09:02.294425 - Cycle: HDFCLIFE | LTP=755.2, Pos=0, Buy=True, Sell=False
+2025-05-22 14:09:17.880037 - Supertrend Cycle: LTP=1716.8, Trend=True
+2025-05-22 14:09:17.880037 - Cycle: SUNPHARMA | LTP=1716.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:18.294103 - Supertrend Cycle: LTP=644.9, Trend=False
+2025-05-22 14:09:18.296098 - Cycle: HINDALCO | LTP=644.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:18.816366 - Supertrend Cycle: LTP=1433.0, Trend=True
+2025-05-22 14:09:18.816366 - Cycle: ICICIBANK | LTP=1433.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:19.531554 - Supertrend Cycle: LTP=1401.3, Trend=False
+2025-05-22 14:09:19.531554 - Cycle: RELIANCE | LTP=1401.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:19.969042 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:09:19.969042 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:20.556839 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1220.3, PeakChange=0.11%, DropFromPeak=0.07%
+2025-05-22 14:09:20.557836 - Supertrend Cycle: LTP=1220.3, Trend=False
+2025-05-22 14:09:20.558834 - Cycle: DRREDDY | LTP=1220.3, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:09:21.140445 - Supertrend Cycle: LTP=2322.6, Trend=True
+2025-05-22 14:09:21.140445 - Cycle: HINDUNILVR | LTP=2322.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:21.681208 - Supertrend Cycle: LTP=755.3, Trend=True
+2025-05-22 14:09:21.681208 - Cycle: HDFCLIFE | LTP=755.3, Pos=0, Buy=True, Sell=False
+2025-05-22 14:09:37.239438 - Supertrend Cycle: LTP=1716.9, Trend=True
+2025-05-22 14:09:37.239438 - Cycle: SUNPHARMA | LTP=1716.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:38.060154 - Supertrend Cycle: LTP=644.95, Trend=False
+2025-05-22 14:09:38.060154 - Cycle: HINDALCO | LTP=644.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:38.591994 - Supertrend Cycle: LTP=1432.8, Trend=True
+2025-05-22 14:09:38.591994 - Cycle: ICICIBANK | LTP=1432.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:39.352034 - Supertrend Cycle: LTP=1401.3, Trend=False
+2025-05-22 14:09:39.355024 - Cycle: RELIANCE | LTP=1401.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:39.853786 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:09:39.854780 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:40.377239 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1220.2, PeakChange=0.11%, DropFromPeak=0.07%
+2025-05-22 14:09:40.379771 - Supertrend Cycle: LTP=1220.2, Trend=False
+2025-05-22 14:09:40.379771 - Cycle: DRREDDY | LTP=1220.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:09:41.033576 - Supertrend Cycle: LTP=2321.4, Trend=True
+2025-05-22 14:09:41.034575 - Cycle: HINDUNILVR | LTP=2321.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:41.495980 - Supertrend Cycle: LTP=755.5, Trend=True
+2025-05-22 14:09:41.496978 - Cycle: HDFCLIFE | LTP=755.5, Pos=0, Buy=True, Sell=False
+2025-05-22 14:09:57.077762 - Supertrend Cycle: LTP=1715.2, Trend=True
+2025-05-22 14:09:57.080269 - Cycle: SUNPHARMA | LTP=1715.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:57.474594 - Supertrend Cycle: LTP=644.65, Trend=False
+2025-05-22 14:09:57.474594 - Cycle: HINDALCO | LTP=644.65, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:57.799766 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:09:57.799766 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:58.184439 - Supertrend Cycle: LTP=1401.1, Trend=False
+2025-05-22 14:09:58.184439 - Cycle: RELIANCE | LTP=1401.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:58.772072 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:09:58.773069 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:09:59.342868 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1219.5, PeakChange=0.11%, DropFromPeak=0.01%
+2025-05-22 14:09:59.342868 - Supertrend Cycle: LTP=1219.5, Trend=False
+2025-05-22 14:09:59.343865 - Cycle: DRREDDY | LTP=1219.5, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:09:59.831650 - Supertrend Cycle: LTP=2321.6, Trend=True
+2025-05-22 14:09:59.831650 - Cycle: HINDUNILVR | LTP=2321.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:00.390330 - Supertrend Cycle: LTP=755.3, Trend=True
+2025-05-22 14:10:00.401278 - Cycle: HDFCLIFE | LTP=755.3, Pos=0, Buy=True, Sell=False
+2025-05-22 14:10:15.806763 - Supertrend Cycle: LTP=1715.9, Trend=True
+2025-05-22 14:10:15.806763 - Cycle: SUNPHARMA | LTP=1715.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:16.277744 - Supertrend Cycle: LTP=644.9, Trend=False
+2025-05-22 14:10:16.278915 - Cycle: HINDALCO | LTP=644.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:16.599856 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:10:16.599856 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:17.101224 - Supertrend Cycle: LTP=1401.7, Trend=False
+2025-05-22 14:10:17.102225 - Cycle: RELIANCE | LTP=1401.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:17.705918 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 14:10:17.705918 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:18.111637 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1219.8, PeakChange=0.11%, DropFromPeak=0.03%
+2025-05-22 14:10:18.113633 - Supertrend Cycle: LTP=1219.8, Trend=False
+2025-05-22 14:10:18.113633 - Cycle: DRREDDY | LTP=1219.8, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:10:18.738743 - Supertrend Cycle: LTP=2321.7, Trend=True
+2025-05-22 14:10:18.739752 - Cycle: HINDUNILVR | LTP=2321.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:19.372492 - Supertrend Cycle: LTP=755.15, Trend=True
+2025-05-22 14:10:19.373487 - Cycle: HDFCLIFE | LTP=755.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:34.879734 - Supertrend Cycle: LTP=1715.8, Trend=True
+2025-05-22 14:10:34.879734 - Cycle: SUNPHARMA | LTP=1715.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:35.315367 - Supertrend Cycle: LTP=645.05, Trend=False
+2025-05-22 14:10:35.316365 - Cycle: HINDALCO | LTP=645.05, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:35.906379 - Supertrend Cycle: LTP=1433.3, Trend=True
+2025-05-22 14:10:35.907376 - Cycle: ICICIBANK | LTP=1433.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:36.585714 - Supertrend Cycle: LTP=1401.1, Trend=False
+2025-05-22 14:10:36.585714 - Cycle: RELIANCE | LTP=1401.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:37.057919 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:10:37.058916 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:37.649476 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1219.9, PeakChange=0.11%, DropFromPeak=0.04%
+2025-05-22 14:10:37.650695 - Supertrend Cycle: LTP=1219.9, Trend=False
+2025-05-22 14:10:37.650695 - Cycle: DRREDDY | LTP=1219.9, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:10:38.193717 - Supertrend Cycle: LTP=2321.7, Trend=True
+2025-05-22 14:10:38.193717 - Cycle: HINDUNILVR | LTP=2321.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:38.630925 - Supertrend Cycle: LTP=755.3, Trend=True
+2025-05-22 14:10:38.630925 - Cycle: HDFCLIFE | LTP=755.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:54.194515 - Supertrend Cycle: LTP=1715.7, Trend=True
+2025-05-22 14:10:54.194515 - Cycle: SUNPHARMA | LTP=1715.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:54.640962 - Supertrend Cycle: LTP=645.0, Trend=False
+2025-05-22 14:10:54.640962 - Cycle: HINDALCO | LTP=645.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:55.200752 - Supertrend Cycle: LTP=1433.0, Trend=True
+2025-05-22 14:10:55.200752 - Cycle: ICICIBANK | LTP=1433.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:55.624904 - Supertrend Cycle: LTP=1401.5, Trend=False
+2025-05-22 14:10:55.624904 - Cycle: RELIANCE | LTP=1401.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:56.066974 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:10:56.066974 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:56.447505 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 14:10:56.447505 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 14:10:56.448503 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:10:57.049949 - Supertrend Cycle: LTP=2321.9, Trend=True
+2025-05-22 14:10:57.050949 - Cycle: HINDUNILVR | LTP=2321.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:10:57.657154 - Supertrend Cycle: LTP=755.45, Trend=True
+2025-05-22 14:10:57.658663 - Cycle: HDFCLIFE | LTP=755.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:13.261357 - Supertrend Cycle: LTP=1716.0, Trend=True
+2025-05-22 14:11:13.261357 - Cycle: SUNPHARMA | LTP=1716.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:13.726229 - Supertrend Cycle: LTP=645.1, Trend=False
+2025-05-22 14:11:13.727227 - Cycle: HINDALCO | LTP=645.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:14.132558 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:11:14.132558 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:14.707676 - Supertrend Cycle: LTP=1401.2, Trend=False
+2025-05-22 14:11:14.708673 - Cycle: RELIANCE | LTP=1401.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:15.383130 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:11:15.383130 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:15.811619 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.0, Current=1220.0, PeakChange=0.06%, DropFromPeak=0.00%
+2025-05-22 14:11:15.812788 - Supertrend Cycle: LTP=1220.0, Trend=False
+2025-05-22 14:11:15.813788 - Cycle: DRREDDY | LTP=1220.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:11:16.267286 - Supertrend Cycle: LTP=2321.9, Trend=True
+2025-05-22 14:11:16.267286 - Cycle: HINDUNILVR | LTP=2321.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:16.775932 - Supertrend Cycle: LTP=755.45, Trend=True
+2025-05-22 14:11:16.776930 - Cycle: HDFCLIFE | LTP=755.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:32.464204 - Supertrend Cycle: LTP=1716.1, Trend=True
+2025-05-22 14:11:32.465200 - Cycle: SUNPHARMA | LTP=1716.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:32.842672 - Supertrend Cycle: LTP=644.1, Trend=False
+2025-05-22 14:11:32.843668 - Cycle: HINDALCO | LTP=644.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:33.433284 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:11:33.433284 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:33.981032 - Supertrend Cycle: LTP=1401.5, Trend=False
+2025-05-22 14:11:33.981032 - Cycle: RELIANCE | LTP=1401.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:34.460589 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:11:34.461600 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:34.889942 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.0, Current=1220.7, PeakChange=0.06%, DropFromPeak=0.06%
+2025-05-22 14:11:34.890903 - Supertrend Cycle: LTP=1220.7, Trend=False
+2025-05-22 14:11:34.890903 - Cycle: DRREDDY | LTP=1220.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:11:35.368757 - Supertrend Cycle: LTP=2321.7, Trend=True
+2025-05-22 14:11:35.368757 - Cycle: HINDUNILVR | LTP=2321.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:35.868677 - Supertrend Cycle: LTP=755.5, Trend=True
+2025-05-22 14:11:35.868677 - Cycle: HDFCLIFE | LTP=755.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:51.350838 - Supertrend Cycle: LTP=1716.4, Trend=True
+2025-05-22 14:11:51.351836 - Cycle: SUNPHARMA | LTP=1716.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:51.726665 - Supertrend Cycle: LTP=644.45, Trend=False
+2025-05-22 14:11:51.727661 - Cycle: HINDALCO | LTP=644.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:52.295761 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:11:52.296759 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:52.828509 - Supertrend Cycle: LTP=1401.6, Trend=False
+2025-05-22 14:11:52.829520 - Cycle: RELIANCE | LTP=1401.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:53.370184 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 14:11:53.370184 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:53.830644 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.0, Current=1220.6, PeakChange=0.06%, DropFromPeak=0.05%
+2025-05-22 14:11:53.831640 - Supertrend Cycle: LTP=1220.6, Trend=False
+2025-05-22 14:11:53.831640 - Cycle: DRREDDY | LTP=1220.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:11:54.323186 - Supertrend Cycle: LTP=2321.9, Trend=True
+2025-05-22 14:11:54.323186 - Cycle: HINDUNILVR | LTP=2321.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:11:54.815438 - Supertrend Cycle: LTP=755.6, Trend=True
+2025-05-22 14:11:54.815438 - Cycle: HDFCLIFE | LTP=755.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:10.310273 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 14:12:10.310273 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:10.848510 - Supertrend Cycle: LTP=644.3, Trend=False
+2025-05-22 14:12:10.848510 - Cycle: HINDALCO | LTP=644.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:11.351596 - Supertrend Cycle: LTP=1434.1, Trend=True
+2025-05-22 14:12:11.351596 - Cycle: ICICIBANK | LTP=1434.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:11.901039 - Supertrend Cycle: LTP=1401.6, Trend=False
+2025-05-22 14:12:11.901039 - Cycle: RELIANCE | LTP=1401.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:12.437056 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:12:12.437056 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:12.805550 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.0, Current=1220.7, PeakChange=0.06%, DropFromPeak=0.06%
+2025-05-22 14:12:12.806546 - Supertrend Cycle: LTP=1220.7, Trend=False
+2025-05-22 14:12:12.806546 - Cycle: DRREDDY | LTP=1220.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:12:13.245958 - Supertrend Cycle: LTP=2322.5, Trend=True
+2025-05-22 14:12:13.246957 - Cycle: HINDUNILVR | LTP=2322.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:13.868614 - Supertrend Cycle: LTP=755.6, Trend=True
+2025-05-22 14:12:13.868614 - Cycle: HDFCLIFE | LTP=755.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:29.267097 - Supertrend Cycle: LTP=1717.6, Trend=True
+2025-05-22 14:12:29.268604 - Cycle: SUNPHARMA | LTP=1717.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:29.652191 - Supertrend Cycle: LTP=644.1, Trend=False
+2025-05-22 14:12:29.653153 - Cycle: HINDALCO | LTP=644.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:30.065124 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:12:30.065124 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:30.425277 - Supertrend Cycle: LTP=1402.3, Trend=False
+2025-05-22 14:12:30.425277 - Cycle: RELIANCE | LTP=1402.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:30.899078 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:12:30.900191 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:31.417017 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.9, Current=1220.9, PeakChange=-0.02%, DropFromPeak=0.00%
+2025-05-22 14:12:31.418523 - Supertrend Cycle: LTP=1220.9, Trend=False
+2025-05-22 14:12:31.418523 - Cycle: DRREDDY | LTP=1220.9, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:12:31.851793 - Supertrend Cycle: LTP=2322.4, Trend=True
+2025-05-22 14:12:31.851793 - Cycle: HINDUNILVR | LTP=2322.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:32.442905 - Supertrend Cycle: LTP=755.7, Trend=True
+2025-05-22 14:12:32.442905 - Cycle: HDFCLIFE | LTP=755.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:47.951208 - Supertrend Cycle: LTP=1717.3, Trend=True
+2025-05-22 14:12:47.952173 - Cycle: SUNPHARMA | LTP=1717.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:48.333646 - Supertrend Cycle: LTP=644.95, Trend=False
+2025-05-22 14:12:48.334644 - Cycle: HINDALCO | LTP=644.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:48.829585 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:12:48.829585 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:49.463784 - Supertrend Cycle: LTP=1401.8, Trend=False
+2025-05-22 14:12:49.464784 - Cycle: RELIANCE | LTP=1401.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:49.915673 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:12:49.915673 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:50.457733 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.5, Current=1221.5, PeakChange=-0.07%, DropFromPeak=0.00%
+2025-05-22 14:12:50.458730 - Supertrend Cycle: LTP=1221.5, Trend=False
+2025-05-22 14:12:50.458730 - Cycle: DRREDDY | LTP=1221.5, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:12:51.008592 - Supertrend Cycle: LTP=2322.4, Trend=True
+2025-05-22 14:12:51.008592 - Cycle: HINDUNILVR | LTP=2322.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:12:51.503802 - Supertrend Cycle: LTP=755.55, Trend=True
+2025-05-22 14:12:51.503802 - Cycle: HDFCLIFE | LTP=755.55, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:06.851683 - Supertrend Cycle: LTP=1717.1, Trend=True
+2025-05-22 14:13:06.851683 - Cycle: SUNPHARMA | LTP=1717.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:07.305178 - Supertrend Cycle: LTP=644.75, Trend=False
+2025-05-22 14:13:07.306145 - Cycle: HINDALCO | LTP=644.75, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:07.919750 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 14:13:07.919750 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:08.391608 - Supertrend Cycle: LTP=1402.0, Trend=False
+2025-05-22 14:13:08.392606 - Cycle: RELIANCE | LTP=1402.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:08.815967 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:13:08.816964 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:09.401336 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.6, Current=1221.6, PeakChange=-0.07%, DropFromPeak=0.00%
+2025-05-22 14:13:09.402298 - Supertrend Cycle: LTP=1221.6, Trend=False
+2025-05-22 14:13:09.402298 - Cycle: DRREDDY | LTP=1221.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:13:09.931621 - Supertrend Cycle: LTP=2322.3, Trend=True
+2025-05-22 14:13:09.932618 - Cycle: HINDUNILVR | LTP=2322.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:10.436410 - Supertrend Cycle: LTP=755.65, Trend=True
+2025-05-22 14:13:10.436410 - Cycle: HDFCLIFE | LTP=755.65, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:26.046632 - Supertrend Cycle: LTP=1716.9, Trend=True
+2025-05-22 14:13:26.047596 - Cycle: SUNPHARMA | LTP=1716.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:26.744916 - Supertrend Cycle: LTP=645.05, Trend=False
+2025-05-22 14:13:26.745915 - Cycle: HINDALCO | LTP=645.05, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:27.212756 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:13:27.213754 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:27.709034 - Supertrend Cycle: LTP=1402.0, Trend=False
+2025-05-22 14:13:27.710493 - Cycle: RELIANCE | LTP=1402.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:28.265146 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 14:13:28.266140 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:28.682096 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.1, Current=1221.1, PeakChange=-0.03%, DropFromPeak=0.00%
+2025-05-22 14:13:28.683094 - Supertrend Cycle: LTP=1221.1, Trend=False
+2025-05-22 14:13:28.683094 - Cycle: DRREDDY | LTP=1221.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:13:29.152170 - Supertrend Cycle: LTP=2323.6, Trend=True
+2025-05-22 14:13:29.152170 - Cycle: HINDUNILVR | LTP=2323.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:29.640680 - Supertrend Cycle: LTP=755.9, Trend=True
+2025-05-22 14:13:29.640680 - Cycle: HDFCLIFE | LTP=755.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:45.198528 - Supertrend Cycle: LTP=1717.0, Trend=True
+2025-05-22 14:13:45.198528 - Cycle: SUNPHARMA | LTP=1717.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:45.725198 - Supertrend Cycle: LTP=644.7, Trend=False
+2025-05-22 14:13:45.726196 - Cycle: HINDALCO | LTP=644.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:46.246751 - Supertrend Cycle: LTP=1433.8, Trend=True
+2025-05-22 14:13:46.246751 - Cycle: ICICIBANK | LTP=1433.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:46.834398 - Supertrend Cycle: LTP=1401.7, Trend=False
+2025-05-22 14:13:46.834398 - Cycle: RELIANCE | LTP=1401.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:47.340632 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 14:13:47.341630 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:48.012018 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.7, Current=1221.7, PeakChange=-0.08%, DropFromPeak=0.00%
+2025-05-22 14:13:48.012018 - Supertrend Cycle: LTP=1221.7, Trend=False
+2025-05-22 14:13:48.013020 - Cycle: DRREDDY | LTP=1221.7, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:13:48.626129 - Supertrend Cycle: LTP=2323.6, Trend=True
+2025-05-22 14:13:48.626129 - Cycle: HINDUNILVR | LTP=2323.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:13:49.082527 - Supertrend Cycle: LTP=755.8, Trend=True
+2025-05-22 14:13:49.082527 - Cycle: HDFCLIFE | LTP=755.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:04.684358 - Supertrend Cycle: LTP=1717.5, Trend=True
+2025-05-22 14:14:04.685356 - Cycle: SUNPHARMA | LTP=1717.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:05.174327 - Supertrend Cycle: LTP=644.7, Trend=False
+2025-05-22 14:14:05.175324 - Cycle: HINDALCO | LTP=644.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:05.655053 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:14:05.656051 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:06.213050 - Supertrend Cycle: LTP=1401.6, Trend=False
+2025-05-22 14:14:06.215045 - Cycle: RELIANCE | LTP=1401.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:06.676123 - Supertrend Cycle: LTP=1181.3, Trend=True
+2025-05-22 14:14:06.676123 - Cycle: AXISBANK | LTP=1181.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:07.176897 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.8, Current=1221.8, PeakChange=-0.09%, DropFromPeak=0.00%
+2025-05-22 14:14:07.176897 - Supertrend Cycle: LTP=1221.8, Trend=False
+2025-05-22 14:14:07.178404 - Cycle: DRREDDY | LTP=1221.8, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:14:07.669852 - Supertrend Cycle: LTP=2323.0, Trend=True
+2025-05-22 14:14:07.669852 - Cycle: HINDUNILVR | LTP=2323.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:08.186484 - Supertrend Cycle: LTP=756.0, Trend=True
+2025-05-22 14:14:08.187447 - Cycle: HDFCLIFE | LTP=756.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:23.605882 - Supertrend Cycle: LTP=1718.0, Trend=True
+2025-05-22 14:14:23.605882 - Cycle: SUNPHARMA | LTP=1718.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:24.045316 - Supertrend Cycle: LTP=645.1, Trend=False
+2025-05-22 14:14:24.045316 - Cycle: HINDALCO | LTP=645.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:24.352215 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:14:24.352215 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:24.781822 - Supertrend Cycle: LTP=1401.2, Trend=False
+2025-05-22 14:14:24.782820 - Cycle: RELIANCE | LTP=1401.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:25.303119 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 14:14:25.303119 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:25.937314 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.8, Current=1221.8, PeakChange=-0.09%, DropFromPeak=0.00%
+2025-05-22 14:14:25.937314 - Supertrend Cycle: LTP=1221.8, Trend=False
+2025-05-22 14:14:25.937314 - Cycle: DRREDDY | LTP=1221.8, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:14:26.471634 - Supertrend Cycle: LTP=2322.8, Trend=True
+2025-05-22 14:14:26.471634 - Cycle: HINDUNILVR | LTP=2322.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:26.885012 - Supertrend Cycle: LTP=756.0, Trend=True
+2025-05-22 14:14:26.885012 - Cycle: HDFCLIFE | LTP=756.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:42.296598 - Supertrend Cycle: LTP=1718.0, Trend=True
+2025-05-22 14:14:42.296598 - Cycle: SUNPHARMA | LTP=1718.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:42.944277 - Supertrend Cycle: LTP=645.1, Trend=False
+2025-05-22 14:14:42.945275 - Cycle: HINDALCO | LTP=645.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:43.444784 - Supertrend Cycle: LTP=1433.8, Trend=True
+2025-05-22 14:14:43.444784 - Cycle: ICICIBANK | LTP=1433.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:43.852860 - Supertrend Cycle: LTP=1402.2, Trend=False
+2025-05-22 14:14:43.852860 - Cycle: RELIANCE | LTP=1402.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:44.290243 - Supertrend Cycle: LTP=1196.5, Trend=True
+2025-05-22 14:14:44.291247 - Cycle: AXISBANK | LTP=1196.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:44.700513 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.9, Current=1221.9, PeakChange=-0.10%, DropFromPeak=0.00%
+2025-05-22 14:14:44.701516 - Supertrend Cycle: LTP=1221.9, Trend=False
+2025-05-22 14:14:44.701516 - Cycle: DRREDDY | LTP=1221.9, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:14:45.250306 - Supertrend Cycle: LTP=2324.7, Trend=True
+2025-05-22 14:14:45.251303 - Cycle: HINDUNILVR | LTP=2324.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:14:45.712022 - Supertrend Cycle: LTP=756.0, Trend=True
+2025-05-22 14:14:45.713020 - Cycle: HDFCLIFE | LTP=756.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:01.362851 - Supertrend Cycle: LTP=1718.2, Trend=True
+2025-05-22 14:15:01.363849 - Cycle: SUNPHARMA | LTP=1718.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:01.805480 - Supertrend Cycle: LTP=644.7, Trend=False
+2025-05-22 14:15:01.806476 - Cycle: HINDALCO | LTP=644.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:02.330391 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:15:02.331353 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:02.780789 - Supertrend Cycle: LTP=1402.0, Trend=False
+2025-05-22 14:15:02.781787 - Cycle: RELIANCE | LTP=1402.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:03.153445 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:15:03.153445 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:03.476896 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 14:15:03.476896 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 14:15:03.476896 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:15:03.882309 - Supertrend Cycle: LTP=2324.1, Trend=True
+2025-05-22 14:15:03.883306 - Cycle: HINDUNILVR | LTP=2324.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:04.336978 - Supertrend Cycle: LTP=755.95, Trend=True
+2025-05-22 14:15:04.338484 - Cycle: HDFCLIFE | LTP=755.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:19.713223 - Supertrend Cycle: LTP=1718.4, Trend=True
+2025-05-22 14:15:19.714186 - Cycle: SUNPHARMA | LTP=1718.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:20.120334 - Supertrend Cycle: LTP=644.9, Trend=False
+2025-05-22 14:15:20.121299 - Cycle: HINDALCO | LTP=644.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:20.523330 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:15:20.524331 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:20.877405 - Supertrend Cycle: LTP=1401.3, Trend=False
+2025-05-22 14:15:20.877405 - Cycle: RELIANCE | LTP=1401.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:21.377447 - Supertrend Cycle: LTP=1181.2, Trend=True
+2025-05-22 14:15:21.378447 - Cycle: AXISBANK | LTP=1181.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:21.750481 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 14:15:21.752475 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 14:15:21.753472 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:15:22.296522 - Supertrend Cycle: LTP=2322.4, Trend=True
+2025-05-22 14:15:22.296522 - Cycle: HINDUNILVR | LTP=2322.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:22.744210 - Supertrend Cycle: LTP=755.95, Trend=True
+2025-05-22 14:15:22.745209 - Cycle: HDFCLIFE | LTP=755.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:38.185329 - Supertrend Cycle: LTP=1719.1, Trend=True
+2025-05-22 14:15:38.186292 - Cycle: SUNPHARMA | LTP=1719.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:38.622694 - Supertrend Cycle: LTP=644.45, Trend=False
+2025-05-22 14:15:38.624691 - Cycle: HINDALCO | LTP=644.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:38.967298 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:15:38.967298 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:39.510177 - Supertrend Cycle: LTP=1401.3, Trend=False
+2025-05-22 14:15:39.511177 - Cycle: RELIANCE | LTP=1401.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:40.036181 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:15:40.036181 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:40.478212 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.6, Current=1221.6, PeakChange=-0.07%, DropFromPeak=0.00%
+2025-05-22 14:15:40.479219 - Supertrend Cycle: LTP=1221.6, Trend=False
+2025-05-22 14:15:40.479219 - Cycle: DRREDDY | LTP=1221.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:15:41.043159 - Supertrend Cycle: LTP=2322.8, Trend=True
+2025-05-22 14:15:41.043159 - Cycle: HINDUNILVR | LTP=2322.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:41.495528 - Supertrend Cycle: LTP=755.65, Trend=True
+2025-05-22 14:15:41.495528 - Cycle: HDFCLIFE | LTP=755.65, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:57.013910 - Supertrend Cycle: LTP=1719.1, Trend=True
+2025-05-22 14:15:57.013910 - Cycle: SUNPHARMA | LTP=1719.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:57.528315 - Supertrend Cycle: LTP=644.15, Trend=False
+2025-05-22 14:15:57.529679 - Cycle: HINDALCO | LTP=644.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:58.095765 - Supertrend Cycle: LTP=1434.3, Trend=True
+2025-05-22 14:15:58.096763 - Cycle: ICICIBANK | LTP=1434.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:58.513681 - Supertrend Cycle: LTP=1401.1, Trend=False
+2025-05-22 14:15:58.514680 - Cycle: RELIANCE | LTP=1401.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:58.891225 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:15:58.892219 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:15:59.279960 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 14:15:59.280956 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 14:15:59.280956 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:15:59.734257 - Supertrend Cycle: LTP=2321.1, Trend=True
+2025-05-22 14:15:59.735253 - Cycle: HINDUNILVR | LTP=2321.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:00.305163 - Supertrend Cycle: LTP=755.3, Trend=True
+2025-05-22 14:16:00.305163 - Cycle: HDFCLIFE | LTP=755.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:15.792478 - Supertrend Cycle: LTP=1718.0, Trend=True
+2025-05-22 14:16:15.792478 - Cycle: SUNPHARMA | LTP=1718.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:16.272347 - Supertrend Cycle: LTP=643.8, Trend=False
+2025-05-22 14:16:16.272347 - Cycle: HINDALCO | LTP=643.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:16.757142 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:16:16.758803 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:17.263630 - Supertrend Cycle: LTP=1400.8, Trend=False
+2025-05-22 14:16:17.263630 - Cycle: RELIANCE | LTP=1400.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:17.737915 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:16:17.737915 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:18.359986 - 🔍 DRREDDY - Entry=1220.7, Peak=1221.0, Current=1221.0, PeakChange=-0.02%, DropFromPeak=0.00%
+2025-05-22 14:16:18.360983 - Supertrend Cycle: LTP=1221.0, Trend=False
+2025-05-22 14:16:18.360983 - Cycle: DRREDDY | LTP=1221.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:16:18.898151 - Supertrend Cycle: LTP=2321.3, Trend=True
+2025-05-22 14:16:18.898151 - Cycle: HINDUNILVR | LTP=2321.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:19.328774 - Supertrend Cycle: LTP=754.5, Trend=True
+2025-05-22 14:16:19.328774 - Cycle: HDFCLIFE | LTP=754.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:34.777064 - Supertrend Cycle: LTP=1718.0, Trend=True
+2025-05-22 14:16:34.777064 - Cycle: SUNPHARMA | LTP=1718.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:35.254080 - Supertrend Cycle: LTP=644.1, Trend=False
+2025-05-22 14:16:35.254080 - Cycle: HINDALCO | LTP=644.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:35.640114 - Supertrend Cycle: LTP=1439.5, Trend=True
+2025-05-22 14:16:35.640114 - Cycle: ICICIBANK | LTP=1439.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:36.060727 - Supertrend Cycle: LTP=1400.9, Trend=False
+2025-05-22 14:16:36.061727 - Cycle: RELIANCE | LTP=1400.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:36.594096 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:16:36.595094 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:37.118149 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.2, Current=1219.2, PeakChange=0.12%, DropFromPeak=0.00%
+2025-05-22 14:16:37.119096 - Supertrend Cycle: LTP=1219.2, Trend=False
+2025-05-22 14:16:37.119096 - Cycle: DRREDDY | LTP=1219.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:16:37.589673 - Supertrend Cycle: LTP=2321.3, Trend=True
+2025-05-22 14:16:37.589673 - Cycle: HINDUNILVR | LTP=2321.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:37.980557 - Supertrend Cycle: LTP=754.45, Trend=True
+2025-05-22 14:16:37.980557 - Cycle: HDFCLIFE | LTP=754.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:53.464615 - Supertrend Cycle: LTP=1718.1, Trend=True
+2025-05-22 14:16:53.468120 - Cycle: SUNPHARMA | LTP=1718.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:54.018719 - Supertrend Cycle: LTP=643.85, Trend=False
+2025-05-22 14:16:54.018719 - Cycle: HINDALCO | LTP=643.85, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:54.620637 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:16:54.620637 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:55.109828 - Supertrend Cycle: LTP=1400.9, Trend=False
+2025-05-22 14:16:55.109828 - Cycle: RELIANCE | LTP=1400.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:55.568160 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:16:55.569171 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:56.003025 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.2, Current=1220.1, PeakChange=0.12%, DropFromPeak=0.07%
+2025-05-22 14:16:56.003025 - Supertrend Cycle: LTP=1220.1, Trend=False
+2025-05-22 14:16:56.004024 - Cycle: DRREDDY | LTP=1220.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:16:56.404141 - Supertrend Cycle: LTP=2348.0, Trend=False
+2025-05-22 14:16:56.404141 - Cycle: HINDUNILVR | LTP=2348.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:16:56.930731 - Supertrend Cycle: LTP=754.45, Trend=True
+2025-05-22 14:16:56.930731 - Cycle: HDFCLIFE | LTP=754.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:12.493059 - Supertrend Cycle: LTP=1718.0, Trend=True
+2025-05-22 14:17:12.493059 - Cycle: SUNPHARMA | LTP=1718.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:13.032058 - Supertrend Cycle: LTP=643.65, Trend=False
+2025-05-22 14:17:13.032058 - Cycle: HINDALCO | LTP=643.65, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:13.642030 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:17:13.643026 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:14.172879 - Supertrend Cycle: LTP=1401.1, Trend=False
+2025-05-22 14:17:14.172879 - Cycle: RELIANCE | LTP=1401.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:14.833523 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:17:14.834524 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:15.398069 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.8, Current=1220.8, PeakChange=-0.01%, DropFromPeak=0.00%
+2025-05-22 14:17:15.398069 - Supertrend Cycle: LTP=1220.8, Trend=False
+2025-05-22 14:17:15.399081 - Cycle: DRREDDY | LTP=1220.8, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:17:15.806835 - Supertrend Cycle: LTP=2320.1, Trend=True
+2025-05-22 14:17:15.806835 - Cycle: HINDUNILVR | LTP=2320.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:16.415179 - Supertrend Cycle: LTP=754.45, Trend=True
+2025-05-22 14:17:16.416176 - Cycle: HDFCLIFE | LTP=754.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:31.910205 - Supertrend Cycle: LTP=1717.3, Trend=True
+2025-05-22 14:17:31.911208 - Cycle: SUNPHARMA | LTP=1717.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:32.430306 - Supertrend Cycle: LTP=644.15, Trend=False
+2025-05-22 14:17:32.431303 - Cycle: HINDALCO | LTP=644.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:32.889437 - Supertrend Cycle: LTP=1433.9, Trend=True
+2025-05-22 14:17:32.890437 - Cycle: ICICIBANK | LTP=1433.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:33.309511 - Supertrend Cycle: LTP=1401.1, Trend=False
+2025-05-22 14:17:33.314506 - Cycle: RELIANCE | LTP=1401.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:33.652211 - Supertrend Cycle: LTP=1196.5, Trend=True
+2025-05-22 14:17:33.653209 - Cycle: AXISBANK | LTP=1196.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:34.234525 - 🔍 DRREDDY - Entry=1220.7, Peak=1220.8, Current=1220.8, PeakChange=-0.01%, DropFromPeak=0.00%
+2025-05-22 14:17:34.235521 - Supertrend Cycle: LTP=1220.8, Trend=False
+2025-05-22 14:17:34.235521 - Cycle: DRREDDY | LTP=1220.8, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:17:34.793165 - Supertrend Cycle: LTP=2320.1, Trend=True
+2025-05-22 14:17:34.794161 - Cycle: HINDUNILVR | LTP=2320.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:35.327931 - Supertrend Cycle: LTP=754.4, Trend=True
+2025-05-22 14:17:35.328961 - Cycle: HDFCLIFE | LTP=754.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:50.860592 - Supertrend Cycle: LTP=1717.6, Trend=True
+2025-05-22 14:17:50.861556 - Cycle: SUNPHARMA | LTP=1717.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:51.423341 - Supertrend Cycle: LTP=643.85, Trend=False
+2025-05-22 14:17:51.423341 - Cycle: HINDALCO | LTP=643.85, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:52.038568 - Supertrend Cycle: LTP=1433.8, Trend=True
+2025-05-22 14:17:52.039981 - Cycle: ICICIBANK | LTP=1433.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:52.505974 - Supertrend Cycle: LTP=1400.7, Trend=False
+2025-05-22 14:17:52.506970 - Cycle: RELIANCE | LTP=1400.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:52.912499 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:17:52.912499 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:53.298879 - 🔍 DRREDDY - Entry=1220.7, Peak=1223.1, Current=1223.1, PeakChange=-0.20%, DropFromPeak=0.00%
+2025-05-22 14:17:53.300065 - Supertrend Cycle: LTP=1223.1, Trend=True
+2025-05-22 14:17:53.302064 - Cycle: DRREDDY | LTP=1223.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:17:53.784188 - Supertrend Cycle: LTP=2319.5, Trend=True
+2025-05-22 14:17:53.785185 - Cycle: HINDUNILVR | LTP=2319.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:17:54.345042 - Supertrend Cycle: LTP=754.35, Trend=True
+2025-05-22 14:17:54.346040 - Cycle: HDFCLIFE | LTP=754.35, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:09.868991 - Supertrend Cycle: LTP=1716.6, Trend=True
+2025-05-22 14:18:09.868991 - Cycle: SUNPHARMA | LTP=1716.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:10.405958 - Supertrend Cycle: LTP=643.5, Trend=False
+2025-05-22 14:18:10.406957 - Cycle: HINDALCO | LTP=643.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:10.863418 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:18:10.864417 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:11.447859 - Supertrend Cycle: LTP=1400.7, Trend=False
+2025-05-22 14:18:11.447859 - Cycle: RELIANCE | LTP=1400.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:12.066282 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:18:12.066282 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:12.797873 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.6, Current=1219.6, PeakChange=0.09%, DropFromPeak=0.00%
+2025-05-22 14:18:12.799250 - Supertrend Cycle: LTP=1219.6, Trend=False
+2025-05-22 14:18:12.799250 - Cycle: DRREDDY | LTP=1219.6, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:18:13.405629 - Supertrend Cycle: LTP=2319.7, Trend=True
+2025-05-22 14:18:13.406625 - Cycle: HINDUNILVR | LTP=2319.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:13.838597 - Supertrend Cycle: LTP=754.0, Trend=True
+2025-05-22 14:18:13.839715 - Cycle: HDFCLIFE | LTP=754.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:29.441388 - Supertrend Cycle: LTP=1717.3, Trend=True
+2025-05-22 14:18:29.441388 - Cycle: SUNPHARMA | LTP=1717.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:30.150773 - Supertrend Cycle: LTP=643.75, Trend=False
+2025-05-22 14:18:30.152768 - Cycle: HINDALCO | LTP=643.75, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:30.793873 - Supertrend Cycle: LTP=1433.5, Trend=True
+2025-05-22 14:18:30.805357 - Cycle: ICICIBANK | LTP=1433.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:31.315484 - Supertrend Cycle: LTP=1400.7, Trend=False
+2025-05-22 14:18:31.315484 - Cycle: RELIANCE | LTP=1400.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:31.778308 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:18:31.778308 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:32.356037 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.6, Current=1220.0, PeakChange=0.09%, DropFromPeak=0.03%
+2025-05-22 14:18:32.357035 - Supertrend Cycle: LTP=1220.0, Trend=False
+2025-05-22 14:18:32.358033 - Cycle: DRREDDY | LTP=1220.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:18:32.919271 - Supertrend Cycle: LTP=2318.2, Trend=True
+2025-05-22 14:18:32.921272 - Cycle: HINDUNILVR | LTP=2318.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:33.661455 - Supertrend Cycle: LTP=754.1, Trend=True
+2025-05-22 14:18:33.662450 - Cycle: HDFCLIFE | LTP=754.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:49.335459 - Supertrend Cycle: LTP=1717.1, Trend=True
+2025-05-22 14:18:49.336457 - Cycle: SUNPHARMA | LTP=1717.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:49.826456 - Supertrend Cycle: LTP=643.7, Trend=False
+2025-05-22 14:18:49.827966 - Cycle: HINDALCO | LTP=643.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:50.240173 - Supertrend Cycle: LTP=1433.4, Trend=True
+2025-05-22 14:18:50.240173 - Cycle: ICICIBANK | LTP=1433.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:50.624532 - Supertrend Cycle: LTP=1424.5, Trend=False
+2025-05-22 14:18:50.624532 - Cycle: RELIANCE | LTP=1424.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:51.133118 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:18:51.134115 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:51.646236 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.6, Current=1220.4, PeakChange=0.09%, DropFromPeak=0.07%
+2025-05-22 14:18:51.646236 - Supertrend Cycle: LTP=1220.4, Trend=False
+2025-05-22 14:18:51.647743 - Cycle: DRREDDY | LTP=1220.4, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:18:52.098052 - Supertrend Cycle: LTP=2318.6, Trend=True
+2025-05-22 14:18:52.098052 - Cycle: HINDUNILVR | LTP=2318.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:18:52.491125 - Supertrend Cycle: LTP=754.1, Trend=True
+2025-05-22 14:18:52.492085 - Cycle: HDFCLIFE | LTP=754.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:08.031750 - Supertrend Cycle: LTP=1716.8, Trend=True
+2025-05-22 14:19:08.031750 - Cycle: SUNPHARMA | LTP=1716.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:08.513496 - Supertrend Cycle: LTP=643.75, Trend=False
+2025-05-22 14:19:08.514495 - Cycle: HINDALCO | LTP=643.75, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:08.969999 - Supertrend Cycle: LTP=1433.6, Trend=True
+2025-05-22 14:19:08.969999 - Cycle: ICICIBANK | LTP=1433.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:09.525868 - Supertrend Cycle: LTP=1400.3, Trend=False
+2025-05-22 14:19:09.527375 - Cycle: RELIANCE | LTP=1400.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:10.027891 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:19:10.027891 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:10.555764 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.6, Current=1220.5, PeakChange=0.09%, DropFromPeak=0.07%
+2025-05-22 14:19:10.556763 - Supertrend Cycle: LTP=1220.5, Trend=False
+2025-05-22 14:19:10.556763 - Cycle: DRREDDY | LTP=1220.5, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:19:11.062996 - Supertrend Cycle: LTP=2319.9, Trend=True
+2025-05-22 14:19:11.063959 - Cycle: HINDUNILVR | LTP=2319.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:11.580344 - Supertrend Cycle: LTP=753.9, Trend=True
+2025-05-22 14:19:11.581340 - Cycle: HDFCLIFE | LTP=753.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:27.192890 - Supertrend Cycle: LTP=1715.9, Trend=True
+2025-05-22 14:19:27.193888 - Cycle: SUNPHARMA | LTP=1715.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:27.893907 - Supertrend Cycle: LTP=643.45, Trend=False
+2025-05-22 14:19:27.894905 - Cycle: HINDALCO | LTP=643.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:28.294517 - Supertrend Cycle: LTP=1433.2, Trend=True
+2025-05-22 14:19:28.294517 - Cycle: ICICIBANK | LTP=1433.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:28.820835 - Supertrend Cycle: LTP=1400.0, Trend=False
+2025-05-22 14:19:28.820835 - Cycle: RELIANCE | LTP=1400.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:29.273880 - Supertrend Cycle: LTP=1180.6, Trend=True
+2025-05-22 14:19:29.273880 - Cycle: AXISBANK | LTP=1180.6, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:29.746285 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.4, Current=1219.4, PeakChange=0.11%, DropFromPeak=0.00%
+2025-05-22 14:19:29.747794 - Supertrend Cycle: LTP=1219.4, Trend=False
+2025-05-22 14:19:29.747794 - Cycle: DRREDDY | LTP=1219.4, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:19:30.209965 - Supertrend Cycle: LTP=2317.7, Trend=True
+2025-05-22 14:19:30.210965 - Cycle: HINDUNILVR | LTP=2317.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:30.790343 - Supertrend Cycle: LTP=753.15, Trend=True
+2025-05-22 14:19:30.791342 - Cycle: HDFCLIFE | LTP=753.15, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:46.582393 - Supertrend Cycle: LTP=1715.4, Trend=True
+2025-05-22 14:19:46.583389 - Cycle: SUNPHARMA | LTP=1715.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:47.106214 - Supertrend Cycle: LTP=643.4, Trend=False
+2025-05-22 14:19:47.106214 - Cycle: HINDALCO | LTP=643.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:47.566893 - Supertrend Cycle: LTP=1433.3, Trend=True
+2025-05-22 14:19:47.566893 - Cycle: ICICIBANK | LTP=1433.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:48.056523 - Supertrend Cycle: LTP=1399.4, Trend=False
+2025-05-22 14:19:48.058031 - Cycle: RELIANCE | LTP=1399.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:48.559932 - Supertrend Cycle: LTP=1180.7, Trend=True
+2025-05-22 14:19:48.560933 - Cycle: AXISBANK | LTP=1180.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:49.033801 - 🔍 DRREDDY - Entry=1220.7, Peak=1219.3, Current=1219.3, PeakChange=0.11%, DropFromPeak=0.00%
+2025-05-22 14:19:49.035225 - Supertrend Cycle: LTP=1219.3, Trend=False
+2025-05-22 14:19:49.036225 - Cycle: DRREDDY | LTP=1219.3, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:19:49.472452 - Supertrend Cycle: LTP=2317.7, Trend=True
+2025-05-22 14:19:49.472452 - Cycle: HINDUNILVR | LTP=2317.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:19:49.964396 - Supertrend Cycle: LTP=753.1, Trend=True
+2025-05-22 14:19:49.964396 - Cycle: HDFCLIFE | LTP=753.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:05.873144 - Supertrend Cycle: LTP=1715.7, Trend=True
+2025-05-22 14:20:05.874143 - Cycle: SUNPHARMA | LTP=1715.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:06.669436 - Supertrend Cycle: LTP=643.5, Trend=False
+2025-05-22 14:20:06.670442 - Cycle: HINDALCO | LTP=643.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:07.529653 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:20:07.529653 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:08.521657 - Supertrend Cycle: LTP=1399.4, Trend=False
+2025-05-22 14:20:08.522653 - Cycle: RELIANCE | LTP=1399.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:09.556479 - Supertrend Cycle: LTP=1180.7, Trend=True
+2025-05-22 14:20:09.562111 - Cycle: AXISBANK | LTP=1180.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:10.650227 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.2, Current=1218.2, PeakChange=0.20%, DropFromPeak=0.00%
+2025-05-22 14:20:10.650227 - Supertrend Cycle: LTP=1218.2, Trend=False
+2025-05-22 14:20:10.651225 - Cycle: DRREDDY | LTP=1218.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:20:13.099903 - Sell executed for HINDUNILVR at 2316.5
+2025-05-22 14:20:13.100906 - Supertrend Cycle: LTP=2316.5, Trend=False
+2025-05-22 14:20:13.101907 - Cycle: HINDUNILVR | LTP=2316.5, Pos=0, Buy=False, Sell=True
+2025-05-22 14:20:13.757593 - Supertrend Cycle: LTP=753.35, Trend=False
+2025-05-22 14:20:13.757593 - Cycle: HDFCLIFE | LTP=753.35, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:29.717987 - Supertrend Cycle: LTP=1715.4, Trend=True
+2025-05-22 14:20:29.722015 - Cycle: SUNPHARMA | LTP=1715.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:30.479038 - Supertrend Cycle: LTP=643.4, Trend=False
+2025-05-22 14:20:30.479038 - Cycle: HINDALCO | LTP=643.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:31.104206 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:20:31.105202 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:31.652778 - Supertrend Cycle: LTP=1399.1, Trend=False
+2025-05-22 14:20:31.653773 - Cycle: RELIANCE | LTP=1399.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:32.242249 - Supertrend Cycle: LTP=1180.3, Trend=True
+2025-05-22 14:20:32.243247 - Cycle: AXISBANK | LTP=1180.3, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:32.773688 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.1, Current=1218.1, PeakChange=0.21%, DropFromPeak=0.00%
+2025-05-22 14:20:32.775688 - Supertrend Cycle: LTP=1218.1, Trend=False
+2025-05-22 14:20:32.778374 - Cycle: DRREDDY | LTP=1218.1, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:20:33.503330 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2316.0, Current=2316.0, PeakChange=0.02%, DropFromPeak=0.00%
+2025-05-22 14:20:33.504322 - Supertrend Cycle: LTP=2316.0, Trend=False
+2025-05-22 14:20:33.505318 - Cycle: HINDUNILVR | LTP=2316.0, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:20:34.439283 - Supertrend Cycle: LTP=753.05, Trend=False
+2025-05-22 14:20:34.440279 - Cycle: HDFCLIFE | LTP=753.05, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:49.938397 - Supertrend Cycle: LTP=1715.1, Trend=True
+2025-05-22 14:20:49.938397 - Cycle: SUNPHARMA | LTP=1715.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:50.499104 - Supertrend Cycle: LTP=643.95, Trend=False
+2025-05-22 14:20:50.499104 - Cycle: HINDALCO | LTP=643.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:51.000994 - Supertrend Cycle: LTP=1434.5, Trend=True
+2025-05-22 14:20:51.001993 - Cycle: ICICIBANK | LTP=1434.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:51.504321 - Supertrend Cycle: LTP=1400.0, Trend=False
+2025-05-22 14:20:51.504321 - Cycle: RELIANCE | LTP=1400.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:52.092510 - Supertrend Cycle: LTP=1181.1, Trend=True
+2025-05-22 14:20:52.092510 - Cycle: AXISBANK | LTP=1181.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:20:52.586365 - 🔍 DRREDDY - Entry=1220.7, Peak=1218.0, Current=1218.0, PeakChange=0.22%, DropFromPeak=0.00%
+2025-05-22 14:20:52.586365 - Supertrend Cycle: LTP=1218.0, Trend=False
+2025-05-22 14:20:52.586365 - Cycle: DRREDDY | LTP=1218.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:20:53.070765 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2316.7, Current=2316.7, PeakChange=-0.01%, DropFromPeak=0.00%
+2025-05-22 14:20:53.070765 - Supertrend Cycle: LTP=2316.7, Trend=False
+2025-05-22 14:20:53.071760 - Cycle: HINDUNILVR | LTP=2316.7, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:20:53.547925 - Supertrend Cycle: LTP=753.4, Trend=False
+2025-05-22 14:20:53.547925 - Cycle: HDFCLIFE | LTP=753.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:09.139483 - Supertrend Cycle: LTP=1716.0, Trend=True
+2025-05-22 14:21:09.140483 - Cycle: SUNPHARMA | LTP=1716.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:09.588906 - Supertrend Cycle: LTP=644.05, Trend=False
+2025-05-22 14:21:09.589901 - Cycle: HINDALCO | LTP=644.05, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:10.049337 - Supertrend Cycle: LTP=1434.9, Trend=True
+2025-05-22 14:21:10.050337 - Cycle: ICICIBANK | LTP=1434.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:10.550447 - Supertrend Cycle: LTP=1399.9, Trend=False
+2025-05-22 14:21:10.550447 - Cycle: RELIANCE | LTP=1399.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:11.037499 - Supertrend Cycle: LTP=1181.5, Trend=True
+2025-05-22 14:21:11.037499 - Cycle: AXISBANK | LTP=1181.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:11.626515 - 🔍 DRREDDY - Entry=1220.7, Peak=1217.8, Current=1217.8, PeakChange=0.24%, DropFromPeak=0.00%
+2025-05-22 14:21:11.627902 - Supertrend Cycle: LTP=1217.8, Trend=False
+2025-05-22 14:21:11.628943 - Cycle: DRREDDY | LTP=1217.8, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:21:12.495902 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2315.9, Current=2315.9, PeakChange=0.03%, DropFromPeak=0.00%
+2025-05-22 14:21:12.496904 - Supertrend Cycle: LTP=2315.9, Trend=False
+2025-05-22 14:21:12.496904 - Cycle: HINDUNILVR | LTP=2315.9, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:21:13.014237 - Supertrend Cycle: LTP=753.45, Trend=False
+2025-05-22 14:21:13.014237 - Cycle: HDFCLIFE | LTP=753.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:28.454721 - Supertrend Cycle: LTP=1715.1, Trend=True
+2025-05-22 14:21:28.455719 - Cycle: SUNPHARMA | LTP=1715.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:28.886508 - Supertrend Cycle: LTP=643.75, Trend=False
+2025-05-22 14:21:28.887511 - Cycle: HINDALCO | LTP=643.75, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:29.488733 - Supertrend Cycle: LTP=1434.5, Trend=True
+2025-05-22 14:21:29.488733 - Cycle: ICICIBANK | LTP=1434.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:30.100795 - Supertrend Cycle: LTP=1399.8, Trend=False
+2025-05-22 14:21:30.101761 - Cycle: RELIANCE | LTP=1399.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:30.646628 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:21:30.646628 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:31.414021 - 🔹 DRREDDY - Trailing SL Updated to 1221.67 | Peak=1216.80
+2025-05-22 14:21:31.415019 - 🔍 DRREDDY - Entry=1220.7, Peak=1216.8, Current=1216.8, PeakChange=0.32%, DropFromPeak=0.00%
+2025-05-22 14:21:31.415019 - Supertrend Cycle: LTP=1216.8, Trend=False
+2025-05-22 14:21:31.416016 - Cycle: DRREDDY | LTP=1216.8, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:21:31.923456 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2317.4, Current=2317.4, PeakChange=-0.04%, DropFromPeak=0.00%
+2025-05-22 14:21:31.923456 - Supertrend Cycle: LTP=2317.4, Trend=False
+2025-05-22 14:21:31.923456 - Cycle: HINDUNILVR | LTP=2317.4, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:21:32.499324 - Supertrend Cycle: LTP=753.45, Trend=False
+2025-05-22 14:21:32.500323 - Cycle: HDFCLIFE | LTP=753.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:47.983516 - Supertrend Cycle: LTP=1714.7, Trend=True
+2025-05-22 14:21:47.983516 - Cycle: SUNPHARMA | LTP=1714.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:48.436942 - Supertrend Cycle: LTP=643.85, Trend=False
+2025-05-22 14:21:48.438451 - Cycle: HINDALCO | LTP=643.85, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:48.929736 - Supertrend Cycle: LTP=1433.8, Trend=True
+2025-05-22 14:21:48.930737 - Cycle: ICICIBANK | LTP=1433.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:49.422351 - Supertrend Cycle: LTP=1398.8, Trend=False
+2025-05-22 14:21:49.422351 - Cycle: RELIANCE | LTP=1398.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:49.862534 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 14:21:49.863561 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:21:50.440657 - 🔹 DRREDDY - Trailing SL Updated to 1220.86 | Peak=1216.00
+2025-05-22 14:21:50.441623 - 🔍 DRREDDY - Entry=1220.7, Peak=1216.0, Current=1216.0, PeakChange=0.39%, DropFromPeak=0.00%
+2025-05-22 14:21:50.441623 - Supertrend Cycle: LTP=1216.0, Trend=False
+2025-05-22 14:21:50.442619 - Cycle: DRREDDY | LTP=1216.0, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:21:50.904865 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2318.4, Current=2318.4, PeakChange=-0.08%, DropFromPeak=0.00%
+2025-05-22 14:21:50.905832 - Supertrend Cycle: LTP=2318.4, Trend=False
+2025-05-22 14:21:50.905832 - Cycle: HINDUNILVR | LTP=2318.4, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:21:51.464605 - Supertrend Cycle: LTP=753.45, Trend=False
+2025-05-22 14:21:51.464605 - Cycle: HDFCLIFE | LTP=753.45, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:06.966128 - Supertrend Cycle: LTP=1713.8, Trend=True
+2025-05-22 14:22:06.967125 - Cycle: SUNPHARMA | LTP=1713.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:07.443665 - Supertrend Cycle: LTP=643.95, Trend=False
+2025-05-22 14:22:07.443665 - Cycle: HINDALCO | LTP=643.95, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:07.975095 - Supertrend Cycle: LTP=1432.8, Trend=True
+2025-05-22 14:22:07.976092 - Cycle: ICICIBANK | LTP=1432.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:08.494157 - Supertrend Cycle: LTP=1399.7, Trend=False
+2025-05-22 14:22:08.495155 - Cycle: RELIANCE | LTP=1399.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:08.993442 - Supertrend Cycle: LTP=1180.9, Trend=True
+2025-05-22 14:22:08.994413 - Cycle: AXISBANK | LTP=1180.9, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:09.539296 - 🔹 DRREDDY - Trailing SL Updated to 1220.06 | Peak=1215.20
+2025-05-22 14:22:09.539296 - 🔍 DRREDDY - Entry=1220.7, Peak=1215.2, Current=1215.2, PeakChange=0.45%, DropFromPeak=0.00%
+2025-05-22 14:22:09.540297 - Supertrend Cycle: LTP=1215.2, Trend=False
+2025-05-22 14:22:09.540297 - Cycle: DRREDDY | LTP=1215.2, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:22:09.974027 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2317.7, Current=2317.7, PeakChange=-0.05%, DropFromPeak=0.00%
+2025-05-22 14:22:09.975023 - Supertrend Cycle: LTP=2317.7, Trend=False
+2025-05-22 14:22:09.975023 - Cycle: HINDUNILVR | LTP=2317.7, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:22:10.522725 - Supertrend Cycle: LTP=753.4, Trend=False
+2025-05-22 14:22:10.522725 - Cycle: HDFCLIFE | LTP=753.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:26.090498 - Supertrend Cycle: LTP=1714.7, Trend=True
+2025-05-22 14:22:26.091498 - Cycle: SUNPHARMA | LTP=1714.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:26.539216 - Supertrend Cycle: LTP=644.1, Trend=False
+2025-05-22 14:22:26.539216 - Cycle: HINDALCO | LTP=644.1, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:27.074132 - Supertrend Cycle: LTP=1433.7, Trend=True
+2025-05-22 14:22:27.075130 - Cycle: ICICIBANK | LTP=1433.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:27.561575 - Supertrend Cycle: LTP=1399.5, Trend=False
+2025-05-22 14:22:27.562573 - Cycle: RELIANCE | LTP=1399.5, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:28.019251 - Supertrend Cycle: LTP=1181.0, Trend=True
+2025-05-22 14:22:28.019251 - Cycle: AXISBANK | LTP=1181.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:28.614436 - 🔍 DRREDDY - Entry=1220.7, Peak=1215.2, Current=1215.4, PeakChange=0.45%, DropFromPeak=0.02%
+2025-05-22 14:22:28.615437 - Supertrend Cycle: LTP=1215.4, Trend=False
+2025-05-22 14:22:28.615437 - Cycle: DRREDDY | LTP=1215.4, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:22:29.073097 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2317.5, Current=2317.5, PeakChange=-0.04%, DropFromPeak=0.00%
+2025-05-22 14:22:29.074095 - Supertrend Cycle: LTP=2317.5, Trend=False
+2025-05-22 14:22:29.074095 - Cycle: HINDUNILVR | LTP=2317.5, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:22:29.562091 - Supertrend Cycle: LTP=753.2, Trend=False
+2025-05-22 14:22:29.563089 - Cycle: HDFCLIFE | LTP=753.2, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:45.049337 - Supertrend Cycle: LTP=1713.7, Trend=True
+2025-05-22 14:22:45.049337 - Cycle: SUNPHARMA | LTP=1713.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:45.617047 - Supertrend Cycle: LTP=643.8, Trend=False
+2025-05-22 14:22:45.617047 - Cycle: HINDALCO | LTP=643.8, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:46.118704 - Supertrend Cycle: LTP=1434.0, Trend=True
+2025-05-22 14:22:46.118704 - Cycle: ICICIBANK | LTP=1434.0, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:46.564761 - Supertrend Cycle: LTP=1400.7, Trend=False
+2025-05-22 14:22:46.565758 - Cycle: RELIANCE | LTP=1400.7, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:47.118481 - Supertrend Cycle: LTP=1181.4, Trend=True
+2025-05-22 14:22:47.119527 - Cycle: AXISBANK | LTP=1181.4, Pos=0, Buy=False, Sell=False
+2025-05-22 14:22:47.655602 - 🔍 DRREDDY - Entry=1220.7, Peak=1215.2, Current=1215.5, PeakChange=0.45%, DropFromPeak=0.02%
+2025-05-22 14:22:47.656599 - Supertrend Cycle: LTP=1215.5, Trend=False
+2025-05-22 14:22:47.657595 - Cycle: DRREDDY | LTP=1215.5, Pos=-5, Buy=False, Sell=False
+2025-05-22 14:22:48.167086 - 🔍 HINDUNILVR - Entry=2316.5, Peak=2317.4, Current=2317.4, PeakChange=-0.04%, DropFromPeak=0.00%
+2025-05-22 14:22:48.168595 - Supertrend Cycle: LTP=2317.4, Trend=False
+2025-05-22 14:22:48.168595 - Cycle: HINDUNILVR | LTP=2317.4, Pos=-5, Buy=False, Sell=True
+2025-05-22 14:22:48.703643 - Supertrend Cycle: LTP=753.05, Trend=False
+2025-05-22 14:22:48.705639 - Cycle: HDFCLIFE | LTP=753.05, Pos=0, Buy=False, Sell=False
+2025-05-22 14:23:04.504040 - Graceful shutdown invoked.

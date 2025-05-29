@@ -1,0 +1,17 @@
+2025-05-21 10:05:18.228569 - Amar's GCM Batch-1 Strategy started in LIVE mode.
+2025-05-21 10:05:18.228569 - ❌ Error: GLAND -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:05:18.228569 - ❌ Error: JUBLPHARMA -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:05:18.228569 - ❌ Error: TORNTPHARM -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:05:48.233792 - ❌ Error: GLAND -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:05:48.233792 - ❌ Error: JUBLPHARMA -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:05:48.233792 - ❌ Error: TORNTPHARM -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:06:18.255611 - ❌ Error: GLAND -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:06:18.255611 - ❌ Error: JUBLPHARMA -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:06:18.255611 - ❌ Error: TORNTPHARM -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:06:48.265352 - ❌ Error: GLAND -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:06:48.265352 - ❌ Error: JUBLPHARMA -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:06:48.265352 - ❌ Error: TORNTPHARM -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:07:18.284639 - ❌ Error: GLAND -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:07:18.284639 - ❌ Error: JUBLPHARMA -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:07:18.284639 - ❌ Error: TORNTPHARM -> 'api' object has no attribute 'get_ohlcv'
+2025-05-21 10:07:25.241148 - Graceful shutdown invoked.

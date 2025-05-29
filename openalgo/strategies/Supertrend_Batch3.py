@@ -36,7 +36,7 @@ with open("test_log.txt", "a") as f:
 # Configuration and Threshold Parameters
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Supertrend Python B3"
-symbols = ["BHARATFORG", "EUREKAFORB","DODLA"]
+symbols = ["INFY","SUMICHEM","GLENMARK"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
@@ -54,7 +54,7 @@ BOT_TOKEN = "7891610241:AAHcNW6faW2lZGrxeSaOZJ3lSggI-ehl-pg"
 CHAT_ID = "627470225"
 
 start_time = "09:20"
-end_time = "14:45"
+end_time = "23:45"
 
 LOG_FILE = f"logs/ST_B3_{datetime.now().strftime('%Y-%m-%d')}.txt"
 TRADE_LOG = f"logs/ST_B3_{datetime.now().strftime('%Y-%m-%d')}.csv"
@@ -84,9 +84,10 @@ def send_telegram(message):
 # Logs messages to both console and a timestamped log file
 # ----------------------------------------------------
 def log_message(msg):
-    print(msg)
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M')
+    print(f"{timestamp} ST B3 {msg}")
     with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(f"{datetime.now()} - {msg}\n")
+        f.write(f"[{timestamp}] [ST B3] {msg}\n")
 
 # ----------------------------------------------------
 # Function: add_indicators
@@ -170,8 +171,8 @@ def supertrend_strategy():
                                     end_date=datetime.now().strftime('%Y-%m-%d'))
                 
                 # Skip if data is missing or incomplete
-                if df.empty or not {'open', 'high', 'low', 'close', 'volume'}.issubset(df.columns):
-                    log_message(f"⚠️ No valid data for {symbol}, skipping...")
+                if not isinstance(df, pd.DataFrame) or df.empty or not {'open', 'high', 'low', 'close', 'volume'}.issubset(df.columns):
+                    log_message(f"⚠️ Invalid or empty data for {symbol}, skipping...")
                     continue
 
                  # Log the latest close and calculate indicators
@@ -192,13 +193,14 @@ def supertrend_strategy():
 
                 log_message(f"🔍 Signal Check {symbol}: LONG={long_signal}, SHORT={short_signal}, Volatility_OK={volatility_ok:.2f}, ATR={atr:.2f}")
                 
-                # Exit position if reverse signal occurs
+                # ✅ Trend Reversal Logic
                 if positions[symbol] > 0 and short_signal:
+                    log_message(f"🔁 Reversing LONG to SHORT: {symbol}")
                     place_exit(symbol, "long")
                 elif positions[symbol] < 0 and long_signal:
+                    log_message(f"🔁 Reversing SHORT to LONG: {symbol}")
                     place_exit(symbol, "short")
 
-                # Enter new position if none open and trade limit not exceeded
                 if positions[symbol] == 0 and trade_counts[symbol] < 2:
                     if long_signal:
                         res = client.placeorder(strategy=strategy, symbol=symbol, action="BUY",
@@ -233,6 +235,16 @@ def supertrend_strategy():
                         max_fav = current
                     max_favorable_price[symbol] = max(max_fav, current) if positions[symbol] > 0 else min(max_fav, current)
 
+                    # 🔁 Directional Reversal Exit based on Supertrend flip alone
+                    if positions[symbol] < 0 and supertrend_dir:
+                        log_message(f"🔁 Supertrend reversed to BULLISH while SHORT {symbol} — exiting.")
+                        place_exit(symbol, "short")
+                        continue
+                    elif positions[symbol] > 0 and not supertrend_dir:
+                        log_message(f"🔁 Supertrend reversed to BEARISH while LONG {symbol} — exiting.")
+                        place_exit(symbol, "long")
+                        continue
+
                     # Set static SL and target
                     tgt = entry * (1 + target_pct / 100) if positions[symbol] > 0 else entry * (1 - target_pct / 100)
                     sl = entry * (1 - stop_loss_pct / 100) if positions[symbol] > 0 else entry * (1 + stop_loss_pct / 100)
@@ -245,20 +257,25 @@ def supertrend_strategy():
 
                     log_message(f"⏳ Monitoring {symbol} | Entry: {entry:.2f} | LTP: {current:.2f} | Target: {tgt:.2f} | SL: {sl:.2f}")
 
-                    # Book partial profit if price moves 0.5% in your favor
-                    partial_target = entry * (1 + 0.5 / 100) if positions[symbol] > 0 else entry * (1 - 0.5 / 100)
-                    if not partial_booked[symbol] and ((positions[symbol] > 0 and current >= partial_target) or (positions[symbol] < 0 and current <= partial_target)):
-                        res = client.placeorder(strategy=strategy, symbol=symbol, action="SELL" if positions[symbol] > 0 else "BUY",
-                                                exchange=exchange, price_type="MARKET", product=product, quantity=quantity//2)
-                        log_message(f"💰 PARTIAL EXIT for {symbol}: {res}")
-                        send_telegram(f"PARTIAL EXIT {symbol}")
-                        positions[symbol] = positions[symbol] // 2
-                        partial_booked[symbol] = True
+                    # Better partial booking logic using max favorable price
+                    partial_target = entry * (1.005) if positions[symbol] > 0 else entry * (0.995)
+                    if not partial_booked[symbol]:
+                        if (positions[symbol] > 0 and max_fav >= partial_target) or (positions[symbol] < 0 and max_fav <= partial_target):
+                            # Partial exit logic
+                            res = client.placeorder(strategy=strategy, symbol=symbol, action="SELL" if positions[symbol] > 0 else "BUY",
+                                                    exchange=exchange, price_type="MARKET", product=product, quantity=quantity//2)
+                            log_message(f"💰 PARTIAL EXIT for {symbol}: {res}")
+                            send_telegram(f"PARTIAL EXIT {symbol}")
+                            positions[symbol] = positions[symbol] // 2
+                            partial_booked[symbol] = True
 
-                    # Exit if price hits final SL or target
-                    if (positions[symbol] > 0 and (current >= tgt or current <= sl)) or \
-                       (positions[symbol] < 0 and (current <= tgt or current >= sl)):
-                        place_exit(symbol, "long" if positions[symbol] > 0 else "short")
+                        # Exit if momentum weakens even without a full reverse signal
+                        if positions[symbol] > 0 and (rsi < 45 or adx < 10 or current < vwap):
+                            log_message(f"⚠️ Weakening LONG in {symbol} - RSI: {rsi:.2f}, ADX: {adx:.2f}, VWAP: {vwap:.2f}, Close: {current:.2f}")
+                            place_exit(symbol, "long")
+                        elif positions[symbol] < 0 and (rsi > 55 or adx < 10 or current > vwap):
+                            log_message(f"⚠️ Weakening SHORT in {symbol} - RSI: {rsi:.2f}, ADX: {adx:.2f}, VWAP: {vwap:.2f}, Close: {current:.2f}")
+                            place_exit(symbol, "short")
 
                     # Time-based exit after 15 minutes if price stagnant
                     if entry_times[symbol] and datetime.now() - entry_times[symbol] > timedelta(minutes=15):

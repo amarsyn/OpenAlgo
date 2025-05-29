@@ -1,0 +1,556 @@
+[2025-05-27 09:28] [ST B3] Amar's Supertrend Batch-3 Strategy started in LIVE mode.
+[2025-05-27 09:28] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:28] [ST B3] 📊 Data fetched for RELIANCE, latest close=1420.1
+[2025-05-27 09:28] [ST B3] 🧪 RELIANCE ST=False, RSI=16.88, ADX=27.44, VWAP=1418.29, Close=1420.10, PrevHigh=1425.00, PrevLow=1418.10
+[2025-05-27 09:28] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.63
+[2025-05-27 09:28] [ST B3] 📊 Data fetched for AXISBANK, latest close=1198.9
+[2025-05-27 09:28] [ST B3] 🧪 AXISBANK ST=False, RSI=11.37, ADX=22.59, VWAP=1201.18, Close=1198.90, PrevHigh=1205.60, PrevLow=1199.00
+[2025-05-27 09:28] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.53
+[2025-05-27 09:28] [ST B3] 🔻 SHORT AXISBANK: {'orderid': '112505276592', 'status': 'success'}
+[2025-05-27 09:28] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1198.90 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:28] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:28] [ST B3] 📊 Data fetched for RELIANCE, latest close=1420.4
+[2025-05-27 09:28] [ST B3] 🧪 RELIANCE ST=False, RSI=18.01, ADX=27.44, VWAP=1418.29, Close=1420.40, PrevHigh=1425.00, PrevLow=1418.10
+[2025-05-27 09:28] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.63
+[2025-05-27 09:28] [ST B3] 📊 Data fetched for AXISBANK, latest close=1198.4
+[2025-05-27 09:28] [ST B3] 🧪 AXISBANK ST=False, RSI=11.08, ADX=22.59, VWAP=1201.18, Close=1198.40, PrevHigh=1205.60, PrevLow=1199.00
+[2025-05-27 09:28] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.53
+[2025-05-27 09:28] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1198.40 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:29] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:29] [ST B3] 📊 Data fetched for RELIANCE, latest close=1420.9
+[2025-05-27 09:29] [ST B3] 🧪 RELIANCE ST=False, RSI=19.82, ADX=27.44, VWAP=1418.30, Close=1420.90, PrevHigh=1425.00, PrevLow=1418.10
+[2025-05-27 09:29] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.63
+[2025-05-27 09:29] [ST B3] 📊 Data fetched for AXISBANK, latest close=1198.9
+[2025-05-27 09:29] [ST B3] 🧪 AXISBANK ST=False, RSI=11.37, ADX=22.59, VWAP=1201.18, Close=1198.90, PrevHigh=1205.60, PrevLow=1199.00
+[2025-05-27 09:29] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.53
+[2025-05-27 09:29] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1198.90 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:29] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:29] [ST B3] 📊 Data fetched for RELIANCE, latest close=1420.4
+[2025-05-27 09:29] [ST B3] 🧪 RELIANCE ST=False, RSI=18.01, ADX=27.44, VWAP=1418.29, Close=1420.40, PrevHigh=1425.00, PrevLow=1418.10
+[2025-05-27 09:29] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.63
+[2025-05-27 09:29] [ST B3] 📊 Data fetched for AXISBANK, latest close=1197.3
+[2025-05-27 09:29] [ST B3] 🧪 AXISBANK ST=False, RSI=10.48, ADX=26.94, VWAP=1201.17, Close=1197.30, PrevHigh=1201.30, PrevLow=1197.30
+[2025-05-27 09:29] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.41
+[2025-05-27 09:29] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1197.30 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:30] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:30] [ST B3] 📊 Data fetched for RELIANCE, latest close=1419.7
+[2025-05-27 09:30] [ST B3] 🧪 RELIANCE ST=False, RSI=17.42, ADX=30.87, VWAP=1418.30, Close=1419.70, PrevHigh=1421.50, PrevLow=1419.00
+[2025-05-27 09:30] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.52
+[2025-05-27 09:30] [ST B3] 📊 Data fetched for AXISBANK, latest close=1196.3
+[2025-05-27 09:30] [ST B3] 🧪 AXISBANK ST=False, RSI=9.95, ADX=27.03, VWAP=1201.16, Close=1196.30, PrevHigh=1201.30, PrevLow=1197.30
+[2025-05-27 09:30] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.51
+[2025-05-27 09:30] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1196.30 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:31] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:31] [ST B3] 📊 Data fetched for RELIANCE, latest close=1420.2
+[2025-05-27 09:31] [ST B3] 🧪 RELIANCE ST=False, RSI=17.84, ADX=30.87, VWAP=1418.30, Close=1420.20, PrevHigh=1421.50, PrevLow=1419.00
+[2025-05-27 09:31] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.54
+[2025-05-27 09:31] [ST B3] 📊 Data fetched for AXISBANK, latest close=1196.5
+[2025-05-27 09:31] [ST B3] 🧪 AXISBANK ST=False, RSI=10.05, ADX=27.03, VWAP=1201.16, Close=1196.50, PrevHigh=1201.30, PrevLow=1197.30
+[2025-05-27 09:31] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.51
+[2025-05-27 09:31] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1196.50 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:31] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:31] [ST B3] 📊 Data fetched for RELIANCE, latest close=1421.0
+[2025-05-27 09:31] [ST B3] 🧪 RELIANCE ST=False, RSI=20.33, ADX=30.87, VWAP=1418.30, Close=1421.00, PrevHigh=1421.50, PrevLow=1419.00
+[2025-05-27 09:31] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.60
+[2025-05-27 09:31] [ST B3] 📊 Data fetched for AXISBANK, latest close=1196.7
+[2025-05-27 09:31] [ST B3] 🧪 AXISBANK ST=False, RSI=10.16, ADX=27.03, VWAP=1201.16, Close=1196.70, PrevHigh=1201.30, PrevLow=1197.30
+[2025-05-27 09:31] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.53
+[2025-05-27 09:31] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1196.70 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:32] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 09:32] [ST B3] 📊 Data fetched for RELIANCE, latest close=1421.1
+[2025-05-27 09:32] [ST B3] 🧪 RELIANCE ST=False, RSI=20.71, ADX=30.74, VWAP=1418.30, Close=1421.10, PrevHigh=1421.50, PrevLow=1419.00
+[2025-05-27 09:32] [ST B3] 🔍 Signal Check RELIANCE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.63
+[2025-05-27 09:32] [ST B3] 📊 Data fetched for AXISBANK, latest close=1196.8
+[2025-05-27 09:32] [ST B3] 🧪 AXISBANK ST=False, RSI=10.21, ADX=27.03, VWAP=1201.15, Close=1196.80, PrevHigh=1201.30, PrevLow=1197.30
+[2025-05-27 09:32] [ST B3] 🔍 Signal Check AXISBANK: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=2.53
+[2025-05-27 09:32] [ST B3] ⏳ Monitoring AXISBANK | Entry: 1198.90 | LTP: 1196.80 | Target: 1150.94 | SL: 1222.88
+[2025-05-27 09:32] [ST B3] Graceful shutdown invoked.
+[2025-05-27 10:06] [ST B3] Amar's Supertrend Batch-3 Strategy started in LIVE mode.
+[2025-05-27 10:06] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:06] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.15
+[2025-05-27 10:06] [ST B3] 🧪 HDFCLIFE ST=False, RSI=27.12, ADX=31.07, VWAP=771.66, Close=773.15, PrevHigh=773.30, PrevLow=772.25
+[2025-05-27 10:06] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.79
+[2025-05-27 10:06] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4320.0
+[2025-05-27 10:06] [ST B3] 🧪 HEROMOTOCO ST=True, RSI=31.13, ADX=43.35, VWAP=4327.87, Close=4320.00, PrevHigh=4311.90, PrevLow=4300.00
+[2025-05-27 10:06] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=11.79
+[2025-05-27 10:07] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:07] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.2
+[2025-05-27 10:07] [ST B3] 🧪 HDFCLIFE ST=False, RSI=27.47, ADX=31.01, VWAP=771.66, Close=773.20, PrevHigh=773.30, PrevLow=772.25
+[2025-05-27 10:07] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.79
+[2025-05-27 10:07] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4318.6
+[2025-05-27 10:07] [ST B3] 🧪 HEROMOTOCO ST=True, RSI=29.64, ADX=43.35, VWAP=4327.87, Close=4318.60, PrevHigh=4311.90, PrevLow=4300.00
+[2025-05-27 10:07] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=11.79
+[2025-05-27 10:07] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:07] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.0
+[2025-05-27 10:07] [ST B3] 🧪 HDFCLIFE ST=False, RSI=26.07, ADX=31.01, VWAP=771.66, Close=773.00, PrevHigh=773.30, PrevLow=772.25
+[2025-05-27 10:07] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.79
+[2025-05-27 10:07] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4319.6
+[2025-05-27 10:07] [ST B3] 🧪 HEROMOTOCO ST=True, RSI=30.71, ADX=43.35, VWAP=4327.87, Close=4319.60, PrevHigh=4311.90, PrevLow=4300.00
+[2025-05-27 10:07] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=11.79
+[2025-05-27 10:08] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:08] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.35
+[2025-05-27 10:08] [ST B3] 🧪 HDFCLIFE ST=False, RSI=28.49, ADX=31.01, VWAP=771.66, Close=773.35, PrevHigh=773.30, PrevLow=772.25
+[2025-05-27 10:08] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.79
+[2025-05-27 10:08] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4318.1
+[2025-05-27 10:08] [ST B3] 🧪 HEROMOTOCO ST=True, RSI=29.09, ADX=43.35, VWAP=4327.86, Close=4318.10, PrevHigh=4311.90, PrevLow=4300.00
+[2025-05-27 10:08] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=11.79
+[2025-05-27 10:08] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:08] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.4
+[2025-05-27 10:08] [ST B3] 🧪 HDFCLIFE ST=False, RSI=28.82, ADX=30.52, VWAP=771.66, Close=773.40, PrevHigh=773.30, PrevLow=772.25
+[2025-05-27 10:08] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.82
+[2025-05-27 10:08] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4318.4
+[2025-05-27 10:08] [ST B3] 🧪 HEROMOTOCO ST=True, RSI=29.42, ADX=43.35, VWAP=4327.86, Close=4318.40, PrevHigh=4311.90, PrevLow=4300.00
+[2025-05-27 10:08] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=11.79
+[2025-05-27 10:09] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:09] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.95
+[2025-05-27 10:09] [ST B3] 🧪 HDFCLIFE ST=False, RSI=32.29, ADX=30.24, VWAP=771.66, Close=773.95, PrevHigh=773.30, PrevLow=772.25
+[2025-05-27 10:09] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.84
+[2025-05-27 10:09] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4308.2
+[2025-05-27 10:09] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=17.56, ADX=43.35, VWAP=4327.79, Close=4308.20, PrevHigh=4311.90, PrevLow=4300.00
+[2025-05-27 10:09] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.79
+[2025-05-27 10:09] [ST B3] 🔻 SHORT HEROMOTOCO: {'orderid': '6125052714342', 'status': 'success'}
+[2025-05-27 10:09] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4308.20 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:09] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:09] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.85
+[2025-05-27 10:09] [ST B3] 🧪 HDFCLIFE ST=False, RSI=31.69, ADX=30.24, VWAP=771.66, Close=773.85, PrevHigh=773.30, PrevLow=772.25
+[2025-05-27 10:09] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.84
+[2025-05-27 10:09] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4306.3
+[2025-05-27 10:09] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=16.99, ADX=43.35, VWAP=4327.77, Close=4306.30, PrevHigh=4311.90, PrevLow=4300.00
+[2025-05-27 10:09] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.91
+[2025-05-27 10:09] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4306.30 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:10] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:10] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.1
+[2025-05-27 10:10] [ST B3] 🧪 HDFCLIFE ST=False, RSI=33.29, ADX=30.39, VWAP=771.66, Close=774.10, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:10] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.75
+[2025-05-27 10:10] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4305.2
+[2025-05-27 10:10] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=16.63, ADX=43.34, VWAP=4327.75, Close=4305.20, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:10] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.56
+[2025-05-27 10:10] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4305.20 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:10] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:10] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.1
+[2025-05-27 10:10] [ST B3] 🧪 HDFCLIFE ST=False, RSI=33.29, ADX=30.39, VWAP=771.66, Close=774.10, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:10] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.75
+[2025-05-27 10:10] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4301.1
+[2025-05-27 10:10] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=15.49, ADX=43.36, VWAP=4327.73, Close=4301.10, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:10] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.58
+[2025-05-27 10:10] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4301.10 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:11] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:11] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.9
+[2025-05-27 10:11] [ST B3] 🧪 HDFCLIFE ST=False, RSI=32.01, ADX=30.39, VWAP=771.66, Close=773.90, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:11] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.77
+[2025-05-27 10:11] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4302.5
+[2025-05-27 10:11] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=15.86, ADX=43.36, VWAP=4327.71, Close=4302.50, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:11] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.58
+[2025-05-27 10:11] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4302.50 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:11] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:11] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=775.15
+[2025-05-27 10:11] [ST B3] 🧪 HDFCLIFE ST=True, RSI=39.29, ADX=29.47, VWAP=771.66, Close=775.15, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:11] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.84
+[2025-05-27 10:11] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4303.6
+[2025-05-27 10:11] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=16.17, ADX=43.41, VWAP=4327.66, Close=4303.60, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:11] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.65
+[2025-05-27 10:11] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4303.60 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:12] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:12] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=775.2
+[2025-05-27 10:12] [ST B3] 🧪 HDFCLIFE ST=True, RSI=39.55, ADX=29.10, VWAP=771.66, Close=775.20, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:12] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.87
+[2025-05-27 10:12] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4301.8
+[2025-05-27 10:12] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=15.67, ADX=43.41, VWAP=4327.64, Close=4301.80, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:12] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.65
+[2025-05-27 10:12] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4301.80 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:12] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:12] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.9
+[2025-05-27 10:12] [ST B3] 🧪 HDFCLIFE ST=True, RSI=37.96, ADX=29.10, VWAP=771.66, Close=774.90, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:12] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.87
+[2025-05-27 10:12] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4303.2
+[2025-05-27 10:12] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=16.05, ADX=43.41, VWAP=4327.64, Close=4303.20, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:12] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.65
+[2025-05-27 10:12] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4303.20 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:13] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:13] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.2
+[2025-05-27 10:13] [ST B3] 🧪 HDFCLIFE ST=False, RSI=33.92, ADX=29.10, VWAP=771.66, Close=774.20, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:13] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.87
+[2025-05-27 10:13] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4304.5
+[2025-05-27 10:13] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=16.42, ADX=43.42, VWAP=4327.63, Close=4304.50, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:13] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.66
+[2025-05-27 10:13] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4304.50 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:13] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:13] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.8
+[2025-05-27 10:13] [ST B3] 🧪 HDFCLIFE ST=True, RSI=37.41, ADX=29.10, VWAP=771.66, Close=774.80, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:13] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.87
+[2025-05-27 10:13] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4307.2
+[2025-05-27 10:13] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=17.25, ADX=43.42, VWAP=4327.65, Close=4307.20, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:13] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.71
+[2025-05-27 10:13] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4307.20 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:14] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:14] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.25
+[2025-05-27 10:14] [ST B3] 🧪 HDFCLIFE ST=False, RSI=34.22, ADX=29.10, VWAP=771.67, Close=774.25, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:14] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.87
+[2025-05-27 10:14] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4307.0
+[2025-05-27 10:14] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=17.19, ADX=43.42, VWAP=4327.64, Close=4307.00, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:14] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.71
+[2025-05-27 10:14] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4307.00 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:14] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:14] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.7
+[2025-05-27 10:14] [ST B3] 🧪 HDFCLIFE ST=False, RSI=31.24, ADX=29.10, VWAP=771.67, Close=773.70, PrevHigh=774.05, PrevLow=772.45
+[2025-05-27 10:14] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.87
+[2025-05-27 10:14] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4302.8
+[2025-05-27 10:14] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=15.94, ADX=43.42, VWAP=4327.61, Close=4302.80, PrevHigh=4321.70, PrevLow=4305.00
+[2025-05-27 10:14] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.71
+[2025-05-27 10:14] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4302.80 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:15] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:15] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.8
+[2025-05-27 10:15] [ST B3] 🧪 HDFCLIFE ST=False, RSI=31.93, ADX=28.04, VWAP=771.67, Close=773.80, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:15] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.75
+[2025-05-27 10:15] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4302.8
+[2025-05-27 10:15] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=15.94, ADX=43.49, VWAP=4327.60, Close=4302.80, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:15] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.00
+[2025-05-27 10:15] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4302.80 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:15] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:15] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.75
+[2025-05-27 10:15] [ST B3] 🧪 HDFCLIFE ST=False, RSI=31.59, ADX=28.04, VWAP=771.67, Close=773.75, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:15] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.75
+[2025-05-27 10:15] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4303.6
+[2025-05-27 10:15] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=17.18, ADX=43.49, VWAP=4327.56, Close=4303.60, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:15] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.20
+[2025-05-27 10:15] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4303.60 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:16] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:16] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.85
+[2025-05-27 10:16] [ST B3] 🧪 HDFCLIFE ST=False, RSI=32.27, ADX=28.04, VWAP=771.67, Close=773.85, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:16] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.76
+[2025-05-27 10:16] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4302.4
+[2025-05-27 10:16] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=15.82, ADX=43.49, VWAP=4327.56, Close=4302.40, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:16] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.21
+[2025-05-27 10:16] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4302.40 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:16] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:16] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.75
+[2025-05-27 10:16] [ST B3] 🧪 HDFCLIFE ST=False, RSI=31.59, ADX=28.04, VWAP=771.67, Close=773.75, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:16] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.76
+[2025-05-27 10:16] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4301.8
+[2025-05-27 10:16] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=15.65, ADX=43.49, VWAP=4327.54, Close=4301.80, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:16] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.21
+[2025-05-27 10:16] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4301.80 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:17] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:17] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.6
+[2025-05-27 10:17] [ST B3] 🧪 HDFCLIFE ST=False, RSI=30.92, ADX=28.04, VWAP=771.67, Close=773.60, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:17] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.76
+[2025-05-27 10:17] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4305.0
+[2025-05-27 10:17] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=19.25, ADX=43.49, VWAP=4327.54, Close=4305.00, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:17] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.23
+[2025-05-27 10:17] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4305.00 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:17] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:17] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.5
+[2025-05-27 10:17] [ST B3] 🧪 HDFCLIFE ST=False, RSI=30.61, ADX=28.07, VWAP=771.67, Close=773.50, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:17] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.78
+[2025-05-27 10:17] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4307.5
+[2025-05-27 10:17] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=22.71, ADX=43.49, VWAP=4327.54, Close=4307.50, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:17] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.41
+[2025-05-27 10:17] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4307.50 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:18] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:18] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.55
+[2025-05-27 10:18] [ST B3] 🧪 HDFCLIFE ST=False, RSI=30.76, ADX=28.28, VWAP=771.67, Close=773.55, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:18] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.80
+[2025-05-27 10:18] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4305.4
+[2025-05-27 10:18] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=19.82, ADX=43.49, VWAP=4327.54, Close=4305.40, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:18] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.41
+[2025-05-27 10:18] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4305.40 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:18] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:18] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.5
+[2025-05-27 10:18] [ST B3] 🧪 HDFCLIFE ST=False, RSI=30.61, ADX=28.28, VWAP=771.67, Close=773.50, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:18] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.80
+[2025-05-27 10:18] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4306.9
+[2025-05-27 10:18] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=21.91, ADX=43.49, VWAP=4327.54, Close=4306.90, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:18] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.41
+[2025-05-27 10:18] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4306.90 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:19] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:19] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.25
+[2025-05-27 10:19] [ST B3] 🧪 HDFCLIFE ST=False, RSI=29.86, ADX=28.31, VWAP=771.67, Close=773.25, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:19] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.80
+[2025-05-27 10:19] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4306.1
+[2025-05-27 10:19] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=20.81, ADX=43.49, VWAP=4327.53, Close=4306.10, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:19] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.43
+[2025-05-27 10:19] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4306.10 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:19] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:19] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.9
+[2025-05-27 10:19] [ST B3] 🧪 HDFCLIFE ST=False, RSI=32.61, ADX=28.31, VWAP=771.67, Close=773.90, PrevHigh=775.90, PrevLow=773.55
+[2025-05-27 10:19] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.80
+[2025-05-27 10:20] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4310.5
+[2025-05-27 10:20] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=26.49, ADX=43.01, VWAP=4327.54, Close=4310.50, PrevHigh=4308.00, PrevLow=4300.10
+[2025-05-27 10:20] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.65
+[2025-05-27 10:20] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4310.50 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:20] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:20] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.0
+[2025-05-27 10:20] [ST B3] 🧪 HDFCLIFE ST=False, RSI=33.33, ADX=27.45, VWAP=771.67, Close=774.00, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:20] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.69
+[2025-05-27 10:20] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4307.6
+[2025-05-27 10:20] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=25.20, ADX=42.64, VWAP=4327.54, Close=4307.60, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:20] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.09
+[2025-05-27 10:20] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4307.60 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:21] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:21] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.1
+[2025-05-27 10:21] [ST B3] 🧪 HDFCLIFE ST=False, RSI=34.04, ADX=27.32, VWAP=771.67, Close=774.10, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:21] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.72
+[2025-05-27 10:21] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4302.5
+[2025-05-27 10:21] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=23.23, ADX=42.64, VWAP=4327.53, Close=4302.50, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:21] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.39
+[2025-05-27 10:21] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4302.50 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:21] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:21] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.85
+[2025-05-27 10:21] [ST B3] 🧪 HDFCLIFE ST=False, RSI=32.44, ADX=27.32, VWAP=771.67, Close=773.85, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:21] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.72
+[2025-05-27 10:21] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4304.6
+[2025-05-27 10:21] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=24.00, ADX=42.64, VWAP=4327.53, Close=4304.60, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:21] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.39
+[2025-05-27 10:21] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4304.60 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:22] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:22] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.75
+[2025-05-27 10:22] [ST B3] 🧪 HDFCLIFE ST=False, RSI=32.09, ADX=27.32, VWAP=771.67, Close=773.75, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:22] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.74
+[2025-05-27 10:22] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4304.6
+[2025-05-27 10:22] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=24.00, ADX=42.64, VWAP=4327.53, Close=4304.60, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:22] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.39
+[2025-05-27 10:22] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4304.60 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:22] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:22] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.7
+[2025-05-27 10:22] [ST B3] 🧪 HDFCLIFE ST=False, RSI=31.93, ADX=27.32, VWAP=771.67, Close=773.70, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:22] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.74
+[2025-05-27 10:22] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4302.7
+[2025-05-27 10:22] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=23.30, ADX=42.64, VWAP=4327.53, Close=4302.70, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:22] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.45
+[2025-05-27 10:22] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4302.70 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:23] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:23] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.35
+[2025-05-27 10:23] [ST B3] 🧪 HDFCLIFE ST=False, RSI=30.79, ADX=27.32, VWAP=771.67, Close=773.35, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:23] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.75
+[2025-05-27 10:23] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4304.0
+[2025-05-27 10:23] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=23.77, ADX=42.64, VWAP=4327.52, Close=4304.00, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:23] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.45
+[2025-05-27 10:23] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4304.00 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:23] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:23] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.35
+[2025-05-27 10:23] [ST B3] 🧪 HDFCLIFE ST=False, RSI=30.79, ADX=27.32, VWAP=771.67, Close=773.35, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:23] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.75
+[2025-05-27 10:23] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4306.8
+[2025-05-27 10:23] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=24.87, ADX=42.64, VWAP=4327.52, Close=4306.80, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:23] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.45
+[2025-05-27 10:23] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4306.80 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:24] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:24] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=772.9
+[2025-05-27 10:24] [ST B3] 🧪 HDFCLIFE ST=False, RSI=29.44, ADX=27.32, VWAP=771.67, Close=772.90, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:24] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.77
+[2025-05-27 10:24] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4307.9
+[2025-05-27 10:24] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=25.33, ADX=42.64, VWAP=4327.53, Close=4307.90, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:24] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.45
+[2025-05-27 10:24] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4307.90 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:24] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:24] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=772.95
+[2025-05-27 10:24] [ST B3] 🧪 HDFCLIFE ST=False, RSI=29.58, ADX=27.88, VWAP=771.67, Close=772.95, PrevHigh=774.00, PrevLow=773.10
+[2025-05-27 10:24] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.80
+[2025-05-27 10:24] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4306.2
+[2025-05-27 10:24] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=24.63, ADX=42.64, VWAP=4327.52, Close=4306.20, PrevHigh=4310.90, PrevLow=4300.00
+[2025-05-27 10:24] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.45
+[2025-05-27 10:24] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4308.20 | LTP: 4306.20 | Target: 4135.87 | SL: 4394.36
+[2025-05-27 10:24] [ST B3] ⏳ TIME-BASED EXIT HEROMOTOCO: price stagnant since entry
+[2025-05-27 10:24] [ST B3] 🔁 EXIT SHORT HEROMOTOCO at market: {'orderid': '4125052715702', 'status': 'success'}
+[2025-05-27 10:25] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:25] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.3
+[2025-05-27 10:25] [ST B3] 🧪 HDFCLIFE ST=False, RSI=30.62, ADX=27.48, VWAP=771.67, Close=773.30, PrevHigh=774.30, PrevLow=772.60
+[2025-05-27 10:25] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.67
+[2025-05-27 10:25] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4305.0
+[2025-05-27 10:25] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=24.15, ADX=42.28, VWAP=4327.52, Close=4305.00, PrevHigh=4309.90, PrevLow=4301.70
+[2025-05-27 10:25] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=10.65
+[2025-05-27 10:25] [ST B3] 🔻 SHORT HEROMOTOCO: {'orderid': '5125052715672', 'status': 'success'}
+[2025-05-27 10:25] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4305.00 | LTP: 4305.00 | Target: 4132.80 | SL: 4391.10
+[2025-05-27 10:25] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:25] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.1
+[2025-05-27 10:25] [ST B3] 🧪 HDFCLIFE ST=False, RSI=36.05, ADX=27.48, VWAP=771.67, Close=774.10, PrevHigh=774.30, PrevLow=772.60
+[2025-05-27 10:25] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.73
+[2025-05-27 10:25] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4310.0
+[2025-05-27 10:25] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=30.04, ADX=42.27, VWAP=4327.52, Close=4310.00, PrevHigh=4309.90, PrevLow=4301.70
+[2025-05-27 10:25] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=10.99
+[2025-05-27 10:25] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4305.00 | LTP: 4310.00 | Target: 4132.80 | SL: 4391.10
+[2025-05-27 10:26] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:26] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.05
+[2025-05-27 10:26] [ST B3] 🧪 HDFCLIFE ST=False, RSI=35.72, ADX=27.11, VWAP=771.67, Close=774.05, PrevHigh=774.30, PrevLow=772.60
+[2025-05-27 10:26] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.77
+[2025-05-27 10:26] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4312.8
+[2025-05-27 10:26] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=33.03, ADX=41.44, VWAP=4327.51, Close=4312.80, PrevHigh=4309.90, PrevLow=4301.70
+[2025-05-27 10:26] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.35
+[2025-05-27 10:26] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4305.00 | LTP: 4312.80 | Target: 4132.80 | SL: 4391.10
+[2025-05-27 10:26] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:26] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.95
+[2025-05-27 10:26] [ST B3] 🧪 HDFCLIFE ST=False, RSI=35.06, ADX=27.11, VWAP=771.67, Close=773.95, PrevHigh=774.30, PrevLow=772.60
+[2025-05-27 10:26] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.77
+[2025-05-27 10:26] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4314.8
+[2025-05-27 10:26] [ST B3] 🧪 HEROMOTOCO ST=True, RSI=35.02, ADX=41.44, VWAP=4327.51, Close=4314.80, PrevHigh=4309.90, PrevLow=4301.70
+[2025-05-27 10:26] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=11.35
+[2025-05-27 10:26] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4305.00 | LTP: 4314.80 | Target: 4132.80 | SL: 4391.10
+[2025-05-27 10:27] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:27] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=773.75
+[2025-05-27 10:27] [ST B3] 🧪 HDFCLIFE ST=False, RSI=33.70, ADX=27.11, VWAP=771.67, Close=773.75, PrevHigh=774.30, PrevLow=772.60
+[2025-05-27 10:27] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.77
+[2025-05-27 10:27] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4313.1
+[2025-05-27 10:27] [ST B3] 🧪 HEROMOTOCO ST=False, RSI=33.34, ADX=41.44, VWAP=4327.51, Close=4313.10, PrevHigh=4309.90, PrevLow=4301.70
+[2025-05-27 10:27] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=True, Volatility_OK=1.00, ATR=11.35
+[2025-05-27 10:27] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4305.00 | LTP: 4313.10 | Target: 4132.80 | SL: 4391.10
+[2025-05-27 10:27] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:27] [ST B3] 📊 Data fetched for HDFCLIFE, latest close=774.3
+[2025-05-27 10:27] [ST B3] 🧪 HDFCLIFE ST=False, RSI=37.32, ADX=27.11, VWAP=771.67, Close=774.30, PrevHigh=774.30, PrevLow=772.60
+[2025-05-27 10:27] [ST B3] 🔍 Signal Check HDFCLIFE: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=1.77
+[2025-05-27 10:27] [ST B3] 📊 Data fetched for HEROMOTOCO, latest close=4314.9
+[2025-05-27 10:27] [ST B3] 🧪 HEROMOTOCO ST=True, RSI=35.11, ADX=41.44, VWAP=4327.51, Close=4314.90, PrevHigh=4309.90, PrevLow=4301.70
+[2025-05-27 10:27] [ST B3] 🔍 Signal Check HEROMOTOCO: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=11.35
+[2025-05-27 10:27] [ST B3] ⏳ Monitoring HEROMOTOCO | Entry: 4305.00 | LTP: 4314.90 | Target: 4132.80 | SL: 4391.10
+[2025-05-27 10:27] [ST B3] Graceful shutdown invoked.
+[2025-05-27 10:32] [ST B3] Amar's Supertrend Batch-3 Strategy started in LIVE mode.
+[2025-05-27 10:32] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:32] [ST B3] 📊 Data fetched for INFY, latest close=1562.0
+[2025-05-27 10:32] [ST B3] 🧪 INFY ST=True, RSI=36.15, ADX=31.53, VWAP=1564.14, Close=1562.00, PrevHigh=1562.40, PrevLow=1560.50
+[2025-05-27 10:32] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.18
+[2025-05-27 10:32] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.15
+[2025-05-27 10:32] [ST B3] 🧪 SUMICHEM ST=True, RSI=29.72, ADX=46.12, VWAP=522.12, Close=509.15, PrevHigh=509.85, PrevLow=508.15
+[2025-05-27 10:32] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.47
+[2025-05-27 10:32] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.7
+[2025-05-27 10:32] [ST B3] 🧪 GLENMARK ST=True, RSI=44.41, ADX=13.94, VWAP=1406.63, Close=1382.70, PrevHigh=1383.90, PrevLow=1380.70
+[2025-05-27 10:32] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=4.09
+[2025-05-27 10:33] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:33] [ST B3] 📊 Data fetched for INFY, latest close=1562.4
+[2025-05-27 10:33] [ST B3] 🧪 INFY ST=True, RSI=37.16, ADX=31.53, VWAP=1564.14, Close=1562.40, PrevHigh=1562.40, PrevLow=1560.50
+[2025-05-27 10:33] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.18
+[2025-05-27 10:33] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.35
+[2025-05-27 10:33] [ST B3] 🧪 SUMICHEM ST=True, RSI=30.05, ADX=46.12, VWAP=522.12, Close=509.35, PrevHigh=509.85, PrevLow=508.15
+[2025-05-27 10:33] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.47
+[2025-05-27 10:33] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.8
+[2025-05-27 10:33] [ST B3] 🧪 GLENMARK ST=True, RSI=44.65, ADX=13.94, VWAP=1406.63, Close=1382.80, PrevHigh=1383.90, PrevLow=1380.70
+[2025-05-27 10:33] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=4.09
+[2025-05-27 10:33] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:33] [ST B3] 📊 Data fetched for INFY, latest close=1562.0
+[2025-05-27 10:33] [ST B3] 🧪 INFY ST=True, RSI=36.15, ADX=31.53, VWAP=1564.14, Close=1562.00, PrevHigh=1562.40, PrevLow=1560.50
+[2025-05-27 10:33] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.18
+[2025-05-27 10:33] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.25
+[2025-05-27 10:33] [ST B3] 🧪 SUMICHEM ST=True, RSI=29.88, ADX=46.12, VWAP=522.11, Close=509.25, PrevHigh=509.85, PrevLow=508.15
+[2025-05-27 10:33] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.47
+[2025-05-27 10:33] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.8
+[2025-05-27 10:33] [ST B3] 🧪 GLENMARK ST=True, RSI=44.65, ADX=13.94, VWAP=1406.63, Close=1382.80, PrevHigh=1383.90, PrevLow=1380.70
+[2025-05-27 10:33] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=4.09
+[2025-05-27 10:34] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:34] [ST B3] 📊 Data fetched for INFY, latest close=1562.0
+[2025-05-27 10:34] [ST B3] 🧪 INFY ST=True, RSI=36.15, ADX=31.53, VWAP=1564.14, Close=1562.00, PrevHigh=1562.40, PrevLow=1560.50
+[2025-05-27 10:34] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.18
+[2025-05-27 10:34] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.6
+[2025-05-27 10:34] [ST B3] 🧪 SUMICHEM ST=True, RSI=30.68, ADX=46.12, VWAP=522.09, Close=509.60, PrevHigh=509.85, PrevLow=508.15
+[2025-05-27 10:34] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.47
+[2025-05-27 10:34] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.8
+[2025-05-27 10:34] [ST B3] 🧪 GLENMARK ST=True, RSI=44.65, ADX=13.94, VWAP=1406.63, Close=1382.80, PrevHigh=1383.90, PrevLow=1380.70
+[2025-05-27 10:34] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=4.09
+[2025-05-27 10:34] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:34] [ST B3] 📊 Data fetched for INFY, latest close=1562.1
+[2025-05-27 10:34] [ST B3] 🧪 INFY ST=True, RSI=36.41, ADX=31.53, VWAP=1564.14, Close=1562.10, PrevHigh=1562.40, PrevLow=1560.50
+[2025-05-27 10:34] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.18
+[2025-05-27 10:34] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.7
+[2025-05-27 10:34] [ST B3] 🧪 SUMICHEM ST=True, RSI=31.06, ADX=46.12, VWAP=522.08, Close=509.70, PrevHigh=509.85, PrevLow=508.15
+[2025-05-27 10:34] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.47
+[2025-05-27 10:34] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.5
+[2025-05-27 10:34] [ST B3] 🧪 GLENMARK ST=True, RSI=43.92, ADX=13.94, VWAP=1406.63, Close=1382.50, PrevHigh=1383.90, PrevLow=1380.70
+[2025-05-27 10:34] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=4.09
+[2025-05-27 10:35] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:35] [ST B3] 📊 Data fetched for INFY, latest close=1562.4
+[2025-05-27 10:35] [ST B3] 🧪 INFY ST=True, RSI=37.20, ADX=31.74, VWAP=1564.14, Close=1562.40, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:35] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.98
+[2025-05-27 10:35] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.55
+[2025-05-27 10:35] [ST B3] 🧪 SUMICHEM ST=True, RSI=31.10, ADX=45.49, VWAP=522.07, Close=509.55, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:35] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.34
+[2025-05-27 10:35] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.6
+[2025-05-27 10:35] [ST B3] 🧪 GLENMARK ST=True, RSI=44.38, ADX=12.96, VWAP=1406.63, Close=1382.60, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:35] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.85
+[2025-05-27 10:35] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:35] [ST B3] 📊 Data fetched for INFY, latest close=1562.4
+[2025-05-27 10:35] [ST B3] 🧪 INFY ST=True, RSI=37.20, ADX=31.74, VWAP=1564.14, Close=1562.40, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:35] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.98
+[2025-05-27 10:35] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.9
+[2025-05-27 10:35] [ST B3] 🧪 SUMICHEM ST=True, RSI=32.46, ADX=45.49, VWAP=522.06, Close=509.90, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:35] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.34
+[2025-05-27 10:35] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.6
+[2025-05-27 10:35] [ST B3] 🧪 GLENMARK ST=True, RSI=44.38, ADX=12.96, VWAP=1406.63, Close=1382.60, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:35] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.85
+[2025-05-27 10:36] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:36] [ST B3] 📊 Data fetched for INFY, latest close=1563.7
+[2025-05-27 10:36] [ST B3] 🧪 INFY ST=True, RSI=40.50, ADX=31.07, VWAP=1564.14, Close=1563.70, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:36] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.08
+[2025-05-27 10:36] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.9
+[2025-05-27 10:36] [ST B3] 🧪 SUMICHEM ST=True, RSI=32.46, ADX=45.18, VWAP=521.99, Close=509.90, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:36] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:36] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.2
+[2025-05-27 10:36] [ST B3] 🧪 GLENMARK ST=True, RSI=43.33, ADX=12.96, VWAP=1406.62, Close=1382.20, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:36] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.85
+[2025-05-27 10:36] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:36] [ST B3] 📊 Data fetched for INFY, latest close=1563.0
+[2025-05-27 10:36] [ST B3] 🧪 INFY ST=True, RSI=38.77, ADX=31.07, VWAP=1564.14, Close=1563.00, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:36] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.08
+[2025-05-27 10:36] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.85
+[2025-05-27 10:36] [ST B3] 🧪 SUMICHEM ST=True, RSI=32.27, ADX=45.18, VWAP=521.98, Close=509.85, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:36] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:36] [ST B3] 📊 Data fetched for GLENMARK, latest close=1381.9
+[2025-05-27 10:36] [ST B3] 🧪 GLENMARK ST=True, RSI=42.59, ADX=13.17, VWAP=1406.62, Close=1381.90, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:36] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.90
+[2025-05-27 10:37] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:37] [ST B3] 📊 Data fetched for INFY, latest close=1563.3
+[2025-05-27 10:37] [ST B3] 🧪 INFY ST=True, RSI=39.52, ADX=31.02, VWAP=1564.14, Close=1563.30, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:37] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.08
+[2025-05-27 10:37] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.85
+[2025-05-27 10:37] [ST B3] 🧪 SUMICHEM ST=True, RSI=32.27, ADX=45.18, VWAP=521.91, Close=509.85, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:37] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:37] [ST B3] 📊 Data fetched for GLENMARK, latest close=1381.3
+[2025-05-27 10:37] [ST B3] 🧪 GLENMARK ST=True, RSI=41.42, ADX=13.17, VWAP=1406.62, Close=1381.30, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:37] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.90
+[2025-05-27 10:37] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:37] [ST B3] 📊 Data fetched for INFY, latest close=1563.8
+[2025-05-27 10:37] [ST B3] 🧪 INFY ST=True, RSI=40.74, ADX=31.02, VWAP=1564.14, Close=1563.80, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:37] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.08
+[2025-05-27 10:37] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.85
+[2025-05-27 10:37] [ST B3] 🧪 SUMICHEM ST=True, RSI=32.27, ADX=45.18, VWAP=521.84, Close=509.85, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:37] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:37] [ST B3] 📊 Data fetched for GLENMARK, latest close=1381.7
+[2025-05-27 10:37] [ST B3] 🧪 GLENMARK ST=True, RSI=42.20, ADX=13.17, VWAP=1406.62, Close=1381.70, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:37] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.90
+[2025-05-27 10:38] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:38] [ST B3] 📊 Data fetched for INFY, latest close=1563.0
+[2025-05-27 10:38] [ST B3] 🧪 INFY ST=True, RSI=38.77, ADX=31.02, VWAP=1564.14, Close=1563.00, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:38] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.08
+[2025-05-27 10:38] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.55
+[2025-05-27 10:38] [ST B3] 🧪 SUMICHEM ST=True, RSI=31.10, ADX=45.18, VWAP=521.80, Close=509.55, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:38] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:38] [ST B3] 📊 Data fetched for GLENMARK, latest close=1382.3
+[2025-05-27 10:38] [ST B3] 🧪 GLENMARK ST=True, RSI=43.60, ADX=13.17, VWAP=1406.62, Close=1382.30, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:38] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.90
+[2025-05-27 10:38] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:38] [ST B3] 📊 Data fetched for INFY, latest close=1562.2
+[2025-05-27 10:38] [ST B3] 🧪 INFY ST=True, RSI=36.66, ADX=31.02, VWAP=1564.13, Close=1562.20, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:38] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.08
+[2025-05-27 10:38] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.25
+[2025-05-27 10:38] [ST B3] 🧪 SUMICHEM ST=True, RSI=29.88, ADX=45.18, VWAP=521.79, Close=509.25, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:38] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:38] [ST B3] 📊 Data fetched for GLENMARK, latest close=1381.2
+[2025-05-27 10:38] [ST B3] 🧪 GLENMARK ST=True, RSI=41.24, ADX=13.43, VWAP=1406.62, Close=1381.20, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:38] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.95
+[2025-05-27 10:39] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:39] [ST B3] 📊 Data fetched for INFY, latest close=1561.7
+[2025-05-27 10:39] [ST B3] 🧪 INFY ST=True, RSI=35.89, ADX=31.02, VWAP=1564.13, Close=1561.70, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:39] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.11
+[2025-05-27 10:39] [ST B3] 📊 Data fetched for SUMICHEM, latest close=510.0
+[2025-05-27 10:39] [ST B3] 🧪 SUMICHEM ST=True, RSI=32.84, ADX=45.18, VWAP=521.77, Close=510.00, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:39] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:39] [ST B3] 📊 Data fetched for GLENMARK, latest close=1381.6
+[2025-05-27 10:39] [ST B3] 🧪 GLENMARK ST=True, RSI=42.00, ADX=13.43, VWAP=1406.62, Close=1381.60, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:39] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.95
+[2025-05-27 10:39] [ST B3] 🔁 Strategy loop running...
+[2025-05-27 10:39] [ST B3] 📊 Data fetched for INFY, latest close=1561.9
+[2025-05-27 10:39] [ST B3] 🧪 INFY ST=True, RSI=36.20, ADX=31.02, VWAP=1564.13, Close=1561.90, PrevHigh=1562.40, PrevLow=1560.40
+[2025-05-27 10:39] [ST B3] 🔍 Signal Check INFY: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.11
+[2025-05-27 10:39] [ST B3] 📊 Data fetched for SUMICHEM, latest close=509.6
+[2025-05-27 10:39] [ST B3] 🧪 SUMICHEM ST=True, RSI=31.30, ADX=45.18, VWAP=521.70, Close=509.60, PrevHigh=509.90, PrevLow=509.00
+[2025-05-27 10:39] [ST B3] 🔍 Signal Check SUMICHEM: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=2.38
+[2025-05-27 10:39] [ST B3] 📊 Data fetched for GLENMARK, latest close=1381.7
+[2025-05-27 10:39] [ST B3] 🧪 GLENMARK ST=True, RSI=42.20, ADX=13.43, VWAP=1406.62, Close=1381.70, PrevHigh=1383.20, PrevLow=1381.80
+[2025-05-27 10:39] [ST B3] 🔍 Signal Check GLENMARK: LONG=False, SHORT=False, Volatility_OK=1.00, ATR=3.95
+[2025-05-27 10:40] [ST B3] Graceful shutdown invoked.

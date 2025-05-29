@@ -1,0 +1,9 @@
+2025-05-26 22:17:30.328328 - Amar's WMA Bullish Strategy started in LIVE mode.
+2025-05-26 22:17:30.329297 - Outside trading window or max trades reached.
+2025-05-26 22:17:37.746858 - Graceful shutdown invoked.
+[2025-05-26 22:18] WMA_Bullish Amar's WMA Bullish Strategy started in LIVE mode.
+[2025-05-26 22:18] WMA_Bullish Outside trading window or max trades reached.
+[2025-05-26 22:18] WMA_Bullish Graceful shutdown invoked.
+[2025-05-26 22:20] WMA_Bullish Amar's WMA Bullish Strategy started in LIVE mode.
+[2025-05-26 22:20] WMA_Bullish Outside trading window or max trades reached.
+[2025-05-26 22:20] WMA_Bullish Graceful shutdown invoked.

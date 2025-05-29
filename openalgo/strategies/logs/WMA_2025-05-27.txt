@@ -1,0 +1,180 @@
+WMA 2025-05-27 09:27:27.581082 - Amar's Weighted MA Dynamic Strategy started in LIVE mode.
+WMA 2025-05-27 09:27:28.034739 - [JSWSTEEL] LTP: 1026.40 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 48.3 | MACD: 1.88 vs Signal: -1.53
+WMA 2025-05-27 09:27:28.248717 - Symbol: SBIN | LTP: 792.00 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.96
+WMA 2025-05-27 09:27:28.266759 - Checking condition: close=792.0, wma=793.9780952380952, prev_wma=794.2102380952381, rsi=31.477467219720392, vol=49893.0, vol_ma=91274.1, macd=-0.3630030183992403, macd_signal=-0.32539533080832406, atr=1.0460918135590016
+WMA 2025-05-27 09:27:28.269063 - Volume too low compared to average.
+WMA 2025-05-27 09:27:58.503891 - [JSWSTEEL] LTP: 1025.10 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.1 | MACD: 1.78 vs Signal: -1.62
+WMA 2025-05-27 09:27:58.712178 - Symbol: SBIN | LTP: 791.65 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.95
+WMA 2025-05-27 09:27:58.715210 - Checking condition: close=791.65, wma=793.9447619047619, prev_wma=794.2102380952381, rsi=27.147648185699474, vol=65952.0, vol_ma=92077.05, macd=-0.390923246319403, macd_signal=-0.3477315131444542, atr=1.0460918135590016
+WMA 2025-05-27 09:27:58.716209 - Bearish entry condition met.
+WMA 2025-05-27 09:27:59.941911 - Order Placed for SBIN, Order ID: 612505276272 at 791.5
+WMA 2025-05-27 09:27:59.942909 - SL for SBIN set at 792.76 (ATR: 1.05)
+WMA 2025-05-27 09:32:15.635448 - Graceful shutdown invoked.
+WMA 2025-05-27 10:04:04.206578 - Amar's Weighted MA Dynamic Strategy started in LIVE mode.
+WMA 2025-05-27 10:04:07.154027 - [SUNPHARMA] LTP: 1670.20 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.1 | MACD: 0.01 vs Signal: -0.23
+WMA 2025-05-27 10:04:07.369010 - Symbol: SBIN | LTP: 790.50 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.73
+WMA 2025-05-27 10:04:07.386019 - Checking condition: close=790.5, wma=792.385, prev_wma=792.6542857142857, rsi=25.068097523939777, vol=60769.0, vol_ma=104787.85, macd=-0.8873385970135814, macd_signal=-0.2965943720886617, atr=1.1841951009509968
+WMA 2025-05-27 10:04:07.388032 - Volume too low compared to average.
+WMA 2025-05-27 10:04:37.678210 - [SUNPHARMA] LTP: 1669.70 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 44.5 | MACD: -0.03 vs Signal: -0.27
+WMA 2025-05-27 10:04:37.943857 - Symbol: SBIN | LTP: 790.90 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.73
+WMA 2025-05-27 10:04:37.947934 - Checking condition: close=790.9, wma=792.4230952380952, prev_wma=792.6542857142857, rsi=27.110241952453638, vol=63078.0, vol_ma=104903.3, macd=-0.8554297651047591, macd_signal=-0.2710673065616038, atr=1.1841951009509968
+WMA 2025-05-27 10:04:37.947934 - Volume too low compared to average.
+WMA 2025-05-27 10:05:08.141386 - [SUNPHARMA] LTP: 1669.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 43.5 | MACD: -0.35 vs Signal: -0.47
+WMA 2025-05-27 10:05:08.423209 - Symbol: SBIN | LTP: 790.95 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.73
+WMA 2025-05-27 10:05:08.433464 - Checking condition: close=790.95, wma=792.2133333333334, prev_wma=792.4230952380952, rsi=27.900901661265454, vol=304.0, vol_ma=103424.1, macd=-0.8837102320142094, macd_signal=-0.23947821877684328, atr=1.106610006650216
+WMA 2025-05-27 10:05:08.434469 - Volume too low compared to average.
+WMA 2025-05-27 10:05:38.698574 - [SUNPHARMA] LTP: 1669.30 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 43.9 | MACD: -0.33 vs Signal: -0.45
+WMA 2025-05-27 10:05:38.908855 - Symbol: SBIN | LTP: 791.10 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.73
+WMA 2025-05-27 10:05:38.910850 - Checking condition: close=791.1, wma=792.2276190476191, prev_wma=792.4230952380952, rsi=30.173205792363344, vol=1605.0, vol_ma=103489.15, macd=-0.8717444200484579, macd_signal=-0.229905569204242, atr=1.1280780323494792
+WMA 2025-05-27 10:05:38.911850 - Volume too low compared to average.
+WMA 2025-05-27 10:06:09.120557 - [SUNPHARMA] LTP: 1670.80 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.4 | MACD: -0.21 vs Signal: -0.36
+WMA 2025-05-27 10:06:09.341241 - Symbol: SBIN | LTP: 791.15 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.73
+WMA 2025-05-27 10:06:09.343235 - Checking condition: close=791.15, wma=792.232380952381, prev_wma=792.4230952380952, rsi=30.899142581185856, vol=3487.0, vol_ma=103583.25, macd=-0.8677558160597982, macd_signal=-0.22671468601331435, atr=1.1280780323494792
+WMA 2025-05-27 10:06:09.344233 - Volume too low compared to average.
+WMA 2025-05-27 10:06:39.527220 - [SUNPHARMA] LTP: 1670.60 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.0 | MACD: -0.22 vs Signal: -0.37
+WMA 2025-05-27 10:06:39.718840 - Symbol: SBIN | LTP: 791.30 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.73
+WMA 2025-05-27 10:06:39.722095 - Checking condition: close=791.3, wma=792.2466666666668, prev_wma=792.4230952380952, rsi=32.98912786072063, vol=6815.0, vol_ma=103749.65, macd=-0.8557900040940467, macd_signal=-0.21714203644071306, atr=1.1280780323494792
+WMA 2025-05-27 10:06:39.723128 - Volume too low compared to average.
+WMA 2025-05-27 10:07:09.924872 - [SUNPHARMA] LTP: 1670.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.0 | MACD: -0.27 vs Signal: -0.41
+WMA 2025-05-27 10:07:10.145151 - Symbol: SBIN | LTP: 790.50 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.72
+WMA 2025-05-27 10:07:10.148507 - Checking condition: close=790.5, wma=792.1704761904763, prev_wma=792.4230952380952, rsi=24.923679345399503, vol=16550.0, vol_ma=104236.4, macd=-0.9196076679116914, macd_signal=-0.2681961674948288, atr=1.1567020666151662
+WMA 2025-05-27 10:07:10.148507 - Volume too low compared to average.
+WMA 2025-05-27 10:07:40.367298 - [SUNPHARMA] LTP: 1670.20 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.3 | MACD: -0.25 vs Signal: -0.40
+WMA 2025-05-27 10:07:40.591185 - Symbol: SBIN | LTP: 791.05 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.72
+WMA 2025-05-27 10:07:40.594175 - Checking condition: close=791.05, wma=792.2228571428573, prev_wma=792.4230952380952, rsi=29.431854456318877, vol=22252.0, vol_ma=104521.5, macd=-0.8757330240370038, macd_signal=-0.2330964523950788, atr=1.1745920880312215
+WMA 2025-05-27 10:07:40.594175 - Volume too low compared to average.
+WMA 2025-05-27 10:08:10.834528 - [SUNPHARMA] LTP: 1670.60 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.0 | MACD: -0.22 vs Signal: -0.37
+WMA 2025-05-27 10:08:11.079397 - Symbol: SBIN | LTP: 791.05 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.71
+WMA 2025-05-27 10:08:11.084709 - Checking condition: close=791.05, wma=792.2228571428573, prev_wma=792.4230952380952, rsi=29.431854456318877, vol=41215.0, vol_ma=105469.65, macd=-0.8757330240370038, macd_signal=-0.2330964523950788, atr=1.1781700923144374
+WMA 2025-05-27 10:08:11.084709 - Volume too low compared to average.
+WMA 2025-05-27 10:08:41.380668 - [SUNPHARMA] LTP: 1671.20 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 47.0 | MACD: -0.18 vs Signal: -0.33
+WMA 2025-05-27 10:08:41.609257 - Symbol: SBIN | LTP: 791.40 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.71
+WMA 2025-05-27 10:08:41.612249 - Checking condition: close=791.4, wma=792.2561904761906, prev_wma=792.4230952380952, rsi=34.31360348386563, vol=43798.0, vol_ma=105598.8, macd=-0.8478127961168411, macd_signal=-0.2107602700589486, atr=1.1924821094472768
+WMA 2025-05-27 10:08:41.612249 - Volume too low compared to average.
+WMA 2025-05-27 10:09:11.796304 - [SUNPHARMA] LTP: 1671.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.7 | MACD: -0.19 vs Signal: -0.35
+WMA 2025-05-27 10:09:11.988964 - Symbol: SBIN | LTP: 791.30 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.71
+WMA 2025-05-27 10:09:11.992749 - Checking condition: close=791.3, wma=792.2466666666668, prev_wma=792.4230952380952, rsi=32.98912786072063, vol=49928.0, vol_ma=105905.3, macd=-0.8557900040940467, macd_signal=-0.21714203644071306, atr=1.1996381180137006
+WMA 2025-05-27 10:09:11.992749 - Volume too low compared to average.
+WMA 2025-05-27 10:09:42.210271 - [SUNPHARMA] LTP: 1671.10 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.9 | MACD: -0.18 vs Signal: -0.34
+WMA 2025-05-27 10:09:42.489782 - Symbol: SBIN | LTP: 791.65 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.71
+WMA 2025-05-27 10:09:42.494892 - Checking condition: close=791.65, wma=792.2800000000001, prev_wma=792.4230952380952, rsi=37.40651733894806, vol=54052.0, vol_ma=106111.5, macd=-0.827869776173884, macd_signal=-0.19480585410458295, atr=1.1996381180137006
+WMA 2025-05-27 10:09:42.495892 - Volume too low compared to average.
+WMA 2025-05-27 10:10:12.769922 - [SUNPHARMA] LTP: 1670.60 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.1 | MACD: -0.34 vs Signal: -0.40
+WMA 2025-05-27 10:10:13.062271 - Symbol: SBIN | LTP: 791.65 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.71
+WMA 2025-05-27 10:10:13.071782 - Checking condition: close=791.65, wma=792.1502380952381, prev_wma=792.2800000000001, rsi=37.40651733894806, vol=1331.0, vol_ma=104946.85, macd=-0.7968427788498502, macd_signal=-0.1310230854244392, atr=1.1173807338227992
+WMA 2025-05-27 10:10:13.072743 - Volume too low compared to average.
+WMA 2025-05-27 10:10:43.278002 - [SUNPHARMA] LTP: 1671.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.7 | MACD: -0.31 vs Signal: -0.37
+WMA 2025-05-27 10:10:43.460321 - Symbol: SBIN | LTP: 791.35 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:10:43.462284 - Checking condition: close=791.35, wma=792.1216666666668, prev_wma=792.2800000000001, rsi=35.26090261347976, vol=9139.0, vol_ma=105337.25, macd=-0.820774402781467, macd_signal=-0.15016838456973258, atr=1.1388459365423338
+WMA 2025-05-27 10:10:43.463330 - Volume too low compared to average.
+WMA 2025-05-27 10:11:13.741816 - [SUNPHARMA] LTP: 1670.10 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.4 | MACD: -0.38 vs Signal: -0.43
+WMA 2025-05-27 10:11:13.972356 - Symbol: SBIN | LTP: 791.30 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:11:13.975362 - Checking condition: close=791.3, wma=792.1169047619048, prev_wma=792.2800000000001, rsi=34.92700405096762, vol=11605.0, vol_ma=105460.55, macd=-0.8247630067702403, macd_signal=-0.15335926776075126, atr=1.1424234703289282
+WMA 2025-05-27 10:11:13.976596 - Volume too low compared to average.
+WMA 2025-05-27 10:11:44.257510 - [SUNPHARMA] LTP: 1670.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.2 | MACD: -0.39 vs Signal: -0.44
+WMA 2025-05-27 10:11:44.485043 - Symbol: SBIN | LTP: 791.15 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:11:44.488034 - Checking condition: close=791.15, wma=792.1026190476191, prev_wma=792.2800000000001, rsi=33.962201996631954, vol=14227.0, vol_ma=105591.65, macd=-0.8367288187358781, macd_signal=-0.1629319173332615, atr=1.1638886730484626
+WMA 2025-05-27 10:11:44.489031 - Volume too low compared to average.
+WMA 2025-05-27 10:12:14.771769 - [SUNPHARMA] LTP: 1670.30 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.6 | MACD: -0.37 vs Signal: -0.42
+WMA 2025-05-27 10:12:14.955274 - Symbol: SBIN | LTP: 791.50 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:12:14.958266 - Checking condition: close=791.5, wma=792.1359523809525, prev_wma=792.2800000000001, rsi=36.302033727400065, vol=21073.0, vol_ma=105933.95, macd=-0.8088085908158291, macd_signal=-0.14059573499722233, atr=1.1638886730484626
+WMA 2025-05-27 10:12:14.958266 - Volume too low compared to average.
+WMA 2025-05-27 10:12:45.173117 - [SUNPHARMA] LTP: 1671.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.7 | MACD: -0.31 vs Signal: -0.37
+WMA 2025-05-27 10:12:45.373007 - Symbol: SBIN | LTP: 791.45 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:12:45.376997 - Checking condition: close=791.45, wma=792.1311904761906, prev_wma=792.2800000000001, rsi=35.94822527806789, vol=23007.0, vol_ma=106030.65, macd=-0.8127971948042614, macd_signal=-0.14378661818796812, atr=1.1638886730484626
+WMA 2025-05-27 10:12:45.377993 - Volume too low compared to average.
+WMA 2025-05-27 10:13:15.757460 - [SUNPHARMA] LTP: 1670.20 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.5 | MACD: -0.38 vs Signal: -0.43
+WMA 2025-05-27 10:13:15.958670 - Symbol: SBIN | LTP: 791.10 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:13:15.962663 - Checking condition: close=791.1, wma=792.0978571428573, prev_wma=792.2800000000001, rsi=33.65233817363587, vol=28767.0, vol_ma=106318.65, macd=-0.8407174227245378, macd_signal=-0.16612280052418926, atr=1.1638886730484626
+WMA 2025-05-27 10:13:15.963659 - Volume too low compared to average.
+WMA 2025-05-27 10:13:46.193343 - [SUNPHARMA] LTP: 1670.40 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.8 | MACD: -0.36 vs Signal: -0.41
+WMA 2025-05-27 10:13:46.436276 - Symbol: SBIN | LTP: 791.55 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:13:46.440349 - Checking condition: close=791.55, wma=792.1407142857144, prev_wma=792.2800000000001, rsi=36.66287588763254, vol=30584.0, vol_ma=106409.5, macd=-0.8048199868270558, macd_signal=-0.13740485180620365, atr=1.1638886730484626
+WMA 2025-05-27 10:13:46.441310 - Volume too low compared to average.
+WMA 2025-05-27 10:14:16.797567 - [SUNPHARMA] LTP: 1670.70 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.2 | MACD: -0.34 vs Signal: -0.39
+WMA 2025-05-27 10:14:17.133900 - Symbol: SBIN | LTP: 791.45 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.70
+WMA 2025-05-27 10:14:17.137890 - Checking condition: close=791.45, wma=792.1311904761906, prev_wma=792.2800000000001, rsi=35.94822527806789, vol=34320.0, vol_ma=106596.3, macd=-0.8127971948042614, macd_signal=-0.14378661818796812, atr=1.1746212744082298
+WMA 2025-05-27 10:14:17.139886 - Volume too low compared to average.
+WMA 2025-05-27 10:14:47.334864 - [SUNPHARMA] LTP: 1670.70 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.2 | MACD: -0.34 vs Signal: -0.39
+WMA 2025-05-27 10:14:47.523726 - Symbol: SBIN | LTP: 791.35 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.69
+WMA 2025-05-27 10:14:47.525719 - Checking condition: close=791.35, wma=792.1216666666668, prev_wma=792.2800000000001, rsi=35.26090261347976, vol=35735.0, vol_ma=106667.05, macd=-0.820774402781467, macd_signal=-0.15016838456973258, atr=1.1746212744082298
+WMA 2025-05-27 10:14:47.526526 - Volume too low compared to average.
+WMA 2025-05-27 10:15:17.784293 - [SUNPHARMA] LTP: 1670.00 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.1 | MACD: -0.51 vs Signal: -0.46
+WMA 2025-05-27 10:15:18.007016 - Symbol: SBIN | LTP: 791.50 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.69
+WMA 2025-05-27 10:15:18.010007 - Checking condition: close=791.5, wma=792.0, prev_wma=792.1311904761906, rsi=36.61352679860862, vol=193.0, vol_ma=105178.9, macd=-0.7877369422235461, macd_signal=-0.09498109248580211, atr=1.1013178805149841
+WMA 2025-05-27 10:15:18.010007 - Volume too low compared to average.
+WMA 2025-05-27 10:15:48.292408 - [SUNPHARMA] LTP: 1670.80 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 46.5 | MACD: -0.45 vs Signal: -0.40
+WMA 2025-05-27 10:15:48.526006 - Symbol: SBIN | LTP: 791.60 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.69
+WMA 2025-05-27 10:15:48.530196 - Checking condition: close=791.6, wma=792.0095238095238, prev_wma=792.1311904761906, rsi=37.903510994518435, vol=3165.0, vol_ma=105327.5, macd=-0.7797597342462268, macd_signal=-0.08859932610394672, atr=1.1156262685455953
+WMA 2025-05-27 10:15:48.532190 - Volume too low compared to average.
+WMA 2025-05-27 10:16:18.756855 - [SUNPHARMA] LTP: 1670.30 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.6 | MACD: -0.49 vs Signal: -0.44
+WMA 2025-05-27 10:16:18.983099 - Symbol: SBIN | LTP: 791.05 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.69
+WMA 2025-05-27 10:16:18.985093 - Checking condition: close=791.05, wma=791.9571428571429, prev_wma=792.1311904761906, rsi=33.1635596487579, vol=5028.0, vol_ma=105420.65, macd=-0.8236343781209143, macd_signal=-0.12369904120369679, atr=1.1406659475991605
+WMA 2025-05-27 10:16:18.986091 - Volume too low compared to average.
+WMA 2025-05-27 10:16:49.197466 - [SUNPHARMA] LTP: 1670.30 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 45.6 | MACD: -0.49 vs Signal: -0.44
+WMA 2025-05-27 10:16:49.433453 - Symbol: SBIN | LTP: 790.80 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.68
+WMA 2025-05-27 10:16:49.436413 - Checking condition: close=790.8, wma=791.9333333333333, prev_wma=792.1311904761906, rsi=31.63210644556989, vol=22602.0, vol_ma=106299.35, macd=-0.8435773980639851, macd_signal=-0.13965345715815336, atr=1.1549743356297715
+WMA 2025-05-27 10:16:49.436413 - Volume too low compared to average.
+WMA 2025-05-27 10:17:19.763275 - [SUNPHARMA] LTP: 1669.80 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 44.8 | MACD: -0.53 vs Signal: -0.47
+WMA 2025-05-27 10:17:19.986648 - Symbol: SBIN | LTP: 791.00 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.68
+WMA 2025-05-27 10:17:19.991084 - Checking condition: close=791.0, wma=791.952380952381, prev_wma=792.1311904761906, rsi=32.84551964495887, vol=27091.0, vol_ma=106523.8, macd=-0.827622982109574, macd_signal=-0.12688992439462443, atr=1.1621285296450687
+WMA 2025-05-27 10:17:19.992081 - Volume too low compared to average.
+WMA 2025-05-27 10:17:50.258832 - [SUNPHARMA] LTP: 1669.80 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 44.8 | MACD: -0.53 vs Signal: -0.47
+WMA 2025-05-27 10:17:50.514477 - Symbol: SBIN | LTP: 791.25 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.68
+WMA 2025-05-27 10:17:50.520746 - Checking condition: close=791.25, wma=791.9761904761905, prev_wma=792.1311904761906, rsi=34.49979231583842, vol=28548.0, vol_ma=106596.65, macd=-0.8076799621665032, macd_signal=-0.11093550844016786, atr=1.1621285296450687
+WMA 2025-05-27 10:17:50.524643 - Volume too low compared to average.
+WMA 2025-05-27 10:18:20.742999 - [SUNPHARMA] LTP: 1669.20 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 43.9 | MACD: -0.58 vs Signal: -0.51
+WMA 2025-05-27 10:18:21.014719 - Symbol: SBIN | LTP: 791.50 | Trend: DOWN | Pos: NONE | Was: DOWN | VWAP: 793.66
+WMA 2025-05-27 10:18:21.018708 - Checking condition: close=791.5, wma=792.0, prev_wma=792.1311904761906, rsi=36.61352679860862, vol=99785.0, vol_ma=110158.5, macd=-0.7877369422235461, macd_signal=-0.09498109248580211, atr=1.1621285296450687
+WMA 2025-05-27 10:18:21.018708 - Bearish entry condition met.
+WMA 2025-05-27 10:18:22.451171 - Order Placed for SBIN, Order ID: 2125052715162 at 791.35
+WMA 2025-05-27 10:18:22.452678 - SL for SBIN set at 792.74 (ATR: 1.16)
+WMA 2025-05-27 10:33:00.121898 - Stop Loss for SBIN at 792.75
+WMA 2025-05-27 10:33:01.153203 - Exit Order Placed for SBIN, Order ID: 6125052718052
+WMA 2025-05-27 10:33:01.153203 - Trade closed for SBIN, P/L: -0.18%, Duration: 0:14:38.699997
+WMA 2025-05-27 10:33:31.337851 - [SUNPHARMA] LTP: 1671.10 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 48.3 | MACD: -0.86 vs Signal: -0.40
+WMA 2025-05-27 10:33:31.568725 - [SBIN] LTP: 792.85 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 52.6 | MACD: -0.55 vs Signal: 0.12
+WMA 2025-05-27 10:34:01.815959 - [SUNPHARMA] LTP: 1671.20 | Trend: NONE | Close vs WMA: < | WMA Slope: ↓ | RSI: 48.5 | MACD: -0.86 vs Signal: -0.39
+WMA 2025-05-27 10:34:02.016438 - [SBIN] LTP: 792.90 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.1 | MACD: -0.55 vs Signal: 0.12
+WMA 2025-05-27 10:34:32.228094 - [SUNPHARMA] LTP: 1671.70 | Trend: NONE | Close vs WMA: > | WMA Slope: ↓ | RSI: 49.4 | MACD: -0.82 vs Signal: -0.36
+WMA 2025-05-27 10:34:32.481326 - [SBIN] LTP: 792.80 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 52.2 | MACD: -0.56 vs Signal: 0.11
+WMA 2025-05-27 10:35:02.688468 - [SUNPHARMA] LTP: 1671.90 | Trend: NONE | Close vs WMA: > | WMA Slope: ↓ | RSI: 49.8 | MACD: -0.68 vs Signal: -0.19
+WMA 2025-05-27 10:35:02.890462 - [SBIN] LTP: 793.40 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 56.8 | MACD: -0.36 vs Signal: 0.24
+WMA 2025-05-27 10:35:33.096218 - [SUNPHARMA] LTP: 1672.80 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 51.5 | MACD: -0.61 vs Signal: -0.13
+WMA 2025-05-27 10:35:33.312351 - [SBIN] LTP: 793.65 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 59.0 | MACD: -0.34 vs Signal: 0.26
+WMA 2025-05-27 10:36:03.528839 - [SUNPHARMA] LTP: 1672.20 | Trend: NONE | Close vs WMA: > | WMA Slope: ↓ | RSI: 50.4 | MACD: -0.66 vs Signal: -0.17
+WMA 2025-05-27 10:36:03.770909 - [SBIN] LTP: 793.65 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 59.0 | MACD: -0.34 vs Signal: 0.26
+WMA 2025-05-27 10:36:33.981811 - [SUNPHARMA] LTP: 1672.40 | Trend: NONE | Close vs WMA: > | WMA Slope: ↓ | RSI: 50.7 | MACD: -0.64 vs Signal: -0.15
+WMA 2025-05-27 10:36:34.251181 - [SBIN] LTP: 794.10 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 62.0 | MACD: -0.30 vs Signal: 0.28
+WMA 2025-05-27 10:37:04.459769 - [SUNPHARMA] LTP: 1672.40 | Trend: NONE | Close vs WMA: > | WMA Slope: ↓ | RSI: 50.7 | MACD: -0.64 vs Signal: -0.15
+WMA 2025-05-27 10:37:04.715561 - [SBIN] LTP: 793.85 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 60.4 | MACD: -0.32 vs Signal: 0.27
+WMA 2025-05-27 10:37:34.906332 - [SUNPHARMA] LTP: 1674.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.6 | MACD: -0.52 vs Signal: -0.05
+WMA 2025-05-27 10:37:35.088386 - [SBIN] LTP: 793.70 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 59.3 | MACD: -0.34 vs Signal: 0.26
+WMA 2025-05-27 10:38:05.322379 - [SUNPHARMA] LTP: 1674.40 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 54.2 | MACD: -0.48 vs Signal: -0.03
+WMA 2025-05-27 10:38:05.542866 - [SBIN] LTP: 793.70 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 59.3 | MACD: -0.34 vs Signal: 0.26
+WMA 2025-05-27 10:38:35.735027 - [SUNPHARMA] LTP: 1674.30 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 54.1 | MACD: -0.49 vs Signal: -0.03
+WMA 2025-05-27 10:38:35.947597 - [SBIN] LTP: 793.45 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 57.3 | MACD: -0.36 vs Signal: 0.24
+WMA 2025-05-27 10:39:06.139736 - [SUNPHARMA] LTP: 1673.30 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 52.4 | MACD: -0.57 vs Signal: -0.10
+WMA 2025-05-27 10:39:06.329078 - [SBIN] LTP: 793.10 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.9 | MACD: -0.38 vs Signal: 0.22
+WMA 2025-05-27 10:39:36.543649 - [SUNPHARMA] LTP: 1673.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 51.8 | MACD: -0.60 vs Signal: -0.12
+WMA 2025-05-27 10:39:36.734421 - [SBIN] LTP: 793.60 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 58.6 | MACD: -0.34 vs Signal: 0.25
+WMA 2025-05-27 10:40:06.968360 - [SUNPHARMA] LTP: 1674.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.7 | MACD: -0.34 vs Signal: 0.11
+WMA 2025-05-27 10:40:07.184062 - [SBIN] LTP: 793.50 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 57.3 | MACD: -0.25 vs Signal: 0.28
+WMA 2025-05-27 10:40:37.548503 - [SUNPHARMA] LTP: 1674.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.7 | MACD: -0.34 vs Signal: 0.11
+WMA 2025-05-27 10:40:37.751722 - Unexpected data format for SBIN
+WMA 2025-05-27 10:40:37.753718 - No data received for SBIN, skipping.
+WMA 2025-05-27 10:41:08.009175 - [SUNPHARMA] LTP: 1673.80 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.3 | MACD: -0.35 vs Signal: 0.10
+WMA 2025-05-27 10:41:08.194654 - [SBIN] LTP: 793.50 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 57.3 | MACD: -0.25 vs Signal: 0.28
+WMA 2025-05-27 10:41:38.499222 - [SUNPHARMA] LTP: 1674.50 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 54.6 | MACD: -0.30 vs Signal: 0.14
+WMA 2025-05-27 10:41:38.753070 - [SBIN] LTP: 793.65 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 58.5 | MACD: -0.24 vs Signal: 0.29
+WMA 2025-05-27 10:42:08.987359 - [SUNPHARMA] LTP: 1673.30 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 52.4 | MACD: -0.39 vs Signal: 0.07
+WMA 2025-05-27 10:42:09.184515 - [SBIN] LTP: 793.40 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 56.6 | MACD: -0.26 vs Signal: 0.28
+WMA 2025-05-27 10:42:39.403244 - [SUNPHARMA] LTP: 1674.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.7 | MACD: -0.34 vs Signal: 0.11
+WMA 2025-05-27 10:42:39.645874 - [SBIN] LTP: 793.40 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 56.6 | MACD: -0.26 vs Signal: 0.28
+WMA 2025-05-27 10:43:09.845196 - [SUNPHARMA] LTP: 1673.90 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.5 | MACD: -0.35 vs Signal: 0.11
+WMA 2025-05-27 10:43:10.028970 - [SBIN] LTP: 793.55 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 57.7 | MACD: -0.24 vs Signal: 0.29
+WMA 2025-05-27 10:43:40.252128 - [SUNPHARMA] LTP: 1674.00 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.7 | MACD: -0.34 vs Signal: 0.11
+WMA 2025-05-27 10:43:40.456495 - [SBIN] LTP: 793.65 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 58.5 | MACD: -0.24 vs Signal: 0.29
+WMA 2025-05-27 10:44:10.711460 - [SUNPHARMA] LTP: 1673.90 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 53.5 | MACD: -0.35 vs Signal: 0.11
+WMA 2025-05-27 10:44:10.932543 - [SBIN] LTP: 793.35 | Trend: NONE | Close vs WMA: > | WMA Slope: ↑ | RSI: 56.2 | MACD: -0.26 vs Signal: 0.27
+WMA 2025-05-27 10:44:29.484740 - Graceful shutdown invoked.

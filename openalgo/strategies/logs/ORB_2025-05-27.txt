@@ -1,0 +1,8 @@
+[2025-05-27 00:06] ORB HDFCBANK history returned 3 rows from API.
+[2025-05-27 00:07] ORB HDFCBANK history returned 3 rows from API.
+[2025-05-27 09:25] ORB JINDRILL history returned 1136 rows from API.
+[2025-05-27 09:25] ORB JINDRILL columns: ['close', 'high', 'low', 'open', 'volume']
+[2025-05-27 09:25] ORB JINDRILL ATR: 7.13, Dynamic Target Buffer: 17.83
+[2025-05-27 09:25] ORB DCI history returned 1128 rows from API.
+[2025-05-27 09:25] ORB DCI columns: ['close', 'high', 'low', 'open', 'volume']
+[2025-05-27 09:25] ORB DCI ATR: 3.68, Dynamic Target Buffer: 9.20

@@ -1,0 +1,360 @@
+2025-05-21 10:19:37.998131 - Amar's Supertrend Batch-2 Strategy started in LIVE mode.
+2025-05-21 10:19:37.998131 - 🧪 Manual test log message after startup
+2025-05-21 10:19:38.511694 - Supertrend Cycle: LTP=1943.2, Trend=True
+2025-05-21 10:19:38.511694 - Cycle: HDFCBANK | LTP=1943.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:38.919479 - Supertrend Cycle: LTP=789.45, Trend=True
+2025-05-21 10:19:38.919479 - Cycle: SBIN | LTP=789.45, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:39.153577 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:19:39.596644 - Supertrend Cycle: LTP=555.4, Trend=True
+2025-05-21 10:19:39.596644 - Cycle: KALYANKJIL | LTP=555.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:40.014000 - Supertrend Cycle: LTP=1203.2, Trend=True
+2025-05-21 10:19:40.014000 - Cycle: AXISBANK | LTP=1203.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:40.526221 - Supertrend Cycle: LTP=1241.8, Trend=False
+2025-05-21 10:19:40.526221 - Cycle: DRREDDY | LTP=1241.8, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:40.976342 - Supertrend Cycle: LTP=2368.0, Trend=True
+2025-05-21 10:19:40.976342 - Cycle: HINDUNILVR | LTP=2368.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:41.403441 - Supertrend Cycle: LTP=753.95, Trend=True
+2025-05-21 10:19:41.403441 - Cycle: HDFCLIFE | LTP=753.95, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:56.885384 - Supertrend Cycle: LTP=1943.3, Trend=True
+2025-05-21 10:19:56.885882 - Cycle: HDFCBANK | LTP=1943.3, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:57.331506 - Supertrend Cycle: LTP=789.4, Trend=True
+2025-05-21 10:19:57.331506 - Cycle: SBIN | LTP=789.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:57.456466 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:19:58.213690 - Supertrend Cycle: LTP=555.3, Trend=True
+2025-05-21 10:19:58.213690 - Cycle: KALYANKJIL | LTP=555.3, Pos=0, Buy=False, Sell=False
+2025-05-21 10:19:58.884525 - Supertrend Cycle: LTP=1202.7, Trend=True
+2025-05-21 10:19:58.884525 - Cycle: AXISBANK | LTP=1202.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:00.204766 - Supertrend Cycle: LTP=1239.7, Trend=False
+2025-05-21 10:20:00.204766 - Cycle: DRREDDY | LTP=1239.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:00.805041 - Supertrend Cycle: LTP=2367.0, Trend=True
+2025-05-21 10:20:00.805041 - Cycle: HINDUNILVR | LTP=2367.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:01.949982 - Supertrend Cycle: LTP=753.85, Trend=True
+2025-05-21 10:20:01.949982 - Cycle: HDFCLIFE | LTP=753.85, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:17.415015 - Supertrend Cycle: LTP=1943.3, Trend=True
+2025-05-21 10:20:17.415015 - Cycle: HDFCBANK | LTP=1943.3, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:18.031855 - Supertrend Cycle: LTP=789.5, Trend=True
+2025-05-21 10:20:18.031855 - Cycle: SBIN | LTP=789.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:18.215140 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:20:18.948265 - Supertrend Cycle: LTP=555.2, Trend=True
+2025-05-21 10:20:18.949263 - Cycle: KALYANKJIL | LTP=555.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:19.465072 - Supertrend Cycle: LTP=1202.6, Trend=True
+2025-05-21 10:20:19.465072 - Cycle: AXISBANK | LTP=1202.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:20.134756 - Supertrend Cycle: LTP=1240.7, Trend=False
+2025-05-21 10:20:20.134756 - Cycle: DRREDDY | LTP=1240.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:20.864725 - Supertrend Cycle: LTP=2368.0, Trend=True
+2025-05-21 10:20:20.864725 - Cycle: HINDUNILVR | LTP=2368.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:22.918359 - Supertrend Cycle: LTP=753.9, Trend=True
+2025-05-21 10:20:22.918359 - Cycle: HDFCLIFE | LTP=753.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:38.436516 - Supertrend Cycle: LTP=1943.4, Trend=True
+2025-05-21 10:20:38.436516 - Cycle: HDFCBANK | LTP=1943.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:38.894888 - Supertrend Cycle: LTP=789.7, Trend=True
+2025-05-21 10:20:38.894888 - Cycle: SBIN | LTP=789.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:39.093749 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:20:39.770245 - Supertrend Cycle: LTP=555.2, Trend=True
+2025-05-21 10:20:39.770245 - Cycle: KALYANKJIL | LTP=555.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:40.219197 - Supertrend Cycle: LTP=1203.6, Trend=True
+2025-05-21 10:20:40.219876 - Cycle: AXISBANK | LTP=1203.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:40.705310 - Supertrend Cycle: LTP=1240.5, Trend=False
+2025-05-21 10:20:40.705310 - Cycle: DRREDDY | LTP=1240.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:41.394842 - Supertrend Cycle: LTP=2368.4, Trend=True
+2025-05-21 10:20:41.394842 - Cycle: HINDUNILVR | LTP=2368.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:42.019976 - Supertrend Cycle: LTP=753.8, Trend=True
+2025-05-21 10:20:42.019976 - Cycle: HDFCLIFE | LTP=753.8, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:57.436729 - Supertrend Cycle: LTP=1944.7, Trend=True
+2025-05-21 10:20:57.436729 - Cycle: HDFCBANK | LTP=1944.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:58.095074 - Supertrend Cycle: LTP=790.65, Trend=True
+2025-05-21 10:20:58.095074 - Cycle: SBIN | LTP=790.65, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:58.298283 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:20:58.811196 - Supertrend Cycle: LTP=555.2, Trend=True
+2025-05-21 10:20:58.811196 - Cycle: KALYANKJIL | LTP=555.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:59.219552 - Supertrend Cycle: LTP=1203.6, Trend=True
+2025-05-21 10:20:59.219552 - Cycle: AXISBANK | LTP=1203.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:20:59.948582 - Supertrend Cycle: LTP=1240.3, Trend=False
+2025-05-21 10:20:59.948582 - Cycle: DRREDDY | LTP=1240.3, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:00.544460 - Supertrend Cycle: LTP=2368.2, Trend=True
+2025-05-21 10:21:00.545255 - Cycle: HINDUNILVR | LTP=2368.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:00.986901 - Supertrend Cycle: LTP=753.75, Trend=True
+2025-05-21 10:21:00.986901 - Cycle: HDFCLIFE | LTP=753.75, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:16.678490 - Supertrend Cycle: LTP=1944.9, Trend=True
+2025-05-21 10:21:16.678490 - Cycle: HDFCBANK | LTP=1944.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:17.328662 - Supertrend Cycle: LTP=790.6, Trend=True
+2025-05-21 10:21:17.328662 - Cycle: SBIN | LTP=790.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:17.490554 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:21:18.179185 - Supertrend Cycle: LTP=555.4, Trend=True
+2025-05-21 10:21:18.179185 - Cycle: KALYANKJIL | LTP=555.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:18.769831 - Supertrend Cycle: LTP=1203.8, Trend=True
+2025-05-21 10:21:18.769831 - Cycle: AXISBANK | LTP=1203.8, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:19.304909 - Supertrend Cycle: LTP=1240.5, Trend=False
+2025-05-21 10:21:19.305912 - Cycle: DRREDDY | LTP=1240.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:20.061487 - Supertrend Cycle: LTP=2367.6, Trend=True
+2025-05-21 10:21:20.061487 - Cycle: HINDUNILVR | LTP=2367.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:20.448117 - Supertrend Cycle: LTP=753.75, Trend=True
+2025-05-21 10:21:20.449115 - Cycle: HDFCLIFE | LTP=753.75, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:35.994977 - Supertrend Cycle: LTP=1945.1, Trend=True
+2025-05-21 10:21:35.994977 - Cycle: HDFCBANK | LTP=1945.1, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:36.620510 - Supertrend Cycle: LTP=790.6, Trend=True
+2025-05-21 10:21:36.628199 - Cycle: SBIN | LTP=790.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:36.781033 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:21:37.303999 - Supertrend Cycle: LTP=555.4, Trend=True
+2025-05-21 10:21:37.303999 - Cycle: KALYANKJIL | LTP=555.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:37.845874 - Supertrend Cycle: LTP=1203.2, Trend=True
+2025-05-21 10:21:37.847066 - Cycle: AXISBANK | LTP=1203.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:38.312181 - Supertrend Cycle: LTP=1240.6, Trend=False
+2025-05-21 10:21:38.312181 - Cycle: DRREDDY | LTP=1240.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:39.062114 - Supertrend Cycle: LTP=2367.9, Trend=True
+2025-05-21 10:21:39.062114 - Cycle: HINDUNILVR | LTP=2367.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:39.678777 - Supertrend Cycle: LTP=753.9, Trend=True
+2025-05-21 10:21:39.678777 - Cycle: HDFCLIFE | LTP=753.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:55.116791 - Supertrend Cycle: LTP=1945.3, Trend=True
+2025-05-21 10:21:55.116791 - Cycle: HDFCBANK | LTP=1945.3, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:56.046683 - Supertrend Cycle: LTP=790.0, Trend=True
+2025-05-21 10:21:56.046683 - Cycle: SBIN | LTP=790.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:56.208371 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:21:56.738661 - Supertrend Cycle: LTP=555.35, Trend=True
+2025-05-21 10:21:56.738661 - Cycle: KALYANKJIL | LTP=555.35, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:57.283306 - Supertrend Cycle: LTP=1202.1, Trend=True
+2025-05-21 10:21:57.283306 - Cycle: AXISBANK | LTP=1202.1, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:57.754133 - Supertrend Cycle: LTP=1240.6, Trend=False
+2025-05-21 10:21:57.754133 - Cycle: DRREDDY | LTP=1240.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:58.293451 - Supertrend Cycle: LTP=2367.8, Trend=True
+2025-05-21 10:21:58.294449 - Cycle: HINDUNILVR | LTP=2367.8, Pos=0, Buy=False, Sell=False
+2025-05-21 10:21:58.945722 - Supertrend Cycle: LTP=754.5, Trend=True
+2025-05-21 10:21:58.945722 - Cycle: HDFCLIFE | LTP=754.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:14.354321 - Supertrend Cycle: LTP=1946.0, Trend=True
+2025-05-21 10:22:14.354321 - Cycle: HDFCBANK | LTP=1946.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:15.072072 - Supertrend Cycle: LTP=790.5, Trend=True
+2025-05-21 10:22:15.073067 - Cycle: SBIN | LTP=790.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:15.210998 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:22:15.819638 - Supertrend Cycle: LTP=555.5, Trend=True
+2025-05-21 10:22:15.821408 - Cycle: KALYANKJIL | LTP=555.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:16.329494 - Supertrend Cycle: LTP=1202.7, Trend=True
+2025-05-21 10:22:16.334537 - Cycle: AXISBANK | LTP=1202.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:16.900828 - Supertrend Cycle: LTP=1240.9, Trend=False
+2025-05-21 10:22:16.901827 - Cycle: DRREDDY | LTP=1240.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:17.274045 - Supertrend Cycle: LTP=2368.0, Trend=True
+2025-05-21 10:22:17.275005 - Cycle: HINDUNILVR | LTP=2368.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:17.799474 - Supertrend Cycle: LTP=754.7, Trend=True
+2025-05-21 10:22:17.799474 - Cycle: HDFCLIFE | LTP=754.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:33.338199 - Supertrend Cycle: LTP=1946.0, Trend=True
+2025-05-21 10:22:33.339202 - Cycle: HDFCBANK | LTP=1946.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:33.824223 - Supertrend Cycle: LTP=789.95, Trend=True
+2025-05-21 10:22:33.824223 - Cycle: SBIN | LTP=789.95, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:34.018999 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:22:34.430945 - Supertrend Cycle: LTP=555.9, Trend=True
+2025-05-21 10:22:34.430945 - Cycle: KALYANKJIL | LTP=555.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:35.054682 - Supertrend Cycle: LTP=1202.2, Trend=True
+2025-05-21 10:22:35.055685 - Cycle: AXISBANK | LTP=1202.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:35.855077 - Supertrend Cycle: LTP=1241.8, Trend=False
+2025-05-21 10:22:35.861009 - Cycle: DRREDDY | LTP=1241.8, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:36.416893 - Supertrend Cycle: LTP=2368.1, Trend=True
+2025-05-21 10:22:36.416893 - Cycle: HINDUNILVR | LTP=2368.1, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:37.056662 - Supertrend Cycle: LTP=754.65, Trend=True
+2025-05-21 10:22:37.056662 - Cycle: HDFCLIFE | LTP=754.65, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:52.562879 - Supertrend Cycle: LTP=1945.0, Trend=True
+2025-05-21 10:22:52.562879 - Cycle: HDFCBANK | LTP=1945.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:52.989511 - Supertrend Cycle: LTP=790.2, Trend=True
+2025-05-21 10:22:52.989511 - Cycle: SBIN | LTP=790.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:53.127318 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:22:53.562918 - Supertrend Cycle: LTP=555.8, Trend=True
+2025-05-21 10:22:53.562918 - Cycle: KALYANKJIL | LTP=555.8, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:54.084164 - Supertrend Cycle: LTP=1202.1, Trend=True
+2025-05-21 10:22:54.084164 - Cycle: AXISBANK | LTP=1202.1, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:54.562921 - Supertrend Cycle: LTP=1241.2, Trend=False
+2025-05-21 10:22:54.562921 - Cycle: DRREDDY | LTP=1241.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:55.015062 - Supertrend Cycle: LTP=2368.0, Trend=True
+2025-05-21 10:22:55.015062 - Cycle: HINDUNILVR | LTP=2368.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:22:55.496313 - Supertrend Cycle: LTP=754.7, Trend=True
+2025-05-21 10:22:55.496313 - Cycle: HDFCLIFE | LTP=754.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:11.042788 - Supertrend Cycle: LTP=1944.5, Trend=True
+2025-05-21 10:23:11.042788 - Cycle: HDFCBANK | LTP=1944.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:11.607274 - Supertrend Cycle: LTP=790.4, Trend=True
+2025-05-21 10:23:11.608271 - Cycle: SBIN | LTP=790.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:11.763699 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:23:12.338169 - Supertrend Cycle: LTP=555.85, Trend=True
+2025-05-21 10:23:12.338169 - Cycle: KALYANKJIL | LTP=555.85, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:12.931271 - Supertrend Cycle: LTP=1201.1, Trend=True
+2025-05-21 10:23:12.931271 - Cycle: AXISBANK | LTP=1201.1, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:13.372632 - Supertrend Cycle: LTP=1241.5, Trend=False
+2025-05-21 10:23:13.372632 - Cycle: DRREDDY | LTP=1241.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:13.732726 - Supertrend Cycle: LTP=2381.0, Trend=False
+2025-05-21 10:23:13.732726 - Cycle: HINDUNILVR | LTP=2381.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:14.245928 - Supertrend Cycle: LTP=754.7, Trend=True
+2025-05-21 10:23:14.247031 - Cycle: HDFCLIFE | LTP=754.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:29.687969 - Supertrend Cycle: LTP=1944.5, Trend=True
+2025-05-21 10:23:29.687969 - Cycle: HDFCBANK | LTP=1944.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:30.221537 - Supertrend Cycle: LTP=789.95, Trend=True
+2025-05-21 10:23:30.221537 - Cycle: SBIN | LTP=789.95, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:30.396150 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:23:30.900255 - Supertrend Cycle: LTP=555.6, Trend=True
+2025-05-21 10:23:30.900255 - Cycle: KALYANKJIL | LTP=555.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:31.336693 - Supertrend Cycle: LTP=1200.5, Trend=True
+2025-05-21 10:23:31.337884 - Cycle: AXISBANK | LTP=1200.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:31.729204 - Supertrend Cycle: LTP=1215.6, Trend=True
+2025-05-21 10:23:31.729560 - Cycle: DRREDDY | LTP=1215.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:32.213992 - Supertrend Cycle: LTP=2368.0, Trend=True
+2025-05-21 10:23:32.213992 - Cycle: HINDUNILVR | LTP=2368.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:32.700485 - Supertrend Cycle: LTP=754.4, Trend=True
+2025-05-21 10:23:32.700485 - Cycle: HDFCLIFE | LTP=754.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:48.471753 - Supertrend Cycle: LTP=1944.2, Trend=True
+2025-05-21 10:23:48.471753 - Cycle: HDFCBANK | LTP=1944.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:49.016049 - Supertrend Cycle: LTP=789.65, Trend=True
+2025-05-21 10:23:49.016049 - Cycle: SBIN | LTP=789.65, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:49.199380 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:23:49.742619 - Supertrend Cycle: LTP=555.4, Trend=True
+2025-05-21 10:23:49.743583 - Cycle: KALYANKJIL | LTP=555.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:50.163144 - Supertrend Cycle: LTP=1200.5, Trend=True
+2025-05-21 10:23:50.163144 - Cycle: AXISBANK | LTP=1200.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:50.649116 - Supertrend Cycle: LTP=1241.9, Trend=False
+2025-05-21 10:23:50.649116 - Cycle: DRREDDY | LTP=1241.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:51.159531 - Supertrend Cycle: LTP=2368.5, Trend=True
+2025-05-21 10:23:51.160498 - Cycle: HINDUNILVR | LTP=2368.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:23:52.129801 - Supertrend Cycle: LTP=754.3, Trend=True
+2025-05-21 10:23:52.129801 - Cycle: HDFCLIFE | LTP=754.3, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:12.160662 - Error for HDFCBANK: timed out
+2025-05-21 10:24:13.092806 - Supertrend Cycle: LTP=794.45, Trend=False
+2025-05-21 10:24:13.092806 - Cycle: SBIN | LTP=794.45, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:13.297789 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:24:13.875367 - Supertrend Cycle: LTP=555.7, Trend=True
+2025-05-21 10:24:13.875367 - Cycle: KALYANKJIL | LTP=555.7, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:14.338683 - Supertrend Cycle: LTP=1201.5, Trend=True
+2025-05-21 10:24:14.339680 - Cycle: AXISBANK | LTP=1201.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:14.963774 - Supertrend Cycle: LTP=1241.0, Trend=False
+2025-05-21 10:24:14.963774 - Cycle: DRREDDY | LTP=1241.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:15.446676 - Supertrend Cycle: LTP=2368.0, Trend=True
+2025-05-21 10:24:15.447246 - Cycle: HINDUNILVR | LTP=2368.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:16.305358 - Supertrend Cycle: LTP=754.25, Trend=True
+2025-05-21 10:24:16.305358 - Cycle: HDFCLIFE | LTP=754.25, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:36.348199 - Error for HDFCBANK: timed out
+2025-05-21 10:24:41.393832 - Error for SBIN: timed out
+2025-05-21 10:24:46.431421 - Error for EICHER: timed out
+2025-05-21 10:24:51.458328 - Error for KALYANKJIL: timed out
+2025-05-21 10:24:56.268594 - Supertrend Cycle: LTP=1204.0, Trend=False
+2025-05-21 10:24:56.269578 - Cycle: AXISBANK | LTP=1204.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:56.748277 - Supertrend Cycle: LTP=1241.6, Trend=False
+2025-05-21 10:24:56.749465 - Cycle: DRREDDY | LTP=1241.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:57.418992 - Supertrend Cycle: LTP=2370.3, Trend=True
+2025-05-21 10:24:57.418992 - Cycle: HINDUNILVR | LTP=2370.3, Pos=0, Buy=False, Sell=False
+2025-05-21 10:24:57.930572 - Supertrend Cycle: LTP=754.05, Trend=True
+2025-05-21 10:24:57.930572 - Cycle: HDFCLIFE | LTP=754.05, Pos=0, Buy=False, Sell=False
+2025-05-21 10:25:17.955873 - Error for HDFCBANK: timed out
+2025-05-21 10:25:22.986262 - Error for SBIN: timed out
+2025-05-21 10:25:28.026301 - Error for EICHER: timed out
+2025-05-21 10:25:33.043107 - Error for KALYANKJIL: timed out
+2025-05-21 10:25:38.073052 - Error for AXISBANK: timed out
+2025-05-21 10:25:43.107152 - Error for DRREDDY: timed out
+2025-05-21 10:25:48.142521 - Error for HINDUNILVR: timed out
+2025-05-21 10:25:53.174834 - Error for HDFCLIFE: timed out
+2025-05-21 10:26:13.214157 - Error for HDFCBANK: timed out
+2025-05-21 10:26:18.257879 - Error for SBIN: timed out
+2025-05-21 10:26:23.293885 - Error for EICHER: timed out
+2025-05-21 10:26:28.325280 - Error for KALYANKJIL: timed out
+2025-05-21 10:26:33.350554 - Error for AXISBANK: timed out
+2025-05-21 10:26:38.388719 - Error for DRREDDY: timed out
+2025-05-21 10:26:43.417154 - Error for HINDUNILVR: timed out
+2025-05-21 10:26:48.452764 - Error for HDFCLIFE: timed out
+2025-05-21 10:27:03.845458 - Skipping HDFCBANK due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:27:04.174946 - Supertrend Cycle: LTP=790.0, Trend=True
+2025-05-21 10:27:04.174946 - Cycle: SBIN | LTP=790.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:27:09.199632 - Error for EICHER: timed out
+2025-05-21 10:27:14.218262 - Error for KALYANKJIL: timed out
+2025-05-21 10:27:19.254687 - Error for AXISBANK: timed out
+2025-05-21 10:27:24.294456 - Error for DRREDDY: timed out
+2025-05-21 10:27:29.319208 - Error for HINDUNILVR: timed out
+2025-05-21 10:27:34.350462 - Error for HDFCLIFE: timed out
+2025-05-21 10:27:54.393769 - Error for HDFCBANK: timed out
+2025-05-21 10:27:59.422255 - Error for SBIN: timed out
+2025-05-21 10:28:04.453008 - Error for EICHER: timed out
+2025-05-21 10:28:09.493975 - Error for KALYANKJIL: timed out
+2025-05-21 10:28:14.528179 - Error for AXISBANK: timed out
+2025-05-21 10:28:19.568081 - Error for DRREDDY: timed out
+2025-05-21 10:28:24.594593 - Error for HINDUNILVR: timed out
+2025-05-21 10:28:29.620784 - Error for HDFCLIFE: timed out
+2025-05-21 10:28:49.661189 - Error for HDFCBANK: timed out
+2025-05-21 10:28:54.678582 - Error for SBIN: timed out
+2025-05-21 10:28:59.696237 - Error for EICHER: timed out
+2025-05-21 10:29:04.720129 - Error for KALYANKJIL: timed out
+2025-05-21 10:29:09.736885 - Error for AXISBANK: timed out
+2025-05-21 10:29:14.754597 - Error for DRREDDY: timed out
+2025-05-21 10:29:19.782514 - Error for HINDUNILVR: timed out
+2025-05-21 10:29:24.811104 - Error for HDFCLIFE: timed out
+2025-05-21 10:29:44.850713 - Error for HDFCBANK: timed out
+2025-05-21 10:29:49.883187 - Error for SBIN: timed out
+2025-05-21 10:29:54.923158 - Error for EICHER: timed out
+2025-05-21 10:29:56.047947 - Supertrend Cycle: LTP=560.0, Trend=False
+2025-05-21 10:29:56.047947 - Cycle: KALYANKJIL | LTP=560.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:29:56.471090 - Supertrend Cycle: LTP=1200.4, Trend=True
+2025-05-21 10:29:56.471090 - Cycle: AXISBANK | LTP=1200.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:29:56.721878 - Skipping DRREDDY due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:29:57.071186 - Supertrend Cycle: LTP=2370.2, Trend=True
+2025-05-21 10:29:57.071186 - Cycle: HINDUNILVR | LTP=2370.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:29:57.431078 - Supertrend Cycle: LTP=755.75, Trend=True
+2025-05-21 10:29:57.431078 - Cycle: HDFCLIFE | LTP=755.75, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:12.774722 - Skipping HDFCBANK due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:30:13.106871 - Supertrend Cycle: LTP=794.45, Trend=False
+2025-05-21 10:30:13.107840 - Cycle: SBIN | LTP=794.45, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:13.276668 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:30:13.568996 - Skipping KALYANKJIL due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:30:13.961890 - Supertrend Cycle: LTP=1204.0, Trend=False
+2025-05-21 10:30:13.962897 - Cycle: AXISBANK | LTP=1204.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:14.257167 - Skipping DRREDDY due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:30:14.665911 - Supertrend Cycle: LTP=2371.5, Trend=True
+2025-05-21 10:30:14.665911 - Cycle: HINDUNILVR | LTP=2371.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:14.994329 - Supertrend Cycle: LTP=749.45, Trend=False
+2025-05-21 10:30:14.994329 - Cycle: HDFCLIFE | LTP=749.45, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:30.388412 - Supertrend Cycle: LTP=1938.0, Trend=True
+2025-05-21 10:30:30.389410 - Cycle: HDFCBANK | LTP=1938.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:30.608867 - Skipping SBIN due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:30:30.798672 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:30:31.071833 - Skipping KALYANKJIL due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:30:31.535429 - Supertrend Cycle: LTP=1204.0, Trend=False
+2025-05-21 10:30:31.536425 - Cycle: AXISBANK | LTP=1204.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:31.798509 - Skipping DRREDDY due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:30:32.162472 - Supertrend Cycle: LTP=2381.0, Trend=False
+2025-05-21 10:30:32.163469 - Cycle: HINDUNILVR | LTP=2381.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:32.579598 - Supertrend Cycle: LTP=749.45, Trend=False
+2025-05-21 10:30:32.579598 - Cycle: HDFCLIFE | LTP=749.45, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:48.122855 - Supertrend Cycle: LTP=1942.1, Trend=True
+2025-05-21 10:30:48.122855 - Cycle: HDFCBANK | LTP=1942.1, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:48.483931 - Skipping SBIN due to data issue: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+2025-05-21 10:30:48.616495 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:30:48.905343 - Supertrend Cycle: LTP=557.4, Trend=True
+2025-05-21 10:30:48.906342 - Cycle: KALYANKJIL | LTP=557.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:49.262333 - Supertrend Cycle: LTP=1200.9, Trend=True
+2025-05-21 10:30:49.262333 - Cycle: AXISBANK | LTP=1200.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:49.666823 - Supertrend Cycle: LTP=1239.6, Trend=False
+2025-05-21 10:30:49.670181 - Cycle: DRREDDY | LTP=1239.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:50.110364 - Supertrend Cycle: LTP=2381.0, Trend=False
+2025-05-21 10:30:50.110364 - Cycle: HINDUNILVR | LTP=2381.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:30:50.545496 - Supertrend Cycle: LTP=756.25, Trend=True
+2025-05-21 10:30:50.547015 - Cycle: HDFCLIFE | LTP=756.25, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:05.868284 - Supertrend Cycle: LTP=1942.4, Trend=True
+2025-05-21 10:31:05.869212 - Cycle: HDFCBANK | LTP=1942.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:06.310953 - Supertrend Cycle: LTP=789.5, Trend=True
+2025-05-21 10:31:06.310953 - Cycle: SBIN | LTP=789.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:06.483049 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:31:06.867004 - Supertrend Cycle: LTP=557.5, Trend=True
+2025-05-21 10:31:06.867004 - Cycle: KALYANKJIL | LTP=557.5, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:07.159644 - Supertrend Cycle: LTP=1201.4, Trend=True
+2025-05-21 10:31:07.159644 - Cycle: AXISBANK | LTP=1201.4, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:07.490429 - Supertrend Cycle: LTP=1215.6, Trend=True
+2025-05-21 10:31:07.490429 - Cycle: DRREDDY | LTP=1215.6, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:07.839902 - Supertrend Cycle: LTP=2370.0, Trend=True
+2025-05-21 10:31:07.839902 - Cycle: HINDUNILVR | LTP=2370.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:08.227975 - Supertrend Cycle: LTP=755.9, Trend=True
+2025-05-21 10:31:08.227975 - Cycle: HDFCLIFE | LTP=755.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:23.529427 - Supertrend Cycle: LTP=1942.2, Trend=True
+2025-05-21 10:31:23.530393 - Cycle: HDFCBANK | LTP=1942.2, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:23.815190 - Supertrend Cycle: LTP=789.65, Trend=True
+2025-05-21 10:31:23.815190 - Cycle: SBIN | LTP=789.65, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:23.944138 - Skipping EICHER due to data issue: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for EICHER on NSE","status":"error"}\n'}
+2025-05-21 10:31:24.274771 - Supertrend Cycle: LTP=560.0, Trend=False
+2025-05-21 10:31:24.274771 - Cycle: KALYANKJIL | LTP=560.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:24.652767 - Supertrend Cycle: LTP=1200.9, Trend=True
+2025-05-21 10:31:24.652767 - Cycle: AXISBANK | LTP=1200.9, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:25.072612 - Supertrend Cycle: LTP=1240.0, Trend=False
+2025-05-21 10:31:25.072612 - Cycle: DRREDDY | LTP=1240.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:25.401500 - Supertrend Cycle: LTP=2381.0, Trend=False
+2025-05-21 10:31:25.401500 - Cycle: HINDUNILVR | LTP=2381.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:25.794599 - Supertrend Cycle: LTP=756.0, Trend=True
+2025-05-21 10:31:25.794599 - Cycle: HDFCLIFE | LTP=756.0, Pos=0, Buy=False, Sell=False
+2025-05-21 10:31:29.406191 - Graceful shutdown invoked.

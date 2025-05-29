@@ -22,7 +22,7 @@ with open("test_log.txt", "a") as f:
 # Configuration and Threshold Parameters
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Green Cloud Momentum"
-symbols = ["BHARATFORG", "JSWINFRA","ASHOKLEY"]
+symbols = ["GLAND", "JUBLPHARMA","TORNTPHARM"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5

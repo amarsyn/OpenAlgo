@@ -1,6 +1,5 @@
-# Opening Range Breakout (ORB) Intraday Strategy
+# Opening Range Breakout (ORB) Intraday Strategy with Enhancements
 import pandas as pd
-import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import os
 import requests
@@ -8,15 +7,21 @@ from openalgo import api
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, MetaData, Table
 import json
-load_dotenv()
+import signal
+import sys
+import time
+load_dotenv
 
 # Configuration
-api_key = '5939519c42f6a0811a7bdb4cf2e1b6ea3e315bd6824a0d6f45c8c46beaa3b4ee'
-symbols = ["HDFCBANK", "TECHM", "TRENT", "ADANIPOWER","BHARTI"]
+api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
+symbols = ["RELIANCE", "DCI"]
 exchange = "NSE"
 interval = "1m"
-start_date = "2025-03-01"
+start_date = (datetime.now() - timedelta(days=5)).strftime('%Y-%m-%d')
 end_date = datetime.now().strftime("%Y-%m-%d")
+
+LOG_FILE = f"logs/ORB_{datetime.now().strftime('%Y-%m-%d')}.txt"
+TRADE_LOG = f"logs/ORB_{datetime.now().strftime('%Y-%m-%d')}.csv"
 
 client = api(api_key=api_key, host='http://127.0.0.1:5000')
 
@@ -29,9 +34,19 @@ def send_telegram(message):
     if TELEGRAM_ENABLED:
         url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
         payload = {"chat_id": CHAT_ID, "text": message}
-        requests.post(url, data=payload)
+        response = requests.post(url, data=payload)
+        if response.ok:
+            print(f"📩 ORB: {message}")
+        else:
+            print(f"❌ ORB: {response.status_code} {response.text}")
 
-def log_trade_to_analyzer(symbol, direction, entry_price, exit_price, entry_time, exit_time, request_payload, response_data):
+def log_message(msg):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M')
+    print(f"{timestamp} ORB - {msg}")
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] ORB {msg}\n")
+
+def log_trade_to_analyzer(symbol, direction, entry_price, exit_price, entry_time, exit_time):
     engine = create_engine('sqlite:///../db/openalgo.db')
     metadata = MetaData()
     analyzer_logs = Table('analyzer_logs', metadata, autoload_with=engine)
@@ -42,108 +57,174 @@ def log_trade_to_analyzer(symbol, direction, entry_price, exit_price, entry_time
             'signal': direction,
             'entry_price': float(entry_price),
             'exit_price': float(exit_price),
-            'entry_time': entry_time.strftime("%Y-%m-%d %H:%M:%S"),
-            'exit_time': exit_time.strftime("%Y-%m-%d %H:%M:%S"),
+            'entry_time': entry_time.strftime("%Y-%m-%d %H:%M"),
+            'exit_time': exit_time.strftime("%Y-%m-%d %H:%M"),
             'run_mode': "analyze",
             'api_type': "history",
-            'request_data': json.dumps(request_payload),
-            'response_data': json.dumps(response_data)
+            'request_data': json.dumps({}),
+            'response_data': json.dumps({})
         }])
 
 def analyze_orb(symbol):
-    url = "http://127.0.0.1:5000/api/v1/history"
-    payload = {
-        "apikey": os.getenv("OPENALGO_API_KEY"),
-        "symbol": symbol,
-        "exchange": exchange,
-        "interval": interval,
-        "start_date": start_date,
-        "end_date": end_date
-    }
+    df = client.history(symbol=symbol, exchange=exchange, interval=interval,
+            start_date=(datetime.now() - timedelta(days=5)).strftime('%Y-%m-%d'),
+            end_date=datetime.now().strftime('%Y-%m-%d'))
+    if isinstance(df, dict) and "data" in df:
+        df = pd.DataFrame(df["data"])
 
-    response = requests.post(url, json=payload).json()
-    print(f"Response for {symbol}:", response)
-
-    if not isinstance(response, dict) or "data" not in response:
-        send_telegram(f"⚠️ Error fetching data for {symbol}: {response}")
+    if not isinstance(df, pd.DataFrame) or df.empty:
+        send_telegram(f"⚠️ No data returned for {symbol}")
         return pd.DataFrame(), []
 
-    df = pd.DataFrame(response["data"])
-    df['datetime'] = pd.to_datetime(df['timestamp'], unit='s')
-    df.set_index('datetime', inplace=True)
-    print(f"⏱ Data range for {symbol}: {df.index.min()} to {df.index.max()}")
-    df_day = df
-    print(f"✅ Loaded {len(df_day)} candles for {symbol}")
+    log_message(f"{symbol} history returned {len(df)} rows from API.")
+    log_message(f"{symbol} columns: {df.columns.tolist()}")
 
-    if df.empty:
-        print(f"No data returned for {symbol} on {start_date}")
-        send_telegram(f"⚠️ No data returned for {symbol} on {start_date}")
-        return pd.DataFrame(), []
+    if not isinstance(df.index, pd.DatetimeIndex):
+        if 'time' in df.columns:
+            df['datetime'] = pd.to_datetime(df['time'])
+            df.set_index('datetime', inplace=True)
+        elif 'timestamp' in df.columns:
+            df['datetime'] = pd.to_datetime(df['timestamp'], unit='s')
+            df.set_index('datetime', inplace=True)
+        else:
+            send_telegram(f"⚠️ Missing time column in data for {symbol}")
+            return pd.DataFrame(), []
 
-    orb_range = df_day.between_time("09:15", "09:30")
-    high = orb_range['high'].max()
-    low = orb_range['low'].min()
+    # ORB window disabled — using full session range instead
+    high = df['high'].max()
+    low = df['low'].min()
+    if pd.isna(high) or pd.isna(low):
+        send_telegram(f"⚠️ ORB range missing or incomplete for {symbol}")
+        log_message(f"{symbol} - ORB data missing between 09:15–09:30")
+        log_message(f"{symbol} - Data head:\n{df.head(5)}")
+        log_message(f"{symbol} - ORB range rows: {len(orb_range)}")
 
-    buffer = 0.001  # 0.1%
+    # Calculate dynamic ATR-based target (using 14-period ATR on 1m data)
+    df['H-L'] = df['high'] - df['low']
+    df['H-PC'] = abs(df['high'] - df['close'].shift(1))
+    df['L-PC'] = abs(df['low'] - df['close'].shift(1))
+    df['TR'] = df[['H-L', 'H-PC', 'L-PC']].max(axis=1)
+    df['ATR'] = df['TR'].rolling(window=14).mean()
+    latest_atr = df['ATR'].iloc[-1] if not df['ATR'].isna().all() else 1
+    atr_multiplier = 2.5  # can be adjusted
+    dynamic_target_buffer = latest_atr * atr_multiplier
+    log_message(f"{symbol} ATR: {latest_atr:.2f}, Dynamic Target Buffer: {dynamic_target_buffer:.2f}")
+
+    buffer = 0.001
     entry_long = high * (1 + buffer)
     entry_short = low * (1 - buffer)
 
     sl_pct = 0.005
-    target_pct = 0.01
+    trail_trigger_pct = 0.006
+    trailing_sl_pct = 0.003
+    partial_exit_pct = 0.004
+    partial_exit_size = 0.5  # book 50% at partial
 
     trade_log = []
     in_trade = False
     direction = None
     entry_price = None
     entry_time = None
+    stop_loss = None
+    target = None
+    trailing_active = False
+    partial_booked = False
 
-    for i, row in df_day.iterrows():
+    for i, row in df.iterrows():
         price = row['close']
+        timestamp = i.strftime("%Y-%m-%d %H:%M")
+
         if not in_trade:
             if price > entry_long:
                 entry_price = price
                 stop_loss = entry_price * (1 - sl_pct)
-                target = entry_price * (1 + target_pct)
                 direction = "BUY"
                 entry_time = i
                 in_trade = True
-                send_telegram(f"{symbol} LONG Entry at {entry_price:.2f} on {entry_time}")
+                partial_booked = False
+                trailing_active = False
+                send_telegram(f"{symbol} LONG Entry at {entry_price:.2f} on {timestamp}")
             elif price < entry_short:
                 entry_price = price
                 stop_loss = entry_price * (1 + sl_pct)
-                target = entry_price * (1 - target_pct)
                 direction = "SELL"
                 entry_time = i
                 in_trade = True
-                send_telegram(f"{symbol} SHORT Entry at {entry_price:.2f} on {entry_time}")
+                partial_booked = False
+                trailing_active = False
+                send_telegram(f"{symbol} SHORT Entry at {entry_price:.2f} on {timestamp}")
+
         else:
-            if (direction == "BUY" and (price >= target or price <= stop_loss)) or \
-               (direction == "SELL" and (price <= target or price >= stop_loss)):
-                exit_price = price
-                exit_time = i
-                trade_log.append({
-                    "symbol": symbol,
-                    "direction": direction,
-                    "entry_price": entry_price,
-                    "exit_price": exit_price,
-                    "entry_time": entry_time,
-                    "exit_time": exit_time
-                })
-                result = f"{symbol} {direction} Exit at {exit_price:.2f} on {exit_time}"
-                send_telegram(result)
-                log_trade_to_analyzer(symbol, direction, entry_price, exit_price, entry_time, exit_time, payload, response)
-                in_trade = False
-                break
+            if direction == "BUY":
+                if not partial_booked and price >= entry_price * (1 + partial_exit_pct):
+                    partial_booked = True
+                    send_telegram(f"{symbol} Partial exit booked at {price:.2f} (+{partial_exit_pct*100:.1f}%)")
+                if not trailing_active and price >= entry_price * (1 + trail_trigger_pct):
+                    trailing_active = True
+                    send_telegram(f"{symbol} Trailing SL Activated for LONG at {price:.2f}")
+                if trailing_active:
+                    new_sl = price * (1 - trailing_sl_pct)
+                    if new_sl > stop_loss:
+                        stop_loss = new_sl
+                if price <= stop_loss:
+                    exit_price = price
+                    exit_time = i
+                    send_telegram(f"{symbol} {direction} Exit at {exit_price:.2f} on {exit_time.strftime('%Y-%m-%d %H:%M')}")
+                    log_trade_to_analyzer(symbol, direction, entry_price, exit_price, entry_time, exit_time)
+                    trade_log.append({
+                        'symbol': symbol,
+                        'direction': direction,
+                        'entry_time': entry_time,
+                        'exit_time': exit_time,
+                        'entry_price': entry_price,
+                        'exit_price': exit_price
+                    })
+                    in_trade = False
+            elif direction == "SELL":
+                if not partial_booked and price <= entry_price * (1 - partial_exit_pct):
+                    partial_booked = True
+                    send_telegram(f"{symbol} Partial exit booked at {price:.2f} (-{partial_exit_pct*100:.1f}%)")
+                if not trailing_active and price <= entry_price * (1 - trail_trigger_pct):
+                    trailing_active = True
+                    send_telegram(f"{symbol} Trailing SL Activated for SHORT at {price:.2f}")
+                if trailing_active:
+                    new_sl = price * (1 + trailing_sl_pct)
+                    if new_sl < stop_loss:
+                        stop_loss = new_sl
+                if price >= stop_loss:
+                    exit_price = price
+                    exit_time = i
+                    send_telegram(f"{symbol} {direction} Exit at {exit_price:.2f} on {exit_time.strftime('%Y-%m-%d %H:%M')}")
+                    log_trade_to_analyzer(symbol, direction, entry_price, exit_price, entry_time, exit_time)
+                    in_trade = False
 
     if not trade_log:
         send_telegram(f"{symbol} - No trade executed on {start_date}")
 
-    return df_day, trade_log
+    return df, trade_log
 
-# Run Strategy
-for symbol in symbols:
-    df, trade_log = analyze_orb(symbol)
-    if not df.empty and trade_log:
-        plot_trade(df, trade_log, symbol)
-    else:
-        print(f"Skipping plot for {symbol} due to missing data or trade.")
+# =======================
+# Graceful Exit
+# =======================
+def graceful_exit(signum, frame):
+    print("Amar's ORB Strategy Graceful shutdown requested... Exiting strategy.")
+    send_telegram("🛑 Amar's ORB Strategy stopped gracefully.")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, graceful_exit)
+signal.signal(signal.SIGTERM, graceful_exit)
+
+# =======================
+# Main Execution
+# =======================
+if __name__ == '__main__':
+    print("📊 Starting Amar's ORB Strategy...")
+    send_telegram("✅ Amar's ORB Strategy started.")
+    while True:
+        for symbol in symbols:
+            df, trade_log = analyze_orb(symbol)
+            if not df.empty and trade_log:
+                print(f"Completed trade for {symbol}.")
+            else:
+                print(f"No trade or data for {symbol}.")
+        time.sleep(10)

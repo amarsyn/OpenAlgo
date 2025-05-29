@@ -1,0 +1,1676 @@
+[2025-05-29 10:23] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 10:23] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:23] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:23] [ST B3] Raw data type for WELLCORP: <class 'dict'>
+[2025-05-29 10:23] [ST B3] API fetch error for WELLCORP. Exception: Invalid or empty DataFrame. Raw: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching historical data: Could not find security ID for WELLCORP on NSE","status":"error"}\n'}
+[2025-05-29 10:23] [ST B3] 📉 Insufficient data for WELLCORP.
+[2025-05-29 10:23] [ST B3] 🔍 Evaluating ASAHIINDIA...
+[2025-05-29 10:23] [ST B3] Raw data type for ASAHIINDIA: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 10:23] [ST B3] ASAHIINDIA data fetched successfully with shape: (239, 5)
+[2025-05-29 10:23] [ST B3] Checking condition: close=753.0, wma=745.794300865801, prev_wma=742.5256125541125, rsi=81.5187944747635, vol=10313.0, vol_ma=4629.1, macd=6.220319999193748, macd_signal=3.6121755201283254, atr=4.20833553057441
+[2025-05-29 10:23] [ST B3] Bullish entry condition met.
+[2025-05-29 10:23] [ST B3] RR Ratio: 2.08, SL: 747.95, Target: 763.52, Entry: 753.00
+[2025-05-29 10:23] [ST B3] Order response: {'orderid': '1125052916832', 'status': 'success'}
+[2025-05-29 10:23] [ST B3] 🛒 Order placed: ASAHIINDIA, Direction: BULLISH, Entry: 753.0, OrderID: 1125052916832
+[2025-05-29 10:23] [ST B3] 🛒 Order placed: ASAHIINDIA, Direction: BULLISH, Entry: 753.00, OrderID: 1125052916832
+[2025-05-29 10:23] [ST B3] ❌ Quote fetch failed: Invalid quote format: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching quotes: Dhan API Error 805: Too many requests. Further requests may result in the user being blocked.","status":"error"}\n'}
+[2025-05-29 10:23] [ST B3] 🔍 Evaluating DEEPAKFERT...
+[2025-05-29 10:23] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:23] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:23] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:23] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:23] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:23] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:23] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:24] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:24] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:24] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:24] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:24] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:24] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:24] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:24] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:24] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:24] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:24] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:24] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:24] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:24] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:24] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:24] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:24] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:24] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:25] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:25] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:25] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:25] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:25] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:25] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:25] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:25] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:25] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:25] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:25] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:25] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:25] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:25] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:25] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:25] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:25] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:25] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:26] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:26] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:26] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:26] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:26] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:26] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:26] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:26] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:26] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:26] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:26] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:26] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:26] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:26] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:26] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:26] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:26] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:26] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:27] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:27] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:27] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:27] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:27] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:27] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:27] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:27] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:27] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:27] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:27] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:27] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:27] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:27] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:27] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:27] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:27] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:27] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:28] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:28] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:28] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:28] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:28] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:28] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:28] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:28] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:28] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:28] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:28] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:28] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:28] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:28] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:28] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:28] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:28] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:28] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:29] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:29] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:29] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:29] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:29] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:29] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:29] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:29] [ST B3] 🔍 Evaluating WELLCORP...
+[2025-05-29 10:29] [ST B3] 🚫 Max trades reached for the day.
+[2025-05-29 10:29] [ST B3] Graceful shutdown invoked.
+[2025-05-29 10:42] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 10:42] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 10:42] [ST B3] 🔍 Evaluating MANYAVAR...
+[2025-05-29 10:42] [ST B3] Raw data type for MANYAVAR: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 10:42] [ST B3] MANYAVAR data fetched successfully with shape: (243, 5)
+[2025-05-29 10:42] [ST B3] Checking condition: close=783.7, wma=780.8072034632035, prev_wma=780.2510497835498, rsi=68.39456768983403, vol=403.0, vol_ma=6011.45, macd=3.4117776319980067, macd_signal=3.1435687475949647, atr=3.4325590280785865
+[2025-05-29 10:42] [ST B3] Volume check: 403.0 vs threshold 1202
+[2025-05-29 10:42] [ST B3] Checking condition: close=783.7, wma=780.8072034632035, prev_wma=780.2510497835498, rsi=68.39456768983403, vol=403.0, vol_ma=6011.45, macd=3.4117776319980067, macd_signal=3.1435687475949647, atr=3.4325590280785865
+[2025-05-29 10:42] [ST B3] Volume check: 403.0 vs threshold 1202
+[2025-05-29 10:42] [ST B3] ⚠️ No clear direction.
+[2025-05-29 10:42] [ST B3] 🔍 Evaluating INTELLECT...
+[2025-05-29 10:42] [ST B3] Raw data type for INTELLECT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 10:42] [ST B3] INTELLECT data fetched successfully with shape: (243, 5)
+[2025-05-29 10:42] [ST B3] Checking condition: close=1139.25, wma=1133.4355043290043, prev_wma=1132.6944134199134, rsi=66.53431718704866, vol=10543.0, vol_ma=38042.9, macd=7.462557783756665, macd_signal=7.672478161278834, atr=5.361547377409993
+[2025-05-29 10:42] [ST B3] MACD conditions not met.
+[2025-05-29 10:42] [ST B3] Checking condition: close=1139.25, wma=1133.4355043290043, prev_wma=1132.6944134199134, rsi=66.53431718704866, vol=10543.0, vol_ma=38042.9, macd=7.462557783756665, macd_signal=7.672478161278834, atr=5.361547377409993
+[2025-05-29 10:42] [ST B3] Bearish trend conditions not met.
+[2025-05-29 10:42] [ST B3] ⚠️ No clear direction.
+[2025-05-29 10:42] [ST B3] 🔍 Evaluating GRAPHITE...
+[2025-05-29 10:42] [ST B3] Raw data type for GRAPHITE: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 10:42] [ST B3] GRAPHITE data fetched successfully with shape: (243, 5)
+[2025-05-29 10:42] [ST B3] Checking condition: close=545.85, wma=543.0071731601731, prev_wma=541.0067316017315, rsi=66.2092196067861, vol=25122.0, vol_ma=23790.0, macd=3.01519033521879, macd_signal=1.7394920694007252, atr=3.202795154206274
+[2025-05-29 10:42] [ST B3] Bullish entry condition met.
+[2025-05-29 10:42] [ST B3] RR Ratio: 2.08, SL: 542.01, Target: 553.86, Entry: 545.85
+[2025-05-29 10:42] [ST B3] Order response: {'orderid': '9125052919232', 'status': 'success'}
+[2025-05-29 10:42] [ST B3] 🛒 Order placed: GRAPHITE, Direction: BULLISH, Entry: 545.85, OrderID: 9125052919232
+[2025-05-29 10:42] [ST B3] 🛒 Order placed: GRAPHITE, Direction: BULLISH, Entry: 545.85, OrderID: 9125052919232
+[2025-05-29 10:42] [ST B3] ❌ Quote fetch failed: Invalid quote format: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching quotes: Dhan API Error 805: Too many requests. Further requests may result in the user being blocked.","status":"error"}\n'}
+[2025-05-29 10:42] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 10:43] [ST B3] 🔍 Evaluating MANYAVAR...
+[2025-05-29 10:43] [ST B3] 🔍 Evaluating INTELLECT...
+[2025-05-29 10:43] [ST B3] 🔍 Evaluating GRAPHITE...
+[2025-05-29 10:43] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 10:44] [ST B3] 🔍 Evaluating MANYAVAR...
+[2025-05-29 10:44] [ST B3] 🔍 Evaluating INTELLECT...
+[2025-05-29 10:44] [ST B3] 🔍 Evaluating GRAPHITE...
+[2025-05-29 10:44] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 10:45] [ST B3] 🔍 Evaluating MANYAVAR...
+[2025-05-29 10:45] [ST B3] 🔍 Evaluating INTELLECT...
+[2025-05-29 10:45] [ST B3] 🔍 Evaluating GRAPHITE...
+[2025-05-29 10:45] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 10:46] [ST B3] 🔍 Evaluating MANYAVAR...
+[2025-05-29 10:46] [ST B3] 🔍 Evaluating INTELLECT...
+[2025-05-29 10:46] [ST B3] 🔍 Evaluating GRAPHITE...
+[2025-05-29 10:46] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 10:46] [ST B3] Graceful shutdown invoked.
+[2025-05-29 11:40] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 11:40] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 11:40] [ST B3] 🔍 Evaluating HEG...
+[2025-05-29 11:40] [ST B3] Raw data type for HEG: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 11:40] [ST B3] HEG data fetched successfully with shape: (255, 5)
+[2025-05-29 11:40] [ST B3] Checking condition: close=507.6, wma=505.36538744588745, prev_wma=504.4882640692641, rsi=66.86039575925368, vol=534.0, vol_ma=40221.75, macd=2.998377978759777, macd_signal=2.582140216511816, atr=2.6690068807898037
+[2025-05-29 11:40] [ST B3] Volume check: 534.0 vs threshold 8044
+[2025-05-29 11:40] [ST B3] Checking condition: close=507.6, wma=505.36538744588745, prev_wma=504.4882640692641, rsi=66.86039575925368, vol=534.0, vol_ma=40221.75, macd=2.998377978759777, macd_signal=2.582140216511816, atr=2.6690068807898037
+[2025-05-29 11:40] [ST B3] Volume check: 534.0 vs threshold 8044
+[2025-05-29 11:40] [ST B3] ⚠️ No clear direction.
+[2025-05-29 11:40] [ST B3] 🔍 Evaluating CAMPUS...
+[2025-05-29 11:40] [ST B3] Raw data type for CAMPUS: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 11:40] [ST B3] CAMPUS data fetched successfully with shape: (255, 5)
+[2025-05-29 11:40] [ST B3] Checking condition: close=295.0, wma=291.36704502164497, prev_wma=289.43453376623376, rsi=81.39854315106037, vol=7.0, vol_ma=14278.7, macd=2.0525663816172255, macd_signal=0.8857644195850121, atr=1.6344350984244882
+[2025-05-29 11:40] [ST B3] Volume check: 7.0 vs threshold 2856
+[2025-05-29 11:40] [ST B3] Checking condition: close=295.0, wma=291.36704502164497, prev_wma=289.43453376623376, rsi=81.39854315106037, vol=7.0, vol_ma=14278.7, macd=2.0525663816172255, macd_signal=0.8857644195850121, atr=1.6344350984244882
+[2025-05-29 11:40] [ST B3] Volume check: 7.0 vs threshold 2856
+[2025-05-29 11:40] [ST B3] ⚠️ No clear direction.
+[2025-05-29 11:40] [ST B3] 🔍 Evaluating PCBL...
+[2025-05-29 11:40] [ST B3] Raw data type for PCBL: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 11:40] [ST B3] PCBL data fetched successfully with shape: (255, 5)
+[2025-05-29 11:40] [ST B3] Checking condition: close=405.7, wma=403.79662337662336, prev_wma=402.93843939393935, rsi=62.03078930685745, vol=165.0, vol_ma=13332.6, macd=0.2739149355446102, macd_signal=-0.25433521745446097, atr=1.2343699750996326
+[2025-05-29 11:40] [ST B3] Volume check: 165.0 vs threshold 2667
+[2025-05-29 11:40] [ST B3] Checking condition: close=405.7, wma=403.79662337662336, prev_wma=402.93843939393935, rsi=62.03078930685745, vol=165.0, vol_ma=13332.6, macd=0.2739149355446102, macd_signal=-0.25433521745446097, atr=1.2343699750996326
+[2025-05-29 11:40] [ST B3] Volume check: 165.0 vs threshold 2667
+[2025-05-29 11:40] [ST B3] ⚠️ No clear direction.
+[2025-05-29 11:40] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 11:41] [ST B3] 🔍 Evaluating HEG...
+[2025-05-29 11:41] [ST B3] Raw data type for HEG: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 11:41] [ST B3] HEG data fetched successfully with shape: (255, 5)
+[2025-05-29 11:41] [ST B3] Checking condition: close=507.0, wma=505.30097186147185, prev_wma=504.4882640692641, rsi=65.0343751818806, vol=5225.0, vol_ma=40456.3, macd=2.9505147308965434, macd_signal=2.572567566939169, atr=2.7475783098864706
+[2025-05-29 11:41] [ST B3] Volume check: 5225.0 vs threshold 8091
+[2025-05-29 11:41] [ST B3] Checking condition: close=507.0, wma=505.30097186147185, prev_wma=504.4882640692641, rsi=65.0343751818806, vol=5225.0, vol_ma=40456.3, macd=2.9505147308965434, macd_signal=2.572567566939169, atr=2.7475783098864706
+[2025-05-29 11:41] [ST B3] Volume check: 5225.0 vs threshold 8091
+[2025-05-29 11:41] [ST B3] ⚠️ No clear direction.
+[2025-05-29 11:41] [ST B3] 🔍 Evaluating CAMPUS...
+[2025-05-29 11:41] [ST B3] Raw data type for CAMPUS: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 11:41] [ST B3] CAMPUS data fetched successfully with shape: (255, 5)
+[2025-05-29 11:41] [ST B3] Checking condition: close=295.9, wma=291.4636683982684, prev_wma=289.43453376623376, rsi=82.62103734439964, vol=8137.0, vol_ma=14685.2, macd=2.1243612534121326, macd_signal=0.9001233939439934, atr=1.7272922419023662
+[2025-05-29 11:41] [ST B3] Bullish entry condition met.
+[2025-05-29 11:41] [ST B3] RR Ratio: 2.08, SL: 293.73, Target: 300.12, Entry: 295.80
+[2025-05-29 11:41] [ST B3] Order response: {'orderid': '3125052923792', 'status': 'success'}
+[2025-05-29 11:41] [ST B3] 🛒 Order placed: CAMPUS, Direction: BULLISH, Entry: 295.8, OrderID: 3125052923792
+[2025-05-29 11:41] [ST B3] 🛒 Order placed: CAMPUS, Direction: BULLISH, Entry: 295.80, OrderID: 3125052923792
+[2025-05-29 11:41] [ST B3] ❌ Quote fetch failed: Invalid quote format: {'status': 'error', 'message': 'HTTP 500: {"message":"Error fetching quotes: Dhan API Error 805: Too many requests. Further requests may result in the user being blocked.","status":"error"}\n'}
+[2025-05-29 11:41] [ST B3] 🔍 Evaluating PCBL...
+[2025-05-29 11:41] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 11:42] [ST B3] 🔍 Evaluating HEG...
+[2025-05-29 11:42] [ST B3] 🔍 Evaluating CAMPUS...
+[2025-05-29 11:42] [ST B3] 🔍 Evaluating PCBL...
+[2025-05-29 11:42] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 11:43] [ST B3] 🔍 Evaluating HEG...
+[2025-05-29 11:43] [ST B3] 🔍 Evaluating CAMPUS...
+[2025-05-29 11:43] [ST B3] 🔍 Evaluating PCBL...
+[2025-05-29 11:43] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 11:44] [ST B3] 🔍 Evaluating HEG...
+[2025-05-29 11:44] [ST B3] 🔍 Evaluating CAMPUS...
+[2025-05-29 11:44] [ST B3] 🔍 Evaluating PCBL...
+[2025-05-29 11:44] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 11:45] [ST B3] 🔍 Evaluating HEG...
+[2025-05-29 11:45] [ST B3] 🔍 Evaluating CAMPUS...
+[2025-05-29 11:45] [ST B3] 🔍 Evaluating PCBL...
+[2025-05-29 11:45] [ST B3] 🕒 Waiting before next cycle...
+[2025-05-29 11:46] [ST B3] Graceful shutdown invoked.
+[2025-05-29 13:01] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:01] [ST B3] 🔁 OpenAlgo Python Bot is running.
+[2025-05-29 13:01] [ST B3] 🔍 Evaluating DEEPAKFERT...
+[2025-05-29 13:01] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:01] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:01] [ST B3] Checking condition: close=1493.0, wma=1488.278238095238, prev_wma=1485.3318311688313, rsi=62.06364795668327, vol=5591.0, vol_ma=14549.9, macd=5.69345088473483, macd_signal=5.260275808392183, atr=7.003823451757081
+[2025-05-29 13:01] [ST B3] Bullish entry condition met.
+[2025-05-29 13:01] [ST B3] RR Ratio: 2.08, SL: 1485.40, Target: 1511.31, Entry: 1493.80
+[2025-05-29 13:01] [ST B3] Order response: {'orderid': '5125052931582', 'status': 'success'}
+[2025-05-29 13:01] [ST B3] 🛒 Order placed: DEEPAKFERT, Direction: BULLISH, Entry: 1493.8, OrderID: 5125052931582
+[2025-05-29 13:01] [ST B3] 🛒 Order placed: DEEPAKFERT, Direction: BULLISH, Entry: 1493.80, OrderID: 5125052931582
+[2025-05-29 13:01] [ST B3] 💹 DEEPAKFERT LTP: 1493.70 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:01] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:01] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:01] [ST B3] 💹 DEEPAKFERT LTP: 1493.90 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:01] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:01] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:02] [ST B3] 💹 DEEPAKFERT LTP: 1496.20 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:02] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:02] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:02] [ST B3] 💹 DEEPAKFERT LTP: 1499.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:02] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:02] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:02] [ST B3] 💹 DEEPAKFERT LTP: 1497.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:02] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:02] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:03] [ST B3] 💹 DEEPAKFERT LTP: 1498.80 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:03] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:03] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:03] [ST B3] 💹 DEEPAKFERT LTP: 1496.90 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:03] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:03] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:03] [ST B3] 💹 DEEPAKFERT LTP: 1496.40 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:03] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:03] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:04] [ST B3] 💹 DEEPAKFERT LTP: 1496.20 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:04] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:04] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:04] [ST B3] 💹 DEEPAKFERT LTP: 1497.80 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:04] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:04] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:04] [ST B3] 💹 DEEPAKFERT LTP: 1497.50 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:04] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:04] [ST B3] DEEPAKFERT data fetched successfully with shape: (271, 5)
+[2025-05-29 13:05] [ST B3] 💹 DEEPAKFERT LTP: 1496.40 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:05] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:05] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:05] [ST B3] 💹 DEEPAKFERT LTP: 1498.80 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:05] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:05] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:05] [ST B3] 💹 DEEPAKFERT LTP: 1498.20 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:05] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:05] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:06] [ST B3] 💹 DEEPAKFERT LTP: 1498.20 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:06] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:06] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:06] [ST B3] 💹 DEEPAKFERT LTP: 1498.80 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:06] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:06] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:06] [ST B3] 💹 DEEPAKFERT LTP: 1499.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:06] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:06] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:07] [ST B3] 💹 DEEPAKFERT LTP: 1498.60 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:07] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:07] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:07] [ST B3] 💹 DEEPAKFERT LTP: 1497.20 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:07] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:07] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:07] [ST B3] 💹 DEEPAKFERT LTP: 1497.20 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:07] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:07] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:08] [ST B3] 💹 DEEPAKFERT LTP: 1497.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:08] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:08] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:08] [ST B3] 💹 DEEPAKFERT LTP: 1498.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:08] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:08] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:09] [ST B3] 💹 DEEPAKFERT LTP: 1499.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:09] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:09] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:09] [ST B3] 💹 DEEPAKFERT LTP: 1498.30 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:09] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:09] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:09] [ST B3] 💹 DEEPAKFERT LTP: 1498.20 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:09] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:09] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:10] [ST B3] 💹 DEEPAKFERT LTP: 1497.90 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:10] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:10] [ST B3] DEEPAKFERT data fetched successfully with shape: (272, 5)
+[2025-05-29 13:10] [ST B3] 💹 DEEPAKFERT LTP: 1498.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:10] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:10] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:10] [ST B3] 💹 DEEPAKFERT LTP: 1498.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:10] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:10] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:11] [ST B3] 💹 DEEPAKFERT LTP: 1498.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:11] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:11] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:11] [ST B3] 💹 DEEPAKFERT LTP: 1497.50 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:11] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:11] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:11] [ST B3] 💹 DEEPAKFERT LTP: 1497.40 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:11] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:11] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:12] [ST B3] 💹 DEEPAKFERT LTP: 1496.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:12] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:12] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:12] [ST B3] 💹 DEEPAKFERT LTP: 1495.50 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:12] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:12] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:12] [ST B3] 💹 DEEPAKFERT LTP: 1495.50 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:12] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:12] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:13] [ST B3] 💹 DEEPAKFERT LTP: 1493.50 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:13] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:13] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:13] [ST B3] 💹 DEEPAKFERT LTP: 1493.00 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:13] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:13] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:13] [ST B3] 💹 DEEPAKFERT LTP: 1493.10 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:13] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:13] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:14] [ST B3] 💹 DEEPAKFERT LTP: 1493.10 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:14] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:14] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:14] [ST B3] 💹 DEEPAKFERT LTP: 1493.10 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:14] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:14] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:14] [ST B3] 💹 DEEPAKFERT LTP: 1494.90 | SL: 1485.40 | Target: 1511.31
+[2025-05-29 13:14] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:14] [ST B3] DEEPAKFERT data fetched successfully with shape: (273, 5)
+[2025-05-29 13:14] [ST B3] Graceful shutdown invoked.
+[2025-05-29 13:33] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:33] [ST B3] 2025-05-29 13:33 HMA - Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:41] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:41] [ST B3] 2025-05-29 13:41 HMA - Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:41] [ST B3] Raw data type for GRAPHITE: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:41] [ST B3] GRAPHITE data fetched successfully with shape: (279, 5)
+[2025-05-29 13:41] [ST B3] Raw data type for HEG: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:41] [ST B3] HEG data fetched successfully with shape: (279, 5)
+[2025-05-29 13:41] [ST B3] Raw data type for CAMPUS: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:41] [ST B3] CAMPUS data fetched successfully with shape: (279, 5)
+[2025-05-29 13:41] [ST B3] Raw data type for PCBL: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:41] [ST B3] PCBL data fetched successfully with shape: (279, 5)
+[2025-05-29 13:41] [ST B3] Raw data type for DEEPAKFERT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:41] [ST B3] DEEPAKFERT data fetched successfully with shape: (279, 5)
+[2025-05-29 13:41] [ST B3] Raw data type for MANYAVAR: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:41] [ST B3] MANYAVAR data fetched successfully with shape: (279, 5)
+[2025-05-29 13:41] [ST B3] Raw data type for INTELLECT: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:41] [ST B3] INTELLECT data fetched successfully with shape: (279, 5)
+[2025-05-29 13:42] [ST B3] Graceful shutdown invoked.
+[2025-05-29 13:51] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:51] [ST B3] 2025-05-29 13:51 HMA - Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:51] [ST B3] Raw data type for CLEAN: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:51] [ST B3] CLEAN data fetched successfully with shape: (281, 5)
+[2025-05-29 13:51] [ST B3] Raw data type for HOMEFIRST: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:51] [ST B3] HOMEFIRST data fetched successfully with shape: (281, 5)
+[2025-05-29 13:51] [ST B3] Raw data type for JYOTICNC: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:51] [ST B3] JYOTICNC data fetched successfully with shape: (281, 5)
+[2025-05-29 13:53] [ST B3] Graceful shutdown invoked.
+[2025-05-29 13:58] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:58] [ST B3] 2025-05-29 13:58 HMA - Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:58] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:58] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:58] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:58] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:58] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:58] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:58] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:58] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:58] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:58] [ST B3] RR Ratio: 2.08, SL: 358.06, Target: 362.05, Entry: 359.35
+[2025-05-29 13:58] [ST B3] Order response: {'orderid': '9125052934622', 'status': 'success'}
+[2025-05-29 13:58] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 359.35, OrderID: 9125052934622
+[2025-05-29 13:59] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:59] [ST B3] 2025-05-29 13:59 HMA - Amar's Hull MA Strategy started in LIVE mode.
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.27, Entry: 358.55
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '5125052935792', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.55, OrderID: 5125052935792
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.27, Entry: 358.55
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '1125052934872', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.55, OrderID: 1125052934872
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.29, Target: 361.32, Entry: 358.60
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '6125052934072', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.6, OrderID: 6125052934072
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.27, Entry: 358.55
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '4125052935162', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.55, OrderID: 4125052935162
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.39, Target: 361.42, Entry: 358.70
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '2125052934142', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.7, OrderID: 2125052934142
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.39, Target: 361.42, Entry: 358.70
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '5125052935812', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.7, OrderID: 5125052935812
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.39, Target: 361.42, Entry: 358.70
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '1125052934892', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.7, OrderID: 1125052934892
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.39, Target: 361.42, Entry: 358.70
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '2125052934162', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.7, OrderID: 2125052934162
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.44, Target: 361.47, Entry: 358.75
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '3125052934452', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.75, OrderID: 3125052934452
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.44, Target: 361.47, Entry: 358.75
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '10125052935172', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.75, OrderID: 10125052935172
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.44, Target: 361.47, Entry: 358.75
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '9125052934732', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.75, OrderID: 9125052934732
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.44, Target: 361.47, Entry: 358.75
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '3125052934462', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.75, OrderID: 3125052934462
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.39, Target: 361.42, Entry: 358.70
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '5125052935822', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.7, OrderID: 5125052935822
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.44, Target: 361.47, Entry: 358.75
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '3125052934472', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.75, OrderID: 3125052934472
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.64, Target: 361.67, Entry: 358.95
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '1125052934912', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.95, OrderID: 1125052934912
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.69, Target: 361.72, Entry: 359.00
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '3125052934482', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 359.0, OrderID: 3125052934482
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.69, Target: 361.72, Entry: 359.00
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '5125052935852', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 359.0, OrderID: 5125052935852
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.69, Target: 361.72, Entry: 359.00
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '2125052934172', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 359.0, OrderID: 2125052934172
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.69, Target: 361.72, Entry: 359.00
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '6125052934082', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 359.0, OrderID: 6125052934082
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] ⚠️ No clear direction.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 13:59] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 13:59] [ST B3] RR Ratio: 2.08, SL: 357.69, Target: 361.72, Entry: 359.00
+[2025-05-29 13:59] [ST B3] Order response: {'orderid': '10125052935202', 'status': 'success'}
+[2025-05-29 13:59] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 359.0, OrderID: 10125052935202
+[2025-05-29 13:59] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 13:59] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 13:59] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 13:59] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.49, Target: 361.52, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934742', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.8, OrderID: 9125052934742
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.49, Target: 361.52, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '4125052935172', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.8, OrderID: 4125052935172
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.49, Target: 361.52, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '4125052935182', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.8, OrderID: 4125052935182
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.49, Target: 361.52, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934782', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.8, OrderID: 9125052934782
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.49, Target: 361.52, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '4125052935192', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.8, OrderID: 4125052935192
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (282, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.49, Target: 361.52, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '2125052934182', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.8, OrderID: 2125052934182
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.32, Target: 361.12, Entry: 358.55
+[2025-05-29 14:00] [ST B3] Volume check failed: 73.0 vs threshold 4910
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.32, Target: 361.12, Entry: 358.55
+[2025-05-29 14:00] [ST B3] Volume check failed: 73.0 vs threshold 4910
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.32, Target: 361.12, Entry: 358.55
+[2025-05-29 14:00] [ST B3] Volume check failed: 73.0 vs threshold 4910
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.32, Target: 361.12, Entry: 358.55
+[2025-05-29 14:00] [ST B3] Volume check failed: 73.0 vs threshold 4910
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.32, Target: 361.12, Entry: 358.55
+[2025-05-29 14:00] [ST B3] Volume check failed: 73.0 vs threshold 4910
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 532.0 vs threshold 4914
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 534.0 vs threshold 4914
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 534.0 vs threshold 4914
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 534.0 vs threshold 4914
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 534.0 vs threshold 4914
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 634.0 vs threshold 4915
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 634.0 vs threshold 4915
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 634.0 vs threshold 4915
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 634.0 vs threshold 4915
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 3475.0 vs threshold 4944
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 3475.0 vs threshold 4944
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 4133.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 4133.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 4133.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 4133.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.57, Target: 361.37, Entry: 358.80
+[2025-05-29 14:00] [ST B3] Volume check failed: 4133.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.52, Target: 361.32, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Volume check failed: 4138.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.47, Target: 361.27, Entry: 358.70
+[2025-05-29 14:00] [ST B3] Volume check failed: 4139.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.47, Target: 361.27, Entry: 358.70
+[2025-05-29 14:00] [ST B3] Volume check failed: 4139.0 vs threshold 4950
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.26, Target: 361.08, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052934952', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 1125052934952
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.26, Target: 361.08, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '3125052934532', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 3125052934532
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.36, Target: 361.18, Entry: 358.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '10125052935242', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.6, OrderID: 10125052935242
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.36, Target: 361.18, Entry: 358.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '3125052934542', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.6, OrderID: 3125052934542
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.46, Target: 361.28, Entry: 358.70
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934832', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.7, OrderID: 9125052934832
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.51, Target: 361.33, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934142', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.75, OrderID: 6125052934142
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.51, Target: 361.33, Entry: 358.75
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '4125052935212', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.75, OrderID: 4125052935212
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.36, Target: 361.18, Entry: 358.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '4125052935222', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.6, OrderID: 4125052935222
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.36, Target: 361.18, Entry: 358.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934842', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.6, OrderID: 9125052934842
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.36, Target: 361.18, Entry: 358.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934152', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.6, OrderID: 6125052934152
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.31, Target: 361.13, Entry: 358.55
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052934982', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.55, OrderID: 1125052934982
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 356.99, Target: 360.88, Entry: 358.25
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '10125052935272', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.25, OrderID: 10125052935272
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] ⚠️ No clear direction.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.13, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934852', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 9125052934852
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.63, Target: 1513.59, Entry: 1494.70
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934162', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.7, OrderID: 6125052934162
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.13, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052935902', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 5125052935902
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.53, Target: 1513.49, Entry: 1494.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '4125052935242', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.6, OrderID: 4125052935242
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.13, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934172', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 6125052934172
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1486.00, Target: 1514.07, Entry: 1495.10
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934182', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1495.1, OrderID: 6125052934182
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.13, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052935912', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 5125052935912
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.80, Target: 1513.87, Entry: 1494.90
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '2125052934282', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.9, OrderID: 2125052934282
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.13, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052935002', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 1125052935002
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.50, Target: 1513.57, Entry: 1494.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052935922', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.6, OrderID: 5125052935922
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.93, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '4125052935252', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 4125052935252
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.40, Target: 1513.47, Entry: 1494.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052935932', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.5, OrderID: 5125052935932
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.93, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052935012', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 1125052935012
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.10, Target: 1513.17, Entry: 1494.20
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934882', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.2, OrderID: 9125052934882
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.24, Target: 361.13, Entry: 358.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '2125052934292', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.5, OrderID: 2125052934292
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.10, Target: 1513.17, Entry: 1494.20
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '3125052934552', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.2, OrderID: 3125052934552
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.09, Target: 360.98, Entry: 358.35
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934212', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.35, OrderID: 6125052934212
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.10, Target: 1513.17, Entry: 1494.20
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '10125052935312', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.2, OrderID: 10125052935312
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.09, Target: 360.98, Entry: 358.35
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934892', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.35, OrderID: 9125052934892
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.40, Target: 1513.47, Entry: 1494.50
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052935952', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.5, OrderID: 5125052935952
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.09, Target: 360.98, Entry: 358.35
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '2125052934302', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.35, OrderID: 2125052934302
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.30, Target: 1513.37, Entry: 1494.40
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '3125052934572', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.4, OrderID: 3125052934572
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.93, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052935022', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 1125052935022
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.50, Target: 1513.57, Entry: 1494.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934242', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.6, OrderID: 6125052934242
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.93, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '10125052935322', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 10125052935322
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1484.50, Target: 1512.57, Entry: 1493.60
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052935972', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1493.6, OrderID: 5125052935972
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.09, Target: 360.98, Entry: 358.35
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052935982', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.35, OrderID: 5125052935982
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1486.00, Target: 1514.07, Entry: 1495.10
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '10125052935332', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1495.1, OrderID: 10125052935332
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 356.94, Target: 360.84, Entry: 358.20
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '2125052934322', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.2, OrderID: 2125052934322
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1486.00, Target: 1514.07, Entry: 1495.10
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052935052', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1495.1, OrderID: 1125052935052
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 356.94, Target: 360.84, Entry: 358.20
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934922', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.2, OrderID: 9125052934922
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.90, Target: 1513.97, Entry: 1495.00
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052935062', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1495.0, OrderID: 1125052935062
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.94, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '1125052935072', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 1125052935072
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.30, Target: 1513.37, Entry: 1494.40
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '10125052935342', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.4, OrderID: 10125052935342
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.94, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '9125052934932', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 9125052934932
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.30, Target: 1513.37, Entry: 1494.40
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934262', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.4, OrderID: 6125052934262
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.94, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934272', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 6125052934272
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.80, Target: 1513.87, Entry: 1494.90
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '2125052934332', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1494.9, OrderID: 2125052934332
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.94, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052936002', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 5125052936002
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1485.90, Target: 1513.97, Entry: 1495.00
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '6125052934282', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1495.0, OrderID: 6125052934282
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for CROMPTON: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] CROMPTON data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 357.04, Target: 360.94, Entry: 358.30
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '10125052935362', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: CROMPTON, Direction: BULLISH, Entry: 358.3, OrderID: 10125052935362
+[2025-05-29 14:00] [ST B3] ❌ Order failed for CROMPTON. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating IPCALAB...
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 5)
+[2025-05-29 14:00] [ST B3] Raw data type for IPCALAB: <class 'pandas.core.frame.DataFrame'>
+[2025-05-29 14:00] [ST B3] IPCALAB data fetched successfully with shape: (283, 14)
+[2025-05-29 14:00] [ST B3] RR Ratio: 2.08, SL: 1484.30, Target: 1512.37, Entry: 1493.40
+[2025-05-29 14:00] [ST B3] Order response: {'orderid': '5125052936012', 'status': 'success'}
+[2025-05-29 14:00] [ST B3] 🛒 Order placed: IPCALAB, Direction: BULLISH, Entry: 1493.4, OrderID: 5125052936012
+[2025-05-29 14:00] [ST B3] ❌ Order failed for IPCALAB. Skipping monitoring.
+[2025-05-29 14:00] [ST B3] 🔍 Evaluating CROMPTON...
+[2025-05-29 14:00] [ST B3] Graceful shutdown invoked.
