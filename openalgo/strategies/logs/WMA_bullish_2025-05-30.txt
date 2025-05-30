@@ -1,0 +1,140 @@
+[2025-05-30 11:47] WMA_Bullish Amar's WMA Bullish Strategy started in LIVE mode.
+[2025-05-30 11:47] WMA_Bullish Processing ELGIEQUIP...
+[2025-05-30 11:47] WMA_Bullish Checking condition: close=543.5, wma=535.5869047619047, prev_wma=534.3169047619047, rsi=77.72996919494338, vol=59400.0, vol_ma=114955.3, macd=8.139989250834674, macd_signal=0.354359841431064, atr=4.34678385273414
+[2025-05-30 11:47] WMA_Bullish Bullish entry condition met.
+[2025-05-30 11:47] WMA_Bullish Order Placed for ELGIEQUIP, Order ID: 2125053027852 at 543.15
+[2025-05-30 11:47] WMA_Bullish SL for ELGIEQUIP set at 539.89 (ATR: 4.35)
+[2025-05-30 11:48] WMA_Bullish LTP for ELGIEQUIP: 543.85 | SL: 539.89 | Target: 549.67
+[2025-05-30 11:49] WMA_Bullish LTP for ELGIEQUIP: 545.00 | SL: 539.89 | Target: 549.67
+[2025-05-30 11:50] WMA_Bullish LTP for ELGIEQUIP: 544.30 | SL: 539.89 | Target: 549.67
+[2025-05-30 11:51] WMA_Bullish Graceful shutdown invoked.
+[2025-05-30 11:56] WMA_Bullish Amar's WMA Bullish Strategy started in LIVE mode.
+[2025-05-30 11:56] WMA_Bullish Processing TCS...
+[2025-05-30 11:56] WMA_Bullish Checking condition: close=3491.5, wma=3491.8328571428574, prev_wma=3491.820952380952, rsi=50.31837924768677, vol=8442.0, vol_ma=11495.55, macd=0.24305138783211078, macd_signal=-0.025410389916454557, atr=3.7415534785287132
+[2025-05-30 11:56] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:56] WMA_Bullish Processing INFY...
+[2025-05-30 11:56] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.17800772763114686, atr=1.7925230461141277
+[2025-05-30 11:56] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:56] WMA_Bullish Processing HCLTECH...
+[2025-05-30 11:56] WMA_Bullish Checking condition: close=1656.4, wma=1658.0533333333333, prev_wma=1658.227619047619, rsi=44.062620040630534, vol=2053.0, vol_ma=6774.3, macd=-0.32053312337643547, macd_signal=-0.22904910522610558, atr=2.34037053541739
+[2025-05-30 11:56] WMA_Bullish Volume too low compared to average.
+[2025-05-30 11:56] WMA_Bullish Processing TECHM...
+[2025-05-30 11:56] WMA_Bullish Checking condition: close=1616.8, wma=1618.0380952380951, prev_wma=1618.1761904761904, rsi=50.40528975411779, vol=47112.0, vol_ma=17236.5, macd=0.7913067857812166, macd_signal=-0.6049773007855532, atr=2.8220420769588452
+[2025-05-30 11:56] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:57] WMA_Bullish Processing TCS...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=3491.8, wma=3491.861428571429, prev_wma=3491.820952380952, rsi=50.94290912196525, vol=8850.0, vol_ma=11515.95, macd=0.26698301176338646, macd_signal=-0.006265090771434001, atr=3.7415534785287132
+[2025-05-30 11:57] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:57] WMA_Bullish Processing INFY...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.17800772763114686, atr=1.7925230461141277
+[2025-05-30 11:57] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:57] WMA_Bullish Processing HCLTECH...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=1655.9, wma=1658.0057142857142, prev_wma=1658.227619047619, rsi=42.545363005816306, vol=2515.0, vol_ma=6797.4, macd=-0.3604191632623497, macd_signal=-0.26095793713483695, atr=2.3546562497030914
+[2025-05-30 11:57] WMA_Bullish Volume too low compared to average.
+[2025-05-30 11:57] WMA_Bullish Processing TECHM...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=1616.8, wma=1618.0380952380951, prev_wma=1618.1761904761904, rsi=50.40528975411779, vol=47112.0, vol_ma=17236.5, macd=0.7913067857812166, macd_signal=-0.6049773007855532, atr=2.8220420769588452
+[2025-05-30 11:57] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:57] WMA_Bullish Processing TCS...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=3491.9, wma=3491.8709523809525, prev_wma=3491.820952380952, rsi=51.15454512264613, vol=9120.0, vol_ma=11529.45, macd=0.2749602197409331, macd_signal=0.00011667561060330067, atr=3.755839192814447
+[2025-05-30 11:57] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:57] WMA_Bullish Processing INFY...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.17800772763114686, atr=1.7925230461141277
+[2025-05-30 11:57] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:57] WMA_Bullish Processing HCLTECH...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=1655.4, wma=1657.9580952380952, prev_wma=1658.227619047619, rsi=41.129118659327624, vol=3655.0, vol_ma=6854.4, macd=-0.40030514596287503, macd_signal=-0.29286679595456694, atr=2.4117991027516457
+[2025-05-30 11:57] WMA_Bullish MACD conditions not met.
+[2025-05-30 11:57] WMA_Bullish Processing TECHM...
+[2025-05-30 11:57] WMA_Bullish Checking condition: close=1579.2, wma=1579.875238095238, prev_wma=1579.8304761904762, rsi=46.68363592654581, vol=2573.0, vol_ma=10590.15, macd=-0.42257696292904257, macd_signal=0.3787101783069202, atr=2.7810977868766757
+[2025-05-30 11:57] WMA_Bullish Volume too low compared to average.
+[2025-05-30 11:58] WMA_Bullish Processing TCS...
+[2025-05-30 11:58] WMA_Bullish Checking condition: close=3490.4, wma=3491.728095238095, prev_wma=3491.820952380952, rsi=48.153809633440126, vol=9849.0, vol_ma=11565.9, macd=0.1553021000827357, macd_signal=-0.09560982011595459, atr=3.8058391928144344
+[2025-05-30 11:58] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:58] WMA_Bullish Processing INFY...
+[2025-05-30 11:58] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.17800772763114686, atr=1.7925230461141277
+[2025-05-30 11:58] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:58] WMA_Bullish Processing HCLTECH...
+[2025-05-30 11:58] WMA_Bullish Checking condition: close=1655.4, wma=1657.9580952380952, prev_wma=1658.227619047619, rsi=41.129118481671355, vol=3872.0, vol_ma=6865.25, macd=-0.4003052031484913, macd_signal=-0.2928667690437502, atr=2.4117991068459617
+[2025-05-30 11:58] WMA_Bullish MACD conditions not met.
+[2025-05-30 11:58] WMA_Bullish Processing TECHM...
+[2025-05-30 11:58] WMA_Bullish Checking condition: close=1572.0, wma=1565.2199999999998, prev_wma=1564.5214285714285, rsi=62.93634748577189, vol=41566.0, vol_ma=39994.05, macd=0.14848751076965527, macd_signal=1.04815822915042, atr=3.331758519044202
+[2025-05-30 11:58] WMA_Bullish MACD conditions not met.
+[2025-05-30 11:58] WMA_Bullish Processing TCS...
+[2025-05-30 11:58] WMA_Bullish Checking condition: close=3490.0, wma=3491.69, prev_wma=3491.820952380952, rsi=47.41215466209426, vol=11326.0, vol_ma=11639.75, macd=0.12339326817436813, macd_signal=-0.12113688564264866, atr=3.834410621385869
+[2025-05-30 11:58] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:58] WMA_Bullish Processing INFY...
+[2025-05-30 11:58] WMA_Bullish Checking condition: close=1570.2, wma=1568.1428571428569, prev_wma=1567.774761904762, rsi=58.15429713127219, vol=200592.0, vol_ma=175540.05, macd=1.173528556807014, macd_signal=0.6266100919082416, atr=2.606503751637877
+[2025-05-30 11:58] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 11:58] WMA_Bullish Processing HCLTECH...
+[2025-05-30 11:58] WMA_Bullish Checking condition: close=1640.0, wma=1634.1728571428573, prev_wma=1633.5566666666668, rsi=62.444564297457134, vol=40895.0, vol_ma=54352.25, macd=1.0541286535903964, macd_signal=0.4427226223152796, atr=3.84440574541123
+[2025-05-30 11:58] WMA_Bullish Bullish entry condition met.
+[2025-05-30 11:58] WMA_Bullish Order Placed for HCLTECH, Order ID: 9125053029062 at 1655.2
+[2025-05-30 11:58] WMA_Bullish SL for HCLTECH set at 1651.36 (ATR: 3.84)
+[2025-05-30 11:59] WMA_Bullish LTP for HCLTECH: 1655.20 | SL: 1651.36 | Target: 1675.06
+[2025-05-30 11:59] WMA_Bullish Trend reversal detected for HCLTECH, exiting position at 1655.20
+[2025-05-30 13:06] WMA_Bullish Amar's WMA Bullish Strategy started in LIVE mode.
+[2025-05-30 13:06] WMA_Bullish Processing TCS...
+[2025-05-30 13:06] WMA_Bullish Checking condition: close=3493.0, wma=3491.154285714286, prev_wma=3490.9490476190476, rsi=55.571261333407236, vol=1688.0, vol_ma=15053.3, macd=0.41813033289690793, macd_signal=0.34502878357198785, atr=2.5154619874740596
+[2025-05-30 13:06] WMA_Bullish Volume too low compared to average.
+[2025-05-30 13:06] WMA_Bullish Processing INFY...
+[2025-05-30 13:06] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.17800772763114686, atr=1.7925230461141277
+[2025-05-30 13:06] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:06] WMA_Bullish Processing HCLTECH...
+[2025-05-30 13:06] WMA_Bullish Checking condition: close=1655.5, wma=1654.5433333333335, prev_wma=1654.5014285714285, rsi=49.60783420719094, vol=1687.0, vol_ma=6018.6, macd=-0.6187795256939808, macd_signal=0.2728097126345921, atr=2.022488168569913
+[2025-05-30 13:06] WMA_Bullish Volume too low compared to average.
+[2025-05-30 13:06] WMA_Bullish Processing TECHM...
+[2025-05-30 13:06] WMA_Bullish Checking condition: close=1572.0, wma=1565.2199999999998, prev_wma=1564.5214285714285, rsi=62.93634748577189, vol=41566.0, vol_ma=39994.05, macd=0.14848751076965527, macd_signal=1.04815822915042, atr=3.331758519044202
+[2025-05-30 13:06] WMA_Bullish MACD conditions not met.
+[2025-05-30 13:06] WMA_Bullish Graceful shutdown invoked.
+[2025-05-30 13:37] WMA_Bullish Amar's WMA Bullish Strategy started in LIVE mode.
+[2025-05-30 13:37] WMA_Bullish Processing TCS...
+[2025-05-30 13:37] WMA_Bullish Checking condition: close=3487.7, wma=3489.8414285714284, prev_wma=3490.0671428571427, rsi=41.76588340289628, vol=41267.0, vol_ma=19024.4, macd=-0.6624329080409552, macd_signal=-0.2788227915248882, atr=2.446419112907687
+[2025-05-30 13:37] WMA_Bullish MACD conditions not met.
+[2025-05-30 13:37] WMA_Bullish Processing INFY...
+[2025-05-30 13:37] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.11930741740418023, atr=1.7925230461141277
+[2025-05-30 13:37] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:37] WMA_Bullish Processing HCLTECH...
+[2025-05-30 13:37] WMA_Bullish Checking condition: close=1655.9, wma=1655.2561904761908, prev_wma=1655.1323809523813, rsi=50.923953912658455, vol=4210.0, vol_ma=6624.9, macd=-0.15477146696275668, macd_signal=-0.4014254882548104, atr=1.8429277070825263
+[2025-05-30 13:37] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:37] WMA_Bullish Processing TECHM...
+[2025-05-30 13:37] WMA_Bullish Checking condition: close=1594.8, wma=1589.2880952380951, prev_wma=1588.5371428571427, rsi=61.80070555473294, vol=47394.0, vol_ma=33039.55, macd=1.430581244781024, macd_signal=0.2841773964590193, atr=3.7531082412463217
+[2025-05-30 13:37] WMA_Bullish Bullish entry condition met.
+[2025-05-30 13:37] WMA_Bullish Order Placed for TECHM, Order ID: 7125053017462 at 1579.7
+[2025-05-30 13:37] WMA_Bullish SL for TECHM set at 1575.95 (ATR: 3.75)
+[2025-05-30 13:38] WMA_Bullish LTP for TECHM: 1580.30 | SL: 1575.95 | Target: 1598.66
+[2025-05-30 13:43] WMA_Bullish Amar's WMA Bullish Strategy started in LIVE mode.
+[2025-05-30 13:43] WMA_Bullish Processing TCS...
+[2025-05-30 13:43] WMA_Bullish Checking condition: close=3487.7, wma=3489.6280952380953, prev_wma=3489.8414285714284, rsi=41.76588340289628, vol=16813.0, vol_ma=16880.95, macd=-0.7497282518502288, macd_signal=-0.3730038835899564, atr=2.371164686475512
+[2025-05-30 13:43] WMA_Bullish MACD conditions not met.
+[2025-05-30 13:43] WMA_Bullish Processing INFY...
+[2025-05-30 13:43] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.11930741740418023, atr=1.7925230461141277
+[2025-05-30 13:43] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:43] WMA_Bullish Processing HCLTECH...
+[2025-05-30 13:43] WMA_Bullish Checking condition: close=1656.0, wma=1655.394761904762, prev_wma=1655.2657142857145, rsi=51.36579184596988, vol=28266.0, vol_ma=7721.6, macd=-0.0994494632604983, macd_signal=-0.3397539299796133, atr=1.78271858514806
+[2025-05-30 13:43] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:43] WMA_Bullish Processing MUTHOOTFIN...
+[2025-05-30 13:43] WMA_Bullish Checking condition: close=2103.0, wma=2102.6190476190477, prev_wma=2102.4928571428572, rsi=56.26145785514998, vol=22346.0, vol_ma=15458.1, macd=2.305396130595909, macd_signal=2.306596839131915, atr=3.394927895507955
+[2025-05-30 13:43] WMA_Bullish MACD conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing TCS...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=3487.7, wma=3489.6280952380953, prev_wma=3489.8414285714284, rsi=41.76588340289628, vol=17160.0, vol_ma=16898.3, macd=-0.7497282518502288, macd_signal=-0.3730038835899564, atr=2.371164686475512
+[2025-05-30 13:44] WMA_Bullish MACD conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing INFY...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.11930741740418023, atr=1.7925230461141277
+[2025-05-30 13:44] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing HCLTECH...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=1656.0, wma=1655.394761904762, prev_wma=1655.2657142857145, rsi=51.36579184596988, vol=44003.0, vol_ma=8508.45, macd=-0.0994494632604983, macd_signal=-0.3397539299796133, atr=1.78271858514806
+[2025-05-30 13:44] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing MUTHOOTFIN...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=2103.0, wma=2102.6190476190477, prev_wma=2102.4928571428572, rsi=56.26145785514998, vol=22346.0, vol_ma=15458.1, macd=2.305396130595909, macd_signal=2.306596839131915, atr=3.394927895507955
+[2025-05-30 13:44] WMA_Bullish MACD conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing TCS...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=3487.7, wma=3489.6280952380953, prev_wma=3489.8414285714284, rsi=41.76588340289628, vol=17692.0, vol_ma=16924.9, macd=-0.7497282518502288, macd_signal=-0.3730038835899564, atr=2.371164686475512
+[2025-05-30 13:44] WMA_Bullish MACD conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing INFY...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=1589.4, wma=1589.0885714285714, prev_wma=1589.0199999999998, rsi=51.69410466985721, vol=110064.0, vol_ma=77622.4, macd=0.2973151450353271, macd_signal=0.11930741740418023, atr=1.7925230461141277
+[2025-05-30 13:44] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing HCLTECH...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=1656.6, wma=1655.4519047619049, prev_wma=1655.2657142857145, rsi=54.039500646371415, vol=50146.0, vol_ma=8815.6, macd=-0.05158621539703745, macd_signal=-0.33018128040692113, atr=1.78271858514806
+[2025-05-30 13:44] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:44] WMA_Bullish Processing MUTHOOTFIN...
+[2025-05-30 13:44] WMA_Bullish Checking condition: close=2097.9, wma=2092.881428571429, prev_wma=2092.284285714286, rsi=55.32885481598921, vol=17708.0, vol_ma=9370.1, macd=0.3711579742212052, macd_signal=-0.8485235737776559, atr=5.50218768489064
+[2025-05-30 13:44] WMA_Bullish Price/RSI/WMA trend conditions not met.
+[2025-05-30 13:44] WMA_Bullish Graceful shutdown invoked.

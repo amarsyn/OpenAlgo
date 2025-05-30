@@ -26,10 +26,10 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Weighted MA Bullish Trend Python"
-symbols = ["INDUSTOWER"]
+symbols = ["TCS","INFY","HCLTECH","MUTHOOTFIN"]
 exchange = "NSE"
 product = "MIS"
-quantity = 10
+quantity = 5
 mode = "live"  # or "live"
 
 # Entry Time Filter (24-hr format)
@@ -71,7 +71,7 @@ def log_message(msg):
         f.write(f"[{timestamp}] WMA_Bullish {msg}\n")
 
 def log_trade_csv(symbol, entry_price, close_price, profit_pct, reason):
-    with open(TRADE_LOG_CSV, "a") as log_file:
+    with open(TRADE_LOG, "a") as log_file:
         log_file.write(f"{datetime.now()},{symbol},{entry_price},{close_price},{(close_price - entry_price)/entry_price * 100:.2f},{profit_pct:.2f},{reason},Trailing SL\n")
 
 # =======================
@@ -80,21 +80,47 @@ def log_trade_csv(symbol, entry_price, close_price, profit_pct, reason):
 def fetch_data(symbol):
     end_date = datetime.now()
     start_date = end_date - timedelta(days=20)
-    df = client.history(
+    data = client.history(
         symbol=symbol,
         exchange=exchange,
         interval="5m",
         start_date=start_date.strftime("%Y-%m-%d"),
         end_date=end_date.strftime("%Y-%m-%d")
     )
+
+    if isinstance(data, dict) and "data" in data:
+        df = pd.DataFrame(data["data"])
+    elif isinstance(data, pd.DataFrame):
+        df = data
+    else:
+        log_message(f"Unexpected data format received for {symbol}")
+        return None
+
+    if df.empty:
+        log_message(f"No historical data found for {symbol}")
+        return None
+
     df.index = pd.to_datetime(df.index)
     df['wma'] = ta.wma(df['close'], length=20)
     df['rsi'] = ta.rsi(df['close'], length=14)
     df['vol_ma'] = df['volume'].rolling(window=20).mean()
-    df['macd'] = ta.macd(df['close']).iloc[:, 0]
-    df['macd_signal'] = ta.macd(df['close']).iloc[:, 1]
+    macd_df = ta.macd(df['close'])
+    df['macd'] = macd_df['MACD_12_26_9']
+    df['macd_signal'] = macd_df['MACDs_12_26_9']
     df['atr'] = ta.atr(df['high'], df['low'], df['close'], length=14)
     return df
+
+# =======================
+# MACD Crossover Utility
+# =======================
+# check if crossover happened few candles earlier
+def recent_macd_bullish_cross(df, lookback=5):
+    macd = df['macd']
+    macd_signal = df['macd_signal']
+    for i in range(-lookback - 1, -1):
+        if macd.iloc[i - 1] < macd_signal.iloc[i - 1] and macd.iloc[i] > macd_signal.iloc[i]:
+            return True
+    return False
 
 # =======================
 # Entry Condition Check (lines 123–138)
@@ -112,8 +138,8 @@ def check_entry_conditions(df):
         log_message("Volume too low compared to average.")
         return False
 
-    if not (latest['macd'] > latest['macd_signal'] or (latest['macd'] > 0 and latest['macd_signal'] < 0)):
-        log_message("MACD conditions not met.")
+    if not recent_macd_bullish_cross(df, lookback=3):
+        log_message("No recent MACD bullish crossover.")
         return False
 
     if (
@@ -127,35 +153,16 @@ def check_entry_conditions(df):
     log_message("Price/RSI/WMA trend conditions not met.")
     return False
 
-    if latest['volume'] <= 0.5 * latest['vol_ma']:
-        log_message("Volume too low compared to average.")
-        return False
-
-    if not (latest['macd'] < latest['macd_signal'] or (latest['macd'] < 0 and latest['macd_signal'] > 0)):
-        log_message("MACD conditions not met.")
-        return False
-
-    if (
-        latest['close'] < latest['wma'] and
-        latest['wma'] < previous['wma'] and
-        latest['rsi'] < 40
-    ):
-        log_message("Bullish entry condition met.")
-        return True
-
-    log_message("Price/RSI/WMA trend conditions not met.")
-    return False
-
 # =======================
 # Order Placement and Strategy Execution
 # =======================
-# Order Placement (Short Sell)
+# Order Placement (Long Position Entry)
 def place_order(symbol):
     try:
         response = client.placeorder(
             strategy=strategy,
             symbol=symbol,
-            action="SELL",  # reversed
+            action="BUY", 
             exchange=exchange,
             price_type="MARKET",
             product=product,
@@ -173,7 +180,7 @@ def exit_position(symbol):
         response = client.placeorder(
             strategy=strategy,
             symbol=symbol,
-            action="BUY",  # reversed
+            action="SELL",  # reversed
             exchange=exchange,
             price_type="MARKET",
             product=product,
@@ -248,10 +255,10 @@ def run_strategy():
                     df = fetch_data(symbol)
                     if df is not None:
                         macd = df['macd'].iloc[-1]
-                        signal = df['macd_signal'].iloc[-1]
+                        macd_signal = df['macd_signal'].iloc[-1]
                         rsi = df['rsi'].iloc[-1]
 
-                        if macd < signal and rsi < 55:
+                        if macd < macd_signal and rsi < 55:
                             trend_reversed = True
 
                     # Stop Loss
