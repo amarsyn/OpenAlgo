@@ -220,7 +220,7 @@ def place_order(symbol, direction):
             product=product,
             quantity=quantity
         )
-                if response.get("status") != "success":
+        if response.get("status") != "success":
             log_message(f"❌ Order failed for {symbol}: {response.get('message', 'Unknown error')}")
             return None, None
         return response['orderid'], client.quotes(symbol=symbol, exchange=exchange)['data']['ltp']
