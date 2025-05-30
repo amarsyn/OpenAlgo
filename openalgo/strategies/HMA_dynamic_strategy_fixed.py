@@ -89,7 +89,7 @@ today = date.today()
 # Add this function above run_strategy()
 def get_watchlist_symbols():
     # List of candidate stocks to evaluate (maintained in one place)
-    candidate_symbols = ["CROMPTON","IPCALAB"]
+    candidate_symbols = ["BHARTIARTL","SHRIRAMFIN", "HEROMOTOCO"]
 
     selected_symbols = []
 

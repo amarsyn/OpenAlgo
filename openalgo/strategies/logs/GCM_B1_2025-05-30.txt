@@ -1,0 +1,5 @@
+2025-05-30 09:15:15.744593 - Amar's GCM Batch-1 Strategy started in LIVE mode.
+2025-05-30 09:20:15.814430 - ❌ Error: ICICIBANK -> 'api' object has no attribute 'get_ohlcv'
+2025-05-30 09:20:15.814430 - ❌ Error: HDFCBANK -> 'api' object has no attribute 'get_ohlcv'
+2025-05-30 09:20:15.814430 - ❌ Error: ADANIENT -> 'api' object has no attribute 'get_ohlcv'
+2025-05-30 09:20:36.798989 - Graceful shutdown invoked.

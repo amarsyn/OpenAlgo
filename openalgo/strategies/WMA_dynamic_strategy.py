@@ -63,7 +63,7 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Trend Strategy"
-symbols = ["TRENT", "ADANIPORTS", "BHARTIARTL"]
+symbols = ["INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL","SHRIRAMFIN", "HEROMOTOCO"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
@@ -83,8 +83,8 @@ CHAT_ID = "627470225"
 
 client = api(api_key=api_key)
 trade_count = 0
-max_trades_per_day = 2
-last_trade_time = datetime.now() - timedelta(minutes=15)
+# max_trades_per_day = 12
+# last_trade_time = datetime.now() - timedelta(minutes=15)
 today = date.today()
 
 # =======================
@@ -166,7 +166,7 @@ def check_entry_conditions(df, direction):
         log_message("ATR too low, skipping entry.")
         return False
 
-    if latest['volume'] < 0.7 * latest['vol_ma']:
+    if latest['volume'] < 0.4 * latest['vol_ma']:
         log_message("Volume too low compared to average.")
         return False
 
@@ -199,11 +199,11 @@ def check_entry_conditions(df, direction):
 # =======================
 # Cooldown Timer Validation (to be called inside run_strategy)
 # =======================
-def is_cooldown_active(last_trade_time):
-    if (datetime.now() - last_trade_time).seconds < 30:
-        log_message("Cooldown active. Skipping.")
-        return True
-    return False
+# def is_cooldown_active(last_trade_time):
+    # if (datetime.now() - last_trade_time).seconds < 30:
+    #     log_message("Cooldown active. Skipping.")
+    #     return True
+    # return False
 
 # =======================
 # Order Management
@@ -279,18 +279,18 @@ def run_strategy():
         trade_count = 0
         today = date.today()
 
-    if not (start_time <= now.strftime("%H:%M") <= end_time) or trade_count >= max_trades_per_day:
-        log_message("Outside trading window or max trades reached.")
-        return
+    # if not (start_time <= now.strftime("%H:%M") <= end_time) or trade_count >= max_trades_per_day:
+    #     log_message("Outside trading window or max trades reached.")
+    #     return
 
     for symbol in symbols:
-        if trade_count >= max_trades_per_day:
-            log_message(f"Max trades reached; skipping remaining symbols.")
-            break
+        # if trade_count >= max_trades_per_day:
+        #     log_message(f"Max trades reached; skipping remaining symbols.")
+        #     break
 
-        if is_cooldown_active(last_trade_time):
-            log_message(f"Cooldown active; skipping {symbol}.")
-            continue
+        # if is_cooldown_active(last_trade_time):
+        #     log_message(f"Cooldown active; skipping {symbol}.")
+        #     continue
 
         df = fetch_data(symbol)
         if df is None or df.empty:
