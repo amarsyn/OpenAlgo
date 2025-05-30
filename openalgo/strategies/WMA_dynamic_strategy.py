@@ -63,7 +63,7 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Trend Strategy"
-symbols = ["MAZDOCK","CHAMBALFERT","PATANJALI","INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL"]
+symbols = ["MAZDOCK","INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
