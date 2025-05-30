@@ -63,7 +63,7 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Trend Strategy"
-symbols = ["CHAMBALFERT","PATANJALI","INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL"]
+symbols = ["MAZDOCK","CHAMBALFERT","PATANJALI","INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
@@ -455,7 +455,8 @@ def run_strategy():
                         log_trade_csv(symbol, entry_price, ltp, pl_pct, reason)
                         exit_position(symbol, direction_detected)
                         trade_duration = datetime.now() - trade_start
-                        log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%, Duration: {trade_duration}")                            break
+                        log_message(f"Trade closed for {symbol}, P/L: {pl_pct:.2f}%, Duration: {trade_duration}")                            
+                        break
 
                     elif hit_trail:
                         new_sl = ltp * (1 + trailing_sl_pct / 100) if direction_detected == "bullish" else ltp * (1 - trailing_sl_pct / 100)
