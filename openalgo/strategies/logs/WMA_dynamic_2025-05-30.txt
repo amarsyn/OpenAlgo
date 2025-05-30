@@ -59,3 +59,35 @@
 [2025-05-30 14:42] WMA_Dynamic Processing MUTHOOTFIN...
 [2025-05-30 14:42] WMA_Dynamic Checking trend — Close: 2103.0, WMA: 2102.6190476190477, Prev_WMA: 2102.4928571428572, RSI: 56.26145785514998, MACD: 2.305396130595909, Signal: 2.306596839131915
 [2025-05-30 14:42] WMA_Dynamic No valid trend detected.
+[2025-05-30 14:45] WMA_Dynamic Graceful shutdown requested.
+[2025-05-30 14:45] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-05-30 14:45] WMA_Dynamic Processing TCS...
+[2025-05-30 14:45] WMA_Dynamic Checking trend — Close: 3485.2, WMA: 3488.3, Prev_WMA: 3488.6376190476185, RSI: 34.862113371772715, MACD: -0.8302301523599454, Signal: -0.4820765147622199
+[2025-05-30 14:45] WMA_Dynamic BEARISH Signal -> TCS @ 3485.20 | SL: 3487.20, Target: 3481.20
+[2025-05-30 14:48] WMA_Dynamic Graceful shutdown requested.
+[2025-05-30 14:48] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-05-30 14:48] WMA_Dynamic Processing TCS...
+[2025-05-30 14:48] WMA_Dynamic Checking trend — Close: 3483.5, WMA: 3488.138095238095, Prev_WMA: 3488.6376190476185, RSI: 30.882316444666788, MACD: -0.9658426879727813, Signal: -0.509199021884787
+[2025-05-30 14:48] WMA_Dynamic BEARISH Signal -> TCS @ 3483.50 | SL: 3485.63, Target: 3479.25
+[2025-05-30 15:00] WMA_Dynamic Target hit for TCS at 3475.90
+[2025-05-30 15:00] WMA_Dynamic Exit Order Placed for TCS. Order ID: 6125053040302
+[2025-05-30 15:00] WMA_Dynamic Processing INFY...
+[2025-05-30 15:00] WMA_Dynamic Checking trend — Close: 1565.0, WMA: 1567.3090476190475, Prev_WMA: 1567.5404761904763, RSI: 40.85661559520284, MACD: 0.21581401651724264, Signal: 0.3980469180579093
+[2025-05-30 15:00] WMA_Dynamic No valid trend detected.
+[2025-05-30 15:00] WMA_Dynamic Processing HCLTECH...
+[2025-05-30 15:00] WMA_Dynamic Checking trend — Close: 1661.0, WMA: 1661.0066666666664, Prev_WMA: 1661.1338095238098, RSI: 45.834088789827035, MACD: -1.1581308679412814, Signal: -1.0871370393437552
+[2025-05-30 15:00] WMA_Dynamic No valid trend detected.
+[2025-05-30 15:00] WMA_Dynamic Processing MUTHOOTFIN...
+[2025-05-30 15:00] WMA_Dynamic Checking trend — Close: 2220.7, WMA: 2219.9304761904764, Prev_WMA: 2219.61380952381, RSI: 57.58571209680774, MACD: 4.097979987310282, Signal: 4.696763369869058
+[2025-05-30 15:00] WMA_Dynamic No valid trend detected.
+[2025-05-30 15:01] WMA_Dynamic Graceful shutdown requested.
+[2025-05-30 15:02] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-05-30 15:02] WMA_Dynamic Processing INFY...
+[2025-05-30 15:02] WMA_Dynamic Checking trend — Close: 1563.8, WMA: 1567.1947619047617, Prev_WMA: 1567.5404761904763, RSI: 37.103404491511164, MACD: 0.12008752079100304, Signal: 0.3789016189126614
+[2025-05-30 15:02] WMA_Dynamic No valid trend detected.
+[2025-05-30 15:02] WMA_Dynamic Processing HCLTECH...
+[2025-05-30 15:02] WMA_Dynamic Checking trend — Close: 1661.0, WMA: 1661.0066666666664, Prev_WMA: 1661.1338095238098, RSI: 45.834088789827035, MACD: -1.1581308679412814, Signal: -1.0871370393437552
+[2025-05-30 15:02] WMA_Dynamic No valid trend detected.
+[2025-05-30 15:02] WMA_Dynamic Processing MUTHOOTFIN...
+[2025-05-30 15:02] WMA_Dynamic Checking trend — Close: 2218.5, WMA: 2219.7209523809524, Prev_WMA: 2219.61380952381, RSI: 54.30668803120818, MACD: 3.922481410138971, Signal: 4.661663652309832
+[2025-05-30 15:02] WMA_Dynamic No valid trend detected.

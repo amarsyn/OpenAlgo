@@ -10,6 +10,7 @@ import signal
 from openalgo import api
 import requests
 import os
+import threading
 
 # ==============================
 # Setup and Configuration
@@ -18,10 +19,10 @@ os.makedirs("logs", exist_ok=True)
 
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Strategy"
-symbols = ["TCS", "INFY", "HCLTECH", "MUTHOOTFIN"]
+symbols = ["INFY", "HCLTECH", "MUTHOOTFIN"]
 exchange = "NSE"
 product = "MIS"
-quantity = 10
+quantity = 4
 mode = "live"
 start_time = "09:20"
 end_time = "15:30"
@@ -266,13 +267,19 @@ def run_strategy():
 
                 order_id, ltp = place_order(symbol, direction)
                 if order_id:
-                    monitor_position(symbol, direction, entry_price, sl, target)
+                    thread = threading.Thread(
+                        target=monitor_position,
+                        args=(symbol, direction, entry_price, sl, target)
+                    )
+                    thread.start()
+                else:
+                    log_message(f"Skipping {symbol} due to order failure.")
 
-            time.sleep(300)
+            time.sleep(120)
         except Exception as e:
             log_message(f"Unexpected error: {str(e)}")
             send_telegram(f"Strategy Error: {str(e)}")
-            time.sleep(60)
+            time.sleep(30)
 
 # =====================
 # Graceful Exit
@@ -286,4 +293,9 @@ signal.signal(signal.SIGINT, graceful_exit)
 signal.signal(signal.SIGTERM, graceful_exit)
 
 if __name__ == "__main__":
-    run_strategy()
+    try:
+        run_strategy()
+    except Exception as e:
+        log_message(f"Fatal Error: {e}")
+        send_telegram(f"🔥 Fatal Error: {e}")
+        time.sleep(60)
