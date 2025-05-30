@@ -63,7 +63,7 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Trend Strategy"
-symbols = ["INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL","SHRIRAMFIN", "HEROMOTOCO"]
+symbols = ["PATANJALI","INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
@@ -284,25 +284,10 @@ def run_strategy():
     #     return
 
     for symbol in symbols:
-        # if trade_count >= max_trades_per_day:
-        #     log_message(f"Max trades reached; skipping remaining symbols.")
-        #     break
-
-        # if is_cooldown_active(last_trade_time):
-        #     log_message(f"Cooldown active; skipping {symbol}.")
-        #     continue
-
         df = fetch_data(symbol)
         if df is None or df.empty:
             log_message(f"No data received for {symbol}, skipping.")
             continue
-
-        latest_index = df.index[-1]
-        if last_data_timestamp.get(symbol) == latest_index:
-            log_message(f"Duplicate data timestamp for {symbol}, skipping iteration.")
-            continue
-
-        last_data_timestamp[symbol] = latest_index
 
         direction_detected = detect_market_direction(df)
         if not direction_detected:
@@ -314,10 +299,35 @@ def run_strategy():
                 f"MACD: {df['macd'].iloc[-1]:.2f} vs Signal: {df['macd_signal'].iloc[-1]:.2f}"
             )
             continue
+        # if trade_count >= max_trades_per_day:
+        #     log_message(f"Max trades reached; skipping remaining symbols.")
+        #     break
 
-        close_price = df['close'].iloc[-1]
+        # if is_cooldown_active(last_trade_time):
+        #     log_message(f"Cooldown active; skipping {symbol}.")
+        #     continue
+
+        # Ensure detected direction matches entry logic
+        if direction_detected == "bullish" and not check_entry_conditions(df, "bullish"):
+            continue
+        if direction_detected == "bearish" and not check_entry_conditions(df, "bearish"):
+            continue
+        
         was_uptrend = detect_market_direction(df.iloc[:-1]) == "bullish"
         is_uptrend = direction_detected == "bullish"
+        if was_uptrend != is_uptrend:
+            log_message("⚠️ Trend flip detected between last and current candle. Skipping.")
+            continue
+
+        latest_index = df.index[-1]
+        if last_data_timestamp.get(symbol) == latest_index:
+            log_message(f"Duplicate data timestamp for {symbol}, skipping iteration.")
+            continue
+
+        last_data_timestamp[symbol] = latest_index
+
+        close_price = df['close'].iloc[-1]
+
         position = "OPEN" if trade_count > 0 else "NONE"
         log_message(f"Symbol: {symbol} | LTP: {close_price:.2f} | Trend: {'UP' if is_uptrend else 'DOWN'} | Pos: {position} | Was: {'UP' if was_uptrend else 'DOWN'} | VWAP: {df['vwap'].iloc[-1]:.2f}")
 
@@ -327,7 +337,6 @@ def run_strategy():
             log_message("Higher timeframe trend mismatch.")
             continue
 
-        if check_entry_conditions(df, direction_detected):
             order_id, entry_price = place_order(symbol, direction_detected)
             if order_id and entry_price:
                 atr_value = df['atr'].iloc[-1]
