@@ -37,6 +37,8 @@ def log_message(msg):
     print(f"[{timestamp}] ST_OA {msg}")
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"[{timestamp}] ST_OA {msg}\n")
+    if TELEGRAM_ENABLED:
+        send_telegram(f"[{timestamp}] ST_OA {msg}")
 
 def log_trade(symbol, entry_price, exit_price, profit_pct, reason):
     with open(TRADE_LOG, "a") as f:
