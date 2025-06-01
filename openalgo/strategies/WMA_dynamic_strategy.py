@@ -35,8 +35,8 @@ LOG_FILE = f"logs/WMA_dynamic_{datetime.now().strftime('%Y-%m-%d')}.txt"
 TRADE_LOG = f"logs/WMA_dynamic_{datetime.now().strftime('%Y-%m-%d')}.csv"
 
 TELEGRAM_ENABLED = True
-BOT_TOKEN = "<TELEGRAM_BOT_TOKEN>"
-CHAT_ID = "<TELEGRAM_CHAT_ID>"
+BOT_TOKEN = "7891610241:AAHcNW6faW2lZGrxeSaOZJ3lSggI-ehl-pg"
+CHAT_ID = "627470225"
 
 client = api(api_key=api_key)
 

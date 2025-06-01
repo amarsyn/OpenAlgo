@@ -1,0 +1,11 @@
+[2025-06-01 12:26] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-01 12:26] WMA_Dynamic Processing INFY...
+[2025-06-01 12:26] WMA_Dynamic Checking trend — Close: 1561.8, WMA: 1564.8919047619047, Prev_WMA: 1565.3123809523809, RSI: 37.94383123466469, MACD: -1.18084585757083, Signal: -0.47870245564921066
+[2025-06-01 12:26] WMA_Dynamic No valid trend detected.
+[2025-06-01 12:26] WMA_Dynamic Processing HCLTECH...
+[2025-06-01 12:26] WMA_Dynamic Checking trend — Close: 1661.0, WMA: 1661.0066666666664, Prev_WMA: 1661.1338095238098, RSI: 45.834088789827035, MACD: -1.1581308679412814, Signal: -1.0871370393437552
+[2025-06-01 12:26] WMA_Dynamic No valid trend detected.
+[2025-06-01 12:26] WMA_Dynamic Processing MUTHOOTFIN...
+[2025-06-01 12:26] WMA_Dynamic Checking trend — Close: 2204.0, WMA: 2217.058571428571, Prev_WMA: 2218.4052380952385, RSI: 36.27210198123762, MACD: 0.26697865463074777, Signal: 2.73698275926258
+[2025-06-01 12:26] WMA_Dynamic No valid trend detected.
+[2025-06-01 12:27] WMA_Dynamic Graceful shutdown requested.
