@@ -192,7 +192,7 @@ class SupertrendStrategy:
         partial profit booking, and continuous SL/target monitoring.
         """
         try:
-            ltp_data = self.ltp(symbol, exchange)
+            ltp_data = self.get_ltp(symbol, exchange)
             if not ltp_data:
                 log_message("❌ No LTP data available")
                 return

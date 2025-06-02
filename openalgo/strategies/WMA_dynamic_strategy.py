@@ -22,7 +22,7 @@ os.makedirs("logs", exist_ok=True)
 
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Strategy"
-symbols = ["SBILIFE", "MUTHOOTFIN","BDL","SBICARD","KIRLOSBROS","IPCALAB","JSWSTEEL"]
+symbols = ["MUTHOOTFIN","BDL","IPCALAB","JUSTDIAL","APLAPOLLO"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
@@ -321,14 +321,16 @@ def run_strategy():
                 order_id, ltp = place_order(symbol, direction, entry_price)
                 if order_id:
                     last_trade_time[symbol] = datetime.now()
-                # if order_id:
-                #     # thread = threading.Thread(
-                #     #     target=monitor_position,
-                #     #     args=(symbol, direction, entry_price, sl, target)
-                #     # )
-                #     thread.start()
-                # else:
-                #     log_message(f"Skipping {symbol} due to order failure.")
+
+                if order_id:
+                    thread = threading.Thread(
+                        target=monitor_position,
+                        args=(symbol, direction, entry_price, sl, target),
+                        daemon=True
+                    )
+                    thread.start()
+                else:
+                    log_message(f"Skipping {symbol} due to order failure.")
 
             time.sleep(120)
         except Exception as e:

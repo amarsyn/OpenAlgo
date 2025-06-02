@@ -50,3 +50,40 @@
 [2025-06-02 13:16] ST_OA ❌ Insufficient data for analysis
 [2025-06-02 13:16] ST_OA ⏰ Waiting 3 minutes for next analysis...
 [2025-06-02 13:20] ST_OA ⏰ Waiting 3 minutes for next analysis...
+[2025-06-02 13:23] ST_OA No data received for HINDUNILVR
+[2025-06-02 13:23] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:23] ST_OA ❌ Trade execution error: 'SupertrendStrategy' object has no attribute 'ltp'
+[2025-06-02 13:23] ST_OA ⏰ Waiting 3 minutes for next analysis...
+[2025-06-02 13:26] ST_OA ❌ Trade execution error: 'SupertrendStrategy' object has no attribute 'ltp'
+[2025-06-02 13:27] ST_OA ⏰ Waiting 3 minutes for next analysis...
+[2025-06-02 13:30] ST_OA No data received for M&M
+[2025-06-02 13:30] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:30] ST_OA ⏰ Waiting 3 minutes for next analysis...
+[2025-06-02 13:33] ST_OA ❌ Trade execution error: 'SupertrendStrategy' object has no attribute 'ltp'
+[2025-06-02 13:33] ST_OA ❌ Trade execution error: 'SupertrendStrategy' object has no attribute 'ltp'
+[2025-06-02 13:33] ST_OA ❌ Trade execution error: 'SupertrendStrategy' object has no attribute 'ltp'
+[2025-06-02 13:34] ST_OA ⏰ Waiting 3 minutes for next analysis...
+[2025-06-02 13:37] ST_OA ❌ Trade execution error: 'SupertrendStrategy' object has no attribute 'ltp'
+[2025-06-02 13:37] ST_OA ⏰ Waiting 3 minutes for next analysis...
+[2025-06-02 13:40] ST_OA ❌ Trade execution error: 'SupertrendStrategy' object has no attribute 'ltp'
+[2025-06-02 13:41] ST_OA No data received for AXISBANK
+[2025-06-02 13:41] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:41] ST_OA ⏰ Waiting 3 minutes for next analysis...
+[2025-06-02 13:42] ST_OA 🛑 Strategy stopped by user
+[2025-06-02 13:44] ST_OA 1. Running Backtest...
+[2025-06-02 13:44] ST_OA 2. Running Live Analysis...
+[2025-06-02 13:44] ST_OA No data received for M&M
+[2025-06-02 13:44] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:44] ST_OA No data received for ADANIENT
+[2025-06-02 13:44] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:44] ST_OA No data received for NESTLEIND
+[2025-06-02 13:44] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:44] ST_OA No data received for ASIANPAINT
+[2025-06-02 13:44] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:44] ST_OA No data received for ADANIPORTS
+[2025-06-02 13:44] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:44] ST_OA ❌ Failed to fetch LTP: 'api' object has no attribute 'host'
+[2025-06-02 13:44] ST_OA ❌ No LTP data available
+[2025-06-02 13:44] ST_OA No data received for NESTLEIND
+[2025-06-02 13:44] ST_OA ❌ Insufficient data for analysis
+[2025-06-02 13:44] ST_OA 🛑 Strategy stopped by user

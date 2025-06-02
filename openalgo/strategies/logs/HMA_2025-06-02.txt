@@ -35048,3 +35048,25 @@
 [2025-06-02 11:16] [ST B3] Raw data type for AXISBANK: <class 'pandas.core.frame.DataFrame'>
 [2025-06-02 11:16] [ST B3] AXISBANK data fetched successfully with shape: (250, 5)
 [2025-06-02 11:57] [ST B3] Graceful shutdown invoked.
+[2025-06-02 13:30] [ST B3] Amar's Hull MA Strategy started in LIVE mode.
+[2025-06-02 13:30] [ST B3] 2025-06-02 13:30 HMA - Amar's Hull MA Strategy started in LIVE mode.
+[2025-06-02 13:30] [ST B3] Raw data type for ADANIPORTS: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] ADANIPORTS data fetched successfully with shape: (277, 5)
+[2025-06-02 13:30] [ST B3] Raw data type for M&M: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] M&M data fetched successfully with shape: (277, 5)
+[2025-06-02 13:30] [ST B3] Raw data type for HINDUNILVR: <class 'dict'>
+[2025-06-02 13:30] [ST B3] API fetch error for HINDUNILVR. Exception: Invalid or empty DataFrame. Raw: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+[2025-06-02 13:30] [ST B3] Raw data type for TATACONSUM: <class 'dict'>
+[2025-06-02 13:30] [ST B3] API fetch error for TATACONSUM. Exception: Invalid or empty DataFrame. Raw: {'status': 'error', 'message': 'No data available for the specified period', 'error_type': 'no_data'}
+[2025-06-02 13:30] [ST B3] Raw data type for ADANIENT: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] ADANIENT data fetched successfully with shape: (277, 5)
+[2025-06-02 13:30] [ST B3] Raw data type for SBIN: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] SBIN data fetched successfully with shape: (277, 5)
+[2025-06-02 13:30] [ST B3] Raw data type for NESTLEIND: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] NESTLEIND data fetched successfully with shape: (277, 5)
+[2025-06-02 13:30] [ST B3] Raw data type for SBILIFE: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] SBILIFE data fetched successfully with shape: (277, 5)
+[2025-06-02 13:30] [ST B3] Raw data type for ASIANPAINT: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] ASIANPAINT data fetched successfully with shape: (277, 5)
+[2025-06-02 13:30] [ST B3] Raw data type for AXISBANK: <class 'pandas.core.frame.DataFrame'>
+[2025-06-02 13:30] [ST B3] AXISBANK data fetched successfully with shape: (277, 5)
