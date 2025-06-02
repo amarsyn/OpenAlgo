@@ -243,7 +243,7 @@ def place_order(symbol, direction, entry_price):
                 symbol=symbol,
                 action="SELL" if action == "BUY" else "BUY",
                 exchange=exchange,
-                price_type="LIMIT",
+                price_type="MARKET",
                 product=product,
                 quantity=quantity,
                 price=target_price
