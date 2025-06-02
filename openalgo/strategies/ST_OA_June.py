@@ -14,7 +14,7 @@ import requests
 import sys
 import signal
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 LOG_FILE = f"logs/ST_OA_{datetime.now().strftime('%Y-%m-%d')}.txt"
 TRADE_LOG = f"logs/ST_OA_{datetime.now().strftime('%Y-%m-%d')}.csv"
@@ -65,6 +65,8 @@ class SupertrendStrategy:
     def __init__(self, api_key, host="http://127.0.0.1:5000"):
         """Initialize the strategy"""
         self.client = api(api_key=api_key, host=host)
+        self.api_key = api_key
+        self.host = host  # <-- add this line
         self.position = 0  # 0: No position, 1: Long, -1: Short
         self.entry_price = 0
         
@@ -79,7 +81,20 @@ class SupertrendStrategy:
         # Risk management
         self.max_position_size = 10
         self.risk_per_trade = 0.02  # 2% risk per trade
-        
+
+    def get_ltp(self, symbol, exchange):
+        try:
+            url = f"{self.client.host}/ltp"
+            response = requests.post(url, json={"symbol": symbol, "exchange": exchange})
+            if response.status_code == 200:
+                return response.json().get("last_price")
+            else:
+                log_message(f"❌ Failed to fetch LTP: HTTP {response.status_code}")
+                return None
+        except Exception as e:
+            log_message(f"❌ Failed to fetch LTP: {e}")
+            return None
+    
     def fetch_data(self, symbol, exchange, interval="5m", days=30):
         """
         Fetch historical data and calculate indicators
@@ -177,12 +192,18 @@ class SupertrendStrategy:
         partial profit booking, and continuous SL/target monitoring.
         """
         try:
-            price = self.client.ltp(symbol, exchange)['last_price']
-            atr = self.client.history(
-                symbol, exchange, interval="5m",
+            ltp_data = self.ltp(symbol, exchange)
+            if not ltp_data:
+                log_message("❌ No LTP data available")
+                return
+            price = ltp_data['last_price']
+            atr_data = self.client.history(
+                symbol=symbol,
+                exchange=exchange,
+                interval="5m",
                 start_date=(datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d"),
                 end_date=datetime.now().strftime("%Y-%m-%d")
-            )['close'].tail(14).std()
+            )
 
             stop_loss = price - 2 * atr if action == "BUY" else price + 2 * atr
             target = price + 3 * atr if action == "BUY" else price - 3 * atr
@@ -215,7 +236,7 @@ class SupertrendStrategy:
                 # Start monitoring for SL, target, trailing SL, partial booking
                 while True:
                     time.sleep(15)
-                    current_price = self.client.ltp(symbol, exchange)['last_price']
+                    current_price = self.get_ltp(symbol, exchange)
 
                     # Update trailing SL
                     if action == "BUY":
@@ -465,7 +486,7 @@ def main():
     """
     # Configuration
     API_KEY = "78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2"  # Replace with your actual API key
-    symbols = ["RELIANCE", "TCS", "INFY"]
+    symbols = ["ADANIPORTS", "M&M", "HINDUNILVR", "TATACONSUM", "ADANIENT", "SBIN", "NESTLEIND", "SBILIFE", "ASIANPAINT", "AXISBANK"]
     EXCHANGE = "NSE"
     
     print("OpenAlgo Supertrend Strategy")

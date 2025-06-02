@@ -11,6 +11,9 @@ from openalgo import api
 import requests
 import os
 import threading
+from collections import defaultdict
+last_trade_time = defaultdict(lambda: datetime.min)
+cooldown_seconds = 300  # 5 minutes cooldown
 
 # ==============================
 # Setup and Configuration
@@ -19,17 +22,17 @@ os.makedirs("logs", exist_ok=True)
 
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy_name = "WMA Dynamic Strategy"
-symbols = ["INFY", "HCLTECH", "MUTHOOTFIN"]
+symbols = ["SBILIFE", "MUTHOOTFIN","BDL","SBICARD","KIRLOSBROS","IPCALAB","JSWSTEEL"]
 exchange = "NSE"
 product = "MIS"
-quantity = 4
+quantity = 5
 mode = "live"
-start_time = "09:20"
-end_time = "15:30"
-sl_pct = 0.3
-target_pct = 1.2
-trailing_sl_pct = 0.3
-trailing_trigger_pct = 0.5
+start_time = "09:19"
+end_time = "14:50"
+sl_pct = 1  
+target_pct = 3
+trailing_sl_pct = 0.5
+trailing_trigger_pct = 0.8
 
 LOG_FILE = f"logs/WMA_dynamic_{datetime.now().strftime('%Y-%m-%d')}.txt"
 TRADE_LOG = f"logs/WMA_dynamic_{datetime.now().strftime('%Y-%m-%d')}.csv"
@@ -194,7 +197,7 @@ def monitor_position(symbol, direction, entry_price, sl, target):
 # =====================
 # Order Placement
 # =====================
-def place_order(symbol, direction):
+def place_order(symbol, direction, entry_price):
     action = "BUY" if direction == "bullish" else "SELL"
     try:
         response = client.placeorder(
@@ -206,6 +209,50 @@ def place_order(symbol, direction):
             product=product,
             quantity=quantity
         )
+        if response.get("status") != "success":
+            print(f"[ERROR] SL Order failed for {symbol}: {response}")
+        if response and response.get("status") == "success":
+            order_price = entry_price  # Assuming you're using this as entry price
+
+            # ➕ SL Order
+            sl_price = round(order_price * (1 + sl_pct / 100), 1) if action == "BUY" else round(order_price * (1 - sl_pct / 100), 1)
+            sl_trigger = round(sl_price - 0.5, 1) if action == "BUY" else round(sl_price + 0.5, 1)
+
+            sl_response = client.placeorder(
+                strategy=strategy_name,
+                symbol=symbol,
+                action="SELL" if action == "BUY" else "BUY",
+                exchange=exchange,
+                price_type="SL",
+                product=product,
+                quantity=quantity,
+                price=sl_price,
+                trigger_price=sl_trigger
+            )
+            if sl_response.get("status") == "success":
+                log_message(f"SL Order placed for {symbol} @ {sl_price} (Trigger: {sl_trigger}) | Order ID: {sl_response.get('orderid')}")
+            else:
+                log_message(f"[ERROR] Failed to place SL for {symbol}: {sl_response}")
+
+
+            # ➕ Target Order
+            target_price = round(order_price * (1 + target_pct / 100), 1) if action == "BUY" else round(order_price * (1 - target_pct / 100), 1)
+
+            target_response = client.placeorder(
+                strategy=strategy_name,
+                symbol=symbol,
+                action="SELL" if action == "BUY" else "BUY",
+                exchange=exchange,
+                price_type="LIMIT",
+                product=product,
+                quantity=quantity,
+                price=target_price
+            )
+            if target_response.get("status") == "success":
+                log_message(f"Target Order placed for {symbol} @ {target_price} | Order ID: {target_response.get('orderid')}")
+            else:
+                log_message(f"[ERROR] Failed to place Target for {symbol}: {target_response}")
+
         ltp = client.quotes(symbol=symbol, exchange=exchange)['data']['ltp']
         return response['orderid'], ltp
     except Exception as e:
@@ -248,6 +295,11 @@ def run_strategy():
 
             for symbol in symbols:
                 log_message(f"Processing {symbol}...")
+                # Skip if within cooldown
+                if (datetime.now() - last_trade_time[symbol]).total_seconds() < cooldown_seconds:
+                    log_message(f"⏳ Skipping {symbol} — cooldown in effect")
+                    continue
+
                 df = fetch_data(symbol)
                 if df is None or len(df) < 30:
                     continue
@@ -256,6 +308,7 @@ def run_strategy():
                 if not direction:
                     log_message("No valid trend detected.")
                     continue
+                log_message(f"📊 Trend detected for {symbol}: {direction.upper()}")
 
                 entry_price = df.iloc[-1]['close']
                 atr = df.iloc[-1]['atr']
@@ -265,15 +318,17 @@ def run_strategy():
                 log_message(f"{direction.upper()} Signal -> {symbol} @ {entry_price:.2f} | SL: {sl:.2f}, Target: {target:.2f}")
                 send_telegram(f"{direction.upper()} ENTRY for {symbol}: {entry_price:.2f}")
 
-                order_id, ltp = place_order(symbol, direction)
+                order_id, ltp = place_order(symbol, direction, entry_price)
                 if order_id:
-                    thread = threading.Thread(
-                        target=monitor_position,
-                        args=(symbol, direction, entry_price, sl, target)
-                    )
-                    thread.start()
-                else:
-                    log_message(f"Skipping {symbol} due to order failure.")
+                    last_trade_time[symbol] = datetime.now()
+                # if order_id:
+                #     # thread = threading.Thread(
+                #     #     target=monitor_position,
+                #     #     args=(symbol, direction, entry_price, sl, target)
+                #     # )
+                #     thread.start()
+                # else:
+                #     log_message(f"Skipping {symbol} due to order failure.")
 
             time.sleep(120)
         except Exception as e:
@@ -285,8 +340,8 @@ def run_strategy():
 # Graceful Exit
 # =====================
 def graceful_exit(sig, frame):
-    log_message("Graceful shutdown requested.")
-    send_telegram("Strategy stopped gracefully.")
+    log_message("WMA_dynamic_Graceful shutdown requested.")
+    send_telegram("WMA_dynamic_Strategy stopped gracefully.")
     sys.exit(0)
 
 signal.signal(signal.SIGINT, graceful_exit)

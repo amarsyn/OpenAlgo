@@ -26,7 +26,7 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Weighted MA Bullish Trend Python"
-symbols = ["TCS","INFY","HCLTECH","MUTHOOTFIN"]
+symbols = ["SUNPHARMA", "CIPLA", "INDUSINDBK", "BAJAJFINSV", "ICICIBANK", "BHARTIARTL", "INFY", "DRREDDY", "KOTAKBANK", "LT"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
@@ -37,10 +37,10 @@ start_time = "09:20"
 end_time = "14:30"
 
 # Stop Loss and Target (in %)
-stop_loss_pct = 0.3
-target_pct = 1.2
-trailing_sl_pct = 0.3
-trailing_trigger_pct = 0.35
+stop_loss_pct = 1.0
+target_pct = 2.0
+trailing_sl_pct = 0.5
+trailing_trigger_pct = 0.65
 
 # Logging
 LOG_FILE = f"logs/WMA_bullish_{datetime.now().strftime('%Y-%m-%d')}.txt"
@@ -247,6 +247,15 @@ def run_strategy():
                         quote = client.quotes(symbol=symbol, exchange=exchange)
                         ltp = quote['data']['ltp']
                         log_message(f"LTP for {symbol}: {ltp:.2f} | SL: {sl_price:.2f} | Target: {target_price:.2f}")
+
+                        # Unified Trailing SL logic
+                        if ltp >= trailing_trigger:
+                            new_sl = ltp * (1 - trailing_sl_pct / 100)
+                            if new_sl > sl_price:
+                                sl_price = new_sl
+                                send_telegram(f"🔁 Trailing SL updated for {symbol} to {sl_price:.2f}")
+                                log_message(f"Trailing SL updated to {sl_price:.2f} for {symbol}")
+
                     except Exception as e:
                         log_message(f"Quote fetch failed for {symbol}: {str(e)}")
                         break
@@ -262,7 +271,7 @@ def run_strategy():
                             trend_reversed = True
 
                     # Stop Loss
-                    if ltp <= sl_price:
+                    if ltp <= sl_price * 1.001:
                         send_telegram(f"🔻 Stop Loss hit for {symbol} at {ltp}")
                         log_message(f"Stop Loss hit for {symbol} at {ltp}")
                         log_trade_csv(symbol, entry_price, ltp, ((ltp-entry_price)/entry_price)*100, "Stop Loss")
@@ -282,14 +291,6 @@ def run_strategy():
                         send_telegram(f"📈 Partial profit booked for {symbol} at {ltp:.2f}")
                         log_message(f"Partial target hit for {symbol} at {ltp:.2f}")
                         partial_booked = True
-
-                    # Trailing SL Logic
-                    elif ltp >= trailing_trigger and partial_booked:
-                        new_sl = ltp * (1 - trailing_sl_pct / 100)
-                        if new_sl > sl_price:
-                            sl_price = new_sl
-                            send_telegram(f"🔁 Trailing SL updated for {symbol} to {sl_price:.2f}")
-                            log_message(f"Trailing SL updated to {sl_price:.2f} for {symbol}")
 
                     # Trend Reversal Exit
                     if trend_reversed:

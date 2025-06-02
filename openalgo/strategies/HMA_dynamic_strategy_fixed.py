@@ -68,11 +68,11 @@ exchange = "NSE"
 product = "MIS"
 quantity = 5
 mode = "live"
-start_time = "09:20"
-end_time = "14:30"
+start_time = "09:19"
+end_time = "14:50"
 target_pct = 2.4
-trailing_sl_pct = 0.3
-trailing_trigger_pct = 0.35
+trailing_sl_pct = 0.5
+trailing_trigger_pct = 0.55
 atr_multiplier = 1.2
 LOG_FILE = f"logs/HMA_{datetime.now().strftime('%Y-%m-%d')}.txt"
 TRADE_LOG = f"logs/HMA_{datetime.now().strftime('%Y-%m-%d')}.csv"
@@ -89,8 +89,7 @@ today = date.today()
 # Add this function above run_strategy()
 def get_watchlist_symbols():
     # List of candidate stocks to evaluate (maintained in one place)
-    candidate_symbols = ["MAZDOCK","INFY", "TECHM", "ICICIBANK","RELIANCE","BHARTIARTL"]
-
+    candidate_symbols = ["ADANIPORTS", "M&M", "HINDUNILVR", "TATACONSUM", "ADANIENT", "SBIN", "NESTLEIND", "SBILIFE", "ASIANPAINT", "AXISBANK"]
     selected_symbols = []
 
     for symbol in candidate_symbols:
@@ -330,6 +329,65 @@ def exit_position(symbol, direction):
         send_telegram(f"Exit Order failed for {symbol}: {str(e)}")
         log_message(f"Exit Order failed for {symbol}: {str(e)}")
 
+def manage_open_trade(symbol, direction, entry_price, sl_price, target_price):
+    global last_trade_time, trade_count
+
+    max_wait = timedelta(minutes=10)
+    start_time = datetime.now()
+    triggered_trailing = False
+    partial_booked = False
+
+    # Calculate initial trailing SL and partial target
+    trail_sl_price = sl_price
+    partial_target_price = entry_price + ((target_price - entry_price) * 0.5) if direction == "bullish" else entry_price - ((entry_price - target_price) * 0.5)
+
+    while datetime.now() - start_time < max_wait:
+        ltp = fetch_ltp_with_retry(symbol, exchange)
+        if not ltp:
+            log_message("❌ LTP fetch failed, fallback to candle exit.")
+            if candle_based_exit_fallback(symbol):
+                exit_position(symbol, direction)
+                break
+            continue
+
+        # 🎯 Partial booking
+        if not partial_booked:
+            if (direction == "bullish" and ltp >= partial_target_price) or (direction == "bearish" and ltp <= partial_target_price):
+                log_message(f"💰 Partial target hit at {ltp:.2f}, booked 50% profit.")
+                send_telegram(f"💰 Partial profit booked at {ltp:.2f} for {symbol}")
+                partial_booked = True
+
+        # 🔁 Trailing SL activation
+        if not triggered_trailing and abs(ltp - entry_price) >= entry_price * (trailing_trigger_pct / 100):
+            triggered_trailing = True
+            trail_sl_price = ltp + (trailing_sl_pct / 100 * ltp) if direction == "bearish" else ltp - (trailing_sl_pct / 100 * ltp)
+            log_message(f"🎯 Trailing SL activated at {trail_sl_price:.2f}")
+
+        # 🔄 Trailing SL update
+        if triggered_trailing:
+            trail_sl_price = min(trail_sl_price, ltp + (trailing_sl_pct / 100 * ltp)) if direction == "bearish" else max(trail_sl_price, ltp - (trailing_sl_pct / 100 * ltp))
+
+        # 🚪 Exit logic
+        if (direction == "bearish" and ltp >= trail_sl_price) or (direction == "bullish" and ltp <= trail_sl_price):
+            log_message(f"🚪 Exit Triggered - Trailing SL Hit | LTP: {ltp:.2f}")
+            exit_position(symbol, direction)
+            evaluate_profit_and_reset(ltp - entry_price if direction == "bullish" else entry_price - ltp)
+            break
+
+        elif (direction == "bearish" and ltp <= target_price) or (direction == "bullish" and ltp >= target_price):
+            log_message(f"🏁 Target Hit! | LTP: {ltp:.2f}")
+            exit_position(symbol, direction)
+            evaluate_profit_and_reset(ltp - entry_price if direction == "bullish" else entry_price - ltp)
+            break
+
+        elif (direction == "bearish" and ltp >= sl_price) or (direction == "bullish" and ltp <= sl_price):
+            log_message(f"🚪 Exit Triggered - Stop Loss | LTP: {ltp:.2f}")
+            exit_position(symbol, direction)
+            evaluate_profit_and_reset(ltp - entry_price if direction == "bullish" else entry_price - ltp)
+            break
+
+        time.sleep(10)
+
 # =======================
 # Market Direction Detection
 # =======================
@@ -423,69 +481,14 @@ def run_strategy():
             order_response = place_order(symbol, direction_detected, entry_price)
             if order_response and isinstance(order_response, dict) and "orderid" in order_response:
                 log_message(f"🛒 Order placed: {symbol}, Direction: {direction_detected.upper()}, Entry: {entry_price:.2f}, OrderID: {order_response['orderid']}")
+
+                # ▶️ Start managing the open position
+                manage_open_trade(symbol, direction_detected, entry_price, sl_price, target_price)
+                last_trade_time = datetime.now()
+                trade_count += 1
             else:
-                log_message(f"❌ Order failed for {symbol}. Skipping monitoring.")
-                continue  # Skip this trade if order was not successful
-
-            trade_count += 1
-            last_trade_time = datetime.now()
-
-            partial_booked = False
-            trailing_trigger = entry_price * (1 + trailing_trigger_pct / 100) if direction_detected == "bullish" else entry_price * (1 - trailing_trigger_pct / 100)
-            trailing_sl_pct = 1.5  # default trailing SL adjustment percent
-
-            # === Monitoring loop ===
-            while True:
-                time.sleep(10)
-
-                ltp = fetch_ltp_with_retry(symbol, exchange)
-                if ltp is None:
-                    log_message("❌ LTP fetch failed, fallback to candle exit.")
-                    if candle_based_exit_fallback(symbol):
-                        break
-                    continue
-
-                log_message(f"💹 {symbol} LTP: {ltp:.2f} | SL: {sl_price:.2f} | Target: {target_price:.2f}")
-
-                # SL and Target exits
-                hit_sl = (direction_detected == "bullish" and ltp <= sl_price) or (direction_detected == "bearish" and ltp >= sl_price)
-                hit_target = (direction_detected == "bullish" and ltp >= target_price) or (direction_detected == "bearish" and ltp <= target_price)
-                partial_target_price = entry_price + (target_price - entry_price) * 0.6 if direction_detected == "bullish" else entry_price - (entry_price - target_price) * 0.6
-                hit_partial = (direction_detected == "bullish" and ltp >= partial_target_price) or (direction_detected == "bearish" and ltp <= partial_target_price)
-                hit_trail = (direction_detected == "bullish" and ltp >= trailing_trigger) or (direction_detected == "bearish" and ltp <= trailing_trigger)
-
-                if hit_sl or hit_target:
-                    reason = "Stop Loss" if hit_sl else "Target Hit"
-                    pl_pct = ((ltp - entry_price) / entry_price * 100) if direction_detected == "bullish" else ((entry_price - ltp) / entry_price * 100)
-                    log_message(f"🚪 Exit Triggered - {reason} | P/L: {pl_pct:.2f}%")
-                    send_telegram(f"{reason} for {symbol} at {ltp:.2f} | P/L: {pl_pct:.2f}%")
-                    log_trade_csv(symbol, entry_price, ltp, pl_pct, reason)
-                    evaluate_profit_and_reset(pl_pct)
-                    exit_position(symbol, direction_detected)
-                    break
-
-                # Partial target booking
-                if hit_partial and not partial_booked:
-                    log_message(f"💰 Partial Target Reached at {ltp:.2f}")
-                    send_telegram(f"Partial profit booked for {symbol} at {ltp:.2f}")
-                    partial_booked = True
-
-                # Trailing SL adjustment
-                if hit_trail and partial_booked:
-                    new_sl = ltp * (1 - trailing_sl_pct / 100) if direction_detected == "bullish" else ltp * (1 + trailing_sl_pct / 100)
-                    if (direction_detected == "bullish" and new_sl > sl_price) or (direction_detected == "bearish" and new_sl < sl_price):
-                        sl_price = new_sl
-                        log_message(f"🔄 Trailing SL Updated to {sl_price:.2f}")
-                        send_telegram(f"SL adjusted to {sl_price:.2f} for {symbol}")
-
-                # Reversal check
-                df_live = fetch_data(symbol)
-                if df_live is not None:
-                    new_direction = detect_market_direction(df_live)
-                    if new_direction and new_direction != direction_detected:
-                        log_message(f"🔄 Trend reversed from {direction_detected} to {new_direction}. Exiting early.")
-                        exit_position(symbol, direction_detected)
-                        break
+                log_message(f"❌ Order placement failed for {symbol}: {order_response}")
+                continue
 
     log_message("✅ Strategy completed or market closed.")
 
