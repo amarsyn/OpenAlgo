@@ -29,11 +29,11 @@ strategy = "Weighted MA Bullish Trend Python"
 symbols = ["SUNPHARMA", "CIPLA", "INDUSINDBK", "BAJAJFINSV", "ICICIBANK", "BHARTIARTL", "INFY", "DRREDDY", "KOTAKBANK", "LT"]
 exchange = "NSE"
 product = "MIS"
-quantity = 5
-mode = "live"  # or "live"
+quantity = 10
+mode = "analyze"  # or "live"
 
 # Entry Time Filter (24-hr format)
-start_time = "09:20"
+start_time = "09:19"
 end_time = "14:30"
 
 # Stop Loss and Target (in %)

@@ -35070,3 +35070,4 @@
 [2025-06-02 13:30] [ST B3] ASIANPAINT data fetched successfully with shape: (277, 5)
 [2025-06-02 13:30] [ST B3] Raw data type for AXISBANK: <class 'pandas.core.frame.DataFrame'>
 [2025-06-02 13:30] [ST B3] AXISBANK data fetched successfully with shape: (277, 5)
+[2025-06-02 14:27] [ST B3] Graceful shutdown invoked.

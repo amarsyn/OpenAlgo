@@ -26,7 +26,7 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Weighted MA Bearish Trend Python"
-symbols = ["SHRIRAMFIN", "HCLTECH", "TCS", "HDFCLIFE", "RELIANCE", "HDFCBANK", "TECHM", "TATAMOTORS", "TITAN", "JSWSTEEL"]
+symbols = ["TECHM"]
 exchange = "NSE"
 product = "MIS"
 quantity = 5
@@ -129,7 +129,7 @@ def check_entry_conditions(df):
     previous = df.iloc[-2]
     log_message(f"Checking condition: close={latest['close']}, wma={latest['wma']}, prev_wma={previous['wma']}, rsi={latest['rsi']}, vol={latest['volume']}, vol_ma={latest['vol_ma']}, macd={latest['macd']}, macd_signal={latest['macd_signal']}, atr={df['atr'].iloc[-1]}")
 
-    if df['atr'].iloc[-1] < 1.0:
+    if df['atr'].iloc[-1] < 0.5:
         log_message("ATR too low, skipping entry.")
         return False
 
@@ -231,7 +231,12 @@ def run_strategy():
 
                 atr_sl = df['atr'].iloc[-1]
                 max_sl = entry_price * (1 + 0.6 / 100)
-                sl_price = min(entry_price + atr_sl, max_sl)
+                sl_price = entry_price + 1.2 * atr_sl
+                if abs(entry_price - sl_price) / entry_price < 0.003:
+                    log_message("SL buffer too narrow, skipping trade.")
+                    exit_position(symbol)
+                    return
+
                 target_price = entry_price * (1 - target_pct / 100)
                 partial_target_price = entry_price * (1 - 0.008)
                 trailing_trigger = entry_price * (1 - trailing_trigger_pct / 100)
