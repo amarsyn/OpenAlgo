@@ -26,10 +26,10 @@ with open("test_log.txt", "a") as f:
 # =======================
 api_key = '78b9f1597a7f903d3bfc76ad91274a7cc7536c2efc4508a8276d85fbc840d7d2'
 strategy = "Weighted MA Bearish Trend Python"
-symbols = ["TECHM"]
+symbols = ["SUNPHARMA","TCS","HEROMOTOCO","ITC","SBIN"]
 exchange = "NSE"
 product = "MIS"
-quantity = 5
+quantity = 10
 mode = "live"
 
 # Entry Time Filter (24-hr format)

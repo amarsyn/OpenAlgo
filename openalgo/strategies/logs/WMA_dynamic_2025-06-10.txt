@@ -1,0 +1,142 @@
+[2025-06-10 11:10] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-10 11:10] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:10] WMA_Dynamic TBOTEK: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:10] WMA_Dynamic Checking trend — TBOTEK | Close: 1398.3, WMA: 1387.097619047619, Prev_WMA: 1384.722380952381, RSI: 72.13990700427152, MACD: 15.577361960461076, Signal: 14.747784414569463, Vol: 2981.0, Vol_MA: 13522.85, ATR: 7.798039306956879
+[2025-06-10 11:10] WMA_Dynamic TBOTEK: Filtered due to weak current volume: 2981.0 < 75% of MA 13522.85
+[2025-06-10 11:10] WMA_Dynamic No valid trend detected for TBOTEK.
+[2025-06-10 11:10] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-10 11:10] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-10 11:10] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-10 11:10] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:10] WMA_Dynamic TBOTEK: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:10] WMA_Dynamic Checking trend — TBOTEK | Close: 1396.8, WMA: 1386.9547619047619, Prev_WMA: 1384.722380952381, RSI: 70.74092032651764, MACD: 15.457703840802878, Signal: 14.723852790637823, Vol: 4892.0, Vol_MA: 13618.4, ATR: 7.862370136161287
+[2025-06-10 11:10] WMA_Dynamic TBOTEK: Filtered due to weak current volume: 4892.0 < 75% of MA 13618.4
+[2025-06-10 11:10] WMA_Dynamic No valid trend detected for TBOTEK.
+[2025-06-10 11:10] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-10 11:10] WMA_Dynamic ADANIGREEN: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:10] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1040.8, WMA: 1040.7923809523809, Prev_WMA: 1040.7552380952382, RSI: 53.80599760657225, MACD: 1.2443816491784219, Signal: 1.4208552477912453, Vol: 12113.0, Vol_MA: 37348.1, ATR: 2.9800230554863014
+[2025-06-10 11:10] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 12113.0 < 75% of MA 37348.1
+[2025-06-10 11:10] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-10 11:10] WMA_Dynamic Processing ADANIPOWER...
+[2025-06-10 11:10] WMA_Dynamic ADANIPOWER: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:10] WMA_Dynamic Checking trend — ADANIPOWER | Close: 567.9, WMA: 567.2361904761905, Prev_WMA: 567.0783333333333, RSI: 55.57267292660771, MACD: 1.1492032453126058, Signal: 0.9883116676072079, Vol: 2175.0, Vol_MA: 86898.95, ATR: 2.1127481027136885
+[2025-06-10 11:10] WMA_Dynamic ADANIPOWER: Filtered due to weak current volume: 2175.0 < 75% of MA 86898.95
+[2025-06-10 11:10] WMA_Dynamic No valid trend detected for ADANIPOWER.
+[2025-06-10 11:12] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:12] WMA_Dynamic TBOTEK: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:12] WMA_Dynamic Checking trend — TBOTEK | Close: 1398.8, WMA: 1387.145238095238, Prev_WMA: 1384.722380952381, RSI: 72.35591622366418, MACD: 15.617248000347217, Signal: 14.755761622546691, Vol: 7167.0, Vol_MA: 13732.15, ATR: 7.862370136161287
+[2025-06-10 11:12] WMA_Dynamic TBOTEK: Filtered due to weak current volume: 7167.0 < 75% of MA 13732.15
+[2025-06-10 11:12] WMA_Dynamic No valid trend detected for TBOTEK.
+[2025-06-10 11:12] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-10 11:12] WMA_Dynamic ADANIGREEN: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:12] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1043.1, WMA: 1041.0114285714285, Prev_WMA: 1040.7552380952382, RSI: 58.95903960324172, MACD: 1.4278574326540365, Signal: 1.4575504044863683, Vol: 30213.0, Vol_MA: 38253.1, ATR: 3.122980453718306
+[2025-06-10 11:12] WMA_Dynamic ADANIGREEN: ⚠️ Very low average volume, skipping for safety.
+[2025-06-10 11:12] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-10 11:12] WMA_Dynamic Processing ADANIPOWER...
+[2025-06-10 11:12] WMA_Dynamic ADANIPOWER: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:12] WMA_Dynamic Checking trend — ADANIPOWER | Close: 568.4, WMA: 567.2838095238095, Prev_WMA: 567.0783333333333, RSI: 56.99864306181397, MACD: 1.1890892851986337, Signal: 0.9962888755844135, Vol: 14824.0, Vol_MA: 87531.4, ATR: 2.1627831920948934
+[2025-06-10 11:12] WMA_Dynamic ADANIPOWER: Filtered due to weak current volume: 14824.0 < 75% of MA 87531.4
+[2025-06-10 11:12] WMA_Dynamic No valid trend detected for ADANIPOWER.
+[2025-06-10 11:14] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:14] WMA_Dynamic TBOTEK: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:14] WMA_Dynamic Checking trend — TBOTEK | Close: 1398.0, WMA: 1387.0690476190475, Prev_WMA: 1384.722380952381, RSI: 72.0086734721647, MACD: 15.553430336529345, Signal: 14.742998089783116, Vol: 10207.0, Vol_MA: 13884.15, ATR: 7.955292445012087
+[2025-06-10 11:14] WMA_Dynamic TBOTEK: Filtered due to weak current volume: 10207.0 < 75% of MA 13884.15
+[2025-06-10 11:14] WMA_Dynamic No valid trend detected for TBOTEK.
+[2025-06-10 11:14] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-10 11:14] WMA_Dynamic ADANIGREEN: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:14] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1043.0, WMA: 1041.0019047619046, Prev_WMA: 1040.7552380952382, RSI: 58.76185612094135, MACD: 1.419880224677172, Signal: 1.4559549628909954, Vol: 36110.0, Vol_MA: 38547.95, ATR: 3.151571933364713
+[2025-06-10 11:14] WMA_Dynamic ADANIGREEN: ⚠️ Very low average volume, skipping for safety.
+[2025-06-10 11:14] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-10 11:14] WMA_Dynamic Processing ADANIPOWER...
+[2025-06-10 11:14] WMA_Dynamic ADANIPOWER: df shape = (99, 11), using last 30 rows.
+[2025-06-10 11:14] WMA_Dynamic Checking trend — ADANIPOWER | Close: 568.1, WMA: 567.2552380952382, Prev_WMA: 567.0783333333333, RSI: 56.15426121603659, MACD: 1.165157661267017, Signal: 0.9915025507980901, Vol: 21712.0, Vol_MA: 87875.8, ATR: 2.1627831920948934
+[2025-06-10 11:14] WMA_Dynamic ADANIPOWER: Filtered due to weak current volume: 21712.0 < 75% of MA 87875.8
+[2025-06-10 11:14] WMA_Dynamic No valid trend detected for ADANIPOWER.
+[2025-06-10 11:16] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:16] WMA_Dynamic TBOTEK: df shape = (100, 11), using last 30 rows.
+[2025-06-10 11:16] WMA_Dynamic Checking trend — TBOTEK | Close: 1400.0, WMA: 1389.372380952381, Prev_WMA: 1387.1261904761905, RSI: 72.90534191753575, MACD: 15.36615411845355, Signal: 14.87528741517536, Vol: 3323.0, Vol_MA: 13646.8, ATR: 7.608259853156155
+[2025-06-10 11:16] WMA_Dynamic TBOTEK: Filtered due to weak current volume: 3323.0 < 75% of MA 13646.8
+[2025-06-10 11:16] WMA_Dynamic No valid trend detected for TBOTEK.
+[2025-06-10 11:16] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-10 11:16] WMA_Dynamic ADANIGREEN: df shape = (100, 11), using last 30 rows.
+[2025-06-10 11:16] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1042.7, WMA: 1041.1942857142858, Prev_WMA: 1040.9923809523807, RSI: 57.96008656717096, MACD: 1.4337536404555067, Signal: 1.4502383451275267, Vol: 6740.0, Vol_MA: 37048.55, ATR: 3.019230614212396
+[2025-06-10 11:16] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 6740.0 < 75% of MA 37048.55
+[2025-06-10 11:16] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-10 11:16] WMA_Dynamic Processing ADANIPOWER...
+[2025-06-10 11:16] WMA_Dynamic ADANIPOWER: df shape = (100, 11), using last 30 rows.
+[2025-06-10 11:16] WMA_Dynamic Checking trend — ADANIPOWER | Close: 568.25, WMA: 567.4399999999999, Prev_WMA: 567.2647619047619, RSI: 56.59137863057457, MACD: 1.1387028797116727, Signal: 1.0222189698571595, Vol: 3419.0, Vol_MA: 86402.3, ATR: 2.0296405469216943
+[2025-06-10 11:16] WMA_Dynamic ADANIPOWER: Filtered due to weak current volume: 3419.0 < 75% of MA 86402.3
+[2025-06-10 11:16] WMA_Dynamic No valid trend detected for ADANIPOWER.
+[2025-06-10 11:18] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:18] WMA_Dynamic TBOTEK: df shape = (100, 11), using last 30 rows.
+[2025-06-10 11:18] WMA_Dynamic Checking trend — TBOTEK | Close: 1398.5, WMA: 1389.229523809524, Prev_WMA: 1387.1261904761905, RSI: 72.14905533320375, MACD: 15.246495998795353, Signal: 14.85135579124372, Vol: 15275.0, Vol_MA: 14244.4, ATR: 7.822685201857305
+[2025-06-10 11:18] WMA_Dynamic TBOTEK: ✅ Valid Bullish Trend Detected.
+[2025-06-10 11:18] WMA_Dynamic 📊 Trend detected for TBOTEK: BULLISH
+[2025-06-10 11:18] WMA_Dynamic BULLISH Signal -> TBOTEK @ 1398.50 | SL: 1382.85, Target: 1437.61
+[2025-06-10 11:18] WMA_Dynamic BULLISH Signal -> TBOTEK @ 1398.50 | SL: 1382.85, Target: 1437.61
+[2025-06-10 11:18] WMA_Dynamic [EXIT] Attempting to exit TBOTEK due to Entry
+[2025-06-10 11:18] WMA_Dynamic 📦 Entry Order | TBOTEK | BUY | MARKET | Response: {'orderid': '9125061027672', 'status': 'success'}
+[2025-06-10 11:18] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-10 11:18] WMA_Dynamic ADANIGREEN: df shape = (100, 11), using last 30 rows.
+[2025-06-10 11:18] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1042.3, WMA: 1041.1561904761907, Prev_WMA: 1040.9923809523807, RSI: 56.79118572399781, MACD: 1.4018448085466844, Signal: 1.4438565787457622, Vol: 16111.0, Vol_MA: 37517.1, ATR: 3.019230614212396
+[2025-06-10 11:18] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 16111.0 < 75% of MA 37517.1
+[2025-06-10 11:18] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-10 11:18] WMA_Dynamic Processing ADANIPOWER...
+[2025-06-10 11:18] WMA_Dynamic ADANIPOWER: df shape = (100, 11), using last 30 rows.
+[2025-06-10 11:18] WMA_Dynamic Checking trend — ADANIPOWER | Close: 567.9, WMA: 567.4066666666666, Prev_WMA: 567.2647619047619, RSI: 55.27803896106851, MACD: 1.1107826517913963, Signal: 1.0166349242731043, Vol: 7481.0, Vol_MA: 86605.4, ATR: 2.051083081791806
+[2025-06-10 11:18] WMA_Dynamic ADANIPOWER: Filtered due to weak current volume: 7481.0 < 75% of MA 86605.4
+[2025-06-10 11:18] WMA_Dynamic No valid trend detected for ADANIPOWER.
+[2025-06-10 11:19] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:20] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:20] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:20] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-10 11:20] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for TBOTEK
+[2025-06-10 11:20] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-10 11:20] WMA_Dynamic ADANIGREEN: df shape = (101, 11), using last 30 rows.
+[2025-06-10 11:20] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1041.7, WMA: 1041.2742857142857, Prev_WMA: 1041.184761904762, RSI: 54.93751097225922, MACD: 1.3486028815070767, Signal: 1.4286348991270656, Vol: 4313.0, Vol_MA: 36788.45, ATR: 2.874402075830442
+[2025-06-10 11:20] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 4313.0 < 75% of MA 36788.45
+[2025-06-10 11:20] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-10 11:20] WMA_Dynamic Processing ADANIPOWER...
+[2025-06-10 11:20] WMA_Dynamic ADANIPOWER: df shape = (101, 11), using last 30 rows.
+[2025-06-10 11:20] WMA_Dynamic Checking trend — ADANIPOWER | Close: 567.15, WMA: 567.452857142857, Prev_WMA: 567.3971428571429, RSI: 52.402626133447875, MACD: 0.9832846068670733, Signal: 1.0086885075155452, Vol: 14653.0, Vol_MA: 85520.8, ATR: 1.982852215492938
+[2025-06-10 11:20] WMA_Dynamic ADANIPOWER: Filtered due to weak current volume: 14653.0 < 75% of MA 85520.8
+[2025-06-10 11:20] WMA_Dynamic No valid trend detected for ADANIPOWER.
+[2025-06-10 11:21] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:22] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:22] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:23] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-10 11:23] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for TBOTEK
+[2025-06-10 11:23] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-10 11:23] WMA_Dynamic ADANIGREEN: df shape = (101, 11), using last 30 rows.
+[2025-06-10 11:23] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1041.6, WMA: 1041.2647619047618, Prev_WMA: 1041.184761904762, RSI: 54.65046251099036, MACD: 1.3406256735297575, Signal: 1.4270394575316017, Vol: 11122.0, Vol_MA: 37128.9, ATR: 2.9101379706270403
+[2025-06-10 11:23] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 11122.0 < 75% of MA 37128.9
+[2025-06-10 11:23] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-10 11:23] WMA_Dynamic Processing ADANIPOWER...
+[2025-06-10 11:23] WMA_Dynamic ADANIPOWER: df shape = (101, 11), using last 30 rows.
+[2025-06-10 11:23] WMA_Dynamic Checking trend — ADANIPOWER | Close: 567.15, WMA: 567.452857142857, Prev_WMA: 567.3971428571429, RSI: 52.402626133447875, MACD: 0.9832846068670733, Signal: 1.0086885075155452, Vol: 45657.0, Vol_MA: 87071.0, ATR: 2.0257352892488574
+[2025-06-10 11:23] WMA_Dynamic ADANIPOWER: Filtered due to weak current volume: 45657.0 < 75% of MA 87071.0
+[2025-06-10 11:23] WMA_Dynamic No valid trend detected for ADANIPOWER.
+[2025-06-10 11:23] WMA_Dynamic Processing TBOTEK...
+[2025-06-10 11:24] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-10 11:24] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-10 14:22] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-10 14:22] WMA_Dynamic Processing TRENT...
+[2025-06-10 14:23] WMA_Dynamic TRENT: df shape = (137, 11), using last 30 rows.
+[2025-06-10 14:23] WMA_Dynamic Checking trend — TRENT | Close: 5828.0, WMA: 5837.483333333334, Prev_WMA: 5838.547619047619, RSI: 37.46416924530782, MACD: -5.314673729828428, Signal: -4.885170496396492, Vol: 2049.0, Vol_MA: 5721.65, ATR: 8.415341993912763
+[2025-06-10 14:23] WMA_Dynamic TRENT: Filtered due to weak current volume: 2049.0 < 75% of MA 5721.65
+[2025-06-10 14:23] WMA_Dynamic No valid trend detected for TRENT.
+[2025-06-10 14:24] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-10 14:24] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-10 14:25] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-10 14:25] WMA_Dynamic Processing DRREDDY...
+[2025-06-10 14:25] WMA_Dynamic DRREDDY: df shape = (138, 11), using last 30 rows.
+[2025-06-10 14:25] WMA_Dynamic Checking trend — DRREDDY | Close: 1352.7, WMA: 1356.0204761904763, Prev_WMA: 1356.212380952381, RSI: 52.153689075138374, MACD: 3.299306057863305, Signal: 4.405389519646954, Vol: 7374.0, Vol_MA: 41010.05, ATR: 3.3844351991622603
+[2025-06-10 14:25] WMA_Dynamic DRREDDY: Filtered due to weak current volume: 7374.0 < 75% of MA 41010.05
+[2025-06-10 14:25] WMA_Dynamic No valid trend detected for DRREDDY.
+[2025-06-10 14:25] WMA_Dynamic Processing AUBANK...
+[2025-06-10 14:25] WMA_Dynamic AUBANK: df shape = (138, 11), using last 30 rows.
+[2025-06-10 14:25] WMA_Dynamic Checking trend — AUBANK | Close: 766.25, WMA: 767.005, Prev_WMA: 767.1209523809525, RSI: 41.550952870330285, MACD: -0.5856109705717927, Signal: -0.59584301796562, Vol: 3873.0, Vol_MA: 17423.85, ATR: 1.33074459032528
+[2025-06-10 14:25] WMA_Dynamic AUBANK: Filtered due to weak current volume: 3873.0 < 75% of MA 17423.85
+[2025-06-10 14:25] WMA_Dynamic No valid trend detected for AUBANK.
+[2025-06-10 14:27] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-10 14:27] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%

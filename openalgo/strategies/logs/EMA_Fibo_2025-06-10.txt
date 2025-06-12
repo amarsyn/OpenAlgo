@@ -1,0 +1,5 @@
+2025-06-10 14:47:43 EMA-FIBO - 📨 Telegram delivered successfully.
+2025-06-10 14:47:43 EMA-FIBO - ✅ Amar's EMA_Fibo strategy started.
+2025-06-10 14:47:45 EMA-FIBO - ❌ Error processing SBIN: 'close'
+2025-06-10 14:47:55 EMA-FIBO - 📨 Telegram delivered successfully.
+2025-06-10 14:47:55 EMA-FIBO - Graceful shutdown invoked.

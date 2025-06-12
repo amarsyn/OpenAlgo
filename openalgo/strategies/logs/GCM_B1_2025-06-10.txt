@@ -1,0 +1,2 @@
+2025-06-10 14:47:03.997290 - Amar's GCM Batch-1 Strategy started in LIVE mode.
+2025-06-10 14:47:21.131909 - Graceful shutdown invoked.

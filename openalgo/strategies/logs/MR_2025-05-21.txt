@@ -1,2 +1,0 @@
-MR [2025-05-21 10:11:41] 📊 Starting Mean Reversion BB + RSI Strategy
-MR [2025-05-21 10:12:00] 📊 Starting Mean Reversion BB + RSI Strategy

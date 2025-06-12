@@ -1,4 +1,0 @@
-2025-05-20 18:27:54.372908 - Amar's ST B-1 Strategy started in LIVE mode.
-2025-05-20 18:27:54.372908 - 🧪 Manual test log message after startup
-2025-05-20 18:27:54.372908 - Outside trading hours. Waiting...
-2025-05-20 18:28:30.270694 - Graceful shutdown invoked.

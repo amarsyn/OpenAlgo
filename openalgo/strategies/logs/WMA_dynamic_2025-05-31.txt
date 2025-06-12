@@ -1,3 +1,0 @@
-[2025-05-31 18:44] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
-[2025-05-31 18:44] WMA_Dynamic Outside trading window. Sleeping...
-[2025-05-31 18:44] WMA_Dynamic Graceful shutdown requested.

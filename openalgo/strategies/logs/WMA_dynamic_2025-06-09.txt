@@ -1,0 +1,1047 @@
+[2025-06-09 09:29] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 09:29] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 09:29] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 09:30] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 09:30] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 09:30] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 09:30] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 09:54] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 09:54] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 09:54] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 09:54] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 09:54] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 09:55] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 09:55] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 09:55] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 09:55] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 09:55] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 09:55] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:00] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:00] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:00] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:01] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:01] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:01] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:01] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:02] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:02] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:02] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:02] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:03] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:03] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:03] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:03] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:03] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:03] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:04] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:04] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:04] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:04] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:04] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:04] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:04] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:06] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:06] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:06] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:07] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:07] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:07] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:07] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:08] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:08] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:08] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:08] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:09] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:09] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:09] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:09] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:10] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:10] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:10] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:10] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:11] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:11] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:11] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:11] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:11] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:11] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:11] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:11] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:11] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:21] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:21] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:21] WMA_Dynamic Unexpected error: 'NoneType' object is not subscriptable
+[2025-06-09 10:21] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:21] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:24] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:24] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:24] WMA_Dynamic SUNPHARMA: ❌ Exception in fetch_data — 'NoneType' object is not subscriptable
+[2025-06-09 10:24] WMA_Dynamic Skipping SUNPHARMA due to invalid or insufficient data.
+[2025-06-09 10:24] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:24] WMA_Dynamic HDFCBANK: ❌ Exception in fetch_data — 'NoneType' object is not subscriptable
+[2025-06-09 10:24] WMA_Dynamic Skipping HDFCBANK due to invalid or insufficient data.
+[2025-06-09 10:24] WMA_Dynamic Processing ITC...
+[2025-06-09 10:24] WMA_Dynamic ITC: ❌ Exception in fetch_data — 'NoneType' object is not subscriptable
+[2025-06-09 10:24] WMA_Dynamic Skipping ITC due to invalid or insufficient data.
+[2025-06-09 10:24] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:24] WMA_Dynamic POWERGRID: ❌ Exception in fetch_data — 'NoneType' object is not subscriptable
+[2025-06-09 10:24] WMA_Dynamic Skipping POWERGRID due to invalid or insufficient data.
+[2025-06-09 10:24] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:24] WMA_Dynamic SBILIFE: ❌ Exception in fetch_data — 'NoneType' object is not subscriptable
+[2025-06-09 10:24] WMA_Dynamic Skipping SBILIFE due to invalid or insufficient data.
+[2025-06-09 10:24] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:25] WMA_Dynamic ABCAPITAL: ❌ Exception in fetch_data — 'NoneType' object is not subscriptable
+[2025-06-09 10:25] WMA_Dynamic Skipping ABCAPITAL due to invalid or insufficient data.
+[2025-06-09 10:25] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:25] WMA_Dynamic No valid data returned for ADANIGREEN
+[2025-06-09 10:25] WMA_Dynamic Skipping ADANIGREEN due to invalid or insufficient data.
+[2025-06-09 10:25] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:25] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:28] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:28] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:28] WMA_Dynamic SUNPHARMA: ⚠️ MACD calculation failed or returned NaNs
+[2025-06-09 10:28] WMA_Dynamic Skipping SUNPHARMA due to invalid or insufficient data.
+[2025-06-09 10:28] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:28] WMA_Dynamic HDFCBANK: ⚠️ MACD calculation failed or returned NaNs
+[2025-06-09 10:28] WMA_Dynamic Skipping HDFCBANK due to invalid or insufficient data.
+[2025-06-09 10:28] WMA_Dynamic Processing ITC...
+[2025-06-09 10:28] WMA_Dynamic ITC: ⚠️ MACD calculation failed or returned NaNs
+[2025-06-09 10:28] WMA_Dynamic Skipping ITC due to invalid or insufficient data.
+[2025-06-09 10:28] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:28] WMA_Dynamic POWERGRID: ⚠️ MACD calculation failed or returned NaNs
+[2025-06-09 10:28] WMA_Dynamic Skipping POWERGRID due to invalid or insufficient data.
+[2025-06-09 10:28] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:28] WMA_Dynamic SBILIFE: ⚠️ MACD calculation failed or returned NaNs
+[2025-06-09 10:28] WMA_Dynamic Skipping SBILIFE due to invalid or insufficient data.
+[2025-06-09 10:28] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:28] WMA_Dynamic ABCAPITAL: ⚠️ MACD calculation failed or returned NaNs
+[2025-06-09 10:28] WMA_Dynamic Skipping ABCAPITAL due to invalid or insufficient data.
+[2025-06-09 10:28] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:28] WMA_Dynamic ADANIGREEN: ⚠️ MACD calculation failed or returned NaNs
+[2025-06-09 10:28] WMA_Dynamic Skipping ADANIGREEN due to invalid or insufficient data.
+[2025-06-09 10:28] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:28] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:29] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:29] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:29] WMA_Dynamic SUNPHARMA: df shape = (90, 11), using last 30 rows.
+[2025-06-09 10:29] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1676.9, WMA: 1677.577142857143, Prev_WMA: 1677.747142857143, RSI: 46.07080146926698, MACD: -1.0003237507207814, Signal: -0.549906417211023, Vol: 83861.0, Vol_MA: 49425.15, ATR: 2.3503345571702474
+[2025-06-09 10:29] WMA_Dynamic SUNPHARMA: ✅ Valid Bearish Trend Detected.
+[2025-06-09 10:29] WMA_Dynamic 📊 Trend detected for SUNPHARMA: BEARISH
+[2025-06-09 10:29] WMA_Dynamic SUNPHARMA: Invalid direction passed to SL calculator.
+[2025-06-09 10:29] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:29] WMA_Dynamic HDFCBANK: df shape = (90, 11), using last 30 rows.
+[2025-06-09 10:29] WMA_Dynamic Checking trend — HDFCBANK | Close: 1979.9, WMA: 1981.1266666666668, Prev_WMA: 1981.1976190476191, RSI: 45.76133223517304, MACD: -0.23890993300392438, Signal: -0.2026672398712112, Vol: 95223.0, Vol_MA: 241132.0, ATR: 3.4472514578641724
+[2025-06-09 10:29] WMA_Dynamic HDFCBANK: Filtered due to weak current volume: 95223.0 < 75% of MA 241132.0
+[2025-06-09 10:29] WMA_Dynamic No valid trend detected for HDFCBANK.
+[2025-06-09 10:29] WMA_Dynamic Processing ITC...
+[2025-06-09 10:29] WMA_Dynamic ITC: df shape = (90, 11), using last 30 rows.
+[2025-06-09 10:29] WMA_Dynamic Checking trend — ITC | Close: 422.15, WMA: 421.58833333333337, Prev_WMA: 421.51928571428573, RSI: 63.403084915403966, MACD: 0.26029452028916467, Signal: 0.24384686993168986, Vol: 103770.0, Vol_MA: 151525.65, ATR: 0.5586740456671845
+[2025-06-09 10:29] WMA_Dynamic ITC: Filtered due to weak current volume: 103770.0 < 75% of MA 151525.65
+[2025-06-09 10:29] WMA_Dynamic No valid trend detected for ITC.
+[2025-06-09 10:29] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:29] WMA_Dynamic POWERGRID: df shape = (90, 11), using last 30 rows.
+[2025-06-09 10:29] WMA_Dynamic Checking trend — POWERGRID | Close: 298.25, WMA: 297.3435714285714, Prev_WMA: 297.20619047619044, RSI: 70.52485525247232, MACD: 0.6725409936724418, Signal: 0.6016672887760421, Vol: 78763.0, Vol_MA: 111684.05, ATR: 0.5673755583192347
+[2025-06-09 10:29] WMA_Dynamic POWERGRID: Filtered due to weak current volume: 78763.0 < 75% of MA 111684.05
+[2025-06-09 10:29] WMA_Dynamic No valid trend detected for POWERGRID.
+[2025-06-09 10:29] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:29] WMA_Dynamic SBILIFE: df shape = (90, 11), using last 30 rows.
+[2025-06-09 10:29] WMA_Dynamic Checking trend — SBILIFE | Close: 1778.2, WMA: 1772.7419047619046, Prev_WMA: 1772.3085714285714, RSI: 59.389364872033795, MACD: 0.44622877184178833, Signal: -0.5492654733263832, Vol: 6415.0, Vol_MA: 18355.65, ATR: 4.375298309256728
+[2025-06-09 10:29] WMA_Dynamic SBILIFE: Filtered due to weak current volume: 6415.0 < 75% of MA 18355.65
+[2025-06-09 10:29] WMA_Dynamic No valid trend detected for SBILIFE.
+[2025-06-09 10:29] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:29] WMA_Dynamic ABCAPITAL: df shape = (90, 11), using last 30 rows.
+[2025-06-09 10:29] WMA_Dynamic Checking trend — ABCAPITAL | Close: 242.01, WMA: 241.26933333333332, Prev_WMA: 241.00923809523812, RSI: 72.10220939339483, MACD: 2.182503420597925, Signal: 2.281404567985138, Vol: 98263.0, Vol_MA: 342744.15, ATR: 1.17423901453058
+[2025-06-09 10:29] WMA_Dynamic ABCAPITAL: Filtered due to weak current volume: 98263.0 < 75% of MA 342744.15
+[2025-06-09 10:29] WMA_Dynamic No valid trend detected for ABCAPITAL.
+[2025-06-09 10:29] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:29] WMA_Dynamic ADANIGREEN: ❌ Invalid or empty history response
+[2025-06-09 10:29] WMA_Dynamic Skipping ADANIGREEN due to invalid or insufficient data.
+[2025-06-09 10:30] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:30] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:32] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:32] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:32] WMA_Dynamic SUNPHARMA: df shape = (91, 11), using last 30 rows.
+[2025-06-09 10:32] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1677.9, WMA: 1677.5180952380952, Prev_WMA: 1677.5866666666668, RSI: 49.70137782576457, MACD: -0.8443907932269212, Signal: -0.6075269391378315, Vol: 18056.0, Vol_MA: 47323.85, ATR: 2.2609114897892812
+[2025-06-09 10:32] WMA_Dynamic SUNPHARMA: Filtered due to weak current volume: 18056.0 < 75% of MA 47323.85
+[2025-06-09 10:32] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:32] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:32] WMA_Dynamic HDFCBANK: df shape = (91, 11), using last 30 rows.
+[2025-06-09 10:32] WMA_Dynamic Checking trend — HDFCBANK | Close: 1980.3, WMA: 1981.08, Prev_WMA: 1981.117142857143, RSI: 46.94512691969292, MACD: -0.299500715915201, Signal: -0.22331028835641664, Vol: 20729.0, Vol_MA: 208249.25, ATR: 3.3008334419719505
+[2025-06-09 10:32] WMA_Dynamic HDFCBANK: Filtered due to weak current volume: 20729.0 < 75% of MA 208249.25
+[2025-06-09 10:32] WMA_Dynamic No valid trend detected for HDFCBANK.
+[2025-06-09 10:32] WMA_Dynamic Processing ITC...
+[2025-06-09 10:32] WMA_Dynamic ITC: df shape = (91, 11), using last 30 rows.
+[2025-06-09 10:32] WMA_Dynamic Checking trend — ITC | Close: 422.1, WMA: 421.63357142857143, Prev_WMA: 421.57404761904763, RSI: 62.1646835012414, MACD: 0.2704580380907373, Signal: 0.24725457364897002, Vol: 37501.0, Vol_MA: 144156.85, ATR: 0.5401738558717812
+[2025-06-09 10:32] WMA_Dynamic ITC: Filtered due to weak current volume: 37501.0 < 75% of MA 144156.85
+[2025-06-09 10:32] WMA_Dynamic No valid trend detected for ITC.
+[2025-06-09 10:32] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:32] WMA_Dynamic POWERGRID: df shape = (91, 11), using last 30 rows.
+[2025-06-09 10:32] WMA_Dynamic Checking trend — POWERGRID | Close: 298.3, WMA: 297.4754761904762, Prev_WMA: 297.3435714285714, RSI: 70.92526623205667, MACD: 0.6890106306864823, Signal: 0.6191359571581302, Vol: 34809.0, Vol_MA: 105980.25, ATR: 0.5482530423250206
+[2025-06-09 10:32] WMA_Dynamic POWERGRID: Filtered due to weak current volume: 34809.0 < 75% of MA 105980.25
+[2025-06-09 10:32] WMA_Dynamic No valid trend detected for POWERGRID.
+[2025-06-09 10:32] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:32] WMA_Dynamic SBILIFE: df shape = (91, 11), using last 30 rows.
+[2025-06-09 10:32] WMA_Dynamic Checking trend — SBILIFE | Close: 1778.3, WMA: 1773.2257142857145, Prev_WMA: 1772.770476190476, RSI: 59.584815766306136, MACD: 0.7631333363658541, Signal: -0.28295665155882255, Vol: 1678.0, Vol_MA: 17781.05, ATR: 4.276937920293377
+[2025-06-09 10:32] WMA_Dynamic SBILIFE: Filtered due to weak current volume: 1678.0 < 75% of MA 17781.05
+[2025-06-09 10:32] WMA_Dynamic No valid trend detected for SBILIFE.
+[2025-06-09 10:32] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:32] WMA_Dynamic ABCAPITAL: df shape = (91, 11), using last 30 rows.
+[2025-06-09 10:32] WMA_Dynamic Checking trend — ABCAPITAL | Close: 242.05, WMA: 241.50366666666667, Prev_WMA: 241.28266666666667, RSI: 72.11777003749847, MACD: 2.096793413840203, Signal: 2.246269231743045, Vol: 80901.0, Vol_MA: 343067.55, ATR: 1.1260179040434048
+[2025-06-09 10:32] WMA_Dynamic ABCAPITAL: Filtered due to weak current volume: 80901.0 < 75% of MA 343067.55
+[2025-06-09 10:32] WMA_Dynamic No valid trend detected for ABCAPITAL.
+[2025-06-09 10:32] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:32] WMA_Dynamic ADANIGREEN: ❌ Invalid or empty history response
+[2025-06-09 10:32] WMA_Dynamic Skipping ADANIGREEN due to invalid or insufficient data.
+[2025-06-09 10:33] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:33] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:37] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:37] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:37] WMA_Dynamic SUNPHARMA: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:37] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1677.0, WMA: 1677.348095238095, Prev_WMA: 1677.4990476190476, RSI: 46.595432130462655, MACD: -0.8029613129806421, Signal: -0.6491665204590631, Vol: 27478.0, Vol_MA: 48170.55, ATR: 2.2958875898252633
+[2025-06-09 10:37] WMA_Dynamic SUNPHARMA: Filtered due to weak current volume: 27478.0 < 75% of MA 48170.55
+[2025-06-09 10:37] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:37] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:37] WMA_Dynamic HDFCBANK: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:37] WMA_Dynamic Checking trend — HDFCBANK | Close: 1980.8, WMA: 1981.083333333333, Prev_WMA: 1981.070476190476, RSI: 48.40374672112457, MACD: -0.30358206521736975, Signal: -0.2406409970050147, Vol: 19244.0, Vol_MA: 185377.3, ATR: 3.1219917828169943
+[2025-06-09 10:37] WMA_Dynamic HDFCBANK: Filtered due to weak current volume: 19244.0 < 75% of MA 185377.3
+[2025-06-09 10:37] WMA_Dynamic No valid trend detected for HDFCBANK.
+[2025-06-09 10:37] WMA_Dynamic Processing ITC...
+[2025-06-09 10:37] WMA_Dynamic ITC: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:37] WMA_Dynamic Checking trend — ITC | Close: 422.15, WMA: 421.692619047619, Prev_WMA: 421.63357142857143, RSI: 62.79644464308025, MACD: 0.2887022931723777, Signal: 0.2555441175536516, Vol: 63023.0, Vol_MA: 139972.2, ATR: 0.5337252688823995
+[2025-06-09 10:37] WMA_Dynamic ITC: Filtered due to weak current volume: 63023.0 < 75% of MA 139972.2
+[2025-06-09 10:37] WMA_Dynamic No valid trend detected for ITC.
+[2025-06-09 10:37] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:37] WMA_Dynamic POWERGRID: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:37] WMA_Dynamic Checking trend — POWERGRID | Close: 298.05, WMA: 297.56380952380954, Prev_WMA: 297.4659523809524, RSI: 66.6419460188254, MACD: 0.6679601585904607, Signal: 0.6276244441682435, Vol: 27616.0, Vol_MA: 102549.4, ATR: 0.5233484841685773
+[2025-06-09 10:37] WMA_Dynamic POWERGRID: Filtered due to weak current volume: 27616.0 < 75% of MA 102549.4
+[2025-06-09 10:37] WMA_Dynamic No valid trend detected for POWERGRID.
+[2025-06-09 10:37] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:37] WMA_Dynamic SBILIFE: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:37] WMA_Dynamic Checking trend — SBILIFE | Close: 1780.5, WMA: 1773.9233333333334, Prev_WMA: 1773.244761904762, RSI: 63.416449440220156, MACD: 1.1717905216678446, Signal: 0.01054548963921667, Vol: 25234.0, Vol_MA: 18498.95, ATR: 4.777644497708618
+[2025-06-09 10:37] WMA_Dynamic SBILIFE: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:37] WMA_Dynamic 📊 Trend detected for SBILIFE: BULLISH
+[2025-06-09 10:37] WMA_Dynamic BULLISH Signal -> SBILIFE @ 1780.50 | SL: 1770.94, Target: 1804.39
+[2025-06-09 10:37] WMA_Dynamic BULLISH Signal -> SBILIFE @ 1780.50 | SL: 1770.94, Target: 1804.39
+[2025-06-09 10:37] WMA_Dynamic [ERROR] Failed to place Entry order for SBILIFE: name 'log' is not defined
+[2025-06-09 10:37] WMA_Dynamic Skipping SBILIFE due to order failure.
+[2025-06-09 10:37] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:37] WMA_Dynamic ABCAPITAL: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:37] WMA_Dynamic Checking trend — ABCAPITAL | Close: 241.64, WMA: 241.63557142857135, Prev_WMA: 241.49509523809525, RSI: 67.96625398832245, MACD: 1.9587469989951956, Signal: 2.1876160672447575, Vol: 40235.0, Vol_MA: 337581.3, ATR: 1.0862044135285296
+[2025-06-09 10:37] WMA_Dynamic ABCAPITAL: Filtered due to weak current volume: 40235.0 < 75% of MA 337581.3
+[2025-06-09 10:37] WMA_Dynamic No valid trend detected for ABCAPITAL.
+[2025-06-09 10:37] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:37] WMA_Dynamic ADANIGREEN: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:37] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1027.6, WMA: 1026.6138095238096, Prev_WMA: 1026.3580952380953, RSI: 56.797142829556314, MACD: 2.0855878089491853, Signal: 2.179358413474759, Vol: 4554.0, Vol_MA: 68227.0, ATR: 3.311257717759245
+[2025-06-09 10:37] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 4554.0 < 75% of MA 68227.0
+[2025-06-09 10:37] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-09 10:39] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:39] WMA_Dynamic SUNPHARMA: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:39] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1678.5, WMA: 1677.4909523809522, Prev_WMA: 1677.4990476190476, RSI: 51.86071080018791, MACD: -0.6833031933224447, Signal: -0.6252348965274236, Vol: 119176.0, Vol_MA: 52755.45, ATR: 2.3530978481826286
+[2025-06-09 10:39] WMA_Dynamic SUNPHARMA: No valid trend detected — Conditions not met:
+[2025-06-09 10:39] WMA_Dynamic   RSI: 51.86071080018791 (Need ≥51 or ≤49)
+[2025-06-09 10:39] WMA_Dynamic   MACD Δ: -0.058068296795021124 (Need > 0.15 or < -0.15)
+[2025-06-09 10:39] WMA_Dynamic   WMA Slope: down
+[2025-06-09 10:39] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:39] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:39] WMA_Dynamic HDFCBANK: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:39] WMA_Dynamic Checking trend — HDFCBANK | Close: 1981.5, WMA: 1981.1499999999996, Prev_WMA: 1981.070476190476, RSI: 50.29011845556366, MACD: -0.24774160937704437, Signal: -0.22947290583694963, Vol: 37495.0, Vol_MA: 186289.85, ATR: 3.2149584526477146
+[2025-06-09 10:39] WMA_Dynamic HDFCBANK: Filtered due to weak current volume: 37495.0 < 75% of MA 186289.85
+[2025-06-09 10:39] WMA_Dynamic No valid trend detected for HDFCBANK.
+[2025-06-09 10:39] WMA_Dynamic Processing ITC...
+[2025-06-09 10:39] WMA_Dynamic ITC: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:39] WMA_Dynamic Checking trend — ITC | Close: 422.15, WMA: 421.692619047619, Prev_WMA: 421.63357142857143, RSI: 62.79644464308025, MACD: 0.2887022931723777, Signal: 0.2555441175536516, Vol: 97611.0, Vol_MA: 141701.6, ATR: 0.5337252688823995
+[2025-06-09 10:39] WMA_Dynamic ITC: Filtered due to weak current volume: 97611.0 < 75% of MA 141701.6
+[2025-06-09 10:39] WMA_Dynamic No valid trend detected for ITC.
+[2025-06-09 10:39] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:39] WMA_Dynamic POWERGRID: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:39] WMA_Dynamic Checking trend — POWERGRID | Close: 298.15, WMA: 297.5733333333333, Prev_WMA: 297.4659523809524, RSI: 68.56373111089832, MACD: 0.6759373665676662, Signal: 0.6292198857636846, Vol: 62690.0, Vol_MA: 104303.1, ATR: 0.5304997664632499
+[2025-06-09 10:39] WMA_Dynamic POWERGRID: Filtered due to weak current volume: 62690.0 < 75% of MA 104303.1
+[2025-06-09 10:39] WMA_Dynamic No valid trend detected for POWERGRID.
+[2025-06-09 10:39] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:39] WMA_Dynamic SBILIFE: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:39] WMA_Dynamic Checking trend — SBILIFE | Close: 1786.0, WMA: 1774.447142857143, Prev_WMA: 1773.244761904762, RSI: 70.24092041079997, MACD: 1.6105369604142652, Signal: 0.09829477738850079, Vol: 41094.0, Vol_MA: 19291.95, ATR: 4.777644497708618
+[2025-06-09 10:39] WMA_Dynamic SBILIFE: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:39] WMA_Dynamic 📊 Trend detected for SBILIFE: BULLISH
+[2025-06-09 10:39] WMA_Dynamic BULLISH Signal -> SBILIFE @ 1786.00 | SL: 1776.44, Target: 1809.89
+[2025-06-09 10:39] WMA_Dynamic BULLISH Signal -> SBILIFE @ 1786.00 | SL: 1776.44, Target: 1809.89
+[2025-06-09 10:39] WMA_Dynamic [ERROR] Failed to place Entry order for SBILIFE: name 'log' is not defined
+[2025-06-09 10:39] WMA_Dynamic Skipping SBILIFE due to order failure.
+[2025-06-09 10:39] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:39] WMA_Dynamic ABCAPITAL: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:39] WMA_Dynamic Checking trend — ABCAPITAL | Close: 241.26, WMA: 241.5993809523809, Prev_WMA: 241.49509523809525, RSI: 64.47166195961583, MACD: 1.9284336086818143, Signal: 2.1815533891820813, Vol: 97237.0, Vol_MA: 340431.4, ATR: 1.1219608250018849
+[2025-06-09 10:39] WMA_Dynamic ABCAPITAL: Filtered due to weak current volume: 97237.0 < 75% of MA 340431.4
+[2025-06-09 10:39] WMA_Dynamic No valid trend detected for ABCAPITAL.
+[2025-06-09 10:39] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:39] WMA_Dynamic ADANIGREEN: df shape = (92, 11), using last 30 rows.
+[2025-06-09 10:39] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1026.5, WMA: 1026.5090476190476, Prev_WMA: 1026.3580952380953, RSI: 54.48329998443839, MACD: 1.997838521200265, Signal: 2.1618085559249747, Vol: 11176.0, Vol_MA: 68558.1, ATR: 3.3827705407059554
+[2025-06-09 10:39] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 11176.0 < 75% of MA 68558.1
+[2025-06-09 10:39] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-09 10:41] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:41] WMA_Dynamic SUNPHARMA: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:41] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1678.9, WMA: 1677.5395238095236, Prev_WMA: 1677.51, RSI: 53.21875922601624, MACD: -0.492581216518829, Signal: -0.596151453972999, Vol: 62373.0, Vol_MA: 53549.2, ATR: 2.2634928329891966
+[2025-06-09 10:41] WMA_Dynamic SUNPHARMA: No valid trend detected — Conditions not met:
+[2025-06-09 10:41] WMA_Dynamic   RSI: 53.21875922601624 (Need ≥51 or ≤49)
+[2025-06-09 10:41] WMA_Dynamic   MACD Δ: 0.10357023745416993 (Need > 0.15 or < -0.15)
+[2025-06-09 10:41] WMA_Dynamic   WMA Slope: up
+[2025-06-09 10:41] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:41] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:41] WMA_Dynamic HDFCBANK: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:41] WMA_Dynamic Checking trend — HDFCBANK | Close: 1983.4, WMA: 1981.4314285714281, Prev_WMA: 1981.188095238095, RSI: 55.02432008706175, MACD: -0.021913272121537375, Signal: -0.1828555659884556, Vol: 21773.0, Vol_MA: 170097.0, ATR: 3.142382023199617
+[2025-06-09 10:41] WMA_Dynamic HDFCBANK: Filtered due to weak current volume: 21773.0 < 75% of MA 170097.0
+[2025-06-09 10:41] WMA_Dynamic No valid trend detected for HDFCBANK.
+[2025-06-09 10:41] WMA_Dynamic Processing ITC...
+[2025-06-09 10:41] WMA_Dynamic ITC: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:41] WMA_Dynamic Checking trend — ITC | Close: 422.05, WMA: 421.7421428571429, Prev_WMA: 421.6973809523809, RSI: 60.21255835861786, MACD: 0.29480848307457563, Signal: 0.26403516729601284, Vol: 26646.0, Vol_MA: 128471.55, ATR: 0.5134369832821668
+[2025-06-09 10:41] WMA_Dynamic ITC: Filtered due to weak current volume: 26646.0 < 75% of MA 128471.55
+[2025-06-09 10:41] WMA_Dynamic No valid trend detected for ITC.
+[2025-06-09 10:41] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:41] WMA_Dynamic POWERGRID: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:41] WMA_Dynamic Checking trend — POWERGRID | Close: 298.2, WMA: 297.66976190476186, Prev_WMA: 297.56857142857143, RSI: 68.55194146590827, MACD: 0.6651508235872257, Signal: 0.6357678966902164, Vol: 14488.0, Vol_MA: 93899.6, ATR: 0.5032914463751706
+[2025-06-09 10:41] WMA_Dynamic POWERGRID: Filtered due to weak current volume: 14488.0 < 75% of MA 93899.6
+[2025-06-09 10:41] WMA_Dynamic No valid trend detected for POWERGRID.
+[2025-06-09 10:41] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:41] WMA_Dynamic SBILIFE: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:41] WMA_Dynamic Checking trend — SBILIFE | Close: 1786.9, WMA: 1775.774761904762, Prev_WMA: 1774.5138095238096, RSI: 71.13703790617484, MACD: 2.3585117408047154, Signal: 0.5592726430062321, Vol: 12122.0, Vol_MA: 18957.9, ATR: 4.536119953576551
+[2025-06-09 10:41] WMA_Dynamic SBILIFE: Filtered due to weak current volume: 12122.0 < 75% of MA 18957.9
+[2025-06-09 10:41] WMA_Dynamic No valid trend detected for SBILIFE.
+[2025-06-09 10:41] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:41] WMA_Dynamic ABCAPITAL: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:41] WMA_Dynamic Checking trend — ABCAPITAL | Close: 241.49, WMA: 241.7051904761905, Prev_WMA: 241.61557142857137, RSI: 66.29121509604813, MACD: 1.8089942292976673, Signal: 2.1092113577749987, Vol: 25141.0, Vol_MA: 329334.2, ATR: 1.0624699700197748
+[2025-06-09 10:41] WMA_Dynamic ABCAPITAL: Filtered due to weak current volume: 25141.0 < 75% of MA 329334.2
+[2025-06-09 10:41] WMA_Dynamic No valid trend detected for ABCAPITAL.
+[2025-06-09 10:41] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:41] WMA_Dynamic ADANIGREEN: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:41] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1026.6, WMA: 1026.6542857142858, Prev_WMA: 1026.537619047619, RSI: 54.65457362445404, MACD: 1.885637378360343, Signal: 2.110403380241089, Vol: 1004.0, Vol_MA: 65117.65, ATR: 3.176632848845942
+[2025-06-09 10:41] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 1004.0 < 75% of MA 65117.65
+[2025-06-09 10:41] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-09 10:43] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:43] WMA_Dynamic SUNPHARMA: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:43] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1678.8, WMA: 1677.53, Prev_WMA: 1677.51, RSI: 52.874084324062764, MACD: -0.5005584244961483, Signal: -0.5977468955684628, Vol: 63905.0, Vol_MA: 53625.8, ATR: 2.2634928329891966
+[2025-06-09 10:43] WMA_Dynamic SUNPHARMA: No valid trend detected — Conditions not met:
+[2025-06-09 10:43] WMA_Dynamic   RSI: 52.874084324062764 (Need ≥51 or ≤49)
+[2025-06-09 10:43] WMA_Dynamic   MACD Δ: 0.09718847107231454 (Need > 0.15 or < -0.15)
+[2025-06-09 10:43] WMA_Dynamic   WMA Slope: up
+[2025-06-09 10:43] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:43] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:43] WMA_Dynamic HDFCBANK: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:43] WMA_Dynamic Checking trend — HDFCBANK | Close: 1983.7, WMA: 1981.4599999999996, Prev_WMA: 1981.188095238095, RSI: 55.700635856978366, MACD: 0.002018351810193053, Signal: -0.1780692412021095, Vol: 38138.0, Vol_MA: 170915.25, ATR: 3.142382023199617
+[2025-06-09 10:43] WMA_Dynamic HDFCBANK: Filtered due to weak current volume: 38138.0 < 75% of MA 170915.25
+[2025-06-09 10:43] WMA_Dynamic No valid trend detected for HDFCBANK.
+[2025-06-09 10:43] WMA_Dynamic Processing ITC...
+[2025-06-09 10:43] WMA_Dynamic ITC: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:43] WMA_Dynamic Checking trend — ITC | Close: 422.4, WMA: 421.77547619047624, Prev_WMA: 421.6973809523809, RSI: 65.82521962533197, MACD: 0.32272871099479516, Signal: 0.26961921288005675, Vol: 214020.0, Vol_MA: 137840.25, ATR: 0.5491903824773613
+[2025-06-09 10:43] WMA_Dynamic ITC: No valid trend detected — Conditions not met:
+[2025-06-09 10:43] WMA_Dynamic   RSI: 65.82521962533197 (Need ≥51 or ≤49)
+[2025-06-09 10:43] WMA_Dynamic   MACD Δ: 0.05310949811473842 (Need > 0.15 or < -0.15)
+[2025-06-09 10:43] WMA_Dynamic   WMA Slope: up
+[2025-06-09 10:43] WMA_Dynamic No valid trend detected for ITC.
+[2025-06-09 10:43] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:43] WMA_Dynamic POWERGRID: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:43] WMA_Dynamic Checking trend — POWERGRID | Close: 298.25, WMA: 297.6745238095238, Prev_WMA: 297.56857142857143, RSI: 69.0121867370435, MACD: 0.6691394275758284, Signal: 0.6365656174879369, Vol: 31211.0, Vol_MA: 94735.75, ATR: 0.5104421262142111
+[2025-06-09 10:43] WMA_Dynamic POWERGRID: Filtered due to weak current volume: 31211.0 < 75% of MA 94735.75
+[2025-06-09 10:43] WMA_Dynamic No valid trend detected for POWERGRID.
+[2025-06-09 10:43] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:43] WMA_Dynamic SBILIFE: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:43] WMA_Dynamic Checking trend — SBILIFE | Close: 1785.5, WMA: 1775.6414285714286, Prev_WMA: 1774.5138095238096, RSI: 68.01885039536256, MACD: 2.2468308291238372, Signal: 0.5369364606700565, Vol: 20970.0, Vol_MA: 19400.3, ATR: 4.729188309230604
+[2025-06-09 10:43] WMA_Dynamic SBILIFE: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:43] WMA_Dynamic 📊 Trend detected for SBILIFE: BULLISH
+[2025-06-09 10:43] WMA_Dynamic BULLISH Signal -> SBILIFE @ 1785.50 | SL: 1776.04, Target: 1809.15
+[2025-06-09 10:43] WMA_Dynamic BULLISH Signal -> SBILIFE @ 1785.50 | SL: 1776.04, Target: 1809.15
+[2025-06-09 10:43] WMA_Dynamic [ERROR] Failed to place Entry order for SBILIFE: name 'log' is not defined
+[2025-06-09 10:43] WMA_Dynamic Skipping SBILIFE due to order failure.
+[2025-06-09 10:43] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:43] WMA_Dynamic ABCAPITAL: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:43] WMA_Dynamic Checking trend — ABCAPITAL | Close: 241.12, WMA: 241.6699523809524, Prev_WMA: 241.61557142857137, RSI: 63.07335747034305, MACD: 1.7794785597820066, Signal: 2.1033082238718666, Vol: 67967.0, Vol_MA: 331475.5, ATR: 1.0767713296978518
+[2025-06-09 10:43] WMA_Dynamic ABCAPITAL: Filtered due to weak current volume: 67967.0 < 75% of MA 331475.5
+[2025-06-09 10:43] WMA_Dynamic No valid trend detected for ABCAPITAL.
+[2025-06-09 10:43] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:43] WMA_Dynamic ADANIGREEN: df shape = (93, 11), using last 30 rows.
+[2025-06-09 10:43] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1027.0, WMA: 1026.692380952381, Prev_WMA: 1026.537619047619, RSI: 55.454762426563065, MACD: 1.9175462102691654, Signal: 2.1167851466228536, Vol: 6042.0, Vol_MA: 65369.55, ATR: 3.233838287558266
+[2025-06-09 10:43] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 6042.0 < 75% of MA 65369.55
+[2025-06-09 10:43] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-09 10:45] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:45] WMA_Dynamic SUNPHARMA: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:45] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1679.5, WMA: 1677.6804761904764, Prev_WMA: 1677.5966666666666, RSI: 55.1853808896629, MACD: -0.26522411033488424, Signal: -0.5223078655872586, Vol: 2345.0, Vol_MA: 51053.85, ATR: 2.1159506087805684
+[2025-06-09 10:45] WMA_Dynamic SUNPHARMA: Filtered due to weak current volume: 2345.0 < 75% of MA 51053.85
+[2025-06-09 10:45] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:45] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:45] WMA_Dynamic HDFCBANK: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:45] WMA_Dynamic Checking trend — HDFCBANK | Close: 1983.4, WMA: 1981.7395238095237, Prev_WMA: 1981.5266666666662, RSI: 54.36702123657074, MACD: 0.19185809732857706, Signal: -0.09514930056152016, Vol: 6732.0, Vol_MA: 145312.5, ATR: 3.0295462353983513
+[2025-06-09 10:45] WMA_Dynamic HDFCBANK: Filtered due to weak current volume: 6732.0 < 75% of MA 145312.5
+[2025-06-09 10:45] WMA_Dynamic No valid trend detected for HDFCBANK.
+[2025-06-09 10:45] WMA_Dynamic Processing ITC...
+[2025-06-09 10:45] WMA_Dynamic ITC: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:45] WMA_Dynamic Checking trend — ITC | Close: 422.4, WMA: 421.8338095238096, Prev_WMA: 421.7611904761905, RSI: 65.95499515551411, MACD: 0.3333462292785043, Signal: 0.28045008624521695, Vol: 14942.0, Vol_MA: 128882.2, ATR: 0.5277979095853694
+[2025-06-09 10:45] WMA_Dynamic ITC: Filtered due to weak current volume: 14942.0 < 75% of MA 128882.2
+[2025-06-09 10:45] WMA_Dynamic No valid trend detected for ITC.
+[2025-06-09 10:45] WMA_Dynamic Processing POWERGRID...
+[2025-06-09 10:45] WMA_Dynamic POWERGRID: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:45] WMA_Dynamic Checking trend — POWERGRID | Close: 298.4, WMA: 297.79095238095243, Prev_WMA: 297.6840476190476, RSI: 70.34747142221165, MACD: 0.6774377139736316, Signal: 0.6460163900614287, Vol: 6622.0, Vol_MA: 87796.75, ATR: 0.49488453769940083
+[2025-06-09 10:45] WMA_Dynamic POWERGRID: Filtered due to weak current volume: 6622.0 < 75% of MA 87796.75
+[2025-06-09 10:45] WMA_Dynamic No valid trend detected for POWERGRID.
+[2025-06-09 10:45] WMA_Dynamic Processing SBILIFE...
+[2025-06-09 10:45] WMA_Dynamic SBILIFE: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:45] WMA_Dynamic Checking trend — SBILIFE | Close: 1780.4, WMA: 1776.1980952380952, Prev_WMA: 1775.574761904762, RSI: 57.34794561245472, MACD: 2.226046218553165, Signal: 0.8658239393121898, Vol: 2341.0, Vol_MA: 13099.85, ATR: 4.719951189439867
+[2025-06-09 10:45] WMA_Dynamic SBILIFE: Filtered due to weak current volume: 2341.0 < 75% of MA 13099.85
+[2025-06-09 10:45] WMA_Dynamic No valid trend detected for SBILIFE.
+[2025-06-09 10:45] WMA_Dynamic Processing ABCAPITAL...
+[2025-06-09 10:45] WMA_Dynamic ABCAPITAL: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:45] WMA_Dynamic Checking trend — ABCAPITAL | Close: 241.49, WMA: 241.7681428571429, Prev_WMA: 241.71566666666666, RSI: 65.6985073118664, MACD: 1.6909510803542105, Signal: 2.026963290894834, Vol: 6403.0, Vol_MA: 320754.75, ATR: 1.0182690507805063
+[2025-06-09 10:45] WMA_Dynamic ABCAPITAL: Filtered due to weak current volume: 6403.0 < 75% of MA 320754.75
+[2025-06-09 10:45] WMA_Dynamic No valid trend detected for ABCAPITAL.
+[2025-06-09 10:45] WMA_Dynamic Processing ADANIGREEN...
+[2025-06-09 10:45] WMA_Dynamic ADANIGREEN: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:45] WMA_Dynamic Checking trend — ADANIGREEN | Close: 1030.0, WMA: 1027.2057142857143, Prev_WMA: 1026.8066666666668, RSI: 60.4242177697686, MACD: 2.127261633099806, Signal: 2.1341966832344426, Vol: 5854.0, Vol_MA: 63461.6, ATR: 3.2268223031802807
+[2025-06-09 10:45] WMA_Dynamic ADANIGREEN: Filtered due to weak current volume: 5854.0 < 75% of MA 63461.6
+[2025-06-09 10:45] WMA_Dynamic No valid trend detected for ADANIGREEN.
+[2025-06-09 10:47] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:47] WMA_Dynamic SUNPHARMA: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:47] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1679.4, WMA: 1677.6709523809525, Prev_WMA: 1677.5966666666666, RSI: 54.77210322618985, MACD: -0.2732013183122035, Signal: -0.5239033071827225, Vol: 4076.0, Vol_MA: 51140.4, ATR: 2.1159506087805684
+[2025-06-09 10:47] WMA_Dynamic SUNPHARMA: Filtered due to weak current volume: 4076.0 < 75% of MA 51140.4
+[2025-06-09 10:47] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:47] WMA_Dynamic Processing HDFCBANK...
+[2025-06-09 10:47] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:47] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:48] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:48] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:48] WMA_Dynamic SUNPHARMA: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:48] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1678.9, WMA: 1677.6233333333334, Prev_WMA: 1677.5966666666666, RSI: 52.7952135022243, MACD: -0.3130873581981177, Signal: -0.5318805151599053, Vol: 6901.0, Vol_MA: 51281.65, ATR: 2.144551090807899
+[2025-06-09 10:48] WMA_Dynamic SUNPHARMA: Filtered due to weak current volume: 6901.0 < 75% of MA 51281.65
+[2025-06-09 10:48] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:48] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:48] WMA_Dynamic FIVESTAR: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:48] WMA_Dynamic Checking trend — FIVESTAR | Close: 804.5, WMA: 773.934761904762, Prev_WMA: 769.5264285714287, RSI: 79.86719443146926, MACD: 16.759933323740825, Signal: 12.410817256840616, Vol: 576526.0, Vol_MA: 130210.6, ATR: 8.968100067164093
+[2025-06-09 10:48] WMA_Dynamic FIVESTAR: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:48] WMA_Dynamic 📊 Trend detected for FIVESTAR: BULLISH
+[2025-06-09 10:48] WMA_Dynamic BULLISH Signal -> FIVESTAR @ 804.50 | SL: 786.56, Target: 849.34
+[2025-06-09 10:48] WMA_Dynamic BULLISH Signal -> FIVESTAR @ 804.50 | SL: 786.56, Target: 849.34
+[2025-06-09 10:48] WMA_Dynamic [EXIT] Attempting to exit FIVESTAR due to Entry
+[2025-06-09 10:48] WMA_Dynamic 📦 Entry Order | FIVESTAR | BUY | MARKET | Response: {'mode': 'analyze', 'orderid': '25060900001', 'status': 'success'}
+[2025-06-09 10:48] WMA_Dynamic Processing IIFL...
+[2025-06-09 10:48] WMA_Dynamic IIFL: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:48] WMA_Dynamic Checking trend — IIFL | Close: 476.5, WMA: 472.2578571428572, Prev_WMA: 471.4652380952381, RSI: 73.96774603127074, MACD: 5.825862951540444, Signal: 5.6572538895553945, Vol: 34612.0, Vol_MA: 156674.45, ATR: 2.8475672279600412
+[2025-06-09 10:48] WMA_Dynamic IIFL: Filtered due to weak current volume: 34612.0 < 75% of MA 156674.45
+[2025-06-09 10:48] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 10:48] WMA_Dynamic Processing IEX...
+[2025-06-09 10:48] WMA_Dynamic IEX: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:48] WMA_Dynamic Checking trend — IEX | Close: 213.25, WMA: 212.1739523809524, Prev_WMA: 211.90119047619046, RSI: 68.01122478266754, MACD: 2.2926776775282462, Signal: 2.5413498664900835, Vol: 626192.0, Vol_MA: 1424773.3, ATR: 1.4577096479059617
+[2025-06-09 10:48] WMA_Dynamic IEX: Filtered due to weak current volume: 626192.0 < 75% of MA 1424773.3
+[2025-06-09 10:48] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 10:48] WMA_Dynamic Processing RBL...
+[2025-06-09 10:48] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 10:48] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 10:48] WMA_Dynamic Processing JBMA...
+[2025-06-09 10:48] WMA_Dynamic JBMA: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:48] WMA_Dynamic Checking trend — JBMA | Close: 742.2, WMA: 743.9290476190477, Prev_WMA: 743.3621428571428, RSI: 58.11018266307332, MACD: 8.54434653979331, Signal: 9.391474906123207, Vol: 42559.0, Vol_MA: 125775.6, ATR: 6.258801147652626
+[2025-06-09 10:48] WMA_Dynamic JBMA: Filtered due to weak current volume: 42559.0 < 75% of MA 125775.6
+[2025-06-09 10:48] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 10:48] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 10:48] WMA_Dynamic GRINFRA: df shape = (94, 11), using last 30 rows.
+[2025-06-09 10:48] WMA_Dynamic Checking trend — GRINFRA | Close: 1344.0, WMA: 1333.4142857142858, Prev_WMA: 1331.7071428571428, RSI: 67.49054685547095, MACD: 11.238157417571983, Signal: 11.08610712666223, Vol: 1429.0, Vol_MA: 3898.35, ATR: 9.142278077926079
+[2025-06-09 10:48] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 1429.0 < 75% of MA 3898.35
+[2025-06-09 10:48] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 10:49] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:50] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:50] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:50] WMA_Dynamic SUNPHARMA: df shape = (95, 11), using last 30 rows.
+[2025-06-09 10:50] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1679.5, WMA: 1677.712380952381, Prev_WMA: 1677.6233333333334, RSI: 54.89887718457303, MACD: -0.1585267675754949, Signal: -0.45720976564302324, Vol: 55464.0, Vol_MA: 51837.95, ATR: 2.0479103640135743
+[2025-06-09 10:50] WMA_Dynamic SUNPHARMA: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:50] WMA_Dynamic 📊 Trend detected for SUNPHARMA: BULLISH
+[2025-06-09 10:50] WMA_Dynamic BULLISH Signal -> SUNPHARMA @ 1679.50 | SL: 1675.40, Target: 1689.74
+[2025-06-09 10:50] WMA_Dynamic BULLISH Signal -> SUNPHARMA @ 1679.50 | SL: 1675.40, Target: 1689.74
+[2025-06-09 10:50] WMA_Dynamic [EXIT] Attempting to exit SUNPHARMA due to Entry
+[2025-06-09 10:50] WMA_Dynamic 📦 Entry Order | SUNPHARMA | BUY | MARKET | Response: {'mode': 'analyze', 'orderid': '25060900002', 'status': 'success'}
+[2025-06-09 10:50] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:50] WMA_Dynamic Calling SL calculator with -> direction: 'bullish'
+[2025-06-09 10:50] WMA_Dynamic ⏳ Skipping FIVESTAR — cooldown in effect
+[2025-06-09 10:50] WMA_Dynamic Processing IIFL...
+[2025-06-09 10:50] WMA_Dynamic IIFL: df shape = (95, 11), using last 30 rows.
+[2025-06-09 10:50] WMA_Dynamic Checking trend — IIFL | Close: 475.7, WMA: 472.8185714285714, Prev_WMA: 472.2197619047619, RSI: 72.09742593943668, MACD: 5.614649912547918, Signal: 5.643627681048488, Vol: 20190.0, Vol_MA: 153471.65, ATR: 2.7251765693686756
+[2025-06-09 10:50] WMA_Dynamic IIFL: Filtered due to weak current volume: 20190.0 < 75% of MA 153471.65
+[2025-06-09 10:50] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 10:50] WMA_Dynamic Processing IEX...
+[2025-06-09 10:50] WMA_Dynamic IEX: df shape = (95, 11), using last 30 rows.
+[2025-06-09 10:50] WMA_Dynamic Checking trend — IEX | Close: 213.3, WMA: 212.3931904761905, Prev_WMA: 212.16919047619047, RSI: 68.17524507772723, MACD: 2.227562661833474, Signal: 2.477954248920585, Vol: 138052.0, Vol_MA: 1172180.4, ATR: 1.3777978654477854
+[2025-06-09 10:50] WMA_Dynamic IEX: Filtered due to weak current volume: 138052.0 < 75% of MA 1172180.4
+[2025-06-09 10:50] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 10:50] WMA_Dynamic Processing RBL...
+[2025-06-09 10:50] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 10:50] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 10:50] WMA_Dynamic Processing JBMA...
+[2025-06-09 10:51] WMA_Dynamic JBMA: df shape = (95, 11), using last 30 rows.
+[2025-06-09 10:51] WMA_Dynamic Checking trend — JBMA | Close: 742.5, WMA: 744.4083333333333, Prev_WMA: 743.9719047619047, RSI: 58.29131378020755, MACD: 7.861397336597975, Signal: 9.091202981961757, Vol: 2645.0, Vol_MA: 126101.8, ATR: 5.892265524723929
+[2025-06-09 10:51] WMA_Dynamic JBMA: Filtered due to weak current volume: 2645.0 < 75% of MA 126101.8
+[2025-06-09 10:51] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 10:51] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 10:51] WMA_Dynamic GRINFRA: df shape = (95, 11), using last 30 rows.
+[2025-06-09 10:51] WMA_Dynamic Checking trend — GRINFRA | Close: 1342.7, WMA: 1334.6285714285714, Prev_WMA: 1333.3285714285714, RSI: 66.61476228884946, MACD: 11.131914876115616, Signal: 11.083781497065711, Vol: 444.0, Vol_MA: 3899.45, ATR: 8.71027929164051
+[2025-06-09 10:51] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 444.0 < 75% of MA 3899.45
+[2025-06-09 10:51] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 10:51] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:51] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:52] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:52] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:53] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:53] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 10:53] WMA_Dynamic Unexpected error: 'NoneType' object has no attribute 'strip'
+[2025-06-09 10:53] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:53] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 10:53] WMA_Dynamic Unexpected error: 'NoneType' object has no attribute 'strip'
+[2025-06-09 10:53] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:53] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:55] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:55] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:55] WMA_Dynamic SUNPHARMA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:55] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1678.6, WMA: 1677.6590476190477, Prev_WMA: 1677.6457142857141, RSI: 51.53177726096547, MACD: -0.1505338731062693, Signal: -0.40480906007016093, Vol: 181.0, Vol_MA: 50294.65, ATR: 1.9556318581050633
+[2025-06-09 10:55] WMA_Dynamic SUNPHARMA: Filtered due to weak current volume: 181.0 < 75% of MA 50294.65
+[2025-06-09 10:55] WMA_Dynamic No valid trend detected for SUNPHARMA.
+[2025-06-09 10:55] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:55] WMA_Dynamic FIVESTAR: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:55] WMA_Dynamic Checking trend — FIVESTAR | Close: 812.35, WMA: 783.3404761904762, Prev_WMA: 778.9500000000002, RSI: 80.29340383072375, MACD: 19.171125833567203, Signal: 14.714939281451986, Vol: 54845.0, Vol_MA: 168801.1, ATR: 8.776408175177927
+[2025-06-09 10:55] WMA_Dynamic FIVESTAR: Filtered due to weak current volume: 54845.0 < 75% of MA 168801.1
+[2025-06-09 10:55] WMA_Dynamic No valid trend detected for FIVESTAR.
+[2025-06-09 10:55] WMA_Dynamic Processing IIFL...
+[2025-06-09 10:55] WMA_Dynamic IIFL: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:55] WMA_Dynamic Checking trend — IIFL | Close: 475.25, WMA: 473.24119047619047, Prev_WMA: 472.7995238095238, RSI: 70.52086217048968, MACD: 5.361969276303341, Signal: 5.584743293546754, Vol: 662.0, Vol_MA: 130648.9, ATR: 2.612054669591013
+[2025-06-09 10:55] WMA_Dynamic IIFL: Filtered due to weak current volume: 662.0 < 75% of MA 130648.9
+[2025-06-09 10:55] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 10:55] WMA_Dynamic Processing IEX...
+[2025-06-09 10:55] WMA_Dynamic IEX: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:55] WMA_Dynamic Checking trend — IEX | Close: 212.21, WMA: 212.35071428571425, Prev_WMA: 212.27509523809525, RSI: 61.671869896983786, MACD: 1.9909625947305756, Signal: 2.3647291374558073, Vol: 16626.0, Vol_MA: 1081211.55, ATR: 1.3879130002226192
+[2025-06-09 10:55] WMA_Dynamic IEX: Filtered due to weak current volume: 16626.0 < 75% of MA 1081211.55
+[2025-06-09 10:55] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 10:55] WMA_Dynamic Processing RBL...
+[2025-06-09 10:55] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 10:55] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 10:55] WMA_Dynamic Processing JBMA...
+[2025-06-09 10:55] WMA_Dynamic JBMA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:55] WMA_Dynamic Checking trend — JBMA | Close: 740.3, WMA: 744.3171428571429, Prev_WMA: 744.2369047619047, RSI: 55.728804419473754, MACD: 6.9222485171969765, Signal: 8.634437730034433, Vol: 1417.0, Vol_MA: 127116.9, ATR: 5.800645900778093
+[2025-06-09 10:55] WMA_Dynamic JBMA: Filtered due to weak current volume: 1417.0 < 75% of MA 127116.9
+[2025-06-09 10:55] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 10:55] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 10:55] WMA_Dynamic GRINFRA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:55] WMA_Dynamic Checking trend — GRINFRA | Close: 1337.0, WMA: 1334.6276190476187, Prev_WMA: 1334.104761904762, RSI: 61.27281322939601, MACD: 10.184618427222176, Signal: 10.833749452897578, Vol: 113.0, Vol_MA: 3909.95, ATR: 8.512943638576004
+[2025-06-09 10:55] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 113.0 < 75% of MA 3909.95
+[2025-06-09 10:55] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 10:57] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:57] WMA_Dynamic SUNPHARMA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1679.8, WMA: 1677.7733333333335, Prev_WMA: 1677.6457142857141, RSI: 56.039852225148756, MACD: -0.05480737737957497, Signal: -0.385663760924822, Vol: 53175.0, Vol_MA: 52944.35, ATR: 2.027123048747307
+[2025-06-09 10:57] WMA_Dynamic SUNPHARMA: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:57] WMA_Dynamic 📊 Trend detected for SUNPHARMA: BULLISH
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> SUNPHARMA @ 1679.80 | SL: 1675.75, Target: 1689.94
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> SUNPHARMA @ 1679.80 | SL: 1675.75, Target: 1689.94
+[2025-06-09 10:57] WMA_Dynamic [EXIT] Attempting to exit SUNPHARMA due to Entry
+[2025-06-09 10:57] WMA_Dynamic 📦 Entry Order | SUNPHARMA | BUY | MARKET | Response: {'mode': 'analyze', 'orderid': '25060900003', 'status': 'success'}
+[2025-06-09 10:57] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:57] WMA_Dynamic FIVESTAR: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — FIVESTAR | Close: 810.0, WMA: 783.1166666666667, Prev_WMA: 778.9500000000002, RSI: 77.92240163266975, MACD: 18.983661446102815, Signal: 14.677446403959108, Vol: 208952.0, Vol_MA: 176506.45, ATR: 8.958710711315646
+[2025-06-09 10:57] WMA_Dynamic FIVESTAR: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:57] WMA_Dynamic 📊 Trend detected for FIVESTAR: BULLISH
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> FIVESTAR @ 810.00 | SL: 792.08, Target: 854.79
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> FIVESTAR @ 810.00 | SL: 792.08, Target: 854.79
+[2025-06-09 10:57] WMA_Dynamic [EXIT] Attempting to exit FIVESTAR due to Entry
+[2025-06-09 10:57] WMA_Dynamic 📦 Entry Order | FIVESTAR | BUY | MARKET | Response: {'mode': 'analyze', 'orderid': '25060900004', 'status': 'success'}
+[2025-06-09 10:57] WMA_Dynamic Processing IIFL...
+[2025-06-09 10:57] WMA_Dynamic IIFL: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — IIFL | Close: 476.15, WMA: 473.32690476190476, Prev_WMA: 472.7995238095238, RSI: 72.33098195159663, MACD: 5.433764148098248, Signal: 5.599102267905735, Vol: 33207.0, Vol_MA: 132276.15, ATR: 2.647800264912135
+[2025-06-09 10:57] WMA_Dynamic IIFL: Filtered due to weak current volume: 33207.0 < 75% of MA 132276.15
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 10:57] WMA_Dynamic Processing IEX...
+[2025-06-09 10:57] WMA_Dynamic IEX: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — IEX | Close: 212.24, WMA: 212.35357142857143, Prev_WMA: 212.27509523809525, RSI: 61.77787139670937, MACD: 1.9933557571237088, Signal: 2.365207769934434, Vol: 151531.0, Vol_MA: 1087956.8, ATR: 1.4072156216960237
+[2025-06-09 10:57] WMA_Dynamic IEX: Filtered due to weak current volume: 151531.0 < 75% of MA 1087956.8
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 10:57] WMA_Dynamic Processing RBL...
+[2025-06-09 10:57] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 10:57] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 10:57] WMA_Dynamic Processing JBMA...
+[2025-06-09 10:57] WMA_Dynamic JBMA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — JBMA | Close: 739.0, WMA: 744.1933333333334, Prev_WMA: 744.2369047619047, RSI: 54.23258491478946, MACD: 6.818544813493304, Signal: 8.613696989293699, Vol: 20362.0, Vol_MA: 128064.15, ATR: 5.897159008145124
+[2025-06-09 10:57] WMA_Dynamic JBMA: Filtered due to weak current volume: 20362.0 < 75% of MA 128064.15
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 10:57] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 10:57] WMA_Dynamic GRINFRA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — GRINFRA | Close: 1334.0, WMA: 1334.3419047619045, Prev_WMA: 1334.104761904762, RSI: 58.61573727960556, MACD: 9.945302187906009, Signal: 10.785886205034345, Vol: 603.0, Vol_MA: 3934.45, ATR: 8.727417210502736
+[2025-06-09 10:57] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 603.0 < 75% of MA 3934.45
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 10:57] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 10:57] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 10:57] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 10:57] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:57] WMA_Dynamic SUNPHARMA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — SUNPHARMA | Close: 1679.8, WMA: 1677.7733333333335, Prev_WMA: 1677.6457142857141, RSI: 56.039852225148756, MACD: -0.05480737737957497, Signal: -0.385663760924822, Vol: 53297.0, Vol_MA: 52950.45, ATR: 2.027123048747307
+[2025-06-09 10:57] WMA_Dynamic SUNPHARMA: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:57] WMA_Dynamic 📊 Trend detected for SUNPHARMA: BULLISH
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> SUNPHARMA @ 1679.80 | SL: 1675.75, Target: 1689.94
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> SUNPHARMA @ 1679.80 | SL: 1675.75, Target: 1689.94
+[2025-06-09 10:57] WMA_Dynamic [EXIT] Attempting to exit SUNPHARMA due to Entry
+[2025-06-09 10:57] WMA_Dynamic 📦 Entry Order | SUNPHARMA | BUY | MARKET | Response: {'orderid': '5125060919522', 'status': 'success'}
+[2025-06-09 10:57] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:57] WMA_Dynamic FIVESTAR: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — FIVESTAR | Close: 810.65, WMA: 783.1785714285714, Prev_WMA: 778.9500000000002, RSI: 78.56408627570146, MACD: 19.035513297954708, Signal: 14.687816774329487, Vol: 228235.0, Vol_MA: 177470.6, ATR: 8.958710711315646
+[2025-06-09 10:57] WMA_Dynamic FIVESTAR: ✅ Valid Bullish Trend Detected.
+[2025-06-09 10:57] WMA_Dynamic 📊 Trend detected for FIVESTAR: BULLISH
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> FIVESTAR @ 810.65 | SL: 792.73, Target: 855.44
+[2025-06-09 10:57] WMA_Dynamic BULLISH Signal -> FIVESTAR @ 810.65 | SL: 792.73, Target: 855.44
+[2025-06-09 10:57] WMA_Dynamic [EXIT] Attempting to exit FIVESTAR due to Entry
+[2025-06-09 10:57] WMA_Dynamic 📦 Entry Order | FIVESTAR | BUY | MARKET | Response: {'orderid': '2125060920392', 'status': 'success'}
+[2025-06-09 10:57] WMA_Dynamic Processing IIFL...
+[2025-06-09 10:57] WMA_Dynamic IIFL: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — IIFL | Close: 476.5, WMA: 473.36023809523806, Prev_WMA: 472.7995238095238, RSI: 72.79936914236485, MACD: 5.461684376018468, Signal: 5.604686313489779, Vol: 36350.0, Vol_MA: 132433.3, ATR: 2.679971300701148
+[2025-06-09 10:57] WMA_Dynamic IIFL: Filtered due to weak current volume: 36350.0 < 75% of MA 132433.3
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 10:57] WMA_Dynamic Processing IEX...
+[2025-06-09 10:57] WMA_Dynamic IEX: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — IEX | Close: 212.05, WMA: 212.3354761904762, Prev_WMA: 212.27509523809525, RSI: 61.07566482652098, MACD: 1.9781990619670182, Signal: 2.3621764309030957, Vol: 164320.0, Vol_MA: 1088596.25, ATR: 1.4072156216960237
+[2025-06-09 10:57] WMA_Dynamic IEX: Filtered due to weak current volume: 164320.0 < 75% of MA 1088596.25
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 10:57] WMA_Dynamic Processing RBL...
+[2025-06-09 10:57] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 10:57] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 10:57] WMA_Dynamic Processing JBMA...
+[2025-06-09 10:57] WMA_Dynamic JBMA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — JBMA | Close: 738.9, WMA: 744.1838095238096, Prev_WMA: 744.2369047619047, RSI: 54.12081201002283, MACD: 6.810567605516098, Signal: 8.612101547698257, Vol: 22441.0, Vol_MA: 128168.1, ATR: 5.897159008145124
+[2025-06-09 10:57] WMA_Dynamic JBMA: Filtered due to weak current volume: 22441.0 < 75% of MA 128168.1
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 10:57] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 10:57] WMA_Dynamic GRINFRA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:57] WMA_Dynamic Checking trend — GRINFRA | Close: 1335.4, WMA: 1334.4752380952377, Prev_WMA: 1334.104761904762, RSI: 59.826435934729126, MACD: 10.056983099586887, Signal: 10.80822238737052, Vol: 607.0, Vol_MA: 3934.65, ATR: 8.727417210502736
+[2025-06-09 10:57] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 607.0 < 75% of MA 3934.65
+[2025-06-09 10:57] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 10:58] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:58] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:59] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:59] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:59] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 10:59] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 10:59] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SUNPHARMA
+[2025-06-09 10:59] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 10:59] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 10:59] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for FIVESTAR
+[2025-06-09 10:59] WMA_Dynamic Processing IIFL...
+[2025-06-09 10:59] WMA_Dynamic IIFL: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:59] WMA_Dynamic Checking trend — IIFL | Close: 475.4, WMA: 473.25547619047614, Prev_WMA: 472.7995238095238, RSI: 71.05577203185535, MACD: 5.37393508826915, Signal: 5.587136455939915, Vol: 51022.0, Vol_MA: 133166.9, ATR: 2.6871204197653697
+[2025-06-09 10:59] WMA_Dynamic IIFL: Filtered due to weak current volume: 51022.0 < 75% of MA 133166.9
+[2025-06-09 10:59] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 10:59] WMA_Dynamic Processing IEX...
+[2025-06-09 10:59] WMA_Dynamic IEX: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:59] WMA_Dynamic Checking trend — IEX | Close: 211.39, WMA: 212.27261904761906, Prev_WMA: 212.27509523809525, RSI: 57.52019088372118, MACD: 1.925549489317433, Signal: 2.3516465163731786, Vol: 339471.0, Vol_MA: 1097353.8, ATR: 1.440816481297878
+[2025-06-09 10:59] WMA_Dynamic IEX: Filtered due to weak current volume: 339471.0 < 75% of MA 1097353.8
+[2025-06-09 10:59] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 10:59] WMA_Dynamic Processing RBL...
+[2025-06-09 10:59] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 10:59] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 10:59] WMA_Dynamic Processing JBMA...
+[2025-06-09 10:59] WMA_Dynamic JBMA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:59] WMA_Dynamic Checking trend — JBMA | Close: 739.0, WMA: 744.1933333333334, Prev_WMA: 744.2369047619047, RSI: 54.23258491478946, MACD: 6.818544813493304, Signal: 8.613696989293699, Vol: 28438.0, Vol_MA: 128467.95, ATR: 5.897159008145124
+[2025-06-09 10:59] WMA_Dynamic JBMA: Filtered due to weak current volume: 28438.0 < 75% of MA 128467.95
+[2025-06-09 10:59] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 10:59] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 10:59] WMA_Dynamic GRINFRA: df shape = (96, 11), using last 30 rows.
+[2025-06-09 10:59] WMA_Dynamic Checking trend — GRINFRA | Close: 1341.9, WMA: 1335.0942857142854, Prev_WMA: 1334.104761904762, RSI: 64.02140333507253, MACD: 10.575501618105363, Signal: 10.911926091074216, Vol: 2402.0, Vol_MA: 4024.4, ATR: 8.941890782429468
+[2025-06-09 10:59] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 2402.0 < 75% of MA 4024.4
+[2025-06-09 10:59] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 11:00] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:00] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:01] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:01] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:01] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:01] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:01] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SUNPHARMA
+[2025-06-09 11:01] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:01] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:01] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for FIVESTAR
+[2025-06-09 11:01] WMA_Dynamic Processing IIFL...
+[2025-06-09 11:01] WMA_Dynamic IIFL: df shape = (97, 11), using last 30 rows.
+[2025-06-09 11:01] WMA_Dynamic Checking trend — IIFL | Close: 475.5, WMA: 473.6969047619047, Prev_WMA: 473.2935714285714, RSI: 70.70266245935032, MACD: 5.169212697400212, Signal: 5.508657117337386, Vol: 21063.0, Vol_MA: 122986.2, ATR: 2.5629393887859013
+[2025-06-09 11:01] WMA_Dynamic IIFL: Filtered due to weak current volume: 21063.0 < 75% of MA 122986.2
+[2025-06-09 11:01] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 11:01] WMA_Dynamic Processing IEX...
+[2025-06-09 11:01] WMA_Dynamic IEX: ❌ Invalid or empty history response
+[2025-06-09 11:01] WMA_Dynamic Skipping IEX due to invalid or insufficient data.
+[2025-06-09 11:01] WMA_Dynamic Processing RBL...
+[2025-06-09 11:01] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 11:01] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 11:01] WMA_Dynamic Processing JBMA...
+[2025-06-09 11:01] WMA_Dynamic JBMA: df shape = (97, 11), using last 30 rows.
+[2025-06-09 11:01] WMA_Dynamic Checking trend — JBMA | Close: 741.65, WMA: 744.322619047619, Prev_WMA: 744.1933333333334, RSI: 56.779932629010716, MACD: 6.247685999759483, Signal: 8.140494791386855, Vol: 25136.0, Vol_MA: 124803.1, ATR: 5.732942658656952
+[2025-06-09 11:01] WMA_Dynamic JBMA: Filtered due to weak current volume: 25136.0 < 75% of MA 124803.1
+[2025-06-09 11:01] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 11:01] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 11:01] WMA_Dynamic GRINFRA: df shape = (97, 11), using last 30 rows.
+[2025-06-09 11:01] WMA_Dynamic Checking trend — GRINFRA | Close: 1340.0, WMA: 1335.7138095238097, Prev_WMA: 1335.0942857142854, RSI: 62.22017601227826, MACD: 10.21122702616799, Signal: 10.771786278092971, Vol: 428.0, Vol_MA: 3814.7, ATR: 8.531421877095953
+[2025-06-09 11:01] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 428.0 < 75% of MA 3814.7
+[2025-06-09 11:01] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 11:02] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:02] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:03] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:03] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:03] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:03] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:03] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SUNPHARMA
+[2025-06-09 11:03] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:03] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:03] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for FIVESTAR
+[2025-06-09 11:03] WMA_Dynamic Processing IIFL...
+[2025-06-09 11:03] WMA_Dynamic IIFL: df shape = (97, 11), using last 30 rows.
+[2025-06-09 11:03] WMA_Dynamic Checking trend — IIFL | Close: 476.7, WMA: 473.81119047619046, Prev_WMA: 473.2935714285714, RSI: 73.14901479758598, MACD: 5.264939193126736, Signal: 5.527802416482691, Vol: 64066.0, Vol_MA: 125136.35, ATR: 2.6308517672762926
+[2025-06-09 11:03] WMA_Dynamic IIFL: Filtered due to weak current volume: 64066.0 < 75% of MA 125136.35
+[2025-06-09 11:03] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 11:03] WMA_Dynamic Processing IEX...
+[2025-06-09 11:03] WMA_Dynamic IEX: ❌ Invalid or empty history response
+[2025-06-09 11:03] WMA_Dynamic Skipping IEX due to invalid or insufficient data.
+[2025-06-09 11:03] WMA_Dynamic Processing RBL...
+[2025-06-09 11:03] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 11:03] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 11:03] WMA_Dynamic Processing JBMA...
+[2025-06-09 11:03] WMA_Dynamic JBMA: df shape = (97, 11), using last 30 rows.
+[2025-06-09 11:03] WMA_Dynamic Checking trend — JBMA | Close: 740.55, WMA: 744.2178571428572, Prev_WMA: 744.1933333333334, RSI: 55.757780437965195, MACD: 6.1599367120102215, Signal: 8.122944933837003, Vol: 37094.0, Vol_MA: 125401.0, ATR: 5.732942658656952
+[2025-06-09 11:03] WMA_Dynamic JBMA: Filtered due to weak current volume: 37094.0 < 75% of MA 125401.0
+[2025-06-09 11:03] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 11:03] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 11:03] WMA_Dynamic GRINFRA: df shape = (97, 11), using last 30 rows.
+[2025-06-09 11:03] WMA_Dynamic Checking trend — GRINFRA | Close: 1334.9, WMA: 1335.2280952380954, Prev_WMA: 1335.0942857142854, RSI: 57.85126899688636, MACD: 9.804389419330619, Signal: 10.690418756725496, Vol: 1486.0, Vol_MA: 3867.6, ATR: 8.946044819458342
+[2025-06-09 11:03] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 1486.0 < 75% of MA 3867.6
+[2025-06-09 11:03] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 11:04] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:04] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:05] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:05] WMA_Dynamic SUNPHARMA: ATR-based trailing activated at 1681.07
+[2025-06-09 11:05] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:05] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:05] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:05] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SUNPHARMA
+[2025-06-09 11:05] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:05] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:05] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for FIVESTAR
+[2025-06-09 11:05] WMA_Dynamic Processing IIFL...
+[2025-06-09 11:05] WMA_Dynamic IIFL: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:05] WMA_Dynamic Checking trend — IIFL | Close: 477.45, WMA: 474.3673809523809, Prev_WMA: 473.83023809523803, RSI: 74.20006075540039, MACD: 5.166691586323452, Signal: 5.458132957003558, Vol: 16161.0, Vol_MA: 115647.3, ATR: 2.5035519275212486
+[2025-06-09 11:05] WMA_Dynamic IIFL: Filtered due to weak current volume: 16161.0 < 75% of MA 115647.3
+[2025-06-09 11:05] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 11:05] WMA_Dynamic Processing IEX...
+[2025-06-09 11:05] WMA_Dynamic IEX: ❌ Invalid or empty history response
+[2025-06-09 11:05] WMA_Dynamic Skipping IEX due to invalid or insufficient data.
+[2025-06-09 11:05] WMA_Dynamic Processing RBL...
+[2025-06-09 11:05] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 11:05] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 11:05] WMA_Dynamic Processing JBMA...
+[2025-06-09 11:05] WMA_Dynamic JBMA: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:05] WMA_Dynamic Checking trend — JBMA | Close: 741.6, WMA: 744.3633333333335, Prev_WMA: 744.3369047619047, RSI: 56.66015650185979, MACD: 5.734483199950091, Signal: 7.661207003014042, Vol: 3651.0, Vol_MA: 124117.9, ATR: 5.383897426817819
+[2025-06-09 11:05] WMA_Dynamic JBMA: Filtered due to weak current volume: 3651.0 < 75% of MA 124117.9
+[2025-06-09 11:05] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 11:05] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 11:05] WMA_Dynamic GRINFRA: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:05] WMA_Dynamic Checking trend — GRINFRA | Close: 1339.7, WMA: 1335.5714285714287, Prev_WMA: 1335.1138095238096, RSI: 60.378544181495904, MACD: 9.397508243597485, Signal: 10.416520414783625, Vol: 206.0, Vol_MA: 3478.45, ATR: 8.764047022964645
+[2025-06-09 11:05] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 206.0 < 75% of MA 3478.45
+[2025-06-09 11:05] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 11:06] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:06] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:07] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:07] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:07] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:07] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:07] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SUNPHARMA
+[2025-06-09 11:07] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:07] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:07] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for FIVESTAR
+[2025-06-09 11:07] WMA_Dynamic Processing IIFL...
+[2025-06-09 11:07] WMA_Dynamic IIFL: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:07] WMA_Dynamic Checking trend — IIFL | Close: 476.85, WMA: 474.31023809523805, Prev_WMA: 473.83023809523803, RSI: 73.22166546109544, MACD: 5.1188283384602755, Signal: 5.448560307430923, Vol: 31107.0, Vol_MA: 116394.6, ATR: 2.5035519275212486
+[2025-06-09 11:07] WMA_Dynamic IIFL: Filtered due to weak current volume: 31107.0 < 75% of MA 116394.6
+[2025-06-09 11:07] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 11:07] WMA_Dynamic Processing IEX...
+[2025-06-09 11:07] WMA_Dynamic IEX: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:07] WMA_Dynamic Checking trend — IEX | Close: 211.7, WMA: 212.25785714285712, Prev_WMA: 212.26071428571433, RSI: 58.699364772872386, MACD: 1.6099025594035652, Signal: 2.1058230554029906, Vol: 118500.0, Vol_MA: 956963.05, ATR: 1.3130163790503258
+[2025-06-09 11:07] WMA_Dynamic IEX: Filtered due to weak current volume: 118500.0 < 75% of MA 956963.05
+[2025-06-09 11:07] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 11:07] WMA_Dynamic Processing RBL...
+[2025-06-09 11:07] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 11:07] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 11:07] WMA_Dynamic Processing JBMA...
+[2025-06-09 11:07] WMA_Dynamic JBMA: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:07] WMA_Dynamic Checking trend — JBMA | Close: 743.25, WMA: 744.5204761904763, Prev_WMA: 744.3369047619047, RSI: 58.279687188994245, MACD: 5.866107131573926, Signal: 7.687531789338808, Vol: 32563.0, Vol_MA: 125563.5, ATR: 5.54473318233211
+[2025-06-09 11:07] WMA_Dynamic JBMA: Filtered due to weak current volume: 32563.0 < 75% of MA 125563.5
+[2025-06-09 11:07] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 11:07] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 11:07] WMA_Dynamic GRINFRA: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:07] WMA_Dynamic Checking trend — GRINFRA | Close: 1334.0, WMA: 1335.0285714285715, Prev_WMA: 1335.1138095238096, RSI: 57.0987357054814, MACD: 8.942807388896654, Signal: 10.325580243843458, Vol: 472.0, Vol_MA: 3491.75, ATR: 8.77834353456592
+[2025-06-09 11:07] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 472.0 < 75% of MA 3491.75
+[2025-06-09 11:07] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 11:08] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:08] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:09] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:09] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:09] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:09] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:09] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SUNPHARMA
+[2025-06-09 11:09] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:09] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:09] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for FIVESTAR
+[2025-06-09 11:09] WMA_Dynamic Processing IIFL...
+[2025-06-09 11:09] WMA_Dynamic IIFL: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:09] WMA_Dynamic Checking trend — IIFL | Close: 476.95, WMA: 474.3197619047619, Prev_WMA: 473.83023809523803, RSI: 73.49496069984421, MACD: 5.126805546437481, Signal: 5.450155749026364, Vol: 48154.0, Vol_MA: 117246.95, ATR: 2.5035519275212486
+[2025-06-09 11:09] WMA_Dynamic IIFL: Filtered due to weak current volume: 48154.0 < 75% of MA 117246.95
+[2025-06-09 11:09] WMA_Dynamic No valid trend detected for IIFL.
+[2025-06-09 11:09] WMA_Dynamic Processing IEX...
+[2025-06-09 11:09] WMA_Dynamic IEX: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:09] WMA_Dynamic Checking trend — IEX | Close: 211.48, WMA: 212.23690476190473, Prev_WMA: 212.26071428571433, RSI: 57.77536307202579, MACD: 1.5923527018536845, Signal: 2.1023130838930144, Vol: 229370.0, Vol_MA: 962506.55, ATR: 1.3237387627512789
+[2025-06-09 11:09] WMA_Dynamic IEX: Filtered due to weak current volume: 229370.0 < 75% of MA 962506.55
+[2025-06-09 11:09] WMA_Dynamic No valid trend detected for IEX.
+[2025-06-09 11:09] WMA_Dynamic Processing RBL...
+[2025-06-09 11:09] WMA_Dynamic RBL: ❌ Invalid or empty history response
+[2025-06-09 11:09] WMA_Dynamic Skipping RBL due to invalid or insufficient data.
+[2025-06-09 11:09] WMA_Dynamic Processing JBMA...
+[2025-06-09 11:09] WMA_Dynamic JBMA: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:09] WMA_Dynamic Checking trend — JBMA | Close: 741.9, WMA: 744.3919047619048, Prev_WMA: 744.3369047619047, RSI: 57.01259633546154, MACD: 5.758414823881708, Signal: 7.665993327800365, Vol: 55683.0, Vol_MA: 126719.5, ATR: 5.569752077634335
+[2025-06-09 11:09] WMA_Dynamic JBMA: Filtered due to weak current volume: 55683.0 < 75% of MA 126719.5
+[2025-06-09 11:09] WMA_Dynamic No valid trend detected for JBMA.
+[2025-06-09 11:09] WMA_Dynamic Processing GRINFRA...
+[2025-06-09 11:09] WMA_Dynamic GRINFRA: df shape = (98, 11), using last 30 rows.
+[2025-06-09 11:09] WMA_Dynamic Checking trend — GRINFRA | Close: 1334.5, WMA: 1335.0761904761905, Prev_WMA: 1335.1138095238096, RSI: 57.408008098614225, MACD: 8.982693428782795, Signal: 10.333557451820687, Vol: 569.0, Vol_MA: 3496.6, ATR: 8.77834353456592
+[2025-06-09 11:09] WMA_Dynamic GRINFRA: Filtered due to weak current volume: 569.0 < 75% of MA 3496.6
+[2025-06-09 11:09] WMA_Dynamic No valid trend detected for GRINFRA.
+[2025-06-09 11:10] WMA_Dynamic Processing SUNPHARMA...
+[2025-06-09 11:10] WMA_Dynamic Processing FIVESTAR...
+[2025-06-09 11:11] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 11:11] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%
+[2025-06-09 11:17] WMA_Dynamic Amar's WMA Dynamic Strategy started in LIVE mode.
+[2025-06-09 11:17] WMA_Dynamic Processing MCX...
+[2025-06-09 11:17] WMA_Dynamic MCX: df shape = (100, 11), using last 30 rows.
+[2025-06-09 11:17] WMA_Dynamic Checking trend — MCX | Close: 7918.0, WMA: 7878.121428571429, Prev_WMA: 7871.238095238095, RSI: 70.3725716948366, MACD: 83.01646638284183, Signal: 89.93434260076965, Vol: 26718.0, Vol_MA: 46962.8, ATR: 39.394573296322505
+[2025-06-09 11:17] WMA_Dynamic MCX: Filtered due to weak current volume: 26718.0 < 75% of MA 46962.8
+[2025-06-09 11:17] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:17] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:17] WMA_Dynamic MEDANTA: df shape = (100, 11), using last 30 rows.
+[2025-06-09 11:17] WMA_Dynamic Checking trend — MEDANTA | Close: 1222.3, WMA: 1220.982857142857, Prev_WMA: 1220.7952380952381, RSI: 56.6882335154628, MACD: 1.1408852997049053, Signal: 0.9385128894097535, Vol: 1088.0, Vol_MA: 757.9, ATR: 2.948744920541605
+[2025-06-09 11:17] WMA_Dynamic MEDANTA: ✅ Valid Bullish Trend Detected.
+[2025-06-09 11:17] WMA_Dynamic 📊 Trend detected for MEDANTA: BULLISH
+[2025-06-09 11:17] WMA_Dynamic BULLISH Signal -> MEDANTA @ 1222.30 | SL: 1216.40, Target: 1237.04
+[2025-06-09 11:17] WMA_Dynamic BULLISH Signal -> MEDANTA @ 1222.30 | SL: 1216.40, Target: 1237.04
+[2025-06-09 11:17] WMA_Dynamic [EXIT] Attempting to exit MEDANTA due to Entry
+[2025-06-09 11:17] WMA_Dynamic 📦 Entry Order | MEDANTA | BUY | MARKET | Response: {'orderid': '6125060920102', 'status': 'success'}
+[2025-06-09 11:17] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:17] WMA_Dynamic CRISIL: df shape = (100, 11), using last 30 rows.
+[2025-06-09 11:17] WMA_Dynamic Checking trend — CRISIL | Close: 5359.0, WMA: 5392.092857142857, Prev_WMA: 5396.028571428571, RSI: 37.457506178577894, MACD: -2.423679441612876, Signal: 4.6135458287364735, Vol: 11.0, Vol_MA: 293.3, ATR: 14.080946701301256
+[2025-06-09 11:17] WMA_Dynamic CRISIL: Filtered due to weak current volume: 11.0 < 75% of MA 293.3
+[2025-06-09 11:17] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:17] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:17] WMA_Dynamic SOBHA: df shape = (100, 11), using last 30 rows.
+[2025-06-09 11:17] WMA_Dynamic Checking trend — SOBHA | Close: 1688.9, WMA: 1683.307619047619, Prev_WMA: 1682.7871428571425, RSI: 56.127921770942756, MACD: 1.5591749124923808, Signal: 0.44979313561647716, Vol: 782.0, Vol_MA: 4754.75, ATR: 7.344545457133473
+[2025-06-09 11:17] WMA_Dynamic SOBHA: Filtered due to weak current volume: 782.0 < 75% of MA 4754.75
+[2025-06-09 11:17] WMA_Dynamic No valid trend detected for SOBHA.
+[2025-06-09 11:18] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:19] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:19] WMA_Dynamic Processing MCX...
+[2025-06-09 11:19] WMA_Dynamic MCX: df shape = (100, 11), using last 30 rows.
+[2025-06-09 11:19] WMA_Dynamic Checking trend — MCX | Close: 7958.0, WMA: 7881.9309523809525, Prev_WMA: 7871.238095238095, RSI: 73.50221967965402, MACD: 86.20734957372406, Signal: 90.5725192389461, Vol: 69456.0, Vol_MA: 49099.7, ATR: 41.503089225217145
+[2025-06-09 11:19] WMA_Dynamic MCX: No valid trend detected — Conditions not met:
+[2025-06-09 11:19] WMA_Dynamic   RSI: 73.50221967965402 (Need ≥51 or ≤49)
+[2025-06-09 11:19] WMA_Dynamic   MACD Δ: -4.365169665222041 (Need > 0.15 or < -0.15)
+[2025-06-09 11:19] WMA_Dynamic   WMA Slope: up
+[2025-06-09 11:19] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:19] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:19] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:19] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:19] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:19] WMA_Dynamic CRISIL: df shape = (100, 11), using last 30 rows.
+[2025-06-09 11:19] WMA_Dynamic Checking trend — CRISIL | Close: 5359.5, WMA: 5392.140476190476, Prev_WMA: 5396.028571428571, RSI: 37.71337095848169, MACD: -2.383793401726507, Signal: 4.621523036713747, Vol: 29.0, Vol_MA: 294.2, ATR: 14.188159375651832
+[2025-06-09 11:19] WMA_Dynamic CRISIL: Filtered due to weak current volume: 29.0 < 75% of MA 294.2
+[2025-06-09 11:19] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:19] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:19] WMA_Dynamic SOBHA: df shape = (100, 11), using last 30 rows.
+[2025-06-09 11:19] WMA_Dynamic Checking trend — SOBHA | Close: 1681.9, WMA: 1682.6409523809523, Prev_WMA: 1682.7871428571425, RSI: 49.031908023666325, MACD: 1.0007703540879902, Signal: 0.33811222393559903, Vol: 3709.0, Vol_MA: 4901.1, ATR: 7.701921038302056
+[2025-06-09 11:19] WMA_Dynamic SOBHA: ⚠️ Very low average volume, skipping for safety.
+[2025-06-09 11:19] WMA_Dynamic No valid trend detected for SOBHA.
+[2025-06-09 11:20] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:21] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:21] WMA_Dynamic Processing MCX...
+[2025-06-09 11:21] WMA_Dynamic MCX: df shape = (101, 11), using last 30 rows.
+[2025-06-09 11:21] WMA_Dynamic Checking trend — MCX | Close: 7924.0, WMA: 7886.695238095238, Prev_WMA: 7880.121428571429, RSI: 69.00327428105021, MACD: 81.78601925239673, Signal: 88.57271211912915, Vol: 12077.0, Vol_MA: 44462.35, ATR: 40.57373516805086
+[2025-06-09 11:21] WMA_Dynamic MCX: Filtered due to weak current volume: 12077.0 < 75% of MA 44462.35
+[2025-06-09 11:21] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:21] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:21] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:21] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:21] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:21] WMA_Dynamic CRISIL: df shape = (101, 11), using last 30 rows.
+[2025-06-09 11:21] WMA_Dynamic Checking trend — CRISIL | Close: 5362.5, WMA: 5388.811904761905, Prev_WMA: 5392.188095238095, RSI: 39.29887301224878, MACD: -3.9871361643663477, Signal: 2.906172962879402, Vol: 54.0, Vol_MA: 286.75, ATR: 13.60038440768564
+[2025-06-09 11:21] WMA_Dynamic CRISIL: Filtered due to weak current volume: 54.0 < 75% of MA 286.75
+[2025-06-09 11:21] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:21] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:21] WMA_Dynamic SOBHA: df shape = (101, 11), using last 30 rows.
+[2025-06-09 11:21] WMA_Dynamic Checking trend — SOBHA | Close: 1682.0, WMA: 1682.4014285714286, Prev_WMA: 1682.4599999999998, RSI: 49.32340881524669, MACD: 0.6581177837574614, Signal: 0.3778626236492847, Vol: 209.0, Vol_MA: 4362.0, ATR: 7.407728375358996
+[2025-06-09 11:21] WMA_Dynamic SOBHA: Filtered due to weak current volume: 209.0 < 75% of MA 4362.0
+[2025-06-09 11:21] WMA_Dynamic No valid trend detected for SOBHA.
+[2025-06-09 11:22] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:23] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:23] WMA_Dynamic Processing MCX...
+[2025-06-09 11:23] WMA_Dynamic MCX: df shape = (101, 11), using last 30 rows.
+[2025-06-09 11:23] WMA_Dynamic Checking trend — MCX | Close: 7927.5, WMA: 7887.028571428571, Prev_WMA: 7880.121428571429, RSI: 69.70234034221221, MACD: 82.06522153159949, Signal: 88.6285525749697, Vol: 17501.0, Vol_MA: 44733.55, ATR: 40.57373516805086
+[2025-06-09 11:23] WMA_Dynamic MCX: Filtered due to weak current volume: 17501.0 < 75% of MA 44733.55
+[2025-06-09 11:23] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:23] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:23] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:23] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:23] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:23] WMA_Dynamic CRISIL: df shape = (101, 11), using last 30 rows.
+[2025-06-09 11:23] WMA_Dynamic Checking trend — CRISIL | Close: 5363.0, WMA: 5388.859523809524, Prev_WMA: 5392.188095238095, RSI: 39.5583853336386, MACD: -3.9472501244799787, Signal: 2.9141501708566757, Vol: 71.0, Vol_MA: 287.6, ATR: 13.636120302482238
+[2025-06-09 11:23] WMA_Dynamic CRISIL: Filtered due to weak current volume: 71.0 < 75% of MA 287.6
+[2025-06-09 11:23] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:23] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:23] WMA_Dynamic SOBHA: df shape = (101, 11), using last 30 rows.
+[2025-06-09 11:23] WMA_Dynamic Checking trend — SOBHA | Close: 1683.5, WMA: 1682.5442857142857, Prev_WMA: 1682.4599999999998, RSI: 50.71990492549587, MACD: 0.7777759034156588, Signal: 0.4017942475809242, Vol: 393.0, Vol_MA: 4371.2, ATR: 7.507788880789478
+[2025-06-09 11:23] WMA_Dynamic SOBHA: Filtered due to weak current volume: 393.0 < 75% of MA 4371.2
+[2025-06-09 11:23] WMA_Dynamic No valid trend detected for SOBHA.
+[2025-06-09 11:24] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:25] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:25] WMA_Dynamic Processing MCX...
+[2025-06-09 11:25] WMA_Dynamic MCX: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:25] WMA_Dynamic Checking trend — MCX | Close: 7915.5, WMA: 7891.047619047619, Prev_WMA: 7885.885714285714, RSI: 67.36253283964693, MACD: 77.3758888127395, Signal: 86.22485742936132, Vol: 1193.0, Vol_MA: 40319.35, ATR: 38.164054118598344
+[2025-06-09 11:25] WMA_Dynamic MCX: Filtered due to weak current volume: 1193.0 < 75% of MA 40319.35
+[2025-06-09 11:25] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:25] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:25] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:25] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:25] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:25] WMA_Dynamic CRISIL: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:25] WMA_Dynamic Checking trend — CRISIL | Close: 5366.0, WMA: 5385.997619047619, Prev_WMA: 5388.859523809524, RSI: 41.183180791383286, MACD: -4.919131204900623, Signal: 1.347493895705216, Vol: 3.0, Vol_MA: 275.1, ATR: 12.909152499232055
+[2025-06-09 11:25] WMA_Dynamic CRISIL: Filtered due to weak current volume: 3.0 < 75% of MA 275.1
+[2025-06-09 11:25] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:25] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:25] WMA_Dynamic SOBHA: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:25] WMA_Dynamic Checking trend — SOBHA | Close: 1685.9, WMA: 1682.8400000000001, Prev_WMA: 1682.4966666666667, RSI: 52.985508132224, MACD: 0.8736084314023174, Signal: 0.48977531796342016, Vol: 348.0, Vol_MA: 4152.4, ATR: 7.178476195701665
+[2025-06-09 11:25] WMA_Dynamic SOBHA: Filtered due to weak current volume: 348.0 < 75% of MA 4152.4
+[2025-06-09 11:25] WMA_Dynamic No valid trend detected for SOBHA.
+[2025-06-09 11:26] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:27] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:27] WMA_Dynamic Processing MCX...
+[2025-06-09 11:27] WMA_Dynamic MCX: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:27] WMA_Dynamic Checking trend — MCX | Close: 7888.0, WMA: 7888.428571428572, Prev_WMA: 7885.885714285714, RSI: 62.20881290717014, MACD: 75.18215661900649, Signal: 85.78611099061472, Vol: 20538.0, Vol_MA: 41286.6, ATR: 40.165177742317645
+[2025-06-09 11:27] WMA_Dynamic MCX: Filtered due to weak current volume: 20538.0 < 75% of MA 41286.6
+[2025-06-09 11:27] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:27] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:27] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:27] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:27] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:27] WMA_Dynamic CRISIL: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:27] WMA_Dynamic Checking trend — CRISIL | Close: 5363.0, WMA: 5385.711904761904, Prev_WMA: 5388.859523809524, RSI: 39.5583853336386, MACD: -5.158447444217018, Signal: 1.299630647841937, Vol: 145.0, Vol_MA: 282.2, ATR: 13.05208990092629
+[2025-06-09 11:27] WMA_Dynamic CRISIL: Filtered due to weak current volume: 145.0 < 75% of MA 282.2
+[2025-06-09 11:27] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:27] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:27] WMA_Dynamic SOBHA: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:27] WMA_Dynamic Checking trend — SOBHA | Close: 1686.7, WMA: 1682.9161904761906, Prev_WMA: 1682.4966666666667, RSI: 53.68486507546363, MACD: 0.9374260952197346, Signal: 0.5025388507269036, Vol: 1988.0, Vol_MA: 4234.4, ATR: 7.414322908497152
+[2025-06-09 11:27] WMA_Dynamic SOBHA: Filtered due to weak current volume: 1988.0 < 75% of MA 4234.4
+[2025-06-09 11:27] WMA_Dynamic No valid trend detected for SOBHA.
+[2025-06-09 11:28] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:29] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:29] WMA_Dynamic Processing MCX...
+[2025-06-09 11:29] WMA_Dynamic MCX: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:29] WMA_Dynamic Checking trend — MCX | Close: 7893.0, WMA: 7888.9047619047615, Prev_WMA: 7885.885714285714, RSI: 63.08636974235608, MACD: 75.58101701786654, Signal: 85.86588307038673, Vol: 33189.0, Vol_MA: 41919.15, ATR: 40.236646443164766
+[2025-06-09 11:29] WMA_Dynamic MCX: ⚠️ Very low average volume, skipping for safety.
+[2025-06-09 11:29] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:29] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:29] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:29] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:29] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:29] WMA_Dynamic CRISIL: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:29] WMA_Dynamic Checking trend — CRISIL | Close: 5363.0, WMA: 5385.711904761904, Prev_WMA: 5388.859523809524, RSI: 39.5583853336386, MACD: -5.158447444217018, Signal: 1.299630647841937, Vol: 145.0, Vol_MA: 282.2, ATR: 13.05208990092629
+[2025-06-09 11:29] WMA_Dynamic CRISIL: Filtered due to weak current volume: 145.0 < 75% of MA 282.2
+[2025-06-09 11:29] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:29] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:29] WMA_Dynamic SOBHA: df shape = (102, 11), using last 30 rows.
+[2025-06-09 11:29] WMA_Dynamic Checking trend — SOBHA | Close: 1688.6, WMA: 1683.097142857143, Prev_WMA: 1682.4966666666667, RSI: 55.26529532276874, MACD: 1.0889930467867543, Signal: 0.5328522410403076, Vol: 4785.0, Vol_MA: 4374.25, ATR: 7.471497869174843
+[2025-06-09 11:29] WMA_Dynamic SOBHA: ✅ Valid Bullish Trend Detected.
+[2025-06-09 11:29] WMA_Dynamic 📊 Trend detected for SOBHA: BULLISH
+[2025-06-09 11:29] WMA_Dynamic BULLISH Signal -> SOBHA @ 1688.60 | SL: 1673.66, Target: 1725.96
+[2025-06-09 11:29] WMA_Dynamic BULLISH Signal -> SOBHA @ 1688.60 | SL: 1673.66, Target: 1725.96
+[2025-06-09 11:29] WMA_Dynamic [EXIT] Attempting to exit SOBHA due to Entry
+[2025-06-09 11:29] WMA_Dynamic 📦 Entry Order | SOBHA | BUY | MARKET | Response: {'orderid': '9125060928352', 'status': 'success'}
+[2025-06-09 11:30] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:30] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:31] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:31] WMA_Dynamic Processing MCX...
+[2025-06-09 11:31] WMA_Dynamic MCX: df shape = (103, 11), using last 30 rows.
+[2025-06-09 11:31] WMA_Dynamic Checking trend — MCX | Close: 7885.5, WMA: 7891.133333333333, Prev_WMA: 7889.142857142857, RSI: 61.64810712332784, MACD: 69.94515701201271, Signal: 82.71364669062073, Vol: 10278.0, Vol_MA: 39506.25, ATR: 38.39735556738357
+[2025-06-09 11:31] WMA_Dynamic MCX: Filtered due to weak current volume: 10278.0 < 75% of MA 39506.25
+[2025-06-09 11:31] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:31] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:31] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:31] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:31] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:31] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:31] WMA_Dynamic CRISIL: df shape = (103, 11), using last 30 rows.
+[2025-06-09 11:31] WMA_Dynamic Checking trend — CRISIL | Close: 5366.5, WMA: 5383.057142857143, Prev_WMA: 5385.711904761904, RSI: 41.58582023229455, MACD: -5.769403208179028, Signal: -0.11417612336225602, Vol: 11.0, Vol_MA: 272.15, ATR: 12.369441839601988
+[2025-06-09 11:31] WMA_Dynamic CRISIL: Filtered due to weak current volume: 11.0 < 75% of MA 272.15
+[2025-06-09 11:31] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:31] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:31] WMA_Dynamic SOBHA: ❌ Invalid or empty history response
+[2025-06-09 11:31] WMA_Dynamic Skipping SOBHA due to invalid or insufficient data.
+[2025-06-09 11:32] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:32] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:33] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:33] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:33] WMA_Dynamic Processing MCX...
+[2025-06-09 11:33] WMA_Dynamic MCX: df shape = (103, 11), using last 30 rows.
+[2025-06-09 11:33] WMA_Dynamic Checking trend — MCX | Close: 7915.5, WMA: 7893.990476190476, Prev_WMA: 7889.142857142857, RSI: 65.63744197437794, MACD: 72.33831940517575, Signal: 83.19227916925334, Vol: 29776.0, Vol_MA: 40481.15, ATR: 40.50559763984502
+[2025-06-09 11:33] WMA_Dynamic MCX: Filtered due to weak current volume: 29776.0 < 75% of MA 40481.15
+[2025-06-09 11:33] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:33] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:33] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:33] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:33] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:33] WMA_Dynamic CRISIL: df shape = (103, 11), using last 30 rows.
+[2025-06-09 11:33] WMA_Dynamic Checking trend — CRISIL | Close: 5368.0, WMA: 5383.2, Prev_WMA: 5385.711904761904, RSI: 42.41367365528891, MACD: -5.649745088520831, Signal: -0.09024449943061663, Vol: 36.0, Vol_MA: 273.4, ATR: 12.76250392090836
+[2025-06-09 11:33] WMA_Dynamic CRISIL: Filtered due to weak current volume: 36.0 < 75% of MA 273.4
+[2025-06-09 11:33] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:33] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:33] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:33] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SOBHA
+[2025-06-09 11:34] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:34] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:35] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:35] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:35] WMA_Dynamic Processing MCX...
+[2025-06-09 11:35] WMA_Dynamic MCX: df shape = (104, 11), using last 30 rows.
+[2025-06-09 11:35] WMA_Dynamic Checking trend — MCX | Close: 7905.0, WMA: 7895.204761904762, Prev_WMA: 7891.847619047619, RSI: 64.44737163359227, MACD: 66.59373626453453, Signal: 79.5853911011299, Vol: 3109.0, Vol_MA: 39538.05, ATR: 38.718618361324104
+[2025-06-09 11:35] WMA_Dynamic MCX: Filtered due to weak current volume: 3109.0 < 75% of MA 39538.05
+[2025-06-09 11:35] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:35] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:35] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:35] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:35] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:35] WMA_Dynamic CRISIL: df shape = (104, 11), using last 30 rows.
+[2025-06-09 11:35] WMA_Dynamic Checking trend — CRISIL | Close: 5373.0, WMA: 5381.714285714285, Prev_WMA: 5383.628571428571, RSI: 45.03043522505991, MACD: -5.2942630957786605, Signal: -1.0736123212642907, Vol: 2.0, Vol_MA: 258.5, ATR: 11.919365845891585
+[2025-06-09 11:35] WMA_Dynamic CRISIL: Filtered due to weak current volume: 2.0 < 75% of MA 258.5
+[2025-06-09 11:35] WMA_Dynamic No valid trend detected for CRISIL.
+[2025-06-09 11:35] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:35] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:35] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for SOBHA
+[2025-06-09 11:36] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:36] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:37] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:37] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:37] WMA_Dynamic Processing MCX...
+[2025-06-09 11:37] WMA_Dynamic MCX: df shape = (104, 11), using last 30 rows.
+[2025-06-09 11:37] WMA_Dynamic Checking trend — MCX | Close: 7906.0, WMA: 7895.3, Prev_WMA: 7891.847619047619, RSI: 64.55889786090961, MACD: 66.67350834430727, Signal: 79.60134551708445, Vol: 8317.0, Vol_MA: 39798.45, ATR: 39.50471323283432
+[2025-06-09 11:37] WMA_Dynamic MCX: Filtered due to weak current volume: 8317.0 < 75% of MA 39798.45
+[2025-06-09 11:37] WMA_Dynamic No valid trend detected for MCX.
+[2025-06-09 11:37] WMA_Dynamic Processing MEDANTA...
+[2025-06-09 11:37] WMA_Dynamic Calling SL calculator with -> direction: 'None'
+[2025-06-09 11:37] WMA_Dynamic ⚠️ No direction passed, skipping SL calculator for MEDANTA
+[2025-06-09 11:37] WMA_Dynamic Processing CRISIL...
+[2025-06-09 11:37] WMA_Dynamic CRISIL: df shape = (104, 11), using last 30 rows.
+[2025-06-09 11:37] WMA_Dynamic Checking trend — CRISIL | Close: 5364.5, WMA: 5380.9047619047615, Prev_WMA: 5383.628571428571, RSI: 41.52031115681198, MACD: -5.972325773841476, Signal: -1.2092248568768538, Vol: 718.0, Vol_MA: 294.3, ATR: 13.527287173980662
+[2025-06-09 11:37] WMA_Dynamic CRISIL: ✅ Valid Bearish Trend Detected.
+[2025-06-09 11:37] WMA_Dynamic 📊 Trend detected for CRISIL: BEARISH
+[2025-06-09 11:37] WMA_Dynamic BEARISH Signal -> CRISIL @ 5364.50 | SL: 5391.55, Target: 5296.86
+[2025-06-09 11:37] WMA_Dynamic BEARISH Signal -> CRISIL @ 5364.50 | SL: 5391.55, Target: 5296.86
+[2025-06-09 11:37] WMA_Dynamic [EXIT] Attempting to exit CRISIL due to Entry
+[2025-06-09 11:37] WMA_Dynamic 📦 Entry Order | CRISIL | SELL | MARKET | Response: {'orderid': '1125060922112', 'status': 'success'}
+[2025-06-09 11:37] WMA_Dynamic Processing SOBHA...
+[2025-06-09 11:37] WMA_Dynamic Calling SL calculator with -> direction: 'bearish'
+[2025-06-09 11:37] WMA_Dynamic [SL HIT] SOBHA @ 1686.00 breached SL (1699.48) — Exiting BULLISH position.
+[2025-06-09 11:37] WMA_Dynamic [ERROR] Failed to cancel open orders for SOBHA: 'api' object has no attribute 'cancel_orders'
+[2025-06-09 11:37] WMA_Dynamic Exit Order Placed for SOBHA. Order ID: 9125060929272
+[2025-06-09 11:37] WMA_Dynamic WMA_dynamic_Graceful shutdown requested.
+[2025-06-09 11:37] WMA_Dynamic Live Summary — Trades: 5, Wins: 0, Losses: 5, Win Rate: 0.0%, Avg Return: -0.72%

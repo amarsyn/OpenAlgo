@@ -89,7 +89,7 @@ today = date.today()
 # Add this function above run_strategy()
 def get_watchlist_symbols():
     # List of candidate stocks to evaluate (maintained in one place)
-    candidate_symbols = ["ADANIPORTS", "M&M", "HINDUNILVR", "TATACONSUM", "ADANIENT", "SBIN", "NESTLEIND", "SBILIFE", "ASIANPAINT", "AXISBANK"]
+    candidate_symbols = ["ADANIPORTS", "M&M", "HINDUNILVR", "TATACONSUM"]
     selected_symbols = []
 
     for symbol in candidate_symbols:
